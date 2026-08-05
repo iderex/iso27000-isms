@@ -126,6 +126,47 @@ In practice: anyone who wants to change the placement changes `layer` and
 `layer_reason` and leaves the inclusion test alone. Anyone disputing the
 inclusion attacks `test` and leaves the placement standing.
 
+### 3.1 How the six values were assigned
+
+The placement follows the learning path as the planning of this repository
+describes it in steps 0 to 4. It is not derived from the document but from the
+question of where on that path somebody meets it. Anyone changing a placement
+argues against one of the six sentences below and not against the standard.
+
+`core` is carried by the five documents step 1 leads through in its order. Those
+are ISO/IEC 27001, 27003, 27005, 27002 and 27004 and no others; the vocabulary
+document of the series is not among them, because step 0 takes its terms from
+our own glossary.
+
+`operate` is carried by the documents of step 2, meaning internal audit, the
+assessment of controls, competence, and the outlook on what a certification body
+has to keep to itself.
+
+`context` is carried by a document that applies the core to one sector or one
+domain. A reader takes it up because their own situation fits it and leaves it
+alone otherwise. That is step 3.
+
+`depth` is carried by a document inside the information security field that goes
+further than the path needs. Cryptographic mechanisms belong here, and the
+schema names ISO/IEC 18033-3 as its own example in 2.4.
+
+`neighbour` is carried by a document from outside the series that an ISMS is run
+together with or borrows a method from. Examples are risk management, business
+continuity, IT service management, management systems for artificial
+intelligence, and the evaluation of products. The two together, `depth` and
+`neighbour`, are step 4.
+
+`reference` is carried by look-up material and corresponds to no step. That is,
+on one side, vocabulary documents, and on the other, entries whose recorded
+edition cannot be read as a current one, meaning `status` with `withdrawn`,
+`deleted`, `renumbered` or `under_development`. Such an entry sits in the
+catalog so that an old reference stays resolvable, not so that somebody reads
+it.
+
+A document that opens a numbered series carries the same placement as the
+series and not `reference`, even where it introduces terms. Otherwise the way
+into a series would sit somewhere other than the series itself.
+
 ## 4. The field schema
 
 One record per document with fixed fields. The field names are English and
@@ -263,6 +304,10 @@ re-checked.
 
 Section 4.2 and the fields `title_de_source` and `title_de_note` were added on
 2026-08-05, when the `title_de` column was filled.
+
+Section 3.1 was added on 2026-08-05, when the columns `layer` and `layer_reason`
+were filled. It records how the six values were assigned there, so that a single
+placement can be attacked without putting the whole column in question.
 
 None of these rules is enforced by a check today. People read them, in the
 second reading of a contribution. That stands here so nobody takes this file for

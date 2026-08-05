@@ -130,6 +130,47 @@ Praktisch heißt das: wer die Einordnung ändern will, ändert `layer` und
 `layer_reason` und rührt den Aufnahmetest nicht an. Wer die Aufnahme bestreitet,
 greift `test` an und lässt die Einordnung stehen.
 
+### 3.1 Wie die sechs Werte vergeben wurden
+
+Die Einordnung folgt dem Lernpfad, wie ihn die Planung dieses Repositories in
+den Stufen 0 bis 4 beschreibt. Sie wird nicht aus dem Dokument abgeleitet,
+sondern aus der Frage, an welcher Stelle des Pfades jemand darauf trifft. Wer
+eine Einordnung ändert, argumentiert gegen einen dieser sechs Sätze und nicht
+gegen die Norm.
+
+`core` tragen die fünf Dokumente, durch die Stufe 1 in ihrer Reihenfolge führt.
+Das sind ISO/IEC 27001, 27003, 27005, 27002 und 27004 und keine weiteren; die
+Begriffsnorm der Reihe gehört nicht dazu, weil Stufe 0 ihre Begriffe aus dem
+eigenen Glossar nimmt.
+
+`operate` tragen die Dokumente der Stufe 2, also internes Audit, Bewerten von
+Maßnahmen, Kompetenz und der Ausblick darauf, was eine Zertifizierungsstelle
+selbst einhalten muss.
+
+`context` trägt ein Dokument, das den Kern auf eine Branche oder einen Bereich
+anwendet. Man nimmt es auf, weil die eigene Lage dazu passt, und lässt es sonst
+liegen. Das ist Stufe 3.
+
+`depth` trägt ein Dokument innerhalb des Feldes der Informationssicherheit, das
+tiefer geht, als der Pfad es verlangt. Kryptografische Verfahren gehören hierher,
+und das Schema nennt in 2.4 selbst ISO/IEC 18033-3 als Beispiel.
+
+`neighbour` trägt ein Dokument von außerhalb der Reihe, mit dem ein ISMS
+zusammen betrieben wird oder aus dem es eine Methode borgt. Beispiele sind
+Risikomanagement, Betriebskontinuität, IT-Servicemanagement, Managementsysteme
+für künstliche Intelligenz und die Evaluierung von Produkten. Beide zusammen,
+`depth` und `neighbour`, sind Stufe 4.
+
+`reference` trägt Nachschlagestoff und entspricht keiner Stufe. Das sind zum
+einen Begriffsnormen, zum anderen Einträge, deren verzeichnete Ausgabe nicht als
+laufende Ausgabe zu lesen ist, also `status` mit `withdrawn`, `deleted`,
+`renumbered` oder `under_development`. Ein solcher Eintrag steht im Katalog,
+damit ein alter Verweis auflösbar bleibt, und nicht, damit jemand ihn liest.
+
+Ein Dokument, das eine nummerierte Reihe eröffnet, trägt dieselbe Einordnung wie
+die Reihe und nicht `reference`, auch wenn es Begriffe einführt. Sonst läge der
+Einstieg in eine Reihe woanders als die Reihe selbst.
+
 ## 4. Das Feldschema
 
 Ein Datensatz je Dokument mit festen Feldern. Die Feldnamen sind englisch und
@@ -270,6 +311,11 @@ hier zitiert, nicht nachgeprüft.
 
 Abschnitt 4.2 und die Felder `title_de_source` und `title_de_note` kamen am
 05.08.2026 dazu, als die Spalte `title_de` gefüllt wurde.
+
+Abschnitt 3.1 kam am 05.08.2026 dazu, als die Spalten `layer` und
+`layer_reason` gefüllt wurden. Er hält fest, wie die sechs Werte dabei vergeben
+wurden, damit eine einzelne Einordnung angreifbar ist, ohne dass man die ganze
+Spalte in Frage stellen muss.
 
 Keine dieser Regeln wird heute von einer Prüfung erzwungen. Sie werden von
 Menschen gelesen, in der zweiten Lesung eines Beitrags. Das steht hier, damit
