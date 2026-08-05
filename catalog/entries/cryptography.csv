@@ -1,0 +1,42 @@
+id,number,part,doc_type,edition_year,amendments,title_en,title_de,status,replaces,replaced_by,family,layer,layer_reason,isms_relation,supports_clauses,supports_controls,test,test_via,confirmation,source_1,source_2,read_on
+iso-iec-7064,7064,,is,2003,,Information technology — Security techniques — Check character systems,,published,,,cryptography,,,,,,A B,,confirmed,buystandardsonline.co.uk,webstore.iec.ch,2026-08-04
+iso-iec-9797-2,9797,2,is,2021,cor-1:2024,Information security — Message authentication codes (MACs) — Part 2: Mechanisms using a dedicated hash-function,,published,,,cryptography,,,controls,,,A B,,confirmed,iso.org,,2026-08-04
+iso-iec-9797-3,9797,3,is,2011,amd-1:2020,Information technology — Security techniques — Message Authentication Codes (MACs) — Part 3: Mechanisms using a universal hash-function,,published,,,cryptography,,,controls,,,A B,,confirmed,iso.org,,2026-08-04
+iso-iec-9798-1,9798,1,is,2010,,Entity authentication — Part 1: General,,published,,,cryptography,,,requirements controls,,,B,,confirmed,iso.org,evs.ee,2026-08-04
+iso-iec-10116,10116,,is,2017,amd-1:2021,Information technology — Security techniques — Modes of operation for an n-bit block cipher,,published,,,cryptography,,,,,,A B,,confirmed,buystandardsonline.co.uk,evs.ee,2026-08-04
+iso-iec-10118-1,10118,1,is,2016,amd-1:2021,Information technology — Security techniques — Hash-functions — Part 1: General,,published,,,cryptography,,,terms requirements controls,,,A B,,confirmed,iso.org,,2026-08-04
+iso-iec-10118-2,10118,2,is,2010,cor-1:2011,Information technology — Security techniques — Hash-functions — Part 2: Hash-functions using an n-bit block cipher,,published,,,cryptography,,,controls,,,A B,,confirmed,iso.org,,2026-08-04
+iso-iec-10118-3,10118,3,is,2018,,IT Security techniques — Hash-functions — Part 3: Dedicated hash-functions,,published,,,cryptography,,,controls,,,A B,,confirmed,iso.org,,2026-08-04
+iso-iec-10118-4,10118,4,is,1998,amd-1:2014 cor-1:2014,Information technology — Security techniques — Hash-functions — Part 4: Hash-functions using modular arithmetic,,published,,,cryptography,,,controls,,,A B,,confirmed,iso.org,,2026-08-04
+iso-iec-11770-1,11770,1,is,2010,,Information technology — Security techniques — Key management — Part 1: Framework,,published,,,cryptography,,,requirements controls,,,A B,,confirmed,iso.org,,2026-08-04
+iso-iec-11770-2,11770,2,is,2018,,IT Security techniques — Key management — Part 2: Mechanisms using symmetric techniques,,published,,,cryptography,,,controls,,,A B,,confirmed,iso.org,,2026-08-04
+iso-iec-11770-3,11770,3,is,2021,amd-1:2025,Information security — Key management — Part 3: Mechanisms using asymmetric techniques,,published,,,cryptography,,,controls,,,A B,,confirmed,iso.org,,2026-08-04
+iso-iec-11770-4,11770,4,is,2017,,Key management — Part 4: Mechanisms based on weak secrets,,published,,,cryptography,,,controls,,,B,,confirmed,en-standard.eu,iso.org,2026-08-04
+iso-iec-11770-5,11770,5,is,2020,,Key management — Part 5: Group key management,,published,ISO/IEC 11770-5:2011,,cryptography,,,controls,,,B,,confirmed,iso.org,,2026-08-04
+iso-iec-11770-6,11770,6,is,2016,,Key management — Part 6: Key derivation,,published,,,cryptography,,,requirements controls,,,B,,confirmed,iso.org,commoncriteriaportal.org,2026-08-04
+iso-iec-11770-7,11770,7,is,2021,,Key management — Part 7: Cross-domain password-based authenticated key exchange,,published,,,cryptography,,,controls,,,B,,confirmed,iso.org,global.ihs.com,2026-08-04
+iso-iec-11770-8,11770,8,is,,,Key management — Part 8: Password-based key derivation,,under_development,,,cryptography,,,controls,,,B,,confirmed,iso.org,genorma.com,2026-08-04
+iso-iec-13888-2,13888,2,is,2010,cor-1:2012,Non-repudiation — Part 2: Mechanisms using symmetric techniques,,published,,,cryptography,,,controls,,,B,,confirmed,iso.org,evs.ee,2026-08-04
+iso-iec-13888-3,13888,3,is,2020,,Non-repudiation — Part 3: Mechanisms using asymmetric techniques,,published,,,cryptography,,,controls,,,B,,confirmed,iso.org,evs.ee,2026-08-04
+iso-iec-14888-1,14888,1,is,2008,,Digital signatures with appendix — Part 1: General,,published,ISO/IEC 14888-1:1998,,cryptography,,,controls,,,B,,confirmed,iso.org,,2026-08-04
+iso-iec-14888-2,14888,2,is,2008,cor-1:2015,Digital signatures with appendix — Part 2: Integer factorization based mechanisms,,published,,,cryptography,,,controls,,,B,,confirmed,iso.org,en-standard.eu,2026-08-04
+iso-iec-14888-3,14888,3,is,2018,,Digital signatures with appendix — Part 3: Discrete logarithm based mechanisms,,published,,,cryptography,,,controls,,,B,,confirmed,iso.org,,2026-08-04
+iso-iec-14888-4,14888,4,is,2024,,Digital signatures with appendix — Part 4: Stateful hash-based mechanisms,,published,,,cryptography,,,requirements controls,,,B,,confirmed,iso.org,evs.ee,2026-08-04
+iso-iec-14888-5,14888,5,is,,,Digital signatures with appendix — Part 5: Lattice-based mechanisms,,under_development,,,cryptography,,,controls,,,A B,,confirmed,iso.org,genorma.com,2026-08-04
+iso-iec-14888-6,14888,6,is,,,Digital signatures with appendix — Part 6: Stateless hash-based mechanisms,,under_development,,,cryptography,,,controls,,,B,,confirmed,iso.org,genorma.com,2026-08-04
+iso-iec-18032,18032,,is,2020,,Information security — Prime number generation,,published,,,cryptography,,,controls,,,A B,,confirmed,evs.ee,,2026-08-04
+iso-iec-18033-1,18033,1,is,2021,,Information security — Encryption algorithms — Part 1: General,,published,ISO/IEC 18033-1:2015,,cryptography,,,terms controls,,,A B,,confirmed,iso.org,en-standard.eu,2026-08-04
+iso-iec-18033-2,18033,2,is,2006,,Information technology — Security techniques — Encryption algorithms — Part 2: Asymmetric ciphers,,published,,,cryptography,,,controls,,,A B,,confirmed,iso.org,en-standard.eu,2026-08-04
+iso-iec-18033-3,18033,3,is,2010,,Information technology — Security techniques — Encryption algorithms — Part 3: Block ciphers,,published,,,cryptography,,,controls,,,A B,,confirmed,iso.org,en-standard.eu,2026-08-04
+iso-iec-18033-4,18033,4,is,2011,amd-1:2020,Information technology — Security techniques — Encryption algorithms — Part 4: Stream ciphers,,published,,,cryptography,,,controls,,,A B,,confirmed,iso.org,en-standard.eu,2026-08-04
+iso-iec-18033-5,18033,5,is,2015,amd-1:2021,Information technology — Security techniques — Encryption algorithms — Part 5: Identity-based ciphers,,published,,,cryptography,,,controls,,,A B,,confirmed,iso.org,,2026-08-04
+iso-iec-18033-6,18033,6,is,2019,,IT Security techniques — Encryption algorithms — Part 6: Homomorphic encryption,,published,,,cryptography,,,controls,,,A B,,confirmed,iso.org,en-standard.eu,2026-08-04
+iso-iec-18033-7,18033,7,is,2022,,Information security — Encryption algorithms — Part 7: Tweakable block ciphers,,published,,,cryptography,,,controls,,,A B,,confirmed,iso.org,,2026-08-04
+iso-iec-19772,19772,,is,2020,,Authenticated encryption,,published,,,cryptography,,,controls,,,B,,confirmed,buystandardsonline.co.uk,evs.ee,2026-08-04
+iso-iec-27099,27099,,is,2022,,Public key infrastructure — Practices and policy framework,,published,,,cryptography,,,requirements,,,A,,unconfirmed,iso27001security.com,,2026-08-04
+iso-iec-29192-1,29192,1,is,2012,amd-1:2025,Lightweight cryptography — Part 1: General,,published,,,cryptography,,,requirements controls,,,B,,confirmed,evs.ee,,2026-08-04
+iso-iec-29192-2,29192,2,is,2019,,Lightweight cryptography — Part 2: Block ciphers,,published,ISO/IEC 29192-2:2012,,cryptography,,,controls,,,B,,confirmed,iso.org,evs.ee,2026-08-04
+iso-iec-29192-3,29192,3,is,2012,,Lightweight cryptography — Part 3: Stream ciphers,,published,,,cryptography,,,controls,,,B,,confirmed,evs.ee,,2026-08-04
+iso-iec-29192-4,29192,4,is,2013,amd-1:2016,Lightweight cryptography — Part 4: Mechanisms using asymmetric techniques,,published,,,cryptography,,,controls,,,B,,confirmed,iso.org,evs.ee,2026-08-04
+iso-iec-29192-5,29192,5,is,2016,,Lightweight cryptography — Part 5: Hash-functions,,published,,,cryptography,,,controls,,,B,,confirmed,iso.org,evs.ee,2026-08-04
+iso-iec-29192-8,29192,8,is,2022,,Lightweight cryptography — Part 8: Authenticated encryption,,published,,,cryptography,,,controls,,,B,,confirmed,iso.org,evs.ee,2026-08-04

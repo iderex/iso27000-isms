@@ -1,0 +1,12 @@
+id,number,part,doc_type,edition_year,amendments,title_en,title_de,status,replaces,replaced_by,family,layer,layer_reason,isms_relation,supports_clauses,supports_controls,test,test_via,confirmation,source_1,source_2,read_on
+iwa-31,31,,iwa,2020,,Risk management — Guidelines on using ISO 31000 in management systems,,withdrawn,,,risk,,,risk,,,D,,confirmed,iso.org/standard/75812,evs.ee,2026-08-04
+iso-iec-guide-73,73,,guide,,,Risk management — Vocabulary,,published,,ISO 31073:2022,risk,,,terms risk,,,D,,unconfirmed,ENISA D1 Inventory of Risk Management methods,,2026-08-04
+bs-7799-3,7799,3,is,2017,,Information security management systems — Guidelines for information security risk management,,withdrawn,,,risk,,,risk adjacent,,,B D,,confirmed,knowledge.bsigroup.com,thenbs.com,2026-08-04
+iso-iec-13335-1,13335,1,tr,1996,,Information technology — Guidelines for the management of IT Security — Part 1: Concepts and models for IT Security,,withdrawn,,ISO/IEC 13335-1:2004,risk,,,,,,B D,,confirmed,iso.org,webstore.iec.ch/en/publication/97805,2026-08-04
+iso-iec-13335-2,13335,2,tr,1997,,Information technology — Guidelines for the management of IT Security — Part 2: Managing and planning IT Security,,withdrawn,,,risk,,,risk,,,B D,,confirmed,iso.org,evs.ee/en/iso-iec-tr-13335-2-1997,2026-08-04
+iso-iec-13335-5,13335,5,tr,2001,,Information technology — Guidelines for the management of IT Security — Part 5: Management guidance on network security,,withdrawn,,,risk,,,controls,,,B D,,confirmed,evs.ee/en/iso-iec-tr-13335-5-2001,,2026-08-04
+iso-iec-27005,27005,,is,2022,,"Information security, cybersecurity and privacy protection — Guidance on managing information security risks",,published,ISO/IEC 27005:2018,,risk,,,risk,,,A B D,,unconfirmed,iso27001security.com,,2026-08-04
+iso-iec-27102,27102,,is,2019,,Information security management — Guidelines for cyber-insurance,,published,,,risk,,,risk adjacent,,,A B D,,confirmed,iso27001security.com,webstore.ansi.org,2026-08-04
+iso-iec-27554,27554,,is,2024,,"Information security, cybersecurity and privacy protection — Application of ISO 31000 for assessment of identity-related risk",,published,,,risk,,,risk audit,,,A B D,,confirmed,iso27001security.com,evs.ee,2026-08-04
+iso-31000,31000,,is,2018,,Risk management — Guidelines,,published,,,risk,,,requirements risk,,,D,,unconfirmed,iso.org,,2026-08-04
+iec-31010,31010,,is,2019,,Risk management — Risk assessment techniques,,published,,,risk,,,risk audit adjacent,,,D,,unconfirmed,iso.org,,2026-08-04
