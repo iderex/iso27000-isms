@@ -3,7 +3,7 @@ title: Lizenzhinweis
 lang: de
 id: license-notice
 kind: notice
-updated: 2026-08-04
+updated: 2026-08-05
 translated_from: none
 ---
 
@@ -90,20 +90,79 @@ Begleitdatei daneben, also in der erzeugten Markdown-Ansicht, die es zu jeder
 CSV ohnehin gibt. Wer eine CSV weitergibt, gibt die Begleitdatei mit. Ohne sie
 reist die Tabelle ohne ihre Herkunft, und genau das soll die Regel verhindern.
 
-## 4. Für Hilfsskripte ist die Lizenz offen
+## 4. Hilfsskripte stehen unter Apache-2.0
 
-Unter welcher Lizenz Hilfsskripte stehen, ist nicht entschieden. Der Plan hält
-diesen Punkt ausdrücklich offen, und dieser Hinweis gibt das offen weiter,
-statt es beim Schweigen zu belassen.
+Für Hilfsskripte gilt die Apache License 2.0 und nicht CC-BY-SA-4.0.
+Entschieden am 05.08.2026. Vorher war der Punkt offen, und dieser Abschnitt hat
+das offen weitergegeben; jetzt sagt er die Entscheidung und ihren Grund.
 
-Solange die Frage offen ist, trägt ein Hilfsskript in diesem Repository keine
-erklärte Lizenz. Abschnitt 1 beschreibt das geschriebene Material, und ob ein
-Skript darunter fällt, ist genau die offene Frage. Wer ein Skript
-weiterverwenden möchte, fragt am besten vorher über ein Issue nach.
+CC-BY-SA-4.0 passt auf Quelltext nicht, und das lässt sich an drei Stellen der
+Lizenz selbst zeigen. Sie ist für Inhalte geschrieben und kennt den Unterschied
+zwischen der Quellform und der ausgelieferten Form nicht, den ein Werkzeug
+macht. Sie erteilt keine Patentlizenz, ausdrücklich: `LICENSE`, Abschnitt 2 b 2,
+nimmt Patent- und Markenrechte von der Lizenzierung aus. Und ihre Bedingung zur
+Weitergabe unter gleichen Bedingungen greift auf ein Skript, das jemand in ein
+größeres Werkzeug einbaut, in einem Umfang, den vorher niemand sicher benennen
+kann. Wer ein Skript von hier übernimmt, müsste diese drei Punkte annehmen,
+statt sie nachzulesen.
 
-Daraus folgt eine Einschränkung, die bis zur Entscheidung gilt: Es entsteht kein
-Skript, ohne das eine Datei nicht regelkonform geschrieben werden könnte. Jede
-Datei hier lässt sich von Hand schreiben und von Hand prüfen. Ein Skript darf
-Arbeit abnehmen, aber keines wird zur Voraussetzung dafür, dass ein Ergebnis den
-Regeln entspricht. Damit hängt nichts, was gedeckt ist, an etwas, dessen
-Bedingungen noch offen sind.
+Apache-2.0 ist für Quelltext geschrieben. Sie erteilt die Patentlizenz
+ausdrücklich, sie sagt, was beim Weitergeben in geänderter Form zu tun ist, und
+sie behandelt eingereichte Beiträge, was zu der Signed-off-by-Zeile passt, die
+`CONTRIBUTING.md` verlangt. Sie erlaubt außerdem, ein Skript in ein Werkzeug
+unter anderer Lizenz zu übernehmen, auch unter einer Copyleft-Lizenz, ohne dass
+über die Übernahme verhandelt werden muss. Das ist hier die richtige Richtung.
+Der Wert dieses Repositorys ist der geschriebene Text, und für den bleibt die
+Weitergabe unter gleichen Bedingungen aus Abschnitt 1; ein Skript ist nur das
+Werkzeug daneben, und bei einem Werkzeug ist die leichte Übernahme der Nutzen.
+
+### 4.1 Wo die Grenze zwischen Inhalt und Skript verläuft
+
+Die Grenze verläuft am Verzeichnis und nicht an einer Einschätzung je Datei.
+Alles unter `scripts/` steht unter Apache-2.0, alles außerhalb unter
+CC-BY-SA-4.0, so wie Abschnitt 1 es beschreibt. Damit kommt `scripts/` zum
+Verzeichnisbaum des Plans hinzu. Heute liegt dort nichts.
+
+Zwei Fälle fielen ohne diese Festlegung zwischen die beiden Lizenzen.
+
+Eine erzeugte Datei ist Inhalt. Eine Markdown-Ansicht, die ein Skript aus einer
+CSV schreibt, folgt der CSV und nicht dem Skript. Sie steht unter CC-BY-SA-4.0
+und trägt die Herkunftszeile aus Abschnitt 3. Ein Werkzeug erwirbt keine Rechte
+an dem, was durch es hindurchgeht.
+
+Quelltext in einem Kapitel ist Inhalt. Ein Befehl oder ein paar Zeilen Code in
+einem Kapitel, einem Tutorial oder auf einer Folie gehören zu dem Text, der sie
+erklärt, und stehen unter dessen Lizenz. Apache-2.0 gilt für die Dateien unter
+`scripts/` und nicht für Quelltext als Erscheinungsform.
+
+### 4.2 Lizenzdatei und Hinweis in der Datei
+
+Beides, aus zwei verschiedenen Gründen.
+
+`scripts/LICENSE` trägt den Text der Apache License 2.0 vollständig, sobald das
+erste Skript entsteht. Eine Lizenz, die Bedingungen nennt, im Baum aber nicht
+liegt, kann niemand nachlesen; aus demselben Grund liegt der Text von
+CC-BY-SA-4.0 vollständig im Wurzelverzeichnis.
+
+Zusätzlich trägt jede Skriptdatei am Kopf eine Angabe mit Lizenz und Herkunft:
+
+```
+Ansichtsgenerator, aus iso27000-isms, unter Apache-2.0,
+https://www.apache.org/licenses/LICENSE-2.0
+```
+
+Der Grund dafür ist derselbe wie in Abschnitt 3. Eine einzelne
+heruntergeladene Datei reist allein, und ohne Angabe in der Datei selbst ist die
+Namensnennung nicht möglich. Bei einem Skript kommt hinzu, dass es öfter einzeln
+kopiert wird als eine Vorlage.
+
+### 4.3 Die Einschränkung, die damit endet
+
+Solange die Frage offen war, galt: Es entsteht kein Skript, ohne das eine Datei
+nicht regelkonform geschrieben werden könnte. Diese Einschränkung hing an der
+offenen Lizenz und endet mit dieser Entscheidung. Ein Skript darf jetzt zur
+Voraussetzung dafür werden, dass ein Ergebnis den Regeln entspricht.
+
+Was dabei bleibt, ist keine Lizenzfrage: Wo ein Skript diese Rolle bekommt,
+gehören das Skript und der Umgang mit seinem Fehlen in dieselbe Änderung.
+Entschieden wird das dort, wo das Skript entsteht, und nicht hier.

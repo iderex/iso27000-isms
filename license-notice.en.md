@@ -3,8 +3,8 @@ title: Licence notice
 lang: en
 id: license-notice
 kind: notice
-updated: 2026-08-04
-translated_from: license-notice.de.md (2026-08-04)
+updated: 2026-08-05
+translated_from: license-notice.de.md (2026-08-05)
 ---
 
 # Licence notice
@@ -84,20 +84,77 @@ in the generated Markdown view that exists for every CSV anyway. Anyone passing
 on a CSV passes the companion file with it. Without it the table travels without
 its origin, and that is exactly what the rule is there to prevent.
 
-## 4. For helper scripts the licence is open
+## 4. Helper scripts are under Apache-2.0
 
-Under which licence helper scripts stand is not decided. The plan leaves this
-point open on purpose, and this notice passes that on openly rather than leaving
-it to silence.
+For helper scripts the Apache License 2.0 holds, not CC-BY-SA-4.0. Decided on
+2026-08-05. The point was open before, and this section passed that on openly;
+now it states the decision and its reason.
 
-For as long as the question is open, a helper script in this repository carries
-no declared licence. Section 1 describes the written material, and whether a
-script falls under it is precisely the open question. Anyone wanting to reuse a
-script is best served by asking first through an issue.
+CC-BY-SA-4.0 does not fit source code, and that shows in three places in the
+licence itself. It is written for content and does not know the difference
+between the source form and the delivered form that a tool makes. It grants no
+patent licence, explicitly: `LICENSE`, section 2(b)(2), excludes patent and
+trademark rights from what is licensed. And its share-alike condition reaches a
+script that somebody builds into a larger tool to an extent nobody can state
+with confidence beforehand. Anyone taking a script from here would have to
+assume those three points instead of reading them.
 
-One restriction follows from that and holds until the decision is made: no
-script comes into being without which a file could not be written to the rules.
-Every file here can be written by hand and checked by hand. A script may take
-work off someone's hands, but none becomes a precondition for a result meeting
-the rules. That way nothing that is covered hangs off something whose terms are
-still open.
+Apache-2.0 is written for source code. It grants the patent licence explicitly,
+it says what to do when passing on a changed form, and it deals with submitted
+contributions, which fits the Signed-off-by line that `CONTRIBUTING.md` asks
+for. It also allows a script to be taken into a tool under a different licence,
+a copyleft one included, without anyone having to negotiate that. That is the
+right direction here. The value of this repository is the written text, and for
+that the share-alike condition of section 1 stays; a script is only the tool
+beside it, and for a tool easy adoption is the benefit.
+
+### 4.1 Where the boundary between content and script runs
+
+The boundary runs at the directory and not at a judgement per file. Everything
+under `scripts/` is under Apache-2.0, everything outside it under CC-BY-SA-4.0,
+as section 1 describes. That adds `scripts/` to the tree in the plan. Today
+nothing sits there.
+
+Two cases would fall between the two licences without this rule.
+
+A generated file is content. A Markdown view that a script writes from a CSV
+follows the CSV and not the script. It is under CC-BY-SA-4.0 and carries the
+origin line from section 3. A tool acquires no rights in what passes through it.
+
+Source code inside a chapter is content. A command or a few lines of code in a
+chapter, a walk-through or on a slide belong to the text that explains them and
+stand under its licence. Apache-2.0 holds for the files under `scripts/` and not
+for source code as an appearance.
+
+### 4.2 A licence file and a notice in the file
+
+Both, for two different reasons.
+
+`scripts/LICENSE` carries the text of the Apache License 2.0 in full, as soon as
+the first script comes into being. A licence that names conditions but does not
+sit in the tree is one nobody can read; for the same reason the text of
+CC-BY-SA-4.0 sits in full in the root directory.
+
+On top of that every script file carries a statement of licence and origin at
+its head:
+
+```
+View generator, from iso27000-isms, under Apache-2.0,
+https://www.apache.org/licenses/LICENSE-2.0
+```
+
+The reason is the same as in section 3. A single downloaded file travels alone,
+and without a statement in the file itself the attribution is not possible. For
+a script there is one more reason: it gets copied on its own more often than a
+template does.
+
+### 4.3 The restriction that ends with this
+
+For as long as the question was open, this held: no script comes into being
+without which a file could not be written to the rules. That restriction hung
+off the open licence and ends with this decision. A script may now become a
+precondition for a result meeting the rules.
+
+What remains is not a licence question. Where a script takes that role, the
+script and the handling of its absence belong in the same change. That gets
+decided where the script comes into being, and not here.
