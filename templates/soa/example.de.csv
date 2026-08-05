@@ -1,0 +1,9 @@
+control_id,applicable,source,reason,risk_ids,implementation,implementation_note,owner,decided_on,reviewed_on,notes
+5.1,yes,risk-treatment,"Ohne beschlossene Regeln hängt das Verhalten an einzelnen Personen, und die Praxis kann nicht sagen, was gilt",R-001 R-003,implemented,"Eine Richtlinie zu mobilen Geräten und Fernzugriff ist beschlossen",Praxisleitung,2026-08-05,2026-08-05,""
+5.9,yes,risk-treatment,"Eine Risikozeile braucht etwas, worauf sie zeigt",,implemented,"Das Anlagenregister führt sechs Einträge",Praxisleitung,2026-08-05,2026-08-05,""
+5.18,yes,risk-treatment,"Am Empfang arbeiten mehrere Personen unter einem Konto, und Handlungen sind niemandem zuzuordnen",R-003,planned,"Eigene Konten sind bis zum 30.09.2026 eingerichtet",Praxisleitung,2026-08-05,2026-08-05,""
+6.3,yes,other,"Zwölf Beschäftigte, deren Handeln im Einzelfall entscheidet",,partial,"Eine Kurznachricht ist verschickt, feste Anlässe fehlen",Praxisleitung,2026-08-05,2026-08-05,"Aufgenommen ohne eine Zeile im Risikoregister, weil die Praxis das ohnehin für nötig hält."
+8.13,yes,risk-treatment,"Die Sicherung ist die letzte Linie, wenn alles andere versagt",R-004,partial,"Täglich gesichert, die Rücksicherung ist nie erprobt worden",Praxisleitung,2026-08-05,2026-08-05,""
+8.15,yes,risk-treatment,"Ein Fernzugriff, den niemand nachvollziehen kann, ist später nicht von einem fremden zu unterscheiden",R-001,planned,"Die Protokollierung des Fernzugriffs richtet der IT-Dienstleister ein",Praxisleitung,2026-08-05,2026-08-05,""
+8.24,yes,risk-treatment,"Geräte verlassen die Praxis, und ein verlorenes Gerät gibt sonst alles preis",R-001,partial,"Auf zwei von drei Notebooks eingerichtet",Praxisleitung,2026-08-05,2026-08-05,""
+8.25,no,,"Die Praxis entwickelt keine Software, sie kauft eine Leistung ein",,,"",Praxisleitung,2026-08-05,2026-08-05,"Ein Nein braucht dieselbe Begründung wie ein Ja. Ändert sich die Lage, ändert sich diese Zeile und nicht die Erinnerung daran."
