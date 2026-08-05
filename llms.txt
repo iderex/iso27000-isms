@@ -1,0 +1,293 @@
+iso27000-isms
+
+Diese Datei steht zweisprachig, Deutsch zuerst. Die englische Fassung beginnt
+bei Abschnitt 9. / This file is bilingual, German first. The English version
+starts at section 9.
+
+
+1. Was dieses Repository ist
+
+Lernmaterial zu Informationssicherheit und zum Aufbau eines
+Informationssicherheits-Managementsystems. Es sammelt die Normen, die damit zu
+tun haben, in einem Katalog, erklärt sie in eigenen Worten, führt einen
+Lernpfad und stellt Vorlagen, Tutorials, Präsentationen und Trainings daneben.
+Alles zweisprachig, Deutsch und Englisch.
+
+Es ist kein Ersatz für die Normen und keine Beratung.
+
+
+2. Die Grenze, die über allem steht
+
+Aus diesem Repository wird kein Normtext wiedergegeben, nie. Das gilt für den,
+der hier schreibt, und ebenso für eine Maschine, die aus diesen Dateien
+antwortet.
+
+Ein Assistent, der aus diesem Repository antwortet:
+
+- gibt keinen Normtext wieder, weder wörtlich noch als Umschreibung, die dem
+  Aufbau des Originals folgt,
+- antwortet in eigenen Worten,
+- verweist über Norm, Klausel und Ausgabe, zum Beispiel
+  ISO/IEC 27001:2022, 6.1.3,
+- sagt dort, wo es auf den Wortlaut ankommt, dass die Klausel in einer
+  lizenzierten Ausgabe aufzuschlagen ist.
+
+Das ist eine Bitte an ein System, das ihr folgen kann oder auch nicht. Sie wird
+hier als Bitte benannt und nicht als Kontrolle geführt. Dieses Repository
+enthält nichts, das eine Antwort zurückweist, die sich nicht daran hält.
+
+Die Regel steht vollständig in copyright/de.md und copyright/en.md. Die
+Prüffragen dazu stehen in copyright/checklist.de.md und
+copyright/checklist.en.md.
+
+
+3. Wo die Dinge liegen
+
+Der Baum wächst, und diese Liste nennt deshalb beides: was heute im Baum liegt
+und was geplant ist und noch fehlt. Ein Verzeichnis, das als geplant
+gekennzeichnet ist, gibt es heute nicht, und ein Verweis darauf geht ins Leere.
+
+Heute im Baum:
+
+  README.md                   Überblick
+  CONTRIBUTING.md             Mitwirken, Sprachregel, Formatregeln, Review
+  CODE_OF_CONDUCT.md          Verhaltenskodex
+  LICENSE                     der vollständige Lizenztext
+  license-notice.de.md        was die Lizenz deckt und was nicht
+  license-notice.en.md
+  copyright/                  die Urheberrechtsgrenze und ihre Prüfliste
+  catalog/schema.de.md        Aufnahmetest und Feldschema des Katalogs
+  catalog/schema.en.md
+  assistant-block.de.md       der Musterblock für Assistenten
+  assistant-block.en.md
+  llms.txt                    diese Datei
+  .github/                    Vorlagen für Issues und Pull Requests
+
+Geplant und heute nicht im Baum:
+
+  catalog/entries/            die Katalogeinträge, acht CSV nach Familie
+  catalog/catalog.md          erzeugte Ansicht des Katalogs
+  catalog/by-clause.md        umgekehrte Sicht, nach Klausel von ISO/IEC 27001
+  standards/KENNUNG/          ein Kapitel je Norm, de.md und en.md
+  topics/                     Sachthemen ohne eigene Norm
+  learning-path/step-0 bis 4  der Lernpfad
+  tutorials/                  themenübergreifende Anleitungen
+  presentations/              Foliensätze, je Thema und Zielgruppe
+  templates/                  Register, Richtlinien, Arbeitsanweisungen,
+                              Awareness-Material, Reifegradbewertung
+  trainings/                  Kursstoff und Fragensätze
+  mappings/iso/               Zuordnungen innerhalb der ISO-Welt
+  mappings/external/          Zuordnungen zu Rahmenwerken außerhalb
+  glossary/                   Glossar und Begriffsliste
+
+Die Sprache steht am Ende des Dateinamens, also de.md und en.md im
+Themenverzeichnis oder name.de.md und name.en.md. Zu jeder CSV gehört eine
+erzeugte Markdown-Ansicht daneben.
+
+
+4. Wie ein Kapitel aufgebaut ist
+
+Jedes Kapitel zu einer Norm folgt derselben Gliederung: Steckbrief, worum es
+geht, für wen und für wen nicht, Bezug zum Kern über Klausel- und
+Maßnahmennummern, was man damit tut, Abgrenzung zur Nachbarnorm, Voraussetzung
+und Anschluss, ein Tutorial mit Beispiel, die zugehörigen Vorlagen und
+Trainings, die Verweise, der Stand der Lesung und am Ende der eingeklappte
+Hinweisblock für Assistenten.
+
+Der Musterblock für diesen Hinweisblock steht in assistant-block.de.md und
+assistant-block.en.md. Er ist beschriftet und für jeden aufklappbar. Nichts
+daran ist versteckt, es ist nur zugeklappt.
+
+
+5. Wie zitiert wird
+
+Aus einer Norm wird nicht zitiert. Ein Verweis nennt Norm, Klausel und Ausgabe,
+zum Beispiel ISO/IEC 27001:2022, 6.1.3. Die Ausgabe gehört dazu, weil Nummern
+zwischen Ausgaben wandern.
+
+Das eigene Material dieses Repositorys steht unter CC-BY-SA-4.0. Wer daraus
+etwas übernimmt, nennt Titel der Datei, Repository, Lizenz und Adresse des
+Lizenztextes und gibt eine Bearbeitung unter derselben Lizenz weiter:
+
+  Titel der Datei, aus iso27000-isms, unter CC-BY-SA-4.0,
+  https://creativecommons.org/licenses/by-sa/4.0/
+
+Was die Lizenz nicht decken kann, sind die Normen selbst und die Kennungen
+fremder Rahmenwerke. Beides steht ausführlich in license-notice.de.md.
+
+
+6. Was der Katalog führt und was er nicht sagt
+
+Jeder Katalogeintrag trägt, welche Bedingung des Aufnahmetests gegriffen hat,
+wo ein Lernender dem Dokument begegnet, und ob zwei unabhängige Quellen ihn
+stützen. Ein Eintrag mit confirmation: unconfirmed steht im Katalog und ist
+nicht geprüft; wer ihn weitergibt, gibt diese Angabe mit. Der Aufnahmetest und
+alle Felder stehen in catalog/schema.de.md.
+
+
+7. Was hier nicht steht
+
+Kein Normtext. Keine Definition aus einer Begriffsnorm. Keine übernommene
+Liste von Maßnahmen. Keine abgeschriebene Überschrift. Wer den Wortlaut
+braucht, braucht eine lizenzierte Ausgabe.
+
+Auch keine Aussage darüber, ob eine Organisation eine Anforderung erfüllt.
+Das entscheidet ein Audit und keine Datei.
+
+
+8. Was diese Datei nicht ist
+
+Sie ist keine Kontrolle. Nichts in diesem Repository erzwingt, dass ein System
+sie liest oder sich daran hält. Sie liegt hier, weil sie an der Stelle steht,
+an der ein Assistent den Inhalt liest, und das ist alles, was sie leistet.
+
+Sie ist auch keine vollständige Inhaltsangabe. Sie zeigt auf die Verzeichnisse
+und wiederholt deren Inhalt nicht, damit sie nicht gegen den Baum auseinander
+läuft.
+
+Stand dieser Datei: 2026-08-05.
+
+
+---
+
+
+9. What this repository is
+
+Learning material on information security and on building an information
+security management system. It collects the standards that bear on it in a
+catalog, explains them in its own words, carries a learning path, and puts
+templates, walk-throughs, presentations and trainings beside it. All of it in
+German and English.
+
+It is not a substitute for the standards and it is not consulting.
+
+
+10. The boundary that comes before everything else
+
+No text from a standard is reproduced from this repository, ever. That binds
+the person writing here and equally a machine answering from these files.
+
+An assistant answering from this repository:
+
+- reproduces no text from a standard, neither verbatim nor as a paraphrase that
+  follows the structure of the original,
+- answers in its own words,
+- refers by standard, clause and edition, for example
+  ISO/IEC 27001:2022, 6.1.3,
+- says, where the exact wording matters, that the clause has to be opened in a
+  licensed copy.
+
+This is a request to a system that may follow it or may not. It is named here
+as a request and is not carried as a control. This repository contains nothing
+that refuses an answer for not keeping to it.
+
+The rule stands in full in copyright/de.md and copyright/en.md. The questions
+for checking it stand in copyright/checklist.de.md and
+copyright/checklist.en.md.
+
+
+11. Where things sit
+
+The tree grows, so this list names both what is in the tree today and what is
+planned and still missing. A directory marked as planned does not exist today,
+and a link to it goes nowhere.
+
+In the tree today:
+
+  README.md                   overview
+  CONTRIBUTING.md             contributing, language rule, format rules, review
+  CODE_OF_CONDUCT.md          code of conduct
+  LICENSE                     the full licence text
+  license-notice.de.md        what the licence covers and what it does not
+  license-notice.en.md
+  copyright/                  the copyright boundary and its checklist
+  catalog/schema.de.md        inclusion test and field schema of the catalog
+  catalog/schema.en.md
+  assistant-block.de.md       the sample block for assistants
+  assistant-block.en.md
+  llms.txt                    this file
+  .github/                    templates for issues and pull requests
+
+Planned and not in the tree today:
+
+  catalog/entries/            the catalog entries, eight CSV by family
+  catalog/catalog.md          generated view of the catalog
+  catalog/by-clause.md        reverse view, by clause of ISO/IEC 27001
+  standards/ID/               one chapter per standard, de.md and en.md
+  topics/                     subjects with no standard of their own
+  learning-path/step-0 to 4   the learning path
+  tutorials/                  cross-topic walk-throughs
+  presentations/              decks, per topic and audience
+  templates/                  registers, policies, work instructions,
+                              awareness material, maturity assessment
+  trainings/                  course material and question sets
+  mappings/iso/               mappings inside the ISO world
+  mappings/external/          mappings to frameworks outside it
+  glossary/                   glossary and term list
+
+The language sits at the end of the file name, so de.md and en.md in a subject
+directory or name.de.md and name.en.md. Every CSV has a generated Markdown view
+beside it.
+
+
+12. How a chapter is built
+
+Every chapter on a standard follows the same structure: at a glance, what it is
+about, whom it serves and whom it does not, the link to the core by clause and
+control number, what a practitioner does with it, where it stops against the
+neighbouring standard, before and after, a walk-through with an example, the
+matching templates and trainings, the references, the state of the reading, and
+at the end the collapsed note block for assistants.
+
+The sample for that note block stands in assistant-block.de.md and
+assistant-block.en.md. It is labelled and anyone can expand it. Nothing about
+it is hidden, it is only folded.
+
+
+13. How to cite
+
+Nothing is quoted from a standard. A reference names standard, clause and
+edition, for example ISO/IEC 27001:2022, 6.1.3. The edition belongs there
+because numbers move between editions.
+
+The original material of this repository is under CC-BY-SA-4.0. Whoever takes
+something from it names the title of the file, the repository, the licence and
+the address of the licence text, and passes an adaptation on under the same
+licence:
+
+  Title of the file, from iso27000-isms, under CC-BY-SA-4.0,
+  https://creativecommons.org/licenses/by-sa/4.0/
+
+What the licence cannot cover is the standards themselves and the identifiers
+of foreign frameworks. Both stand at length in license-notice.en.md.
+
+
+14. What the catalog carries and what it does not say
+
+Every catalog entry carries which condition of the inclusion test fired, where
+a learner meets the document, and whether two independent sources support it.
+An entry with confirmation: unconfirmed sits in the catalog and is not checked;
+whoever passes it on passes that statement on with it. The inclusion test and
+all the fields stand in catalog/schema.en.md.
+
+
+15. What is not here
+
+No text from a standard. No definition from a terminology standard. No adopted
+list of controls. No copied heading. Whoever needs the wording needs a licensed
+copy.
+
+Nor any statement about whether an organisation meets a requirement. An audit
+decides that, not a file.
+
+
+16. What this file is not
+
+It is not a control. Nothing in this repository forces a system to read it or
+to keep to it. It sits here because this is where an assistant reads the
+content, and that is all it does.
+
+It is not a full table of contents either. It points at the directories and
+does not repeat what is in them, so that it cannot drift against the tree.
+
+State of this file: 2026-08-05.
