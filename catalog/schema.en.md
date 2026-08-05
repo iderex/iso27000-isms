@@ -180,7 +180,10 @@ also the column order in the catalog files.
 | `part` | A number, such as `1`, otherwise empty | The part number where a document is split into parts. |
 | `doc_type` | `is`, `tr`, `ts`, `pas`, `iwa`, `guide`, `amd`, `cor` | The kind of document. Mandatory, see 4.1. |
 | `edition_year` | Four-digit year, such as `2022` | Year of the current edition. |
-| `amendments` | Multi-valued, such as `amd-1:2024`, otherwise `none` | Amendments and corrigenda to the current edition. Mandatory, see 4.1. |
+| `amendments` | Multi-valued, such as `amd-1:2024`, otherwise `none` | Amendments and corrigenda to the current edition. Mandatory, see 4.1 and 4.3. |
+| `amendments_source` | An address, otherwise empty | The catalogue page whose history was read. Empty where none was read. |
+| `amendments_note` | One sentence in our own words, otherwise empty | Why `amendments` is empty, or why `none` stands there without a page having been read. Empty where the value was read from a source. |
+| `amendments_read_on` | Date as `YYYY-MM-DD`, otherwise empty | The day the catalogue was searched. Empty where no search was made. |
 | `title_en` | The English designation | The official designation, a bibliographic detail and therefore verbatim. |
 | `title_de` | The German designation, otherwise empty | Filled only where a German adoption of the edition recorded here exists, and then verbatim from that adoption's catalogue entry; otherwise it stays empty rather than letting a translation of ours look like an official one. See 4.2. |
 | `title_de_source` | An address, otherwise empty | The catalogue entry the German title was read from. Empty where `title_de` is empty. |
@@ -263,6 +266,36 @@ was found there, not that nothing exists.
 The note is written in English, like the rest of the free text in these files.
 The title itself is German because it is quoted.
 
+### 4.3 Where the amendments come from
+
+An amendment is found too, not inferred. What gets read is the history a
+standards catalogue carries for a document, meaning the list of editions,
+amendments and corrigenda with their designations. Only the lines whose
+designation names exactly the edition the entry records are carried over. An
+amendment to an earlier edition belongs to that edition and not to this one.
+
+The designation is written lowercase and without a space, so `amd-1:2024` and
+`cor-1:2014`, several of them separated by a space and amendments before
+corrigenda. `amendments_source` names the page that was read and
+`amendments_read_on` the day.
+
+Three cases look different, and which one it was stands in `amendments_note`.
+
+Where the entry records no edition at all, because the document has none yet or
+was withdrawn without a year being fixed, there is no edition for an amendment
+to attach to. There `none` stands without a source and without a date, and the
+note says so.
+
+Where the catalogue carries no document under a designation at all, `amendments`
+stays empty. There it is not established whether an amendment exists, and `none`
+would claim something else. The date stands all the same, because a search was
+made.
+
+Where the catalogue carries the document and its history holds no amendment to
+the recorded edition, `none` stands. That is the statement of a source and not
+the absence of a search. It stays the statement of a single source: what is
+missing there is missing here too.
+
 ## 5. Where an entry sits
 
 The catalog is not one file but eight, one per family, under `catalog/entries/`.
@@ -304,6 +337,10 @@ re-checked.
 
 Section 4.2 and the fields `title_de_source` and `title_de_note` were added on
 2026-08-05, when the `title_de` column was filled.
+
+Section 4.3 and the fields `amendments_source`, `amendments_note` and
+`amendments_read_on` were added on 2026-08-05, when the `amendments` column was
+filled.
 
 Section 3.1 was added on 2026-08-05, when the columns `layer` and `layer_reason`
 were filled. It records how the six values were assigned there, so that a single
