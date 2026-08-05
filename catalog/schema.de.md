@@ -3,7 +3,7 @@ title: Aufnahmetest und Feldschema des Katalogs
 lang: de
 id: catalog-schema
 kind: schema
-updated: 2026-08-04
+updated: 2026-08-05
 translated_from: keine, diese Fassung ist die Ausgangssprache
 ---
 
@@ -145,7 +145,9 @@ Tabelle ist zugleich die Reihenfolge der Spalten in den Katalogdateien.
 | `edition_year` | Vierstelliges Jahr, etwa `2022` | Jahr der geltenden Ausgabe. |
 | `amendments` | Mehrwertig, etwa `amd-1:2024`, sonst `none` | Änderungen und Berichtigungen zur laufenden Ausgabe. Pflicht, siehe 4.1. |
 | `title_en` | Die englische Bezeichnung | Amtliche Bezeichnung, bibliografische Angabe und deshalb wörtlich. |
-| `title_de` | Die deutsche Bezeichnung, sonst leer | Nur gefüllt, wo es eine deutsche Übernahme gibt; sonst bleibt das Feld leer, statt eine eigene Übersetzung wie eine amtliche aussehen zu lassen. |
+| `title_de` | Die deutsche Bezeichnung, sonst leer | Nur gefüllt, wo es eine deutsche Übernahme der hier verzeichneten Ausgabe gibt, und dann wörtlich aus deren Katalogeintrag; sonst bleibt das Feld leer, statt eine eigene Übersetzung wie eine amtliche aussehen zu lassen. Siehe 4.2. |
+| `title_de_source` | Adresse, sonst leer | Der Katalogeintrag, aus dem der deutsche Titel gelesen wurde. Leer, wo `title_de` leer ist. |
+| `title_de_note` | Ein Satz in eigenen Worten | Bei gefülltem `title_de` die deutsche Übernahme, aus der er stammt. Bei leerem `title_de` der Grund, warum es keinen gibt. Leer ist kein zulässiger Wert. |
 | `status` | `published`, `under_revision`, `under_development`, `withdrawn`, `renumbered`, `deleted` | Der Stand des Dokuments am Tag der Lesung. |
 | `replaces` | Bezeichnung mit Ausgabe, etwa `ISO/IEC 27001:2013`, sonst leer | Die abgelöste Ausgabe. |
 | `replaced_by` | Bezeichnung mit Ausgabe, sonst leer | Die ablösende Ausgabe. Bei `status: withdrawn` sagt der Eintrag hier oder in `layer_reason`, dass nichts an ihre Stelle getreten ist. |
@@ -191,6 +193,42 @@ Recherche und keine hier genommene. Ein unbestätigter Eintrag steht trotzdem im
 Katalog, weil eine gekennzeichnete unbestätigte Angabe mehr wert ist als eine
 fehlende.
 
+### 4.2 Woher ein deutscher Titel kommt
+
+Ein deutscher Titel wird nicht übersetzt, sondern gefunden. Gefüllt wird
+`title_de` nur aus einer deutschen Übernahme, also aus einem Dokument, das das
+Deutsche Institut für Normung unter eigener Bezeichnung führt und dessen
+Übernahmevermerk genau die Ausgabe nennt, die der Eintrag verzeichnet. Der Titel
+steht dann so da, wie ihn der Katalog des Instituts führt, mit dessen
+Zeichensetzung. Der Übernahmevermerk in Klammern und die Angabe der Fassung
+dahinter gehören nicht zum Titel und werden nicht mitgeführt.
+
+Ein Norm-Entwurf ist keine solche Übernahme. Sein Titel kann sich bis zur
+Ausgabe noch ändern, und ein Eintrag, der ihn führte, sähe fertiger aus, als er
+ist.
+
+Drei Fälle führen zu einem leeren Feld, und welcher es war, steht je Eintrag in
+`title_de_note`. Zu manchen Dokumenten führt der Katalog gar keine deutsche
+Übernahme. Zu anderen führt er eine, die eine andere Ausgabe übernimmt als die
+hier verzeichnete; deren Titel gehört zu jener Ausgabe und nicht zu dieser. Zu
+wieder anderen liegt zur hier verzeichneten Ausgabe nur ein Norm-Entwurf vor.
+
+Gesucht wurde im Katalog unter https://www.dinmedia.de/. Wo `title_de_source`
+leer ist, ist das die Adresse, an der nichts gefunden wurde, und die Notiz sagt,
+was stattdessen dort steht.
+
+Derselbe Katalog führt zu Dokumenten, die nicht übernommen sind, deutschsprachige
+Titelzeilen im Verkaufsangebot, auch zu Ausgaben anderer Länder. Diese werden
+hier nicht verwendet, denn eine Titelzeile eines Angebots ist nicht der Titel
+einer deutschen Ausgabe, und im Katalog ist beides nicht auseinanderzuhalten.
+
+Ob eine andere nationale Stelle einen deutschen Titel führt, wo das Deutsche
+Institut für Normung keinen führt, ist nicht geprüft worden. Die leeren Felder
+sagen also, dass dort nichts gefunden wurde, und nicht, dass es nichts gibt.
+
+Die Notiz ist englisch geschrieben, wie der übrige freie Text in diesen Dateien.
+Der Titel selbst ist deutsch, weil er zitiert ist.
+
 ## 5. Wo ein Eintrag steht
 
 Der Katalog ist nicht eine Datei, sondern acht, eine je Familie, unter
@@ -229,6 +267,9 @@ Diese Datei gibt den Aufnahmetest und das Feldschema wieder, wie sie in der
 Planung dieses Repositories am 04.08.2026 entschieden wurden. Die Zahlen zur
 Recherche in 2.1 und 4.1 sind die Lesung jener Recherche an jenem Tag und werden
 hier zitiert, nicht nachgeprüft.
+
+Abschnitt 4.2 und die Felder `title_de_source` und `title_de_note` kamen am
+05.08.2026 dazu, als die Spalte `title_de` gefüllt wurde.
 
 Keine dieser Regeln wird heute von einer Prüfung erzwungen. Sie werden von
 Menschen gelesen, in der zweiten Lesung eines Beitrags. Das steht hier, damit
