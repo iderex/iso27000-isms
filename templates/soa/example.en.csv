@@ -1,0 +1,9 @@
+control_id,applicable,source,reason,risk_ids,implementation,implementation_note,owner,decided_on,reviewed_on,notes
+5.1,yes,risk-treatment,"Without decided rules the behaviour hangs off individual people, and the practice cannot say what holds",R-001 R-003,implemented,"A policy on mobile devices and remote access is decided","Practice manager",2026-08-05,2026-08-05,""
+5.9,yes,risk-treatment,"A risk row needs something to point at",,implemented,"The asset register carries six entries","Practice manager",2026-08-05,2026-08-05,""
+5.18,yes,risk-treatment,"Several people work at reception under one account, and actions are attributable to nobody",R-003,planned,"Individual accounts are set up by 2026-09-30","Practice manager",2026-08-05,2026-08-05,""
+6.3,yes,other,"Twelve staff whose actions decide the individual case",,partial,"One short message has been sent, fixed occasions are missing","Practice manager",2026-08-05,2026-08-05,"Taken up without a row in the risk register, because the practice holds it necessary anyway."
+8.13,yes,risk-treatment,"The backup is the last line when everything else fails",R-004,partial,"Backed up daily, the restore has never been tried","Practice manager",2026-08-05,2026-08-05,""
+8.15,yes,risk-treatment,"A remote access nobody can trace is later indistinguishable from a stranger's",R-001,planned,"The IT service provider sets up the logging of remote access","Practice manager",2026-08-05,2026-08-05,""
+8.24,yes,risk-treatment,"Devices leave the practice, and a lost device otherwise gives everything away",R-001,partial,"Set up on two of the three laptops","Practice manager",2026-08-05,2026-08-05,""
+8.25,no,,"The practice develops no software, it buys a service",,,"","Practice manager",2026-08-05,2026-08-05,"A no needs the same justification as a yes. If the situation changes, this row changes and not the memory of it."
