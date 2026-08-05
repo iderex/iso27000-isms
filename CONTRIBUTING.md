@@ -199,17 +199,40 @@ die Signed-off-by-Zeile fehlt, weil eine Lesung ausgeblieben ist oder weil er
 Normtext enthält. Diese Prüflisten liest ein Mensch. Wer sie für eine Kontrolle
 hält, verlässt sich auf etwas, das es nicht gibt.
 
-Vier Punkte ließen sich später maschinell prüfen, und sie stehen hier als das,
-was sie sind, nämlich als noch nicht vorhandene Prüfungen:
+Eine Prüfung gibt es inzwischen. Sie liest jede Markdown-Datei im Baum und
+weist einen Verweis zurück, der absolut ist, der nicht auf `.md` endet oder der
+auf keine vorhandene Datei zeigt:
+
+```
+python scripts/check-links.py .
+```
+
+Der Beweis, dass sie beißt, liegt daneben und wird mitgeliefert. Er nimmt zu
+jedem der drei Fälle eine Eingabe, die zurückgewiesen wird, und daneben eine,
+die sich um eine Änderung unterscheidet und durchgeht:
+
+```
+python scripts/check-links-test.py
+```
+
+Beide brauchen keinen Netzzugriff. Verweise nach außen sind nicht ihr
+Gegenstand.
+
+Was auch diese Prüfung nicht tut: sie läuft nirgends von selbst. Kein Hook und
+kein Ablauf auf dem Server ruft sie auf. Sie weist deshalb keinen Beitrag
+zurück, sondern sagt einem Menschen, der sie aufruft, was sie gefunden hat. Der
+erste Absatz dieses Abschnitts gilt unverändert.
+
+Drei Punkte ließen sich ebenfalls maschinell prüfen, und sie stehen hier als
+das, was sie sind, nämlich als noch nicht vorhandene Prüfungen:
 
 - ob jede CSV die Festlegungen aus Punkt 10 der Prüfliste einhält,
-- ob jeder relative Verweis auf eine Datei zeigt, die es gibt,
 - ob zu jeder deutschen Datei eine englische mit passendem Übersetzungsstand
   existiert,
 - ob jede erzeugte Ansicht zu ihrer Quelle passt.
 
-Jeder der vier hat ein Issue, in der Reihenfolge der Liste #59, #60, #61 und
-#62. Ein Issue ist keine Prüfung: keiner der vier Punkte wird heute von etwas
+Jeder der drei hat ein Issue, in der Reihenfolge der Liste #59, #61 und #62.
+Ein Issue ist keine Prüfung: keiner der drei Punkte wird heute von etwas
 zurückgewiesen, und die Liste bleibt eine Liste dessen, was es noch nicht gibt.
 Der Rest, die Urheberrechtsgrenze voran, bleibt eine Lesung durch einen
 Menschen und wird auch später keine Prüfung.
@@ -407,18 +430,39 @@ Signed-off-by line is missing, because a reading did not happen, or because it
 carries text from a standard. These checklists are read by a person. Anyone
 taking them for a control is relying on something that does not exist.
 
-Four points could be checked mechanically later, and they stand here as what
+One check exists by now. It reads every Markdown file in the tree and refuses a
+link that is absolute, that does not end in `.md`, or that points at no
+existing file:
+
+```
+python scripts/check-links.py .
+```
+
+The proof that it bites sits beside it and ships with it. For each of the three
+cases it carries one input that is refused and beside it one that differs by a
+single change and passes:
+
+```
+python scripts/check-links-test.py
+```
+
+Neither needs network access. Outward links are not their subject.
+
+What this check does not do either: it runs nowhere on its own. No hook and no
+run on the server calls it. So it refuses no contribution; it tells a person who
+calls it what it found. The first paragraph of this section holds unchanged.
+
+Three points could be checked mechanically as well, and they stand here as what
 they are, namely as checks that do not exist yet:
 
 - whether every CSV keeps to the rules in point 10 of the checklist,
-- whether every relative link points at a file that exists,
 - whether every German file has an English one with a matching translation
   state,
 - whether every generated view matches its source.
 
-Each of the four has an issue, in the order of the list #59, #60, #61 and #62.
-An issue is not a check: none of the four points is refused by anything today,
-and the list stays a list of what does not exist yet. The rest, the copyright
+Each of the three has an issue, in the order of the list #59, #61 and #62. An
+issue is not a check: none of the three points is refused by anything today, and
+the list stays a list of what does not exist yet. The rest, the copyright
 boundary above all, stays a reading by a person and will not become a check
 later either.
 
