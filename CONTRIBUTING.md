@@ -208,9 +208,11 @@ was sie sind, nämlich als noch nicht vorhandene Prüfungen:
   existiert,
 - ob jede erzeugte Ansicht zu ihrer Quelle passt.
 
-Für keinen der vier gibt es heute ein Issue. Der Rest, die Urheberrechtsgrenze
-voran, bleibt eine Lesung durch einen Menschen und wird auch später keine
-Prüfung.
+Jeder der vier hat ein Issue, in der Reihenfolge der Liste #59, #60, #61 und
+#62. Ein Issue ist keine Prüfung: keiner der vier Punkte wird heute von etwas
+zurückgewiesen, und die Liste bleibt eine Liste dessen, was es noch nicht gibt.
+Der Rest, die Urheberrechtsgrenze voran, bleibt eine Lesung durch einen
+Menschen und wird auch später keine Prüfung.
 
 Wie hier miteinander umgegangen wird, steht in
 [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md).
@@ -414,9 +416,11 @@ they are, namely as checks that do not exist yet:
   state,
 - whether every generated view matches its source.
 
-There is no issue for any of the four today. The rest, the copyright boundary
-above all, stays a reading by a person and will not become a check later
-either.
+Each of the four has an issue, in the order of the list #59, #60, #61 and #62.
+An issue is not a check: none of the four points is refused by anything today,
+and the list stays a list of what does not exist yet. The rest, the copyright
+boundary above all, stays a reading by a person and will not become a check
+later either.
 
 How people treat each other here stands in
 [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md).
