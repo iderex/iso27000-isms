@@ -3,8 +3,8 @@ title: The inclusion test and the field schema of the catalog
 lang: en
 id: catalog-schema
 kind: schema
-updated: 2026-08-04
-translated_from: schema.de.md, state of 2026-08-04
+updated: 2026-08-05
+translated_from: schema.de.md, state of 2026-08-05
 ---
 
 # The inclusion test and the field schema of the catalog
@@ -141,7 +141,9 @@ also the column order in the catalog files.
 | `edition_year` | Four-digit year, such as `2022` | Year of the current edition. |
 | `amendments` | Multi-valued, such as `amd-1:2024`, otherwise `none` | Amendments and corrigenda to the current edition. Mandatory, see 4.1. |
 | `title_en` | The English designation | The official designation, a bibliographic detail and therefore verbatim. |
-| `title_de` | The German designation, otherwise empty | Filled only where a German adoption exists; otherwise it stays empty rather than letting a translation of ours look like an official one. |
+| `title_de` | The German designation, otherwise empty | Filled only where a German adoption of the edition recorded here exists, and then verbatim from that adoption's catalogue entry; otherwise it stays empty rather than letting a translation of ours look like an official one. See 4.2. |
+| `title_de_source` | An address, otherwise empty | The catalogue entry the German title was read from. Empty where `title_de` is empty. |
+| `title_de_note` | One sentence in our own words | With `title_de` filled, the German adoption it comes from. With `title_de` empty, the reason there is none. Empty is not a permitted value. |
 | `status` | `published`, `under_revision`, `under_development`, `withdrawn`, `renumbered`, `deleted` | The state of the document on the day it was read. |
 | `replaces` | Designation with edition, such as `ISO/IEC 27001:2013`, otherwise empty | The superseded edition. |
 | `replaced_by` | Designation with edition, otherwise empty | The superseding edition. With `status: withdrawn` the entry says here or in `layer_reason` that nothing took its place. |
@@ -185,6 +187,41 @@ source, out of 283 entries in total; that is the reading of that research and
 not one taken here. An unconfirmed entry sits in the catalog all the same,
 because a value marked unconfirmed is worth more than a missing one.
 
+### 4.2 Where a German title comes from
+
+A German title is not translated, it is found. `title_de` is filled only from a
+German adoption, meaning a document the German Institute for Standardization
+carries under a designation of its own and whose adoption note names exactly the
+edition the entry records. The title then stands as that institute's catalogue
+carries it, with that catalogue's punctuation. The adoption note in brackets and
+the version statement behind it are not part of the title and are not carried
+over.
+
+A draft standard is not such an adoption. Its title can still change before the
+edition appears, and an entry carrying it would look more settled than it is.
+
+Three cases leave the field empty, and which one it was stands per entry in
+`title_de_note`. For some documents the catalogue carries no German adoption at
+all. For others it carries one that adopts a different edition than the one
+recorded here; that title belongs to that edition and not to this one. For
+others again, only a draft exists for the edition recorded here.
+
+The search ran in the catalogue at https://www.dinmedia.de/. Where
+`title_de_source` is empty, that is the address at which nothing was found, and
+the note says what stands there instead.
+
+The same catalogue carries German title lines in its sales listing for documents
+it has not adopted, including editions from other countries. Those are not used
+here, because the title line of a listing is not the title of a German edition,
+and inside the catalogue the two cannot be told apart.
+
+Whether another national body carries a German title where the German institute
+carries none has not been checked. The empty fields therefore say that nothing
+was found there, not that nothing exists.
+
+The note is written in English, like the rest of the free text in these files.
+The title itself is German because it is quoted.
+
 ## 5. Where an entry sits
 
 The catalog is not one file but eight, one per family, under `catalog/entries/`.
@@ -223,6 +260,9 @@ This file carries the inclusion test and the field schema as they were decided
 in the planning of this repository on 2026-08-04. The research figures in 2.1
 and 4.1 are that research's reading on that day, quoted here rather than
 re-checked.
+
+Section 4.2 and the fields `title_de_source` and `title_de_note` were added on
+2026-08-05, when the `title_de` column was filled.
 
 None of these rules is enforced by a check today. People read them, in the
 second reading of a contribution. That stands here so nobody takes this file for
