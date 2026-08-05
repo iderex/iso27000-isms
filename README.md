@@ -112,3 +112,7 @@ it a second time; it points there.
   [catalog/schema.en.md](catalog/schema.en.md).
 
 Planning and the state of the work live in this repository's issue tracker.
+
+Siehe NOTICE.md für den Hinweis zur bestimmungsgemäßen Nutzung.
+
+See NOTICE.md for the intended-use notice.
