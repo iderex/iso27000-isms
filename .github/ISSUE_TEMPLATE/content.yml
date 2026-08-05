@@ -1,0 +1,92 @@
+name: Inhalt / Content
+description: Neuer Text, ein Kapitel, eine Vorlage, ein Training / New writing, a chapter, a template, a training
+labels: ["inhalt / content"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Für Inhalt kommt das Issue vor dem Pull Request, damit nicht zwei Leute
+        dasselbe schreiben. Kein Normtext, hier so wenig wie im Repository:
+        verwiesen wird auf Norm, Klausel und Ausgabe. Die Regel steht in
+        `copyright/de.md`, der Ablauf in `CONTRIBUTING.md`.
+
+        For content the issue comes before the pull request, so that two people
+        do not write the same thing. No text from a standard, as little here as
+        in the repository: references are by standard, clause and edition. The
+        rule stands in `copyright/en.md`, the process in `CONTRIBUTING.md`.
+
+  - type: textarea
+    id: missing
+    attributes:
+      label: Was fehlt / What is missing
+      description: Was es heute nicht gibt und warum das ein Problem ist. / What does not exist today and why that is a problem.
+    validations:
+      required: true
+
+  - type: textarea
+    id: done
+    attributes:
+      label: Fertig, wenn / Done when
+      description: Nachprüfbare Punkte, an denen jemand anders erkennt, dass es fertig ist. / Checkable points by which somebody else can tell it is finished.
+      value: |
+        -
+        -
+    validations:
+      required: true
+
+  - type: textarea
+    id: files
+    attributes:
+      label: Diese Dateien darf es schreiben / Files this issue may write
+      description: Vollständig aufzählen. Zwei Issues, die dieselbe Datei ändern müssten, sind ein Issue. / List them in full. Two issues that would have to change the same file are one issue.
+    validations:
+      required: true
+
+  - type: dropdown
+    id: area
+    attributes:
+      label: Bereich / Area
+      description: Das dazu passende Bereichs-Label wird nach dem Anlegen von Hand gesetzt. / The matching area label is set by hand after opening.
+      options:
+        - norm / standard
+        - katalog / catalog
+        - lernpfad / learning-path
+        - vorlage / template
+        - praesentation / presentation
+        - training / training
+        - tutorial / tutorial
+        - zuordnung / mapping
+        - glossar / glossary
+        - struktur / structure
+        - assistenz / assistants
+        - website / site
+    validations:
+      required: true
+
+  - type: dropdown
+    id: milestone
+    attributes:
+      label: Meilenstein / Milestone
+      description: Die Plattform kann das Feld nicht aus einer Vorlage setzen, deshalb steht die Antwort hier im Text und wird nach dem Anlegen von Hand ins Feld übertragen. / The platform cannot set that field from a template, so the answer stands here in the body and is carried into the field by hand after opening.
+      options:
+        - Fundament / Foundation
+        - Katalog / Catalog
+        - Kern / Core
+        - Vorlagen / Templates
+        - Lernpfad / Learning path
+        - Ausstattung / Practice equipment
+        - Breite / Breadth
+        - Nachbarn / Neighbours
+        - Externe Zuordnungen / External mappings
+        - Website / Site
+        - Feinschliff / Polish
+    validations:
+      required: true
+
+  - type: textarea
+    id: order
+    attributes:
+      label: Reihenfolge / Order
+      description: Worauf dieses Issue wartet und was auf es wartet, falls etwas. / What this issue waits for and what waits on it, if anything.
+    validations:
+      required: false

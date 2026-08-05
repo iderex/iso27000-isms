@@ -1,0 +1,67 @@
+name: Korrektur / Correction
+description: Ein Fehler, eine falsche Angabe, ein kaputter Verweis / An error, a wrong statement, a broken link
+labels: ["korrektur / correction"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Für einen Tippfehler oder einen kaputten Verweis reicht auch ein Pull
+        Request ohne Issue davor. Dieses Issue ist für alles, was erst
+        besprochen werden sollte.
+
+        For a typo or a broken link a pull request without an issue in front of
+        it is enough. This issue is for anything that should be discussed
+        first.
+
+  - type: input
+    id: file
+    attributes:
+      label: Datei / File
+      description: Der Pfad im Repository. / The path in the repository.
+    validations:
+      required: true
+
+  - type: textarea
+    id: wrong
+    attributes:
+      label: Was falsch ist / What is wrong
+      description: Was dort steht und was stattdessen stimmt. / What stands there and what is true instead.
+    validations:
+      required: true
+
+  - type: textarea
+    id: found
+    attributes:
+      label: Wie es aufgefallen ist / How it came to light
+      description: Wo die richtige Angabe herkommt, mit Adresse und Datum der Lesung, falls es eine gibt. / Where the correct statement comes from, with address and date of the reading, if there is one.
+    validations:
+      required: false
+
+  - type: dropdown
+    id: milestone
+    attributes:
+      label: Meilenstein / Milestone
+      description: Die Plattform kann das Feld nicht aus einer Vorlage setzen, deshalb steht die Antwort hier im Text und wird nach dem Anlegen von Hand ins Feld übertragen. / The platform cannot set that field from a template, so the answer stands here in the body and is carried into the field by hand after opening.
+      options:
+        - Fundament / Foundation
+        - Katalog / Catalog
+        - Kern / Core
+        - Vorlagen / Templates
+        - Lernpfad / Learning path
+        - Ausstattung / Practice equipment
+        - Breite / Breadth
+        - Nachbarn / Neighbours
+        - Externe Zuordnungen / External mappings
+        - Website / Site
+        - Feinschliff / Polish
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: boundary
+    attributes:
+      label: Urheberrecht / Copyright
+      description: Wo eine Korrektur an die Grenze stößt, bekommt das Issue zusätzlich das Label `urheberrecht / copyright`. / Where a correction touches the boundary, the issue also gets the label `urheberrecht / copyright`.
+      options:
+        - label: Diese Korrektur berührt die Urheberrechtsgrenze / This correction touches the copyright boundary
+          required: false

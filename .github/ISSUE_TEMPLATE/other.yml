@@ -1,0 +1,52 @@
+name: Sonstiges / Other
+description: Passt in keine der anderen Vorlagen / Fits none of the other templates
+labels: ["struktur / structure"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Leere Issues sind aus, damit ein neues Issue nicht ohne Label anfängt.
+        Diese Vorlage ist der Weg für alles Übrige. Sie kommt mit dem Label
+        `struktur / structure` und dieses wird nach dem Anlegen gegen ein
+        passenderes getauscht, wo es eins gibt.
+
+        Blank issues are off so that a new issue does not start without a
+        label. This template is the route for everything else. It arrives with
+        the label `struktur / structure`, which is swapped for a better fitting
+        one after opening where there is one.
+
+  - type: textarea
+    id: what
+    attributes:
+      label: Worum es geht / What this is about
+    validations:
+      required: true
+
+  - type: textarea
+    id: done
+    attributes:
+      label: Fertig, wenn / Done when
+      description: Woran jemand anders erkennt, dass es erledigt ist. Wo das Issue nichts erledigt, sondern etwas festhält, steht das hier. / How somebody else can tell it is finished. Where the issue settles nothing but records something, that stands here.
+    validations:
+      required: true
+
+  - type: dropdown
+    id: milestone
+    attributes:
+      label: Meilenstein / Milestone
+      description: Die Plattform kann das Feld nicht aus einer Vorlage setzen, deshalb steht die Antwort hier im Text und wird nach dem Anlegen von Hand ins Feld übertragen. / The platform cannot set that field from a template, so the answer stands here in the body and is carried into the field by hand after opening.
+      options:
+        - Keiner / None
+        - Fundament / Foundation
+        - Katalog / Catalog
+        - Kern / Core
+        - Vorlagen / Templates
+        - Lernpfad / Learning path
+        - Ausstattung / Practice equipment
+        - Breite / Breadth
+        - Nachbarn / Neighbours
+        - Externe Zuordnungen / External mappings
+        - Website / Site
+        - Feinschliff / Polish
+    validations:
+      required: true
