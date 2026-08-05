@@ -1,0 +1,87 @@
+---
+title: TITLE OF THE DECK
+subtitle: TOPIC, AUDIENCE
+lang: en
+id: presentation-deck-pattern
+kind: pattern
+updated: 2026-08-06
+translated_from: pattern.de.qmd 2026-08-06
+format:
+  revealjs:
+    slide-number: true
+    incremental: false
+---
+
+# Occasion and audience
+
+## What this deck is made for
+
+- Occasion: WHAT IS BEING PRESENTED FOR, SAY A DECISION PAPER OR A TRAINING
+- Audience: ONE OF THE FIVE, SO MANAGEMENT, PRACTITIONERS, ENGINEERING,
+  ALL-STAFF OR AUDITORS
+- Length: MINUTES
+- What the listeners already know: THE ASSUMPTION IN ONE SENTENCE
+
+::: {.notes}
+This slide is not presented. It stands at the front so that a second presenter
+sees in thirty seconds whether the deck fits their appointment.
+:::
+
+# What it is about
+
+## The subject in one sentence
+
+THE TOPIC IN ONE SENTENCE, IN OUR OWN WORDS.
+
+## Why it concerns this audience
+
+- WHAT THIS AUDIENCE CANNOT DECIDE OR DO TODAY WITHOUT THE TOPIC
+- WHAT GOES WRONG IF NOBODY ATTENDS TO IT
+
+# The content
+
+## HEADING OF THE FIRST CONTENT SLIDE
+
+CONTENT IN OUR OWN WORDS. ONE SLIDE CARRIES ONE THOUGHT.
+
+## HEADING OF THE SECOND CONTENT SLIDE
+
+CONTENT IN OUR OWN WORDS.
+
+# What to do or decide afterwards
+
+## The closing that separates the audiences
+
+- Management: WHICH DECISION IS ASKED FOR, WITH WHICH OPTIONS
+- Engineering and practitioners: WHICH ACTION FOLLOWS, BY WHOM, BY WHEN
+- All staff: WHICH BEHAVIOUR CHANGES
+- Auditors: WHICH EVIDENCE GETS PUT FORWARD
+
+This slide is the reason for the talk. A deck without it is a talk after which
+everything stays as it was.
+
+# References
+
+## Standard, clause and edition
+
+- ISO/IEC 27001:2022, 6.1.3
+- ISO/IEC 27002:2022, 5.15
+
+No text from a standard stands on this slide, neither verbatim nor as a
+paraphrase following the structure of the original. A reference is standard,
+clause and edition, and anyone who needs the wording looks it up in a licensed
+copy. That holds for every slide of this deck and not only for this one.
+
+# Origin
+
+## Licence and origin
+
+TITLE OF THIS FILE, from iso27000-isms, under CC-BY-SA-4.0,
+`https://creativecommons.org/licenses/by-sa/4.0/`
+
+- State: DATE OF THE LAST CHANGE
+- What was read: EDITION AND DATE OF THE READING
+- The standards themselves are not under this licence.
+
+This slide stays in the deck even when it is only presented in house. A single
+file travels alone, and without this slide attribution is not possible.

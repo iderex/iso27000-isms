@@ -108,7 +108,11 @@ man sie an einer fertigen Datei durchgehen kann.
    Themenverzeichnis oder `name.de.md`? Ein zweiter Sprachbaum ist
    ausgeschlossen.
 3. Trägt die Datei einen YAML-Kopf mit `title`, `lang`, `id`, `kind`,
-   `updated` und `translated_from`, von Hand geschrieben?
+   `updated` und `translated_from`, von Hand geschrieben? Eine Datei unter
+   `scripts/` trägt keinen. Ein Skript hört zu laufen auf, sobald ein YAML-Kopf
+   vor seiner ersten Zeile steht, und an dieser Stelle steht bei ihm die Angabe
+   zu Lizenz und Herkunft, die Abschnitt 4.2 von
+   [license-notice.de.md](license-notice.de.md) verlangt.
 4. Sind alle Verweise relative Pfade mit der Endung `.md` und keiner davon
    absolut?
 5. Gehen Querverweise innerhalb eines Textes auf Abschnittsnummern statt auf
@@ -183,7 +187,7 @@ zwei Orten zusammensuchen muss.
 - Eine Umschreibung, die dem Aufbau des Originals folgt.
 - Ein Katalogeintrag ohne Quelle und Datum.
 - Eine Zuordnung ohne `origin`.
-- Eine Datei ohne YAML-Kopf.
+- Eine Datei ohne YAML-Kopf, dort wo Regel 3 aus Abschnitt 6 einen verlangt.
 - Ein absoluter Verweis.
 - Eine Folie oder eine Trainingsfrage mit Normtext.
 
@@ -341,7 +345,11 @@ they can be walked through against a finished file.
 2. Does the language sit at the end of the file name, so `de.md` in the subject
    directory or `name.de.md`? A second language tree is ruled out.
 3. Does the file carry a YAML header with `title`, `lang`, `id`, `kind`,
-   `updated` and `translated_from`, written by hand?
+   `updated` and `translated_from`, written by hand? A file under `scripts/`
+   carries none. A script stops running as soon as a YAML header stands ahead
+   of its first line, and in that place it carries the statement of licence and
+   origin that section 4.2 of
+   [license-notice.en.md](license-notice.en.md) asks for.
 4. Are all links relative paths ending in `.md`, and none of them absolute?
 5. Do cross-references inside a text point at section numbers rather than at
    generated anchors?
@@ -415,7 +423,7 @@ gather it from two places.
 - A paraphrase that follows the structure of the original.
 - A catalog entry without source and date.
 - A mapping without `origin`.
-- A file without a YAML header.
+- A file without a YAML header, where rule 3 of section 16 asks for one.
 - An absolute link.
 - A slide or a training question carrying text from a standard.
 
