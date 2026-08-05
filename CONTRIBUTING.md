@@ -203,9 +203,9 @@ die Signed-off-by-Zeile fehlt, weil eine Lesung ausgeblieben ist oder weil er
 Normtext enthält. Diese Prüflisten liest ein Mensch. Wer sie für eine Kontrolle
 hält, verlässt sich auf etwas, das es nicht gibt.
 
-Eine Prüfung gibt es inzwischen. Sie liest jede Markdown-Datei im Baum und
-weist einen Verweis zurück, der absolut ist, der nicht auf `.md` endet oder der
-auf keine vorhandene Datei zeigt:
+Zwei Prüfungen gibt es inzwischen. Die erste liest jede Markdown-Datei im Baum
+und weist einen Verweis zurück, der absolut ist, der nicht auf `.md` endet oder
+der auf keine vorhandene Datei zeigt:
 
 ```
 python scripts/check-links.py .
@@ -222,21 +222,46 @@ python scripts/check-links-test.py
 Beide brauchen keinen Netzzugriff. Verweise nach außen sind nicht ihr
 Gegenstand.
 
-Was auch diese Prüfung nicht tut: sie läuft nirgends von selbst. Kein Hook und
-kein Ablauf auf dem Server ruft sie auf. Sie weist deshalb keinen Beitrag
-zurück, sondern sagt einem Menschen, der sie aufruft, was sie gefunden hat. Der
-erste Absatz dieses Abschnitts gilt unverändert.
+Die zweite liest jede CSV im Baum und weist eine Zeile zurück, die eine der
+Festlegungen aus Punkt 10 der Prüfliste verletzt. Sie nennt dabei Datei, Zeile
+und die verletzte Festlegung:
 
-Drei Punkte ließen sich ebenfalls maschinell prüfen, und sie stehen hier als
+```
+python scripts/check-csv.py .
+```
+
+Auch hier liegt der Beweis daneben. Zu jeder Festlegung nimmt er eine Eingabe,
+die genau daran scheitert, und daneben eine, die sich um eine Änderung
+unterscheidet und durchgeht:
+
+```
+python scripts/check-csv-test.py
+```
+
+Sie braucht ebenfalls keinen Netzzugriff und keine lizenzierte Normausgabe.
+
+Zwei Teile von Punkt 10 entscheidet sie nicht, und beides steht in ihrem eigenen
+Kopf ausführlich. Verbundene Zellen kann eine CSV nicht tragen; was ein
+Tabellenprogramm beim Ausgeben davon hinterlässt, ist eine zu kurze oder eine
+leere Zeile, und beide werden zurückgewiesen. Ob ein Feldname englisch ist,
+entscheidet sie nicht: sie weist einen Namen zurück, der kein
+kleingeschriebenes Wort aus ASCII ist, und ein Name wie `datum` kommt damit
+durch. Diese Hälfte bleibt eine Lesung durch einen Menschen.
+
+Was auch diese beiden Prüfungen nicht tun: sie laufen nirgends von selbst. Kein
+Hook und kein Ablauf auf dem Server ruft sie auf. Sie weisen deshalb keinen
+Beitrag zurück, sondern sagen einem Menschen, der sie aufruft, was sie gefunden
+haben. Der erste Absatz dieses Abschnitts gilt unverändert.
+
+Zwei Punkte ließen sich ebenfalls maschinell prüfen, und sie stehen hier als
 das, was sie sind, nämlich als noch nicht vorhandene Prüfungen:
 
-- ob jede CSV die Festlegungen aus Punkt 10 der Prüfliste einhält,
 - ob zu jeder deutschen Datei eine englische mit passendem Übersetzungsstand
   existiert,
 - ob jede erzeugte Ansicht zu ihrer Quelle passt.
 
-Jeder der drei hat ein Issue, in der Reihenfolge der Liste #59, #61 und #62.
-Ein Issue ist keine Prüfung: keiner der drei Punkte wird heute von etwas
+Jeder der zwei hat ein Issue, in der Reihenfolge der Liste #61 und #62. Ein
+Issue ist keine Prüfung: keiner der zwei Punkte wird heute von etwas
 zurückgewiesen, und die Liste bleibt eine Liste dessen, was es noch nicht gibt.
 Der Rest, die Urheberrechtsgrenze voran, bleibt eine Lesung durch einen
 Menschen und wird auch später keine Prüfung.
@@ -438,9 +463,9 @@ Signed-off-by line is missing, because a reading did not happen, or because it
 carries text from a standard. These checklists are read by a person. Anyone
 taking them for a control is relying on something that does not exist.
 
-One check exists by now. It reads every Markdown file in the tree and refuses a
-link that is absolute, that does not end in `.md`, or that points at no
-existing file:
+Two checks exist by now. The first reads every Markdown file in the tree and
+refuses a link that is absolute, that does not end in `.md`, or that points at
+no existing file:
 
 ```
 python scripts/check-links.py .
@@ -456,23 +481,48 @@ python scripts/check-links-test.py
 
 Neither needs network access. Outward links are not their subject.
 
-What this check does not do either: it runs nowhere on its own. No hook and no
-run on the server calls it. So it refuses no contribution; it tells a person who
-calls it what it found. The first paragraph of this section holds unchanged.
+The second reads every CSV in the tree and refuses a row that breaks one of the
+rules in point 10 of the checklist. It names the file, the row and the rule
+that was broken:
 
-Three points could be checked mechanically as well, and they stand here as what
+```
+python scripts/check-csv.py .
+```
+
+The proof sits beside this one too. For every rule it carries one input that
+fails on exactly that rule and beside it one that differs by a single change
+and passes:
+
+```
+python scripts/check-csv-test.py
+```
+
+It needs no network access and no licensed copy of a standard either.
+
+Two parts of point 10 it does not decide, and both stand at length in its own
+head. Merged cells are something a CSV cannot carry; what a spreadsheet leaves
+behind when it exports one is a row that is short or empty, and both of those
+are refused. Whether a field name is English it does not decide: it refuses a
+name that is not a lowercase ASCII word, so a name like `datum` comes through.
+That half stays a reading by a person.
+
+What these two checks do not do either: they run nowhere on their own. No hook
+and no run on the server calls them. So they refuse no contribution; they tell
+a person who calls them what they found. The first paragraph of this section
+holds unchanged.
+
+Two points could be checked mechanically as well, and they stand here as what
 they are, namely as checks that do not exist yet:
 
-- whether every CSV keeps to the rules in point 10 of the checklist,
 - whether every German file has an English one with a matching translation
   state,
 - whether every generated view matches its source.
 
-Each of the three has an issue, in the order of the list #59, #61 and #62. An
-issue is not a check: none of the three points is refused by anything today, and
-the list stays a list of what does not exist yet. The rest, the copyright
-boundary above all, stays a reading by a person and will not become a check
-later either.
+Each of the two has an issue, in the order of the list #61 and #62. An issue is
+not a check: neither of the two points is refused by anything today, and the
+list stays a list of what does not exist yet. The rest, the copyright boundary
+above all, stays a reading by a person and will not become a check later
+either.
 
 How people treat each other here stands in
 [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md).
