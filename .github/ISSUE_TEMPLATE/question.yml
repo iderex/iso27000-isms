@@ -1,0 +1,56 @@
+name: Frage / Question
+description: Eine Frage zum Repository, zu einer Norm oder zum Ablauf / A question about the repository, a standard or the process
+labels: ["question"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Eine Frage ist kein schlechteres Issue als ein Fehlerbericht. Was hier
+        beantwortet wird, wird oft ein Satz in einer Datei.
+
+        Was hier nicht beantwortet wird: der Wortlaut einer Norm. Dieses
+        Repository gibt keinen Normtext wieder, auch nicht in einer Antwort auf
+        eine Frage.
+
+        A question is no lesser issue than a defect report. What gets answered
+        here often becomes a sentence in a file.
+
+        What does not get answered here is the wording of a standard. This
+        repository reproduces no text from a standard, not even in an answer to
+        a question.
+
+  - type: textarea
+    id: question
+    attributes:
+      label: Die Frage / The question
+    validations:
+      required: true
+
+  - type: textarea
+    id: context
+    attributes:
+      label: Worauf sie sich bezieht / What it refers to
+      description: Datei, Kapitel oder Abschnitt, falls es eine bestimmte Stelle gibt. / File, chapter or section, if there is a particular place.
+    validations:
+      required: false
+
+  - type: dropdown
+    id: milestone
+    attributes:
+      label: Meilenstein / Milestone
+      description: Eine Frage braucht nicht in einen Meilenstein. Wo sie in einen gehört, steht die Antwort hier im Text; die Plattform kann das Feld nicht aus einer Vorlage setzen. / A question does not have to sit in a milestone. Where it belongs in one, the answer stands here in the body; the platform cannot set that field from a template.
+      options:
+        - Keiner / None
+        - Fundament / Foundation
+        - Katalog / Catalog
+        - Kern / Core
+        - Vorlagen / Templates
+        - Lernpfad / Learning path
+        - Ausstattung / Practice equipment
+        - Breite / Breadth
+        - Nachbarn / Neighbours
+        - Externe Zuordnungen / External mappings
+        - Website / Site
+        - Feinschliff / Polish
+    validations:
+      required: true

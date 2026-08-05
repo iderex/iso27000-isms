@@ -1,0 +1,5 @@
+# Leere Issues sind aus, damit jedes neue Issue mit einem Label anfängt.
+# Wer keine der Vorlagen passend findet, nimmt "Sonstiges".
+# Blank issues are off so that every new issue starts with a label.
+# Anyone who finds none of the templates fitting takes "Other".
+blank_issues_enabled: false

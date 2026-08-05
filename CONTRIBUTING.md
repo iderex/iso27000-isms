@@ -1,0 +1,422 @@
+# Mitwirken / Contributing
+
+Diese Datei steht zweisprachig, Deutsch zuerst. Die englische Fassung beginnt
+bei Abschnitt 11.
+
+This file is bilingual, German first. The English version starts at section 11.
+
+---
+
+# Mitwirken
+
+Beiträge von außen sind willkommen, von Anfang an. Diese Datei sagt, was hier
+entsteht, was ein Beitrag einhalten muss und wie er gelesen wird. Wer nur einen
+Abschnitt liest, liest Abschnitt 2.
+
+## 1. Was dieses Repository ist und was nicht
+
+Es ist Lernmaterial zu Informationssicherheit und zum Aufbau eines
+Informationssicherheits-Managementsystems. Es sammelt Normen in einem Katalog,
+erklärt sie in eigenen Worten, führt einen Lernpfad und stellt Vorlagen,
+Tutorials, Präsentationen und Trainings daneben.
+
+Es ist kein Ersatz für die Normen. Wer den Wortlaut braucht, braucht eine
+lizenzierte Ausgabe, und dieses Repository sagt an den Stellen, wo es darauf
+ankommt, welche Klausel dort aufzuschlagen ist.
+
+Es ist auch keine Beratung. Was hier steht, ist allgemein geschrieben und kennt
+die Lage einer einzelnen Organisation nicht.
+
+## 2. Die Urheberrechtsgrenze
+
+Normtext wird hier nicht wiedergegeben, nie. Verwiesen wird auf Norm, Klausel
+und Ausgabe.
+
+Die Regel steht genau einmal im Repository, in
+[copyright/de.md](copyright/de.md), mit der Prüfliste für die zweite Lesung in
+[copyright/checklist.de.md](copyright/checklist.de.md). Diese Datei formuliert
+sie nicht noch einmal, sondern verweist dorthin. Zwei Fassungen derselben Regel
+laufen mit der Zeit auseinander, und ab dann weiß niemand mehr, welche gilt.
+
+Wer einen Beitrag schreibt, liest die Grenze vorher. Wer einen Beitrag liest,
+arbeitet die Prüfliste ab.
+
+## 3. Die Lizenz und die Signed-off-by-Zeile
+
+Das eigene Material dieses Repositorys steht unter CC-BY-SA-4.0. Der
+vollständige Lizenztext liegt in der Datei `LICENSE`, und was er deckt und was
+er nicht decken kann, steht in
+[license-notice.de.md](license-notice.de.md).
+
+Wer beiträgt, gibt seinen Beitrag unter derselben Lizenz ab. Belegt wird das
+mit einer `Signed-off-by`-Zeile am Commit nach dem Developer Certificate of
+Origin:
+
+```
+Signed-off-by: Vorname Nachname <adresse@beispiel.de>
+```
+
+Git schreibt sie mit `git commit -s`. Der Name ist der, unter dem der Beitrag
+stehen soll.
+
+Es gibt keine Vereinbarung zur Rechteübertragung, und es soll auch keine geben.
+Die Rechte bleiben bei den Beitragenden, denn es gibt hier niemanden, an den
+übertragen würde. Die Zeile bestätigt, dass der Beitrag von der Person stammt,
+die ihn einreicht, oder dass sie ihn unter dieser Lizenz weitergeben darf.
+
+## 4. Der Weg für eine Änderung
+
+Für Inhalt zuerst ein Issue. Sonst schreiben zwei Leute dasselbe Kapitel, und
+eine der beiden Arbeiten wird weggeworfen. Im Issue steht, was fehlt, was
+fertig heißt und welche Dateien es schreiben darf.
+
+Für einen Tippfehler oder einen kaputten Verweis reicht ein Pull Request ohne
+Issue davor. Der Pull Request sagt dann, dass er keins hat.
+
+Ein Pull Request nennt das Issue, das er erledigt. Ein Thema pro Pull Request.
+
+## 5. Die Sprache
+
+Deutsch wird zuerst geschrieben, Englisch folgt. Jede Datei nennt in ihrem
+YAML-Kopf im Feld `translated_from`, aus welchem Stand sie übersetzt wurde,
+damit eine veraltete Übersetzung erkennbar bleibt.
+
+Eine Sprache reicht für einen Beitrag. Die fehlende Sprache wird ein eigenes
+Issue und ist kein Grund, den Beitrag abzulehnen.
+
+Wenige Dateien sind zweisprachig in einer Datei, Deutsch zuerst, weil die
+Plattform genau diese Namen liest: `README.md`, diese Datei,
+`CODE_OF_CONDUCT.md`, `LICENSE` und alles unter `.github/`. Überall sonst
+stehen die Sprachen in getrennten Dateien, entweder als `de.md` und `en.md` in
+einem Themenverzeichnis oder als `name.de.md` und `name.en.md`.
+
+Diese Dateien tragen keinen YAML-Kopf. Die Plattform liest sie am Namen, ein
+Kopf erschiene beim Anzeigen als Text, und die README zeigt seit ihrem ersten
+Commit, dass es ohne geht. Das steht hier, damit die Ausnahme nicht
+stillschweigend gilt.
+
+Issue- und Pull-Request-Texte sind ebenfalls zweisprachig, Deutsch zuerst.
+
+## 6. Die elf Formatregeln als Prüfliste
+
+Diese Punkte gelten für jede Datei im Repository. Sie stehen als Fragen, damit
+man sie an einer fertigen Datei durchgehen kann.
+
+1. Bestehen Pfad und Dateiname nur aus `a-z`, `0-9` und Bindestrich, ohne
+   führenden Unterstrich?
+2. Steht die Sprache am Ende des Dateinamens, also `de.md` im
+   Themenverzeichnis oder `name.de.md`? Ein zweiter Sprachbaum ist
+   ausgeschlossen.
+3. Trägt die Datei einen YAML-Kopf mit `title`, `lang`, `id`, `kind`,
+   `updated` und `translated_from`, von Hand geschrieben?
+4. Sind alle Verweise relative Pfade mit der Endung `.md` und keiner davon
+   absolut?
+5. Gehen Querverweise innerhalb eines Textes auf Abschnittsnummern statt auf
+   erzeugte Anker?
+6. Bleibt die Datei bei CommonMark und Tabellen? Eingebettetes HTML ist
+   verboten, mit der einen Ausnahme `details` und `summary` für den
+   Hinweisblock für Assistenten.
+7. Liegt zu jeder CSV eine erzeugte Markdown-Ansicht daneben, und bleibt die
+   CSV zum Herunterladen liegen?
+8. Tragen erzeugte Dateien `kind: generated`, nennen sie ihre Quelle, und ist
+   keine von Hand geändert?
+9. Sind Bilder und Diagramme SVG mit relativem Pfad?
+10. Hält jede CSV die Festlegungen ein, also UTF-8 ohne BOM, LF, Komma,
+    RFC 4180, genau eine Kopfzeile, keine verbundenen Zellen, kein Kommentar in
+    den Daten, Feldnamen englisch und kleingeschrieben, Datum als `JJJJ-MM-TT`
+    und mehrere Werte durch Leerzeichen getrennt?
+11. Bleibt die Datei unabhängig von einem bestimmten Website-Generator? Welcher
+    es wird, ist nicht entschieden, und die Regeln 1 bis 10 halten mehrere
+    offen, aber nicht alle.
+
+Nicht jede Regel hat in jeder Änderung einen Gegenstand. Eine Änderung ohne CSV
+beantwortet die Punkte 7 und 10 mit dem Hinweis, dass es nichts zu prüfen gab,
+statt sie wegzulassen.
+
+## 7. Fragen
+
+Eine Frage wird ein Issue mit dem Label `question`. Das ist der vorgesehene
+Weg, und eine Frage ist kein schlechteres Issue als ein Fehlerbericht.
+
+## 8. Der Review-Ablauf
+
+Jeder Beitrag wird zweimal gelesen, und die beiden Lesungen sind getrennt, weil
+sie auf verschiedene Dinge schauen.
+
+Die inhaltliche Lesung fragt, ob es stimmt, ob es an der richtigen Stelle
+steht, ob die Gliederung eines Kapitels eingehalten ist und ob Quelle und Datum
+eingetragen sind.
+
+Die Urheberrechtslesung fragt nur nach der Grenze aus Abschnitt 2. Sie arbeitet
+die Prüfliste in [copyright/checklist.de.md](copyright/checklist.de.md) ab, sie
+kann für sich allein zur Ablehnung führen, und sie ist auch dann fällig, wenn
+die inhaltliche Lesung schon durch ist.
+
+Der Ablauf:
+
+1. Der Pull Request nennt das Issue, das er erledigt, oder sagt, warum er keins
+   hat.
+2. Verfasserinnen und Verfasser lesen ihren eigenen Beitrag nicht. Ein Beitrag
+   von außen wird von der Wartung gelesen, ein Beitrag der Wartung wartet auf
+   einen zweiten Leser.
+3. Wo es diesen zweiten Leser nicht gibt, sagt der Pull Request das in seinem
+   Text. Es wird kein Haken gesetzt, der etwas anderes behauptet.
+4. Beide Lesungen werden im Text des Pull Requests festgehalten, mit dem, was
+   tatsächlich geprüft wurde. Eine Lesung, die nicht stattgefunden hat, wird
+   als nicht stattgefunden vermerkt und nicht weggelassen.
+5. Kleinigkeiten werden nicht zurückgeschickt, sondern angemerkt und beim
+   Zusammenführen behoben, wenn der Beitragende zustimmt.
+6. Reaktionszeiten sind eine Absicht und keine Zusage.
+
+Alles über eine Änderung steht im Text des Pull Requests, auch der Grund einer
+Ablehnung. Wenn der Text falsch, unvollständig oder überholt ist, wird der Text
+geändert.
+
+## 9. Was namentlich abgelehnt wird
+
+Diese Fälle führen zur Ablehnung. Nicht alle fragen nach der Grenze aus
+Abschnitt 2; die Liste steht vollständig hier und in
+[copyright/checklist.de.md](copyright/checklist.de.md), damit niemand sie an
+zwei Orten zusammensuchen muss.
+
+- Übernommener Normtext.
+- Eine Umschreibung, die dem Aufbau des Originals folgt.
+- Ein Katalogeintrag ohne Quelle und Datum.
+- Eine Zuordnung ohne `origin`.
+- Eine Datei ohne YAML-Kopf.
+- Ein absoluter Verweis.
+- Eine Folie oder eine Trainingsfrage mit Normtext.
+
+Eine Ablehnung ist keine Zurückweisung der Person. Sie sagt, was geändert
+werden muss, damit der Beitrag hereinkommt, und bei welchem Punkt dieser Liste
+sie hängengeblieben ist.
+
+## 10. Was diese Datei nicht ist
+
+Keine Prüfung erzwingt irgendetwas davon. In diesem Repository läuft heute
+nichts, das einen Beitrag zurückweist, weil er eine Formatregel verletzt, weil
+die Signed-off-by-Zeile fehlt, weil eine Lesung ausgeblieben ist oder weil er
+Normtext enthält. Diese Prüflisten liest ein Mensch. Wer sie für eine Kontrolle
+hält, verlässt sich auf etwas, das es nicht gibt.
+
+Vier Punkte ließen sich später maschinell prüfen, und sie stehen hier als das,
+was sie sind, nämlich als noch nicht vorhandene Prüfungen:
+
+- ob jede CSV die Festlegungen aus Punkt 10 der Prüfliste einhält,
+- ob jeder relative Verweis auf eine Datei zeigt, die es gibt,
+- ob zu jeder deutschen Datei eine englische mit passendem Übersetzungsstand
+  existiert,
+- ob jede erzeugte Ansicht zu ihrer Quelle passt.
+
+Für keinen der vier gibt es heute ein Issue. Der Rest, die Urheberrechtsgrenze
+voran, bleibt eine Lesung durch einen Menschen und wird auch später keine
+Prüfung.
+
+Wie hier miteinander umgegangen wird, steht in
+[CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md).
+
+---
+
+# Contributing
+
+Contributions from outside are welcome, from the start. This file says what is
+being built here, what a contribution has to keep to, and how it gets read.
+Anyone reading only one section reads section 12.
+
+## 11. What this repository is and is not
+
+It is learning material on information security and on building an information
+security management system. It collects standards in a catalog, explains them
+in our own words, carries a learning path, and puts templates, walk-throughs,
+presentations and trainings beside it.
+
+It is not a substitute for the standards. Anyone who needs the wording needs a
+licensed copy, and this repository says, where it matters, which clause to open
+there.
+
+It is not consulting either. What stands here is written generally and does not
+know the situation of any one organisation.
+
+## 12. The copyright boundary
+
+No text from a standard is reproduced here, ever. References are by standard,
+clause and edition.
+
+The rule lives in the repository exactly once, in
+[copyright/en.md](copyright/en.md), with the checklist for the second reading
+in [copyright/checklist.en.md](copyright/checklist.en.md). This file does not
+state it a second time; it points there. Two versions of one rule drift apart
+over time, and from then on nobody knows which one holds.
+
+Anyone writing a contribution reads the boundary first. Anyone reading a
+contribution works through the checklist.
+
+## 13. The licence and the Signed-off-by line
+
+The original material of this repository is under CC-BY-SA-4.0. The full
+licence text sits in the file `LICENSE`, and what it covers and what it cannot
+cover stands in [license-notice.en.md](license-notice.en.md).
+
+Whoever contributes releases their contribution under that same licence.
+That is evidenced by a `Signed-off-by` line on the commit, per the Developer
+Certificate of Origin:
+
+```
+Signed-off-by: Given Name Family Name <address@example.org>
+```
+
+Git writes it with `git commit -s`. The name is the one the contribution should
+stand under.
+
+There is no rights-transfer agreement and there is not meant to be one. The
+rights stay with the contributors, because there is nobody here for rights to
+be transferred to. The line confirms that the contribution comes from the
+person submitting it, or that they may pass it on under this licence.
+
+## 14. The route for a change
+
+For content, an issue first. Otherwise two people write the same chapter and
+one of the two pieces of work gets thrown away. The issue says what is missing,
+what done means, and which files it may write.
+
+For a typo or a broken link, a pull request without an issue in front of it is
+enough. The pull request then says that it has none.
+
+A pull request names the issue it closes. One topic per pull request.
+
+## 15. The language
+
+German is written first, English follows. Every file names in its YAML header,
+in the field `translated_from`, which state it was translated from, so that a
+stale translation stays detectable.
+
+One language is enough for a contribution. The missing language becomes its own
+issue and is not a reason to refuse the contribution.
+
+A few files are bilingual in one file, German first, because the platform reads
+exactly those names: `README.md`, this file, `CODE_OF_CONDUCT.md`, `LICENSE`
+and everything under `.github/`. Everywhere else the languages sit in separate
+files, either as `de.md` and `en.md` in a subject directory or as `name.de.md`
+and `name.en.md`.
+
+Those files carry no YAML header. The platform reads them by name, a header
+would appear as text when displayed, and the README has shown since its first
+commit that it works without one. That stands here so the exception does not
+hold silently.
+
+Issue and pull request text is bilingual too, German first.
+
+## 16. The eleven format rules as a checklist
+
+These points hold for every file in the repository. They stand as questions so
+they can be walked through against a finished file.
+
+1. Do the path and the file name consist only of `a-z`, `0-9` and the hyphen,
+   with no leading underscore?
+2. Does the language sit at the end of the file name, so `de.md` in the subject
+   directory or `name.de.md`? A second language tree is ruled out.
+3. Does the file carry a YAML header with `title`, `lang`, `id`, `kind`,
+   `updated` and `translated_from`, written by hand?
+4. Are all links relative paths ending in `.md`, and none of them absolute?
+5. Do cross-references inside a text point at section numbers rather than at
+   generated anchors?
+6. Does the file stay within CommonMark plus tables? Embedded HTML is
+   forbidden, with the one exception `details` and `summary` for the note block
+   for assistants.
+7. Does a generated Markdown view sit beside every CSV, and does the CSV stay
+   there for download?
+8. Do generated files carry `kind: generated`, name their source, and has none
+   of them been hand-edited?
+9. Are images and diagrams SVG with a relative path?
+10. Does every CSV keep to the rules, so UTF-8 without BOM, LF, comma, RFC
+    4180, exactly one header row, no merged cells, no comment among the data,
+    field names English and lowercase, dates as `YYYY-MM-DD`, and several
+    values separated by a space?
+11. Does the file stay independent of any one site generator? Which one it
+    becomes is not decided, and rules 1 to 10 keep several open, though not
+    all.
+
+Not every rule has a subject in every change. A change with no CSV answers
+points 7 and 10 by recording that there was nothing to check, rather than
+leaving them out.
+
+## 17. Questions
+
+A question becomes an issue with the label `question`. That is the intended
+route, and a question is no lesser issue than a defect report.
+
+## 18. The review process
+
+Every contribution is read twice, and the two readings are separate because
+they look at different things.
+
+The content reading asks whether it is right, whether it sits in the right
+place, whether the structure of a chapter was kept, and whether source and date
+are recorded.
+
+The copyright reading asks only about the boundary in section 12. It works
+through the checklist in
+[copyright/checklist.en.md](copyright/checklist.en.md), it can lead to a
+refusal on its own, and it is due even when the content reading is already
+through.
+
+The process:
+
+1. The pull request names the issue it closes, or says why it has none.
+2. Authors do not read their own contribution. A contribution from outside is
+   read by the maintainers; a contribution by the maintainers waits for a
+   second reader.
+3. Where there is no second reader, the pull request says so in its text. No
+   box is ticked claiming otherwise.
+4. Both readings are recorded in the text of the pull request, with what was
+   actually checked. A reading that did not happen is recorded as not having
+   happened rather than left out.
+5. Small things are not sent back but noted and fixed on merge, if the
+   contributor agrees.
+6. Response times are an intention and not a promise.
+
+Everything about a change stands in the text of the pull request, including the
+reason for a refusal. If the text is wrong, incomplete or out of date, the text
+gets changed.
+
+## 19. What gets refused, named
+
+These cases lead to a refusal. Not all of them ask about the copyright
+boundary; the list stands in full here and in
+[copyright/checklist.en.md](copyright/checklist.en.md), so that nobody has to
+gather it from two places.
+
+- Adopted text from a standard.
+- A paraphrase that follows the structure of the original.
+- A catalog entry without source and date.
+- A mapping without `origin`.
+- A file without a YAML header.
+- An absolute link.
+- A slide or a training question carrying text from a standard.
+
+A refusal is not a rejection of the person. It says what has to change for the
+contribution to come in, and which point of this list it caught on.
+
+## 20. What this file is not
+
+No check enforces any of this. Nothing runs in this repository today that
+refuses a contribution because it breaks a format rule, because the
+Signed-off-by line is missing, because a reading did not happen, or because it
+carries text from a standard. These checklists are read by a person. Anyone
+taking them for a control is relying on something that does not exist.
+
+Four points could be checked mechanically later, and they stand here as what
+they are, namely as checks that do not exist yet:
+
+- whether every CSV keeps to the rules in point 10 of the checklist,
+- whether every relative link points at a file that exists,
+- whether every German file has an English one with a matching translation
+  state,
+- whether every generated view matches its source.
+
+There is no issue for any of the four today. The rest, the copyright boundary
+above all, stays a reading by a person and will not become a check later
+either.
+
+How people treat each other here stands in
+[CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md).
