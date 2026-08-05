@@ -184,7 +184,10 @@ Tabelle ist zugleich die Reihenfolge der Spalten in den Katalogdateien.
 | `part` | Zahl, etwa `1`, sonst leer | Die Teilnummer, wo das Dokument in Teile zerfällt. |
 | `doc_type` | `is`, `tr`, `ts`, `pas`, `iwa`, `guide`, `amd`, `cor` | Die Dokumentart. Pflicht, siehe 4.1. |
 | `edition_year` | Vierstelliges Jahr, etwa `2022` | Jahr der geltenden Ausgabe. |
-| `amendments` | Mehrwertig, etwa `amd-1:2024`, sonst `none` | Änderungen und Berichtigungen zur laufenden Ausgabe. Pflicht, siehe 4.1. |
+| `amendments` | Mehrwertig, etwa `amd-1:2024`, sonst `none` | Änderungen und Berichtigungen zur laufenden Ausgabe. Pflicht, siehe 4.1 und 4.3. |
+| `amendments_source` | Eine Adresse, sonst leer | Die Katalogseite, deren Verlauf gelesen wurde. Leer, wo keine gelesen wurde. |
+| `amendments_note` | Ein Satz in eigenen Worten, sonst leer | Warum `amendments` leer ist oder warum `none` ohne gelesene Seite dasteht. Bei einem aus einer Quelle gelesenen Wert leer. |
+| `amendments_read_on` | Datum als `JJJJ-MM-TT`, sonst leer | Der Tag, an dem im Katalog gesucht wurde. Leer, wo nicht gesucht wurde. |
 | `title_en` | Die englische Bezeichnung | Amtliche Bezeichnung, bibliografische Angabe und deshalb wörtlich. |
 | `title_de` | Die deutsche Bezeichnung, sonst leer | Nur gefüllt, wo es eine deutsche Übernahme der hier verzeichneten Ausgabe gibt, und dann wörtlich aus deren Katalogeintrag; sonst bleibt das Feld leer, statt eine eigene Übersetzung wie eine amtliche aussehen zu lassen. Siehe 4.2. |
 | `title_de_source` | Adresse, sonst leer | Der Katalogeintrag, aus dem der deutsche Titel gelesen wurde. Leer, wo `title_de` leer ist. |
@@ -270,6 +273,37 @@ sagen also, dass dort nichts gefunden wurde, und nicht, dass es nichts gibt.
 Die Notiz ist englisch geschrieben, wie der übrige freie Text in diesen Dateien.
 Der Titel selbst ist deutsch, weil er zitiert ist.
 
+### 4.3 Woher die Änderungen kommen
+
+Auch eine Änderung wird gefunden und nicht erschlossen. Gelesen wird der
+Verlauf, den ein Normenkatalog zu einem Dokument führt, also die Liste der
+Ausgaben, Änderungen und Berichtigungen mit ihren Bezeichnungen. Übernommen
+werden daraus nur die Zeilen, deren Bezeichnung genau die Ausgabe nennt, die der
+Eintrag verzeichnet. Eine Änderung zu einer früheren Ausgabe gehört zu jener
+Ausgabe und nicht zu dieser.
+
+Geschrieben wird die Bezeichnung kleingeschrieben und ohne Leerzeichen, also
+`amd-1:2024` und `cor-1:2014`, mehrere durch ein Leerzeichen getrennt und
+Änderungen vor Berichtigungen. `amendments_source` nennt die gelesene Seite und
+`amendments_read_on` den Tag.
+
+Drei Fälle sehen anders aus, und welcher es war, steht in `amendments_note`.
+
+Wo der Eintrag gar keine Ausgabe verzeichnet, weil das Dokument noch keine hat
+oder zurückgezogen wurde, ohne dass ein Jahr feststeht, gibt es keine Ausgabe,
+an der eine Änderung hängen könnte. Dort steht `none` ohne Quelle und ohne
+Datum, und die Notiz sagt das.
+
+Wo der Katalog zu einer Bezeichnung überhaupt kein Dokument führt, bleibt
+`amendments` leer. Dort ist nicht festgestellt, ob es eine Änderung gibt, und
+`none` würde etwas anderes behaupten. Das Datum steht trotzdem, weil gesucht
+wurde.
+
+Wo der Katalog das Dokument führt und in seinem Verlauf keine Änderung zur
+verzeichneten Ausgabe steht, steht `none`. Das ist die Aussage einer Quelle und
+nicht die Abwesenheit einer Suche. Es bleibt die Aussage einer einzigen Quelle:
+was dort fehlt, fehlt hier auch.
+
 ## 5. Wo ein Eintrag steht
 
 Der Katalog ist nicht eine Datei, sondern acht, eine je Familie, unter
@@ -311,6 +345,10 @@ hier zitiert, nicht nachgeprüft.
 
 Abschnitt 4.2 und die Felder `title_de_source` und `title_de_note` kamen am
 05.08.2026 dazu, als die Spalte `title_de` gefüllt wurde.
+
+Abschnitt 4.3 und die Felder `amendments_source`, `amendments_note` und
+`amendments_read_on` kamen am 05.08.2026 dazu, als die Spalte `amendments`
+gefüllt wurde.
 
 Abschnitt 3.1 kam am 05.08.2026 dazu, als die Spalten `layer` und
 `layer_reason` gefüllt wurden. Er hält fest, wie die sechs Werte dabei vergeben
