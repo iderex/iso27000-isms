@@ -1,12 +1,19 @@
-# Ruft die drei Prüfungen aus CONTRIBUTING.md, Abschnitt 10, auf, und vor ihnen
-# die drei Beweise, die daneben liegen. Ein Beweis, der nicht mehr beißt, macht
-# die Aussage der zugehörigen Prüfung wertlos, deshalb laufen die Beweise
-# zuerst und die Prüfungen erst danach.
+# Ruft die drei Prüfungen aus CONTRIBUTING.md, Abschnitt 10, auf, und daneben
+# die drei Beweise, die bei den Skripten liegen. Beide Aufträge laufen
+# unabhängig voneinander, und das ist gemessen und nicht geraten: mit
+# `needs: proofs` am zweiten Auftrag hat eine Datei mit absolutem Verweis den
+# ersten Auftrag rot gemacht und den zweiten übersprungen, weil
+# `check-links-test.py` einen Prüffall gegen den echten Baum führt. Der Leser
+# sah dann einen fehlgeschlagenen Beweis und nicht die Meldung der Prüfung, die
+# Datei, Zeile und Regel nennt.
 #
-# Calls the three checks from CONTRIBUTING.md, section 20, and ahead of them the
-# three proofs that sit beside them. A proof that no longer bites makes the
-# statement of its check worthless, so the proofs run first and the checks only
-# after them.
+# Calls the three checks from CONTRIBUTING.md, section 20, and beside them the
+# three proofs that sit with the scripts. Both jobs run independently of each
+# other, and that is measured rather than supposed: with `needs: proofs` on the
+# second job, a file carrying an absolute link turned the first job red and
+# skipped the second, because `check-links-test.py` carries one test case
+# against the real tree. The reader then saw a failed proof and not the message
+# of the check, which names file, line and rule.
 #
 # Was dieser Ablauf nicht tut: einen Beitrag zurückweisen. Das Regelwerk auf
 # `main` führt keine erforderliche Prüfung, und ein roter Lauf verhindert das
@@ -45,7 +52,6 @@ jobs:
 
   checks:
     name: Prüfungen / Checks
-    needs: proofs
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
