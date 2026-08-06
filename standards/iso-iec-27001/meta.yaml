@@ -1,0 +1,45 @@
+id: iso-iec-27001
+number: 27001
+edition_year: 2022
+doc_type: is
+status: published
+family: core-27000
+layer: core
+isms_relation: requirements
+languages:
+  - de
+  - en
+presentation:
+  management:
+    needed: true
+    note: >
+      Die oberste Leitung entscheidet über Geltungsbereich, Mittel und die
+      Genehmigung von Restrisiken, und diese Entscheidungen verlangt die Norm
+      ausdrücklich von ihr. Dieser Satz führt auf eine Entscheidung hin und
+      trägt keine Klauselarbeit; darin unterscheidet er sich von dem für die
+      Praxis.
+  practitioners:
+    needed: true
+    note: >
+      Wer das Managementsystem aufbaut und betreibt, arbeitet an den Klauseln
+      entlang und braucht die Reihenfolge von der Risikobeurteilung bis zur
+      Erklärung zur Anwendbarkeit. Dieser Satz führt auf eine Handlung hin und
+      ist keine gekürzte Fassung des Leitungssatzes; er ist länger und geht die
+      Kapitel 4 bis 10 einzeln durch.
+  engineering:
+    needed: false
+    note: >
+      Diese Norm verlangt nichts Technisches. Was die Technik umsetzt, kommt
+      aus den Maßnahmen und gehört zu den Foliensätzen von ISO/IEC 27002.
+  all-staff:
+    needed: false
+    note: >
+      Für alle Beschäftigten ist die Norm der falsche Gegenstand. Was sie
+      angeht, ist das eigene Verhalten, und dafür gibt es das
+      Awareness-Material.
+  auditors:
+    needed: false
+    note: >
+      Wer prüft, arbeitet mit dem Normtext und nicht mit einem Foliensatz aus
+      diesem Repository. Was hier über Nachweise steht, gehört in den Satz für
+      die Praxis.

@@ -1,0 +1,42 @@
+id: iso-iec-27005
+number: 27005
+edition_year: 2022
+doc_type: is
+status: published
+family: risk
+layer: core
+isms_relation: risk
+catalog_confirmation: unconfirmed
+languages:
+  - de
+  - en
+presentation:
+  management:
+    needed: false
+    note: >
+      Die Leitung entscheidet über Kriterien und genehmigt Restrisiken, und
+      beides steht im Foliensatz zu ISO/IEC 27001. Ein zweiter Satz über das
+      Verfahren dahinter führt zu keiner weiteren Entscheidung.
+  practitioners:
+    needed: true
+    note: >
+      Wer beurteilt und behandelt, arbeitet mit dem Verfahren selbst und
+      braucht Skala, Kriterien und die Reihenfolge der Schritte an einer
+      Stelle. Dieser Satz führt auf eine Handlung hin und ist der einzige
+      bejahte zu diesem Thema.
+  engineering:
+    needed: false
+    note: >
+      Die Technik setzt Maßnahmen um und beurteilt keine Risiken. Was aus der
+      Beurteilung folgt, gehört zu den Foliensätzen von ISO/IEC 27002.
+  all-staff:
+    needed: false
+    note: >
+      Für alle Beschäftigten ist das Verfahren der falsche Gegenstand. Was sie
+      angeht, ist das Melden einer Beobachtung, und dafür gibt es das
+      Awareness-Material.
+  auditors:
+    needed: false
+    note: >
+      Wer prüft, sieht sich die Aufzeichnungen der Organisation an und nicht
+      einen Foliensatz. Was er dabei sucht, steht im Satz für die Praxis.
