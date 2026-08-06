@@ -1,0 +1,48 @@
+id: iso-iec-27002
+number: 27002
+edition_year: 2022
+doc_type: is
+status: published
+family: core-27000
+layer: core
+isms_relation: controls
+catalog_confirmation: confirmed
+languages:
+  - de
+  - en
+presentation:
+  management:
+    needed: false
+    note: >
+      Die Leitung entscheidet nicht über einzelne Maßnahmen, sondern über
+      Geltungsbereich, Mittel und die Genehmigung von Restrisiken. Diese
+      Entscheidungen stehen im Foliensatz zu ISO/IEC 27001. Ein Satz über die
+      Maßnahmen führt für sie zu keiner weiteren Entscheidung und lädt dazu
+      ein, die Liste für den Ausgangspunkt zu halten.
+  practitioners:
+    needed: true
+    note: >
+      Wer die Behandlung führt, hält ihr Ergebnis gegen den Anhang und schreibt
+      die Erklärung zur Anwendbarkeit. Dieser Satz beginnt bei der Behandlung
+      und endet bei der Begründung je Nummer; er ist an der Reihenfolge
+      aufgebaut und nicht an den vier Gruppen.
+  engineering:
+    needed: true
+    note: >
+      Die Technik setzt einzelne Maßnahmen um und braucht, was hinter einer
+      Nummer steht und woran man erkennt, dass sie wirkt. Dieser Satz beginnt
+      bei einer einzelnen Maßnahme und geht nicht durch das Verfahren; darin
+      unterscheidet er sich vom Satz für die Praxis, und keiner der beiden ist
+      die gekürzte Fassung des anderen.
+  all-staff:
+    needed: false
+    note: >
+      Für alle Beschäftigten sind die Maßnahmen als Sammlung der falsche
+      Gegenstand. Was sie angeht, sind die wenigen Maßnahmen, die ihr eigenes
+      Handeln betreffen, und dafür gibt es das Awareness-Material.
+  auditors:
+    needed: false
+    note: >
+      Wer prüft, sieht sich die Erklärung zur Anwendbarkeit und die
+      Aufzeichnungen der Organisation an und nicht einen Foliensatz über die
+      Maßnahmen. Was er dabei sucht, steht im Satz für die Praxis.
