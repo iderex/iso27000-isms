@@ -20,9 +20,9 @@ Vorausgesetzt wird eine abgeschlossene Risikobehandlung, wenigstens für einen
 Teil des Geltungsbereichs, und die Begriffe Maßnahme, Restrisiko und Erklärung
 zur Anwendbarkeit. Sie stehen in [glossary/de.md](../../glossary/de.md).
 
-Vorausgesetzt wird außerdem Stufe 3 des Lernpfads in
-[learning-path/step-3/de.md](../../learning-path/step-3/de.md), also die
-Risikoarbeit, aus der die behandelten Zeilen stammen.
+Vorausgesetzt wird außerdem Stufe 1 des Lernpfads in
+[learning-path/step-1/de.md](../../learning-path/step-1/de.md), also der Kern
+mit der Reihenfolge, aus der die behandelten Zeilen stammen.
 
 Wer die Behandlung noch nicht hinter sich hat, lernt hier ein Verfahren, für das
 ihm der Ausgangsstoff fehlt.

@@ -20,9 +20,9 @@ Presupposed is a finished risk treatment, at least for part of the scope, and
 the terms control, residual risk and statement of applicability. They stand in
 [glossary/en.md](../../glossary/en.md).
 
-Presupposed as well is step 3 of the learning path in
-[learning-path/step-3/en.md](../../learning-path/step-3/en.md), that is the risk
-work the treated rows come from.
+Presupposed as well is step 1 of the learning path in
+[learning-path/step-1/en.md](../../learning-path/step-1/en.md), that is the core
+with the order the treated rows come from.
 
 Anyone who has not been through the treatment learns a procedure here whose
 input material is missing.
