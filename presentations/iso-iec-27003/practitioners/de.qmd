@@ -1,0 +1,140 @@
+---
+title: ISO/IEC 27003, die Anleitung zur Anforderung
+subtitle: ISO/IEC 27003, Praxis
+lang: de
+id: presentation-iso-iec-27003-practitioners
+kind: presentation
+updated: 2026-08-06
+translated_from: original
+format:
+  revealjs:
+    slide-number: true
+    incremental: false
+---
+
+# Anlass und Zielgruppe
+
+## Wofür dieser Foliensatz gemacht ist
+
+- Anlass: Schulung beim Aufbau eines ISMS, wenn die Anforderungen gelesen sind
+  und die Umsetzung ansteht
+- Zielgruppe: `practitioners`
+- Dauer: 45 Minuten, mit einer Übung an einer selbst mitgebrachten Klausel
+- Was die Zuhörer schon wissen: die Gliederung von ISO/IEC 27001 und die
+  Begriffe Geltungsbereich, interessierte Partei und dokumentierte Information
+
+::: {.notes}
+Diese Folie wird nicht vorgetragen. Zu diesem Thema gibt es nur diesen einen
+Satz. Für die Leitung steht das Nötige im Satz zu ISO/IEC 27001, denn eine
+Anleitung zur Umsetzung führt für sie zu keiner weiteren Entscheidung.
+:::
+
+# Worum es geht
+
+## Der Gegenstand in einem Satz
+
+ISO/IEC 27003 beantwortet zu den Anforderungen aus ISO/IEC 27001 die Frage, die
+nach dem ersten Lesen immer kommt: was ist damit gemeint, wenn man es tun soll.
+
+## Warum das die Praxis angeht
+
+- Die Anforderungen sind kurz geschrieben, und Kürze ist nicht Klarheit
+- Wer an einer Klausel festhängt, hängt meistens an ihrer Reichweite und nicht
+  an ihrem Wortlaut
+- Ohne einen gemeinsamen Maßstab wird jede Reichweite neu verhandelt, und zwar
+  mit Meinungen
+
+# Die Richtung, in der sie gelesen wird
+
+## Nicht von vorne nach hinten
+
+- Von vorne gelesen ist sie ein zweites Mal die Gliederung von ISO/IEC 27001
+- An der Klausel aufgeschlagen, an der es klemmt, ist sie die Erläuterung zu
+  genau dieser Stelle
+- Erst die Anforderung lesen, aufschreiben, was man verstanden hat, und dann
+  die Anleitung dazunehmen
+
+## Warum die Reihenfolge zählt
+
+- Wer die Anleitung zuerst liest, liest sie als Anforderung
+- Dann entsteht Aufwand, den niemand verlangt hat, und er ist später schwer
+  wieder wegzunehmen
+- Verbindlich ist ISO/IEC 27001:2022, diese Norm ist es nicht
+
+# Was sie im Alltag leistet
+
+## Drei Verwendungen
+
+- Eine Klausel verstehen, an der die Umsetzung stockt
+- Eine vorhandene Umsetzung auf die Klausel zurückführen, an der sie hängt
+- Einen Streit über die Reichweite einer Anforderung beenden, weil beide Seiten
+  denselben Text anerkennen
+
+## Die Rückführung ist die nützlichste
+
+- Zu jeder Sache im ISMS gehört die Frage, an welcher Klausel sie hängt
+- Fehlt die Antwort, steht entweder etwas Überflüssiges da oder eine Anforderung
+  ist woanders nicht erfüllt
+- Beides ist ein Befund, und beide sind billiger als eine Feststellung im Audit
+
+# Was sie nicht ist
+
+## Drei Verwechslungen
+
+- Kein Prüfmaßstab: ein Audit hält die Organisation gegen ISO/IEC 27001, und
+  eine Abweichung von einer Anleitung ist keine Nichtkonformität
+- Keine Dokumentenvorlage: die Vorlagen dieses Repositorys stehen unter
+  `templates` und stammen nicht aus dieser Norm
+- Kein Ersatz für die Risikoarbeit: das Verfahren dahinter füllt ISO/IEC 27005
+  aus, und die Maßnahmen stehen in ISO/IEC 27002
+
+## Ein Punkt, der beim Lesen auffällt
+
+- Die Ausgabe dieser Anleitung ist von 2017, die Ausgabe der Anforderungen von
+  2022
+- Die Anleitung ist also gegen die vorige Ausgabe der Anforderungen geschrieben
+- An welchen Stellen die Anforderung sich seitdem geändert hat, sagt dieser
+  Satz nicht, weil dafür beide Ausgaben nebeneinander zu lesen wären
+
+# Was danach zu tun oder zu entscheiden ist
+
+## Die nächsten Schritte
+
+- Die Klausel benennen, an der die eigene Umsetzung gerade hängt, und nur zu
+  dieser die Anleitung aufschlagen
+- Zu drei vorhandenen Bestandteilen des ISMS die Klausel aufschreiben, an der
+  sie hängen, und die ohne Antwort auf eine Liste setzen
+- Für die Stelle, an der zwei Meinungen aufeinandertreffen, einen Termin
+  ansetzen, in dem die Anleitung mitgelesen wird
+- Wer, bis wann: gehört in die Aussprache und nicht auf diese Folie
+
+# Verweise
+
+## Norm, Klausel und Ausgabe
+
+- ISO/IEC 27003:2017, als ganze Norm
+- ISO/IEC 27001:2022, 4.1 bis 4.4
+- ISO/IEC 27001:2022, 5.1 bis 5.3
+- ISO/IEC 27001:2022, 6.1.1, 6.1.2, 6.1.3, 6.2
+- ISO/IEC 27001:2022, 7.1 bis 7.5
+- ISO/IEC 27001:2022, 8.1, 8.2, 8.3
+- ISO/IEC 27001:2022, 9.1, 9.2, 9.3
+- ISO/IEC 27001:2022, 10.1, 10.2
+- ISO/IEC 27005:2022 und ISO/IEC 27002:2022, jeweils als ganze Norm
+
+Auf diesen Folien steht kein Normtext. Zu ISO/IEC 27003 wird keine
+Klauselnummer genannt, und der Grund steht im Kapitel zu dieser Norm: eine
+Nummer, die niemand nachgeschlagen hat, sieht nachprüfbar aus und ist es nicht.
+
+# Herkunft
+
+## Lizenz und Herkunft
+
+ISO/IEC 27003, die Anleitung zur Anforderung, aus iso27000-isms, unter
+CC-BY-SA-4.0, `https://creativecommons.org/licenses/by-sa/4.0/`
+
+- Stand: 06.08.2026
+- Gelesen wurde: ISO/IEC 27003:2017, dessen Katalogeintrag `confirmed` trägt,
+  und ISO/IEC 27001:2022, geprüft gegen öffentliche Sekundärquellen und nicht
+  gegen eine lizenzierte Ausgabe
+- Die Normen selbst stehen nicht unter dieser Lizenz.
