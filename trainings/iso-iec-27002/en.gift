@@ -1,0 +1,144 @@
+// QUESTION SET ON ISO/IEC 27002, from iso27000-isms, under CC-BY-SA-4.0,
+// https://creativecommons.org/licenses/by-sa/4.0/
+// Topic: iso-iec-27002. Language: en. The German version sits in de.gift.
+//
+// This file carries no YAML header. A header ahead of the first line becomes a
+// question on import. The exception to format rule 3 and its reason stand in
+// ../en.md, section 5. These lines carry what the header would have carried.
+//
+// Twelve scored questions, which is the number in the meta.yaml. The text
+// before them is a description and is not scored.
+// No standard wording, no control title, no description of a control.
+// Controls are addressed by their number.
+
+$CATEGORY: iso-iec-27002
+
+::Note before the following questions::
+The following questions cover the way from a treated row in the risk register to
+a reasoned number in the statement of applicability. References are by standard,
+clause and edition; the wording is to be opened in a licensed copy.
+
+// 1
+
+::The direction::
+The number is looked for to fit an intention that comes from the risk treatment,
+and not the intention to fit the number.{TRUE
+####Right. ISO/IEC 27001\:2022 asks in 6.1.3 for the controls to be determined
+from the treatment and only then held against the annex. Anyone turning the
+direction around ticks off a list and looks for the risks afterwards.}
+
+// 2
+
+::The clause for the comparison::
+In which clause of ISO/IEC 27001\:2022 do the comparison against the annex and
+the statement of applicability stand?{
+=6.1.3 #Right.
+~6.1.2 #That is the risk assessment.
+~8.1 #That is carrying it out in operation.
+~9.1 #That is evaluating the effectiveness.
+####The comparison belongs to planning the treatment and therefore stands in the
+same subclause as the treatment itself.}
+
+// 3
+
+::Departing from guidance::
+A departure from ISO/IEC 27002\:2022 is a nonconformity.{FALSE
+####Wrong. ISO/IEC 27002 is guidance and nobody is certified against it. An
+audit holds the organisation against ISO/IEC 27001\:2022 and against its own
+determinations.}
+
+// 4
+
+::What belongs to a non-application::
+Which two entries belong to a control that is not applied?{
+~%50%That it is not applied, entered expressly. #Right.
+~%50%A reason that is a finding about the risk situation. #Right.
+~%-100%A reason naming the effort the implementation would take. #Effort is a
+reason to treat differently and not a statement about the risk.
+~%-100%An empty row, because there is nothing to do. #An empty row does not say
+whether somebody decided or whether somebody missed it.
+####The two together make a non-application a decision. Without the second, what
+is really missing is the approved residual risk.}
+
+// 5
+
+::The document at the end::
+What is the document called in which it stands, for every number of the annex,
+whether it is applied and why?{
+=statement of applicability
+=the statement of applicability
+=Statement of Applicability
+####ISO/IEC 27001\:2022 asks for it in 6.1.3. It is built against the annex and
+not against the organisation.}
+
+// 6
+
+::An intention with no matching number::
+An intention from the treatment fits no number of the annex. What follows?{
+=It is a control of your own and stands in the risk register. #Right.
+~The treatment is wrong and gets done again. #The annex is no measure for the
+treatment.
+~The intention is dropped because it does not occur in the annex. #The annex is
+a check against what was forgotten and not a closed list.
+~It gets put under the nearest number. #Then the reason points at something that
+was not meant.
+####The annex does not cover every situation. A control of your own is the
+ordinary case and not a mistake.}
+
+// 7
+
+::Number range and field::
+Assign to each number range of ISO/IEC 27002\:2022 the field it concerns.{
+=5 -> organisational
+=6 -> people
+=7 -> physical
+=8 -> technological
+####The four ranges are the rough order of the 2022 edition. Which numbers exist
+in detail and what stands behind each of them is the subject of a licensed copy.}
+
+// 8
+
+::What the comparison is for::
+The comparison against the annex is a check against what was {=forgotten
+~counted ~secured ~afforded} and no promise that nothing can happen any
+more.{####An organisation can have applied every number and have missed a risk
+that occurs in none of them.}
+
+// 9
+
+::The current edition::
+Which year is the edition of ISO/IEC 27002 from that this training covers?{#2022:0
+####It is rebuilt against the 2013 edition\: the controls are reordered and
+carry different numbers.}
+
+// 10
+
+::An older mapping in the house::
+A mapping built against the 2013 edition can be carried on unchanged against the
+2022 edition.{FALSE
+####Wrong. The numbers are assigned anew and some controls have been merged, so
+an old number points somewhere else in the new edition.}
+
+// 11
+
+::Order and reasoning::
+The comparison is made before the risk treatment. Write in two sentences how
+that shows in the finished statement of applicability later.{
+####Model answer. The reasons then point at the content of the standard instead
+of at a risk row of your own, and they sound the same for every organisation. It
+shows in an applied control having no row in the risk register that it points
+back to.}
+
+// 12
+
+::Who sets the measure::
+What is the reason for a non-application measured against?{
+=Against the risk situation of your own organisation. #Right.
+~Against the effort the implementation would take. #Effort is a reason to treat
+differently.
+~Against what is usual in the sector. #Being usual is no finding about your own
+risk.
+~Against the opinion of the certification body. #It checks; it does not set the
+measure.
+####The statement of applicability points back at the risk work in both
+directions, for application as for non-application.}

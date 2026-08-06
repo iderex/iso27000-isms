@@ -1,0 +1,150 @@
+// FRAGENSATZ ZU ISO/IEC 27002, aus iso27000-isms, unter CC-BY-SA-4.0,
+// https://creativecommons.org/licenses/by-sa/4.0/
+// Thema: iso-iec-27002. Sprache: de. Die englische Fassung liegt in en.gift.
+//
+// Diese Datei trägt keinen YAML-Kopf. Ein Kopf vor der ersten Zeile wird beim
+// Einlesen zu einer Frage. Die Ausnahme von Formatregel 3 und ihr Grund stehen
+// in ../de.md, Abschnitt 5. Diese Zeilen tragen, was der Kopf getragen hätte.
+//
+// Zwölf bewertete Fragen, das ist die Zahl in der meta.yaml. Der Text davor
+// ist eine Beschreibung und wird nicht bewertet.
+// Kein Normtext, kein Maßnahmentitel, keine Beschreibung einer Maßnahme.
+// Maßnahmen werden über ihre Nummer angesprochen.
+
+$CATEGORY: iso-iec-27002
+
+::Vorbemerkung zu den folgenden Fragen::
+Die folgenden Fragen prüfen den Weg von einer behandelten Zeile im
+Risikoregister bis zu einer begründeten Nummer in der Erklärung zur
+Anwendbarkeit. Verwiesen wird über Norm, Klausel und Ausgabe; der Wortlaut ist
+in einer lizenzierten Ausgabe aufzuschlagen.
+
+// 1
+
+::Die Richtung::
+Die Nummer wird zu einem Vorhaben gesucht, das aus der Risikobehandlung stammt,
+und nicht das Vorhaben zur Nummer.{TRUE
+####Richtig. ISO/IEC 27001\:2022 verlangt in 6.1.3, dass die Maßnahmen aus der
+Behandlung bestimmt und erst danach gegen den Anhang gehalten werden. Wer die
+Richtung umdreht, hakt eine Liste ab und sucht die Risiken hinterher dazu.}
+
+// 2
+
+::Zuständige Klausel für den Abgleich::
+In welcher Klausel von ISO/IEC 27001\:2022 stehen der Abgleich mit dem Anhang
+und die Erklärung zur Anwendbarkeit?{
+=6.1.3 #Richtig.
+~6.1.2 #Dort steht die Risikobeurteilung.
+~8.1 #Dort steht die Durchführung im Betrieb.
+~9.1 #Dort steht die Bewertung der Wirksamkeit.
+####Der Abgleich gehört zur Planung der Behandlung und steht deshalb im selben
+Abschnitt wie die Behandlung selbst.}
+
+// 3
+
+::Abweichung von einer Anleitung::
+Eine Abweichung von ISO/IEC 27002\:2022 ist eine Nichtkonformität.{FALSE
+####Falsch. ISO/IEC 27002 ist eine Anleitung, und niemand wird gegen sie
+zertifiziert. Ein Audit hält die Organisation gegen ISO/IEC 27001\:2022 und
+gegen ihre eigenen Festlegungen.}
+
+// 4
+
+::Was zu einer Nichtanwendung gehört::
+Welche zwei Angaben gehören zu einer Maßnahme, die nicht angewendet wird?{
+~%50%Dass sie nicht angewendet wird, ausdrücklich eingetragen. #Richtig.
+~%50%Eine Begründung, die eine Feststellung über die Risikolage ist. #Richtig.
+~%-100%Eine Begründung mit dem Aufwand der Umsetzung. #Aufwand ist ein Grund,
+anders zu behandeln, und keine Aussage über das Risiko.
+~%-100%Eine leere Zeile, weil nichts zu tun ist. #Eine leere Zeile sagt nicht,
+ob jemand entschieden oder ob jemand übersehen hat.
+####Beide Angaben zusammen machen aus einer Nichtanwendung eine Entscheidung.
+Fehlt die zweite, fehlt in Wahrheit das genehmigte Restrisiko.}
+
+// 5
+
+::Das Dokument am Ende::
+Wie heißt das Dokument, in dem zu jeder Nummer des Anhangs steht, ob sie
+angewendet wird und warum?{
+=Erklärung zur Anwendbarkeit
+=die Erklärung zur Anwendbarkeit
+=Erklaerung zur Anwendbarkeit
+####ISO/IEC 27001\:2022 verlangt sie in 6.1.3. Sie ist gegen den Anhang gebaut
+und nicht gegen die Organisation.}
+
+// 6
+
+::Vorhaben ohne passende Nummer::
+Ein Vorhaben aus der Behandlung passt zu keiner Nummer des Anhangs. Was folgt
+daraus?{
+=Es ist eine eigene Maßnahme und steht im Risikoregister. #Richtig.
+~Die Behandlung ist falsch und wird noch einmal gemacht. #Der Anhang ist kein
+Maßstab für die Behandlung.
+~Das Vorhaben entfällt, weil es im Anhang nicht vorkommt. #Der Anhang ist eine
+Kontrolle auf Vergessenes und keine abschließende Liste.
+~Es wird der ähnlichsten Nummer zugeschlagen. #Dann zeigt die Begründung auf
+etwas, das nicht gemeint war.
+####Der Anhang deckt nicht jede Lage ab. Eine eigene Maßnahme ist der
+Normalfall und kein Fehler.}
+
+// 7
+
+::Nummernbereich und Feld::
+Ordne jedem Nummernbereich aus ISO/IEC 27002\:2022 das Feld zu, das er
+betrifft.{
+=5 -> organisatorisch
+=6 -> Menschen
+=7 -> physisch
+=8 -> technisch
+####Die vier Bereiche sind die grobe Ordnung der Ausgabe 2022. Welche Nummern
+es im Einzelnen gibt und was hinter jeder steht, ist Gegenstand einer
+lizenzierten Ausgabe.}
+
+// 8
+
+::Wozu der Abgleich dient::
+Der Abgleich mit dem Anhang ist eine Kontrolle auf {=Vergessenes ~Vollzähligkeit
+~Sicherheit ~Wirtschaftlichkeit} und kein Versprechen, dass nichts mehr
+passieren kann.{####Eine Organisation kann jede Nummer angewendet haben und ein
+Risiko übersehen haben, das in keiner davon vorkommt.}
+
+// 9
+
+::Die geltende Ausgabe::
+Aus welchem Jahr stammt die Ausgabe von ISO/IEC 27002, die dieses Training
+behandelt?{#2022:0
+####Sie ist gegenüber der Ausgabe von 2013 umgebaut\: die Maßnahmen sind neu
+geordnet und tragen andere Nummern.}
+
+// 10
+
+::Alte Zuordnung im Haus::
+Eine Zuordnung, die gegen die Ausgabe 2013 gebaut wurde, kann gegen die Ausgabe
+2022 unverändert weiterbenutzt werden.{FALSE
+####Falsch. Die Nummern sind neu vergeben und einzelne Maßnahmen sind
+zusammengefasst worden, deshalb zeigt eine alte Nummer in der neuen Ausgabe
+woanders hin.}
+
+// 11
+
+::Reihenfolge und Begründung::
+Der Abgleich wird vor der Risikobehandlung gemacht. Schreibe in zwei Sätzen,
+woran man das der fertigen Erklärung zur Anwendbarkeit später ansieht.{
+####Musterlösung. Die Begründungen zeigen dann auf den Inhalt der Norm statt auf
+eine eigene Risikozeile, und sie klingen für jede Organisation gleich. Sichtbar
+wird es daran, dass zu einer angewendeten Maßnahme keine Zeile im Risikoregister
+gehört, auf die sie zurückzeigt.}
+
+// 12
+
+::Wer den Maßstab setzt::
+Womit wird die Begründung einer Nichtanwendung gemessen?{
+=Mit der Risikolage der eigenen Organisation. #Richtig.
+~Mit dem Aufwand, den die Umsetzung machen würde. #Aufwand ist ein Grund, anders
+zu behandeln.
+~Mit dem, was in der Branche üblich ist. #Üblichkeit ist keine Feststellung über
+das eigene Risiko.
+~Mit der Meinung der Zertifizierungsstelle. #Die prüft, sie setzt den Maßstab
+nicht.
+####Die Erklärung zur Anwendbarkeit zeigt in beide Richtungen auf die
+Risikoarbeit zurück, bei Anwendung wie bei Nichtanwendung.}

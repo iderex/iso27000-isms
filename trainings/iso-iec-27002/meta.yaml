@@ -1,0 +1,10 @@
+id: iso-iec-27002
+objective: >
+  Wer dieses Training abgeschlossen hat, kann zu einer behandelten Zeile aus dem
+  Risikoregister die Nummer aus dem Anhang suchen, die Entscheidung über
+  Anwendung oder Nichtanwendung begründen und sagen, was davon in die Erklärung
+  zur Anwendbarkeit gehört.
+duration_minutes: 60
+audience: practitioners
+question_count: 12
+pass_mark_percent: 70
