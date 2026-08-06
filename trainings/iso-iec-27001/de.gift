@@ -1,0 +1,153 @@
+// FRAGENSATZ ZU ISO/IEC 27001, aus iso27000-isms, unter CC-BY-SA-4.0,
+// https://creativecommons.org/licenses/by-sa/4.0/
+// Thema: iso-iec-27001. Sprache: de. Die englische Fassung liegt in en.gift.
+//
+// Diese Datei trägt keinen YAML-Kopf. Ein Kopf vor der ersten Zeile wird beim
+// Einlesen zu einer Frage. Die Ausnahme von Formatregel 3 und ihr Grund stehen
+// in ../de.md, Abschnitt 5. Diese Zeilen tragen, was der Kopf getragen hätte.
+//
+// Zwölf bewertete Fragen, das ist die Zahl in der meta.yaml. Der Text davor
+// ist eine Beschreibung und wird nicht bewertet.
+// Kein Normtext, weder in einer Frage noch in einer Antwortmöglichkeit.
+
+$CATEGORY: iso-iec-27001
+
+::Vorbemerkung zu den folgenden Fragen::
+Die folgenden Fragen prüfen, ob eine Anforderung an ihrer Klausel wiedergefunden
+wird und ob sie von einer Maßnahme aus dem Anhang unterschieden wird. Verwiesen
+wird über Norm, Klausel und Ausgabe.
+
+// 1
+
+::Eine Anforderung abwählen::
+Eine Organisation kann eine Anforderung aus den Kapiteln 4 bis 10 von
+ISO/IEC 27001\:2022 mit Begründung abwählen, so wie eine Maßnahme aus dem
+Anhang.{FALSE
+####Falsch. Abgewählt wird nur eine Maßnahme, und die Begründung dafür kommt
+aus der Risikobehandlung. Eine Anforderung gilt für jede Organisation, die ein
+ISMS nach dieser Norm betreibt.}
+
+// 2
+
+::Zuständige Klausel für die Erklärung zur Anwendbarkeit::
+In welcher Klausel von ISO/IEC 27001\:2022 hängt die Erklärung zur
+Anwendbarkeit?{
+=6.1.3 #Richtig.
+~4.3 #Dort steht der Geltungsbereich.
+~8.3 #Dort steht die Durchführung der Risikobehandlung im Betrieb.
+~9.3 #Dort steht die Managementbewertung.
+####Die Erklärung ist ein Ergebnis der Risikobehandlung und steht deshalb bei
+der Planung und nicht beim Betrieb.}
+
+// 3
+
+::Kompetenz und Bewusstsein::
+Eine Organisation legt je Rolle fest, welche Fähigkeit für eine benannte
+Aufgabe verlangt ist und woran sie belegt wird. An welcher Klausel von
+ISO/IEC 27001\:2022 hängt das?{
+=7.2 #Richtig.
+~7.3 #Dort geht es darum, dass Beschäftigte ihre Rolle im ISMS kennen.
+~7.4 #Dort geht es um die Kommunikation.
+~7.5 #Dort geht es um die dokumentierte Information, also um die Aufzeichnung
+dazu.
+####7.2 fragt nach der Fähigkeit für eine Aufgabe, 7.3 nach dem Wissen um die
+eigene Rolle. Eine Unterweisung für alle deckt das erste nicht ab.}
+
+// 4
+
+::Was eine Nichtkonformität ist::
+Welche zwei Fälle sind eine Nichtkonformität?{
+~%50%Eine Anforderung aus den Kapiteln 4 bis 10 ist nicht erfüllt. #Richtig.
+~%50%Die Organisation hält eine Festlegung nicht ein, die sie selbst getroffen
+hat. #Richtig.
+~%-100%Die Organisation weicht von einer Anleitung ab und erfüllt die
+Anforderung dabei. #Gegen eine Anleitung wird nicht zertifiziert.
+~%-100%Eine Maßnahme aus dem Anhang wird nicht angewendet und die
+Nichtanwendung ist begründet. #Das ist eine Entscheidung und kein Befund.
+####Der Maßstab ist die Anforderung und daneben das, was die Organisation
+selbst festgelegt hat. Eine Anleitung ist kein Maßstab.}
+
+// 5
+
+::Zahl der Kapitel mit Anforderungen::
+Wie viele Kapitel von ISO/IEC 27001\:2022 tragen Anforderungen, gegen die
+zertifiziert wird?{#7:0
+####Es sind die Kapitel 4 bis 10. Die Kapitel davor tragen Anwendungsbereich,
+Verweise und Begriffe und werden nicht geprüft.}
+
+// 6
+
+::Tätigkeit und Klausel::
+Ordne jeder Tätigkeit die Klausel aus ISO/IEC 27001\:2022 zu, die sie verlangt.{
+=Geltungsbereich festlegen -> 4.3
+=Risikobeurteilung durchführen -> 6.1.2
+=Internes Audit durchführen -> 9.2
+=Korrekturmaßnahme ergreifen -> 10.2
+####Vier Kapitel, vier Schritte. Wer die grobe Einteilung kennt, findet die
+Stelle, ohne die ganze Norm zu durchsuchen.}
+
+// 7
+
+::Eine Nummer, die es vorher nicht gab::
+Wofür steht 6.3 in ISO/IEC 27001\:2022?{
+=Für Änderungen am Managementsystem, die geplant durchgeführt werden.
+#Richtig.
+~Für die Ziele der Informationssicherheit. #Die stehen in 6.2.
+~Für die Risikobehandlung. #Die steht in 6.1.3.
+~Für die Bewertung der Leistung. #Die steht in Kapitel 9.
+####Diese Klausel gibt es erst in der Ausgabe 2022. Wer die vorige Ausgabe im
+Kopf hat, sucht sie vergeblich.}
+
+// 8
+
+::Abweichung von einer Anleitung::
+Eine Organisation setzt eine Stelle anders um, als ISO/IEC 27005 es vorschlägt,
+und erfüllt die Anforderung aus ISO/IEC 27001\:2022 dabei. Das ist eine
+Nichtkonformität.{FALSE
+####Falsch. Geprüft wird gegen die Anforderung. Eine Anleitung ist kein
+Prüfmaßstab, und eine Abweichung von ihr ist kein Befund.}
+
+// 9
+
+::Lücke, Nichtkonformität und Korrekturmaßnahme::
+Nichtkonformität und Korrekturmaßnahme stehen in ISO/IEC 27001\:2022 in
+{=10.2 ~10.1 ~9.2 ~8.1}.{####10.1 ist die fortlaufende Verbesserung. In der
+vorigen Ausgabe standen die beiden Nummern umgekehrt, und eine alte Prüfliste
+verweist deshalb auf die falsche.}
+
+// 10
+
+::Was bei einer nicht angewendeten Maßnahme dastehen muss::
+Wie heißt das Dokument, in dem die Entscheidung über Anwendung und
+Nichtanwendung einer Maßnahme aus dem Anhang festgehalten wird?{
+=Erklärung zur Anwendbarkeit
+=die Erklärung zur Anwendbarkeit
+=Statement of Applicability
+####Sie hängt an 6.1.3 und zeigt für jede Nummer aus dem Anhang, ob sie
+angewendet wird und warum. Ohne den Rückbezug auf die Risikobehandlung ist die
+Begründung keine.}
+
+// 11
+
+::Ein Kapitel statt einer Klausel::
+Jemand sagt in der Auditvorbereitung\: "Wir schulen alle Beschäftigten einmal im
+Jahr, das deckt Kapitel 7 ab." Woran fällt der Satz auf?{
+=Er nennt ein Kapitel und keine Klausel, und die beiden Anforderungen dahinter
+sind verschieden. #Richtig.
+~Er nennt eine zu kurze Häufigkeit. #Eine Häufigkeit ist damit nicht verlangt.
+~Er nennt keine Zertifizierungsstelle. #Die gehört nicht in diese Frage.
+~Er nennt kein Risiko. #Kapitel 7 hängt nicht an einem einzelnen Risiko.
+####Hinter dem Satz stehen 7.2 und 7.3, und die Aufzeichnung dazu hängt an 7.5.
+Eine Unterweisung für alle deckt 7.3 ab und 7.2 nicht.}
+
+// 12
+
+::Eine Anforderung von einer Maßnahme trennen::
+Eine Kollegin schlägt vor, in der Erklärung zur Anwendbarkeit auch das interne
+Audit als Maßnahme zu führen, damit alles an einer Stelle steht. Schreibe in
+zwei Sätzen, was daran nicht aufgeht.{
+####Musterlösung. Das interne Audit ist eine Anforderung aus 9.2 und keine
+Maßnahme aus dem Anhang, und über eine Anforderung wird nicht entschieden, ob
+sie angewendet wird. Die Erklärung zur Anwendbarkeit trägt die Entscheidungen
+über die Maßnahmen; eine Anforderung dort einzutragen legt nahe, dass man auf
+sie verzichten könnte.}

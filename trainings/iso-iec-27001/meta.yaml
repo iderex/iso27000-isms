@@ -1,0 +1,10 @@
+id: iso-iec-27001
+objective: >
+  Wer dieses Training abgeschlossen hat, findet zu einer Anforderung an ein ISMS
+  die Klausel aus ISO/IEC 27001:2022, in der sie verlangt wird, und sagt, was
+  eine Anforderung aus den Kapiteln 4 bis 10 von einer Maßnahme aus dem Anhang
+  unterscheidet.
+duration_minutes: 90
+audience: practitioners
+question_count: 12
+pass_mark_percent: 70

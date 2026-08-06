@@ -1,0 +1,150 @@
+// QUESTION SET ON ISO/IEC 27001, from iso27000-isms, under CC-BY-SA-4.0,
+// https://creativecommons.org/licenses/by-sa/4.0/
+// Topic: iso-iec-27001. Language: en. The German version sits in de.gift.
+//
+// This file carries no YAML header. A header ahead of the first line becomes a
+// question on import. The exception to format rule 3 and its reason stand in
+// ../en.md, section 5. These lines carry what the header would have carried.
+//
+// Twelve graded questions, which is the number in the meta.yaml. The text
+// before them is a description and is not graded.
+// No text from a standard, neither in a question nor in an answer option.
+
+$CATEGORY: iso-iec-27001
+
+::Note ahead of the following questions::
+The following questions test whether a requirement is found again at its clause
+and whether it is told apart from a control in the annex. References are by
+standard, clause and edition.
+
+// 1
+
+::Deselecting a requirement::
+An organisation can deselect a requirement from clauses 4 to 10 of
+ISO/IEC 27001\:2022 with a justification, the way a control from the annex can
+be deselected.{FALSE
+####False. Only a control is deselected, and the justification for that comes
+out of the risk treatment. A requirement holds for every organisation running an
+ISMS to this standard.}
+
+// 2
+
+::The clause the statement of applicability hangs off::
+Which clause of ISO/IEC 27001\:2022 does the statement of applicability hang
+off?{
+=6.1.3 #Correct.
+~4.3 #That is the scope.
+~8.3 #That is carrying out the risk treatment in operation.
+~9.3 #That is the management review.
+####The statement is a result of the risk treatment and therefore stands with
+the planning and not with the operation.}
+
+// 3
+
+::Competence and awareness::
+An organisation fixes per role which ability is asked for a named task and how
+it is evidenced. Which clause of ISO/IEC 27001\:2022 does that hang off?{
+=7.2 #Correct.
+~7.3 #That is about employees knowing their own role in the ISMS.
+~7.4 #That is about communication.
+~7.5 #That is about documented information, so about the record for it.
+####7.2 asks about the ability for a task, 7.3 about knowing one's own role. A
+briefing for everybody does not cover the first.}
+
+// 4
+
+::What a nonconformity is::
+Which two cases are a nonconformity?{
+~%50%A requirement from clauses 4 to 10 is not met. #Correct.
+~%50%The organisation does not keep to something it laid down for itself.
+#Correct.
+~%-100%The organisation departs from a guidance document and meets the
+requirement while doing so. #Certification is not against guidance.
+~%-100%A control from the annex is not applied and the non-application is
+justified. #That is a decision and not a finding.
+####The measure is the requirement, and beside it whatever the organisation laid
+down for itself. Guidance is not a measure.}
+
+// 5
+
+::Number of clauses carrying requirements::
+How many clauses of ISO/IEC 27001\:2022 carry requirements that certification is
+against?{#7:0
+####They are clauses 4 to 10. The ones before them carry scope, references and
+terms and are not checked.}
+
+// 6
+
+::Activity and clause::
+Match each activity to the clause of ISO/IEC 27001\:2022 that asks for it.{
+=Determining the scope -> 4.3
+=Carrying out the risk assessment -> 6.1.2
+=Carrying out the internal audit -> 9.2
+=Taking a corrective action -> 10.2
+####Four clauses, four steps. Whoever knows the rough division finds the place
+without searching the whole standard.}
+
+// 7
+
+::A number that was not there before::
+What does 6.3 of ISO/IEC 27001\:2022 stand for?{
+=Changes to the management system that are carried out in a planned way.
+#Correct.
+~The information security objectives. #Those stand in 6.2.
+~The risk treatment. #That stands in 6.1.3.
+~The evaluation of performance. #That stands in clause 9.
+####This clause exists only from the 2022 edition. Anyone with the previous
+edition in mind looks for it in vain.}
+
+// 8
+
+::Departing from guidance::
+An organisation implements a place differently from what ISO/IEC 27005 suggests
+and meets the requirement from ISO/IEC 27001\:2022 while doing so. That is a
+nonconformity.{FALSE
+####False. The check is against the requirement. Guidance is no measure, and a
+departure from it is no finding.}
+
+// 9
+
+::Gap, nonconformity and corrective action::
+Nonconformity and corrective action stand in ISO/IEC 27001\:2022 in
+{=10.2 ~10.1 ~9.2 ~8.1}.{####10.1 is continual improvement. In the previous
+edition the two numbers stood the other way round, so an old checklist points at
+the wrong one.}
+
+// 10
+
+::What has to stand for a control that is not applied::
+What is the document called in which the decision to apply or not to apply a
+control from the annex is recorded?{
+=Statement of applicability
+=the statement of applicability
+=Statement of Applicability
+####It hangs off 6.1.3 and shows for every number from the annex whether it is
+applied and why. Without pointing back at the risk treatment the justification
+is none.}
+
+// 11
+
+::A whole clause instead of a subclause::
+Somebody says in the audit preparation\: "We train all staff once a year, that
+covers clause 7." What stands out about the sentence?{
+=It names a clause and no subclause, and the two requirements behind it are
+different things. #Correct.
+~It names too short an interval. #No interval is asked for.
+~It names no certification body. #That does not belong in this question.
+~It names no risk. #Clause 7 does not hang off a single risk.
+####Behind the sentence stand 7.2 and 7.3, and the record for both hangs off
+7.5. A briefing for everybody covers 7.3 and not 7.2.}
+
+// 12
+
+::Separating a requirement from a control::
+A colleague suggests carrying the internal audit in the statement of
+applicability as a control as well, so that everything stands in one place.
+Write in two sentences what does not work about that.{
+####Model answer. The internal audit is a requirement from 9.2 and not a control
+from the annex, and a requirement is not decided about as to whether it is
+applied. The statement of applicability carries the decisions about the
+controls; entering a requirement there suggests it could be given up.}
