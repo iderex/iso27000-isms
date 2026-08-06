@@ -1,0 +1,131 @@
+---
+title: ISO/IEC 27004, building a measure
+subtitle: ISO/IEC 27004, practitioners
+lang: en
+id: presentation-iso-iec-27004-practitioners
+kind: presentation
+updated: 2026-08-06
+translated_from: de.qmd 2026-08-06
+format:
+  revealjs:
+    slide-number: true
+    incremental: false
+---
+
+# Occasion and audience
+
+## What this deck is made for
+
+- Occasion: a training once the first controls are running and measuring is due
+- Audience: `practitioners`
+- Length: 45 minutes, with a shared exercise at the end
+- What the listeners already know: the objectives from ISO/IEC 27001:2022, 6.2,
+  and which controls came out of the risk treatment
+
+::: {.notes}
+This slide is not presented. The deck for the leadership sits beside it and
+answers a different question, namely which measures get put forward at all.
+This one shows the build of a single one.
+:::
+
+# What it is about
+
+## The subject in one sentence
+
+ISO/IEC 27004 says how you get from a running control to a number somebody can
+read something off and decide on.
+
+## Four words, four activities
+
+- Monitoring: establishing what state something is in
+- Measuring: assigning it a value
+- Analysing: forming a connection out of several values
+- Evaluating: reading the result off a yardstick set beforehand
+- Anyone doing only the second has numbers and no statement
+- ISO/IEC 27001:2022, 9.1
+
+# The four questions before the first count
+
+## The build
+
+- Which objective from 6.2 is the measure meant to evidence
+- What gets counted directly, and where does it arise
+- How does the calculation run
+- Above which value does what happen, and who decides that
+
+The fourth is usually missing. Without it a number arises that gets
+renegotiated in every meeting.
+
+## Two rules for the second question
+
+- Counting runs from sources that exist anyway
+- A measure needing something collected specially for it stops being collected
+  after two quarters
+
+# An example, worked through
+
+## The objective and the count
+
+- Objective: no access stays in place longer than ten working days after a
+  change of role
+- What gets counted: the changes of role per quarter, and per change the
+  working days until the withdrawal
+- What gets calculated: the share of changes where the withdrawal happened
+  within ten working days
+- Threshold: below 90 per cent it gets put forward and one further control gets
+  named
+
+## Two quarters
+
+| Quarter | Changes | of those in time | Share |
+| --- | --- | --- | --- |
+| Q3 | 4 | 3 | 75 per cent |
+| Q4 | 6 | 5 | 83 per cent |
+
+The value rose and still lies below the threshold. The action follows from the
+threshold and not from the direction.
+
+## Why the base stands beside it
+
+- Three out of four is 75 per cent, thirty out of forty is too
+- A share without its base is the commonest mistake in a paper
+- The numbers are invented and come from no real organisation
+
+# What to do or decide afterwards
+
+## The next steps
+
+- Answer the four questions for a control that is already running, and write
+  them down
+- Fix the threshold before counting for the first time
+- Collect twice before anything gets put forward
+- Write it down even when there was nothing to do
+- After four quarters, decide whether the measure stays
+
+# References
+
+## Standard, clause and edition
+
+- ISO/IEC 27004:2016, as a whole standard
+- ISO/IEC 27001:2022, 6.2
+- ISO/IEC 27001:2022, 9.1, 9.2, 9.3
+- ISO/IEC 27001:2022, 10.1
+- ISO/IEC 27002:2022, 5.15, as an example of the form of a reference
+
+No text from a standard stands on these slides. No clause number of
+ISO/IEC 27004 is named, and the reason stands in the chapter on that standard.
+The three levels of a measure are named here in our own words and therefore do
+not carry the terms the standard uses for them.
+
+# Origin
+
+## Licence and origin
+
+ISO/IEC 27004, building a measure, from iso27000-isms, under CC-BY-SA-4.0,
+`https://creativecommons.org/licenses/by-sa/4.0/`
+
+- State: 2026-08-06
+- What was read: ISO/IEC 27004:2016, whose catalog entry carries `unconfirmed`,
+  and ISO/IEC 27001:2022, checked against public secondary sources and not
+  against a licensed copy
+- The standards themselves are not under this licence.

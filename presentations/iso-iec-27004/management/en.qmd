@@ -1,0 +1,117 @@
+---
+title: ISO/IEC 27004, what a measure carries
+subtitle: ISO/IEC 27004, top management
+lang: en
+id: presentation-iso-iec-27004-management
+kind: presentation
+updated: 2026-08-06
+translated_from: de.qmd 2026-08-06
+format:
+  revealjs:
+    slide-number: true
+    incremental: false
+---
+
+# Occasion and audience
+
+## What this deck is made for
+
+- Occasion: before the first management review, or when a series of numbers
+  gets put forward that nobody can do anything with
+- Audience: `management`
+- Length: 15 minutes
+- What the listeners already know: that a management system is running and that
+  something gets put to them regularly
+
+::: {.notes}
+This slide is not presented. The deck for the practitioners sits beside it and
+answers a different question: this one asks which measures should be put
+forward at all, that one shows how one gets built.
+:::
+
+# What it is about
+
+## The subject in one sentence
+
+ISO/IEC 27004 answers how you tell that a management system works, and
+ISO/IEC 27001:2022 requires that in 9.1.
+
+## Why it concerns the leadership
+
+- The numbers get put to it in the management review, and it decides out of
+  them
+- A number with no threshold set beforehand triggers nothing and gets
+  interpreted anew in every meeting
+- Anyone deciding nothing gets the same number next time
+- ISO/IEC 27001:2022, 9.3
+
+# What a measure carries
+
+## Three levels, and the third is usually missing
+
+- What gets counted directly, and where it arises
+- What gets calculated from that
+- What gets read off it, together with the threshold above which something
+  happens
+
+The third level is where a measure turns into a decision. Without it, it is an
+observation.
+
+## What it does not carry
+
+- No statement about whether the organisation meets a requirement; an audit
+  decides that
+- No forecast; a measure observes, a risk evaluation estimates
+- No replacement for the finding of an internal audit
+
+# How to recognise a paper that achieves nothing
+
+## Three signs
+
+- The share stands there and the base does not: three out of four is 75 per
+  cent, thirty out of forty is too, and the two are not worth the same
+- One value stands there and no series; only the second value says whether
+  anything is moving
+- The threshold was fixed after the collection, or not at all
+
+## The question that exposes it
+
+What happens if this number is worse next quarter? Where no answer comes, the
+measure carries nothing and costs work all the same.
+
+# What to do or decide afterwards
+
+## The paper
+
+- How many measures get put to the leadership, and which
+- Who sets the threshold per measure, and when
+- On what beat does the putting forward happen
+- What happens to a measure that has triggered nothing in four quarters
+
+Fewer measures with a threshold are worth more than many without. The decision
+about the number is the real decision on this slide.
+
+# References
+
+## Standard, clause and edition
+
+- ISO/IEC 27004:2016, as a whole standard
+- ISO/IEC 27001:2022, 6.2
+- ISO/IEC 27001:2022, 9.1, 9.3
+- ISO/IEC 27001:2022, 10.1
+
+No text from a standard stands on these slides. No clause number of
+ISO/IEC 27004 is named, and the reason stands in the chapter on that standard.
+
+# Origin
+
+## Licence and origin
+
+ISO/IEC 27004, what a measure carries, from iso27000-isms, under CC-BY-SA-4.0,
+`https://creativecommons.org/licenses/by-sa/4.0/`
+
+- State: 2026-08-06
+- What was read: ISO/IEC 27004:2016, whose catalog entry carries `unconfirmed`,
+  and ISO/IEC 27001:2022, checked against public secondary sources and not
+  against a licensed copy
+- The standards themselves are not under this licence.
