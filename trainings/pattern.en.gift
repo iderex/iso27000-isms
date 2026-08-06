@@ -1,0 +1,102 @@
+// PATTERN FOR A QUESTION SET, from iso27000-isms, under CC-BY-SA-4.0,
+// https://creativecommons.org/licenses/by-sa/4.0/
+// Topic: pattern. Language: en. The German version sits in pattern.de.gift.
+//
+// This file carries no YAML header. A header ahead of the first line becomes a
+// question on import. The exception to format rule 3 and its reason stand in
+// en.md, section 5. These six lines carry what the header would have carried.
+//
+// One example per question type. What does not stand here is not used.
+// Every question carries its model answer and one sentence on why the correct
+// answer is correct. That sentence stands as general feedback behind ####.
+// No standard wording, neither in a question nor in an answer option.
+
+$CATEGORY: pattern
+
+// 1. Description. No question, no marks, only a text before a group.
+// Recognisable by no brace following it.
+
+::Note before the questions that follow::
+The questions that follow test whether a requirement can be assigned to an
+activity. References are by standard, clause and edition.
+
+// 2. True or false.
+
+::The order of assessment and selection::
+The controls are determined from the risk treatment, and the comparison against
+the annex comes after that.{TRUE
+####Correct. ISO/IEC 27001\:2022 requires that order in 6.1.3, and the
+comparison is a check for what was forgotten there and not a starting point.}
+
+// 3. Multiple choice with one correct answer.
+
+::The clause responsible for the scope::
+In which clause of ISO/IEC 27001\:2022 is the scope of the ISMS required?{
+=4.3 #Correct.
+~6.1.3 #That is where the risk treatment stands.
+~9.2 #That is where the internal audit stands.
+~7.5 #That is where documented information stands.
+####The scope is the first decision of the management system and therefore
+stands in the clause about the context and not with the planning.}
+
+// 4. Multiple choice with several correct answers. The weights on the correct
+// ones add up to a hundred, a wrong one takes the whole mark off.
+
+::What makes an internal audit::
+Which two properties make a check an internal audit under
+ISO/IEC 27001\:2022, 9.2?{
+~%50%It is planned and follows a programme. #Correct.
+~%50%It is carried out by somebody who is not responsible for the area
+checked. #Correct.
+~%-100%It is carried out by a certification body. #That would be a
+certification audit and none of your own organisation.
+~%-100%It happens without notice. #Notice is neither required nor forbidden.
+####Planned and independent are the two properties without which a check is
+only a look through.}
+
+// 5. Short answer. Several spellings are recorded as correct.
+
+::What is left after the treatment::
+What is the name for what is left of a risk after the controls work?{
+=residual risk
+=the residual risk
+####It is never zero. Anyone who takes it for zero has overestimated the
+controls or not understood the risk, and it is expressly approved.}
+
+// 6. Matching. There is no feedback per subquestion here, so the general
+// feedback carries the reasoning for all pairs.
+
+::Clause and activity::
+Assign to each activity the clause of ISO/IEC 27001\:2022 that requires it.{
+=Internal audit -> 9.2
+=Management review -> 9.3
+=Documented information -> 7.5
+=Corrective action -> 10.2
+####All four stand in the later part of the standard, because they concern the
+operation and the improvement and not the build.}
+
+// 7. Missing word. The choice stands in the middle of the sentence.
+
+::Missing word, the clause for the internal audit::
+The internal audit is required in {=9.2 ~9.1 ~9.3 ~10.1} of
+ISO/IEC 27001\:2022.{####9.1 is the measurement, 9.3 the management review and
+10.1 the improvement. The audit stands between them, because its result goes
+into 9.3.}
+
+// 8. Numerical question. The number after the colon is the tolerance.
+
+::The number of clauses carrying requirements::
+How many clauses of ISO/IEC 27001\:2022 carry requirements that are certified
+against?{#7:0
+####They are clauses 4 to 10. The clauses before them carry the scope of the
+document, the references and the terms and are not audited.}
+
+// 9. Essay. There is no automatic marking, so the general feedback carries the
+// model answer that is marked against by hand.
+
+::Reasoning for a control that is not applied::
+An organisation does not apply a control from the annex. Write in two sentences
+what has to stand in the statement of applicability about it.{
+####Model answer. It has to say that the control is not applied and why not,
+and the reasoning has to point back at the risk treatment. A pointer to the
+control being expensive is no reasoning as long as no risk is named beside it.}

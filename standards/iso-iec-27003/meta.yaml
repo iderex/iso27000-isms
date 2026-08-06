@@ -1,0 +1,44 @@
+id: iso-iec-27003
+number: 27003
+edition_year: 2017
+doc_type: is
+status: published
+family: core-27000
+layer: core
+isms_relation: adjacent
+catalog_confirmation: confirmed
+languages:
+  - de
+  - en
+presentation:
+  management:
+    needed: false
+    note: >
+      Die oberste Leitung entscheidet über Geltungsbereich, Mittel und die
+      Genehmigung von Restrisiken. Diese Entscheidungen verlangt ISO/IEC 27001
+      von ihr, und der Foliensatz dazu liegt bei diesem Thema. Eine Anleitung,
+      wie die Klauseln umgesetzt werden, führt für die Leitung zu keiner
+      weiteren Entscheidung.
+  practitioners:
+    needed: true
+    note: >
+      Wer das ISMS aufbaut, arbeitet Klausel für Klausel und braucht an jeder
+      Stelle die Frage, woran man erkennt, dass eine Anforderung erfüllt ist.
+      Dieser Satz führt auf eine Handlung hin und ist der einzige bejahte zu
+      diesem Thema.
+  engineering:
+    needed: false
+    note: >
+      Die Technik setzt einzelne Maßnahmen um. Was sie dazu braucht, steht bei
+      den Maßnahmen und nicht bei der Anleitung zum Managementsystem.
+  all-staff:
+    needed: false
+    note: >
+      Für alle Beschäftigten ist der Aufbau eines Managementsystems der falsche
+      Gegenstand. Was sie angeht, ist ihr eigenes Handeln, und dafür gibt es das
+      Awareness-Material.
+  auditors:
+    needed: false
+    note: >
+      Wer prüft, hält die Organisation gegen ISO/IEC 27001 und nicht gegen eine
+      Anleitung. Was er dabei sucht, steht im Satz für die Praxis.

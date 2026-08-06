@@ -1,0 +1,107 @@
+// MUSTER FÜR EINEN FRAGENSATZ, aus iso27000-isms, unter CC-BY-SA-4.0,
+// https://creativecommons.org/licenses/by-sa/4.0/
+// Thema: Muster. Sprache: de. Die englische Fassung liegt in pattern.en.gift.
+//
+// Diese Datei trägt keinen YAML-Kopf. Ein Kopf vor der ersten Zeile wird beim
+// Einlesen zu einer Frage. Die Ausnahme von Formatregel 3 und ihr Grund stehen
+// in de.md, Abschnitt 5. Diese sechs Zeilen tragen, was der Kopf getragen
+// hätte.
+//
+// Je Fragetyp ein Beispiel. Was hier nicht steht, wird nicht benutzt.
+// Zu jeder Frage gehört die Musterlösung und ein Satz, warum die richtige
+// Antwort richtig ist. Der Satz steht als allgemeine Rückmeldung hinter ####.
+// Kein Normtext, weder in einer Frage noch in einer Antwortmöglichkeit.
+
+$CATEGORY: muster
+
+// 1. Beschreibung. Keine Frage, keine Punkte, nur ein Text vor einer Gruppe.
+// Erkennbar daran, dass keine geschweifte Klammer folgt.
+
+::Vorbemerkung zu den folgenden Fragen::
+Die folgenden Fragen prüfen, ob eine Anforderung einer Tätigkeit zugeordnet
+werden kann. Verwiesen wird über Norm, Klausel und Ausgabe.
+
+// 2. Wahr oder falsch.
+
+::Reihenfolge von Beurteilung und Auswahl::
+Die Maßnahmen werden aus der Risikobehandlung bestimmt, und der Abgleich mit
+dem Anhang kommt danach.{TRUE
+####Richtig. ISO/IEC 27001\:2022 verlangt diese Reihenfolge in 6.1.3, und der
+Abgleich ist dort eine Kontrolle auf Vergessenes und kein Ausgangspunkt.}
+
+// 3. Mehrfachauswahl mit einer richtigen Antwort.
+
+::Zuständige Klausel für den Geltungsbereich::
+In welcher Klausel von ISO/IEC 27001\:2022 wird der Geltungsbereich des ISMS
+verlangt?{
+=4.3 #Richtig.
+~6.1.3 #Dort steht die Risikobehandlung.
+~9.2 #Dort steht das interne Audit.
+~7.5 #Dort steht die dokumentierte Information.
+####Der Geltungsbereich ist die erste Festlegung des Managementsystems und
+steht deshalb im Kapitel über den Kontext und nicht bei der Planung.}
+
+// 4. Mehrfachauswahl mit mehreren richtigen Antworten. Die Gewichte summieren
+// sich bei den richtigen auf hundert, eine falsche zieht voll ab.
+
+::Was ein internes Audit ausmacht::
+Welche zwei Eigenschaften machen aus einer Prüfung ein internes Audit nach
+ISO/IEC 27001\:2022, 9.2?{
+~%50%Es ist geplant und folgt einem Programm. #Richtig.
+~%50%Es wird von jemandem durchgeführt, der den geprüften Bereich nicht
+verantwortet. #Richtig.
+~%-100%Es wird von einer Zertifizierungsstelle durchgeführt. #Das wäre ein
+Zertifizierungsaudit und keines der eigenen Organisation.
+~%-100%Es findet ohne Ankündigung statt. #Eine Ankündigung ist weder verlangt
+noch verboten.
+####Geplant und unabhängig sind die beiden Eigenschaften, ohne die eine
+Prüfung nur eine Durchsicht ist.}
+
+// 5. Kurzantwort. Mehrere Schreibweisen werden als richtig hinterlegt.
+
+::Was nach der Behandlung übrig bleibt::
+Wie heißt das, was von einem Risiko übrig bleibt, nachdem die Maßnahmen
+wirken?{
+=Restrisiko
+=das Restrisiko
+####Es ist nie null. Wer es für null hält, hat die Maßnahmen überschätzt oder
+das Risiko nicht verstanden, und es wird ausdrücklich genehmigt.}
+
+// 6. Zuordnung. Rückmeldung je Teilfrage gibt es hier nicht, deshalb trägt
+// die allgemeine Rückmeldung die Begründung für alle Paare.
+
+::Klausel und Tätigkeit::
+Ordne jeder Tätigkeit die Klausel aus ISO/IEC 27001\:2022 zu, die sie
+verlangt.{
+=Internes Audit -> 9.2
+=Managementbewertung -> 9.3
+=Dokumentierte Information -> 7.5
+=Korrekturmaßnahme -> 10.2
+####Alle vier stehen im hinteren Teil der Norm, weil sie den Betrieb und die
+Verbesserung betreffen und nicht den Aufbau.}
+
+// 7. Lückentext. Die Auswahl steht mitten im Satz.
+
+::Lücke, Klausel für das interne Audit::
+Das interne Audit wird in {=9.2 ~9.1 ~9.3 ~10.1} von ISO/IEC 27001\:2022
+verlangt.{####9.1 ist die Messung, 9.3 die Managementbewertung und 10.1 die
+Verbesserung. Das Audit steht dazwischen, weil sein Ergebnis in 9.3 eingeht.}
+
+// 8. Zahlenfrage. Die Zahl nach dem Doppelpunkt ist die Toleranz.
+
+::Zahl der Kapitel mit Anforderungen::
+Wie viele Kapitel von ISO/IEC 27001\:2022 tragen Anforderungen, gegen die
+zertifiziert wird?{#7:0
+####Es sind die Kapitel 4 bis 10. Die Kapitel davor tragen Anwendungsbereich,
+Verweise und Begriffe und werden nicht geprüft.}
+
+// 9. Freitext. Es gibt keine automatische Bewertung, deshalb trägt die
+// allgemeine Rückmeldung die Musterlösung, gegen die von Hand bewertet wird.
+
+::Begründung einer nicht angewendeten Maßnahme::
+Eine Organisation wendet eine Maßnahme aus dem Anhang nicht an. Schreibe in
+zwei Sätzen, was in der Erklärung zur Anwendbarkeit dazu stehen muss.{
+####Musterlösung. Es muss dastehen, dass die Maßnahme nicht angewendet wird,
+und warum nicht, und die Begründung muss auf die Risikobehandlung zurückzeigen.
+Ein Verweis darauf, dass die Maßnahme aufwendig sei, ist keine Begründung,
+solange kein Risiko dazu benannt ist.}
