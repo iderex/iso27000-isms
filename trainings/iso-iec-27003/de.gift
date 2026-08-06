@@ -1,0 +1,150 @@
+// FRAGENSATZ ZU ISO/IEC 27003, aus iso27000-isms, unter CC-BY-SA-4.0,
+// https://creativecommons.org/licenses/by-sa/4.0/
+// Thema: iso-iec-27003. Sprache: de. Die englische Fassung liegt in en.gift.
+//
+// Diese Datei trägt keinen YAML-Kopf. Ein Kopf vor der ersten Zeile wird beim
+// Einlesen zu einer Frage. Die Ausnahme von Formatregel 3 und ihr Grund stehen
+// in ../de.md, Abschnitt 5. Diese Zeilen tragen, was der Kopf getragen hätte.
+//
+// Zwölf bewertete Fragen, das ist die Zahl in der meta.yaml. Der Text davor
+// ist eine Beschreibung und wird nicht bewertet.
+// Kein Normtext, weder aus der Anforderung noch aus der Anleitung.
+
+$CATEGORY: iso-iec-27003
+
+::Vorbemerkung zu den folgenden Fragen::
+Die folgenden Fragen prüfen, ob eine Umsetzung auf die Anforderung
+zurückgeführt werden kann, an der sie hängt, und ob Anforderung und Anleitung
+auseinandergehalten werden. Verwiesen wird über Norm, Klausel und Ausgabe.
+
+// 1
+
+::Verbindlich oder nicht::
+Gegen ISO/IEC 27003\:2017 wird zertifiziert.{FALSE
+####Falsch. Zertifiziert wird gegen ISO/IEC 27001\:2022. Diese Norm ist eine
+Anleitung, und eine Abweichung von ihr ist keine Nichtkonformität.}
+
+// 2
+
+::Zuständige Klausel für den Geltungsbereich::
+In welcher Klausel von ISO/IEC 27001\:2022 wird der Geltungsbereich verlangt?{
+=4.3 #Richtig.
+~4.1 #Dort stehen die äußeren und inneren Themen.
+~6.2 #Dort stehen die Ziele.
+~8.1 #Dort steht die Durchführung im Betrieb.
+####Der Geltungsbereich gehört zum Kontext und ist die erste Festlegung des
+Managementsystems.}
+
+// 3
+
+::Die Richtung beim Lesen::
+Welche Reihenfolge ist die richtige, wenn eine Umsetzung feststeckt?{
+=Erst die Anforderung lesen, dann aufschreiben, was man verstanden hat, dann
+die Anleitung dazunehmen. #Richtig.
+~Erst die Anleitung von vorne bis hinten lesen, dann die Anforderung. #Von
+vorne gelesen ist die Anleitung ein zweites Inhaltsverzeichnis.
+~Nur die Anleitung lesen, weil sie ausführlicher ist. #Dann wird eine Empfehlung
+zur Pflicht gemacht.
+~Nur die Anforderung lesen und die Anleitung weglassen. #Dann bleibt die Frage
+offen, woran man erkennt, dass die Anforderung erfüllt ist.
+####Die Anleitung erklärt eine Stelle. Ohne die eigene Lesung der Anforderung
+fehlt der Gegenstand, den sie erklärt.}
+
+// 4
+
+::Rückführung ohne Ergebnis::
+Zu einem vorhandenen Bestandteil des ISMS lässt sich keine Klausel benennen.
+Welche zwei Schlüsse sind zulässig?{
+~%50%Es steht etwas da, das niemand verlangt hat. #Richtig.
+~%50%Eine Anforderung ist an anderer Stelle nicht erfüllt und dieser Bestandteil
+zeigt es an. #Richtig.
+~%-100%Der Bestandteil ist damit automatisch falsch und wird entfernt. #Erst
+wird der Grund gesucht; eine Organisation darf mehr tun als verlangt.
+~%-100%Die Anleitung ist unvollständig. #Die Anleitung ist nicht der Maßstab
+dafür, was verlangt ist.
+####Beide Schlüsse führen zu einer Nachfrage. Der Befund ist billiger, wenn er
+vor einem Audit entsteht.}
+
+// 5
+
+::Zwei Ausgaben::
+Aus welchem Jahr stammt die Ausgabe von ISO/IEC 27003, die dieses Training
+behandelt?{#2017:0
+####Die Anforderungen, zu denen sie gehört, liegen in der Ausgabe 2022 vor. Die
+Anleitung ist also gegen die vorige Ausgabe der Anforderungen geschrieben.}
+
+// 6
+
+::Klausel und Tätigkeit::
+Ordne jeder Tätigkeit die Klausel aus ISO/IEC 27001\:2022 zu, die sie verlangt.{
+=Internes Audit -> 9.2
+=Managementbewertung -> 9.3
+=Dokumentierte Information -> 7.5
+=Geltungsbereich -> 4.3
+####Die Kapitel 4 bis 10 tragen die Anforderungen. Wer die grobe Einteilung
+kennt, findet die Stelle, ohne die ganze Norm zu durchsuchen.}
+
+// 7
+
+::Abweichung von der Anleitung::
+Eine Organisation setzt eine Klausel anders um, als die Anleitung es vorschlägt,
+und erfüllt die Anforderung dabei. Was folgt daraus für ein Audit?{
+=Nichts, denn geprüft wird gegen die Anforderung. #Richtig.
+~Eine Nichtkonformität, weil die Anleitung nicht befolgt wurde. #Eine Anleitung
+ist kein Prüfmaßstab.
+~Eine Empfehlung, die im Bericht als Abweichung erscheint. #Die Abweichung von
+einer Anleitung ist keine Feststellung über die Anforderung.
+~Die Zertifizierung ruht bis zur Anpassung. #Dafür gibt es keinen Grund.
+####Der Maßstab ist ISO/IEC 27001\:2022 und daneben das, was die Organisation
+selbst festgelegt hat.}
+
+// 8
+
+::Was die Anleitung nicht liefert::
+Diese Norm beschreibt eine Dokumentenstruktur, die eine Organisation übernehmen
+muss.{FALSE
+####Falsch. Sie beschreibt keine, und die Vorlagen dieses Repositorys stammen
+nicht aus ihr.}
+
+// 9
+
+::Der Griff, um eine Stelle zu finden::
+Die Anforderungen von ISO/IEC 27001\:2022 stehen in den Kapiteln {=4 bis 10 ~1
+bis 3 ~5 bis 8 ~4 bis 8}.{####Die Kapitel davor tragen Anwendungsbereich,
+Verweise und Begriffe und werden nicht geprüft.}
+
+// 10
+
+::Was die Anleitung im Streit leistet::
+Zwei Personen streiten über die Reichweite einer Anforderung. Wozu hilft die
+Anleitung?{
+=Sie gibt einen Text, den beide Seiten anerkennen können. #Richtig.
+~Sie entscheidet den Streit verbindlich. #Verbindlich ist nur die Anforderung.
+~Sie ersetzt die Entscheidung der Leitung. #Die Entscheidung bleibt bei der
+Organisation.
+~Sie belegt, wer recht hat. #Sie liefert die Fragen, nicht das Urteil.
+####Fast jeder Streit über den Aufbau eines ISMS ist ein Streit über die
+Reichweite einer Anforderung, und ein gemeinsam anerkannter Text ist billiger
+als eine Meinung.}
+
+// 11
+
+::Die eigene Lesung zuerst::
+Wie heißt der Schritt, der zwischen dem Lesen der Anforderung und dem Aufschlagen
+der Anleitung steht?{
+=Aufschreiben, was man verstanden hat
+=aufschreiben was man verstanden hat
+=Die eigene Lesung aufschreiben
+####Ohne diesen Schritt liest man die Anleitung als Anforderung und merkt es
+nicht, weil man keinen eigenen Satz zum Vergleichen hat.}
+
+// 12
+
+::Ein Geltungsbereich, der zu wenig sagt::
+Vorgelegt wird der Satz "Das ISMS gilt für die IT". Schreibe in zwei Sätzen,
+woran man sieht, dass dieser Satz nicht genügt, und was er zusätzlich tragen
+muss.{
+####Musterlösung. Der Satz benennt eine Abteilung und keinen Gegenstand, und er
+lässt offen, ob ein Dienstleister dazugehört oder nicht. Er muss den Dienst
+benennen, die Schnittstellen zu Dritten nennen und sagen, was ausdrücklich
+außerhalb liegt, ISO/IEC 27001\:2022, 4.3.}

@@ -1,0 +1,146 @@
+// QUESTION SET ON ISO/IEC 27003, from iso27000-isms, under CC-BY-SA-4.0,
+// https://creativecommons.org/licenses/by-sa/4.0/
+// Topic: iso-iec-27003. Language: en. The German version sits in de.gift.
+//
+// This file carries no YAML header. A header ahead of the first line becomes a
+// question on import. The exception to format rule 3 and its reason stand in
+// ../en.md, section 5. These lines carry what the header would have carried.
+//
+// Twelve scored questions, which is the number in the meta.yaml. The text
+// before them is a description and is not scored.
+// No standard wording, neither from the requirement nor from the guidance.
+
+$CATEGORY: iso-iec-27003
+
+::Note before the following questions::
+The following questions check whether an implementation can be traced back to
+the requirement it hangs off, and whether requirement and guidance are kept
+apart. References are by standard, clause and edition.
+
+// 1
+
+::Binding or not::
+Certification is against ISO/IEC 27003\:2017.{FALSE
+####Wrong. Certification is against ISO/IEC 27001\:2022. This standard is
+guidance, and a departure from it is not a nonconformity.}
+
+// 2
+
+::The clause for the scope::
+In which clause of ISO/IEC 27001\:2022 is the scope required?{
+=4.3 #Right.
+~4.1 #That is the external and internal issues.
+~6.2 #That is the objectives.
+~8.1 #That is carrying it out in operation.
+####The scope belongs to the context and is the first determination of the
+management system.}
+
+// 3
+
+::The direction when reading::
+Which order is the right one when an implementation is stuck?{
+=Read the requirement, write down what you understood, then take the guidance
+beside it. #Right.
+~Read the guidance from front to back first, then the requirement. #Read from
+the front the guidance is a second table of contents.
+~Read only the guidance, because it is fuller. #Then a recommendation is turned
+into an obligation.
+~Read only the requirement and leave the guidance out. #Then the question how
+you recognise the requirement is met stays open.
+####The guidance explains a place. Without your own reading of the requirement
+the subject it explains is missing.}
+
+// 4
+
+::Tracing back with no result::
+No clause can be named for an existing part of the ISMS. Which two conclusions
+are permitted?{
+~%50%Something stands there that nobody asked for. #Right.
+~%50%A requirement is unmet somewhere else and this part shows it. #Right.
+~%-100%The part is thereby wrong and gets removed. #The reason is looked for
+first; an organisation may do more than is required.
+~%-100%The guidance is incomplete. #The guidance is not the measure of what is
+required.
+####Both conclusions lead to a question. The finding is cheaper when it arises
+before an audit.}
+
+// 5
+
+::Two editions::
+Which year is the edition of ISO/IEC 27003 from that this training covers?{#2017:0
+####The requirements it belongs to stand in the 2022 edition. So the guidance is
+written against the previous edition of the requirements.}
+
+// 6
+
+::Clause and activity::
+Assign to each activity the clause of ISO/IEC 27001\:2022 that requires it.{
+=Internal audit -> 9.2
+=Management review -> 9.3
+=Documented information -> 7.5
+=Scope -> 4.3
+####Clauses 4 to 10 carry the requirements. Anyone knowing the rough division
+finds the place without searching the whole standard.}
+
+// 7
+
+::Departing from the guidance::
+An organisation implements a clause differently from what the guidance suggests
+and meets the requirement in doing so. What follows for an audit?{
+=Nothing, because the check is against the requirement. #Right.
+~A nonconformity, because the guidance was not followed. #Guidance is no audit
+measure.
+~A recommendation appearing in the report as a departure. #A departure from
+guidance is no finding about the requirement.
+~The certification rests until it is adjusted. #There is no ground for that.
+####The measure is ISO/IEC 27001\:2022 and beside it what the organisation
+determined itself.}
+
+// 8
+
+::What the guidance does not supply::
+This standard describes a document structure an organisation has to adopt.{FALSE
+####Wrong. It describes none, and the templates of this repository do not come
+from it.}
+
+// 9
+
+::The handle for finding a place::
+The requirements of ISO/IEC 27001\:2022 stand in clauses {=4 to 10 ~1 to 3 ~5 to
+8 ~4 to 8}.{####The clauses before them carry scope, references and terms and
+are not audited.}
+
+// 10
+
+::What the guidance does in an argument::
+Two people argue about the reach of a requirement. What does the guidance help
+with?{
+=It gives a text both sides can recognise. #Right.
+~It settles the argument bindingly. #Only the requirement is binding.
+~It replaces the decision of the leadership. #The decision stays with the
+organisation.
+~It shows who is right. #It supplies the questions, not the verdict.
+####Almost every argument about building an ISMS is an argument about the reach
+of a requirement, and a jointly recognised text is cheaper than an opinion.}
+
+// 11
+
+::Your own reading first::
+What is the step called that stands between reading the requirement and opening
+the guidance?{
+=Writing down what you understood
+=writing down what you understood
+=Writing down your own reading
+####Without that step you read the guidance as the requirement and do not notice,
+because you have no sentence of your own to compare it with.}
+
+// 12
+
+::A scope that says too little::
+The sentence "The ISMS holds for IT" is put forward. Write in two sentences how
+it shows that this sentence is not enough, and what it has to carry in
+addition.{
+####Model answer. The sentence names a department and not a subject, and it
+leaves open whether a service provider belongs in it or not. It has to name the
+service, name the interfaces to third parties and say what lies expressly
+outside, ISO/IEC 27001\:2022, 4.3.}
