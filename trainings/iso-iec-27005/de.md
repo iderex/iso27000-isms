@@ -20,7 +20,7 @@ Vorausgesetzt wird Stufe 1 des Lernpfads in
 [learning-path/step-1/de.md](../../learning-path/step-1/de.md), also die
 Reihenfolge, in der eine Organisation vorgeht.
 
-Vorausgesetzt werden die Begriffe Risiko, Risikoeigner, Maßnahme und
+Vorausgesetzt werden die Begriffe Risiko, Risikoeigentümer, Maßnahme und
 Restrisiko. Sie stehen in [glossary/de.md](../../glossary/de.md).
 
 Vorausgesetzt wird, dass ein Risikoregister als Form bekannt ist. Die Vorlage
@@ -76,8 +76,8 @@ Bewerten: ob das Risiko so bleiben darf. Erst hier fällt eine Entscheidung, und
 sie fällt gegen ein Kriterium, das vorher festgelegt wurde und nicht erst
 hinterher.
 
-Zu jeder Zeile gehört ein Risikoeigner. Eine Zeile ohne Eigner wird nicht
-behandelt, sie wird verwaltet.
+Zu jeder Zeile gehört ein Risikoeigentümer. Eine Zeile ohne Eigentümer wird
+nicht behandelt, sie wird verwaltet.
 
 ### 3.3 Die Wege der Behandlung
 
@@ -146,7 +146,7 @@ ist die Kennzahl, und behandelt wird ab 12.
 
 Eine Zeile aus dem Register:
 
-| Risiko | Eintritt | Auswirkung | Kennzahl | Eigner |
+| Risiko | Eintritt | Auswirkung | Kennzahl | Eigentümer |
 | --- | --- | --- | --- | --- |
 | Ein Notebook mit Abonnentendaten geht unterwegs verloren | 4 | 4 | 16 | Leitung Redaktion |
 

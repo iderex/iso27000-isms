@@ -40,9 +40,11 @@ It leaves out the risk work. How a risk is assessed and treated stands in
 ISO/IEC 27005 and in the training on it. This training only says which clause
 asks for it.
 
-It leaves out how a certification runs. What a certification body does, and what
-separates accreditation from certification, stands on step 2 of the learning
-path.
+It leaves out how a certification runs. What a certification body has to keep to
+stands on step 2 of the learning path in
+[learning-path/step-2/en.md](../../learning-path/step-2/en.md), section 6, and
+what separates accreditation from certification stands in
+[glossary/en.md](../../glossary/en.md).
 
 ## 3. The material
 

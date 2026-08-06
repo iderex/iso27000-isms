@@ -20,9 +20,13 @@ Vorausgesetzt wird Stufe 1 des Lernpfads in
 [learning-path/step-1/de.md](../../learning-path/step-1/de.md), also warum am
 Ende gemessen wird und nicht am Anfang.
 
-Vorausgesetzt wird, dass eine Maßnahme und ein Ziel der Informationssicherheit
-als Begriffe bekannt sind. Sie stehen in
-[glossary/de.md](../../glossary/de.md).
+Vorausgesetzt werden die Begriffe Maßnahme, Überwachung und Messung sowie
+Wirksamkeit. Sie stehen in [glossary/de.md](../../glossary/de.md).
+
+Vorausgesetzt wird außerdem, dass die Organisation Ziele der
+Informationssicherheit festgelegt hat, ISO/IEC 27001:2022, 6.2. Dazu führt das
+Glossar keinen eigenen Eintrag, und an einem solchen Ziel hängt hier jede
+Kennzahl.
 
 Vorausgesetzt wird kein Vorwissen in Statistik. Gerechnet wird hier mit
 Prozenten und Anzahlen.

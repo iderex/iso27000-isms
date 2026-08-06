@@ -44,8 +44,10 @@ steht in ISO/IEC 27005 und im Training dazu. Dieses Training sagt nur, welche
 Klausel sie verlangt.
 
 Ausgelassen wird der Ablauf einer Zertifizierung. Was eine Zertifizierungsstelle
-tut und was Akkreditierung von Zertifizierung unterscheidet, steht auf Stufe 2
-des Lernpfads.
+einhalten muss, steht auf Stufe 2 des Lernpfads in
+[learning-path/step-2/de.md](../../learning-path/step-2/de.md), Abschnitt 6, und
+was Akkreditierung von Zertifizierung unterscheidet, steht in
+[glossary/de.md](../../glossary/de.md).
 
 ## 3. Der Stoff
 

@@ -20,8 +20,12 @@ It assumes step 1 of the learning path in
 [learning-path/step-1/en.md](../../learning-path/step-1/en.md), meaning why
 measuring happens at the end and not at the start.
 
-It assumes the terms control and information security objective are known. They
-stand in [glossary/en.md](../../glossary/en.md).
+It assumes the terms control, monitoring and measurement, and effectiveness.
+They stand in [glossary/en.md](../../glossary/en.md).
+
+It further assumes the organisation has set information security objectives,
+ISO/IEC 27001:2022, 6.2. The glossary carries no entry of its own for those, and
+every metric here hangs off such an objective.
 
 It assumes no prior knowledge of statistics. What gets worked with here are
 percentages and counts.

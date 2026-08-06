@@ -93,9 +93,9 @@ es wird ausdrücklich genehmigt, von jemandem, der die Folge tragen kann.}
 
 // 7
 
-::Eine Zeile ohne Eigner::
-Ein Risikoregister führt eine Zeile, zu der niemand als Eigner eingetragen ist.
-Was ist die Folge?{
+::Eine Zeile ohne Eigentümer::
+Ein Risikoregister führt eine Zeile, zu der niemand als Risikoeigentümer
+eingetragen ist. Was ist die Folge?{
 =Die Zeile wird verwaltet und nicht behandelt, weil niemand über sie
 entscheidet. #Richtig.
 ~Die Zeile ist damit automatisch getragen. #Ein getragenes Risiko ist eine
@@ -103,8 +103,9 @@ Entscheidung, und eine Entscheidung braucht jemanden, der sie trifft.
 ~Die Zeile gehört der Geschäftsführung. #Nur, wenn sie dort eingetragen ist.
 ~Die Zeile ist ungültig und wird gestrichen. #Das Risiko verschwindet nicht,
 weil die Zeile verschwindet.
-####Eine Entscheidung ohne jemanden, der sie trifft, ist keine. Der Eigner ist
-der Unterschied zwischen einem Register und einer Sammlung.}
+####Eine Entscheidung ohne jemanden, der sie trifft, ist keine. Der
+Risikoeigentümer ist der Unterschied zwischen einem Register und einer
+Sammlung.}
 
 // 8
 
