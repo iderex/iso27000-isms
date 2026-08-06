@@ -135,9 +135,10 @@ It leaves out the wording. This step refers by standard, clause and edition,
 for example ISO/IEC 27001:2022, 6.1.3, and reproduces nothing that stands
 there.
 
-What is missing today as well: the chapters on the five standards are not in
-the tree yet. Once they sit under `standards/`, this step leads there. Until
-then the numbers in section 3 are the way, and the glossary carries the terms.
+It leaves out going deep on any one standard. The chapter on a standard sits
+under `standards/`, one directory per topic, and this step leads there without
+enumerating what sits there. The numbers in section 3 stay the way to it, and
+the glossary carries the terms.
 
 ## 6. Self-check
 
