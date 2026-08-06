@@ -1,0 +1,138 @@
+---
+title: ISO/IEC 27003, the guidance to the requirement
+subtitle: ISO/IEC 27003, practitioners
+lang: en
+id: presentation-iso-iec-27003-practitioners
+kind: presentation
+updated: 2026-08-06
+translated_from: de.qmd 2026-08-06
+format:
+  revealjs:
+    slide-number: true
+    incremental: false
+---
+
+# Occasion and audience
+
+## What this deck is made for
+
+- Occasion: training while building an ISMS, once the requirements have been
+  read and the implementation is due
+- Audience: `practitioners`
+- Length: 45 minutes, with an exercise on a clause the audience brings along
+- What the audience already knows: the structure of ISO/IEC 27001 and the terms
+  scope, interested party and documented information
+
+::: {.notes}
+This slide is not presented. There is only this one deck for this topic. For top
+management what is needed stands in the deck on ISO/IEC 27001, because guidance
+on implementation leads it to no further decision.
+:::
+
+# What it is about
+
+## The subject in one sentence
+
+ISO/IEC 27003 answers, for the requirements of ISO/IEC 27001, the question that
+always comes after reading them the first time: what is meant by that when you
+are supposed to do it.
+
+## Why it concerns the practitioners
+
+- The requirements are written short, and shortness is not clarity
+- Anyone stuck at a clause is usually stuck at its reach and not at its wording
+- Without a shared measure every reach gets renegotiated, and with opinions
+
+# The direction it is read in
+
+## Not from front to back
+
+- Read from the front it is the structure of ISO/IEC 27001 a second time
+- Opened at the clause where it sticks, it is the explanation to exactly that
+  place
+- Read the requirement first, write down what you understood, and only then take
+  the guidance beside it
+
+## Why the order counts
+
+- Anyone reading the guidance first reads it as a requirement
+- Then effort arises that nobody asked for, and it is hard to take away later
+- What is binding is ISO/IEC 27001:2022; this standard is not
+
+# What it does in daily work
+
+## Three uses
+
+- Understanding a clause where the implementation stalls
+- Tracing an existing implementation back to the clause it hangs off
+- Ending an argument about the reach of a requirement, because both sides
+  recognise the same text
+
+## Tracing back is the most useful
+
+- For everything in the ISMS there is the question which clause it hangs off
+- Where the answer is missing, either something superfluous stands there or a
+  requirement is unmet somewhere else
+- Both are findings, and both are cheaper than a finding in an audit
+
+# What it is not
+
+## Three confusions
+
+- No audit measure: an audit holds the organisation against ISO/IEC 27001, and a
+  departure from guidance is not a nonconformity
+- No document template: the templates of this repository sit under `templates`
+  and do not come from this standard
+- No substitute for the risk work: the process behind it is filled out by
+  ISO/IEC 27005, and the controls stand in ISO/IEC 27002
+
+## One point that shows while reading
+
+- The edition of this guidance is from 2017, the edition of the requirements
+  from 2022
+- So the guidance is written against the previous edition of the requirements
+- At which places the requirement has changed since, this deck does not say,
+  because both editions would have to be read beside each other for that
+
+# What to do or decide afterwards
+
+## The next steps
+
+- Name the clause your own implementation is stuck at, and open the guidance for
+  that one only
+- Write down, for three existing parts of the ISMS, the clause they hang off,
+  and put the ones without an answer on a list
+- Set a date for the place where two opinions meet, and read the guidance
+  together there
+- Who, by when: belongs in the discussion and not on this slide
+
+# References
+
+## Standard, clause and edition
+
+- ISO/IEC 27003:2017, as a whole standard
+- ISO/IEC 27001:2022, 4.1 to 4.4
+- ISO/IEC 27001:2022, 5.1 to 5.3
+- ISO/IEC 27001:2022, 6.1.1, 6.1.2, 6.1.3, 6.2
+- ISO/IEC 27001:2022, 7.1 to 7.5
+- ISO/IEC 27001:2022, 8.1, 8.2, 8.3
+- ISO/IEC 27001:2022, 9.1, 9.2, 9.3
+- ISO/IEC 27001:2022, 10.1, 10.2
+- ISO/IEC 27005:2022 and ISO/IEC 27002:2022, each as a whole standard
+
+No standard wording stands on these slides. No clause number of ISO/IEC 27003 is
+named, and the reason stands in the chapter on that standard: a number nobody
+has looked up looks checkable and is not.
+
+# Origin
+
+## Licence and origin
+
+ISO/IEC 27003, the guidance to the requirement, from iso27000-isms, under
+CC-BY-SA-4.0, `https://creativecommons.org/licenses/by-sa/4.0/`
+
+- State: 2026-08-06
+- What was read: ISO/IEC 27003:2017, whose catalog entry carries `confirmed`,
+  and ISO/IEC 27001:2022, checked against public secondary sources and not
+  against a licensed copy
+- The standards themselves are not under this licence.
