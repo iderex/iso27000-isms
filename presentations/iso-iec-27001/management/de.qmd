@@ -1,0 +1,138 @@
+---
+title: ISO/IEC 27001, was die Leitung entscheidet
+subtitle: ISO/IEC 27001, Geschäftsführung und oberste Leitung
+lang: de
+id: presentation-iso-iec-27001-management
+kind: presentation
+updated: 2026-08-06
+translated_from: original
+format:
+  revealjs:
+    slide-number: true
+    incremental: false
+---
+
+# Anlass und Zielgruppe
+
+## Wofür dieser Foliensatz gemacht ist
+
+- Anlass: Entscheidungsvorlage, vor dem Aufbau oder vor einer Zertifizierung
+- Zielgruppe: `management`
+- Dauer: 20 Minuten, ohne Aussprache
+- Was die Zuhörer schon wissen: dass Informationssicherheit ein Thema ist,
+  und sonst nichts über die Norm
+
+::: {.notes}
+Diese Folie wird nicht vorgetragen. Sie steht am Anfang, damit ein zweiter
+Vortragender in dreißig Sekunden erkennt, ob der Satz zu seinem Termin passt.
+Der Satz für die Praxis liegt daneben und ist ein anderer Vortrag, keine lange
+Fassung von diesem.
+:::
+
+# Worum es geht
+
+## Der Gegenstand in einem Satz
+
+ISO/IEC 27001 verlangt, dass Informationssicherheit gesteuert wird und nicht
+nur gemacht, und beschreibt dafür ein Managementsystem.
+
+## Warum das die Leitung angeht
+
+- Vier Entscheidungen weist die Norm ausdrücklich der obersten Leitung zu, und
+  keine davon lässt sich nach unten geben
+- Ohne diese vier steht das System still, gleich wie viel darunter gearbeitet
+  wird
+- Zertifiziert wird die Organisation und nicht die Abteilung
+
+## Was ein Managementsystem hier heißt
+
+- Kein Werkzeug, keine Software, kein Projekt mit Enddatum
+- Festlegungen, Zuständigkeiten, Abläufe und Aufzeichnungen, die zusammen
+  bewirken, dass entschieden, getan, gemessen und geändert wird
+- Der Unterschied zu heute ist meist nicht, dass nichts getan wird, sondern
+  dass niemand nachsieht, ob es gewirkt hat
+
+# Die vier Entscheidungen
+
+## Erstens: der Geltungsbereich
+
+- Welche Teile, Standorte, Tätigkeiten und Systeme gehören dazu
+- Was außen bleibt, verschwindet nicht, wird aber nicht gesteuert
+- Ein enger Bereich ist zulässig und schneller zu erreichen; er sagt dann auch
+  weniger aus
+- ISO/IEC 27001:2022, 4.3
+
+## Zweitens: die Richtlinie und die Zuständigkeiten
+
+- Eine beschlossene Richtlinie zur Informationssicherheit, von der Leitung
+  getragen und nicht von der Fachabteilung geschrieben und abgezeichnet
+- Benannte Zuständigkeiten, damit ein Risiko am Ende jemandem gehört
+- ISO/IEC 27001:2022, 5.2 und 5.3
+
+## Drittens: die Kriterien für Risiken
+
+- Ab welchem Ausmaß muss ein Risiko behandelt werden
+- Wer darf ein verbleibendes Risiko genehmigen
+- Beides wird gesetzt und nicht ausgerechnet, und beides gehört der Leitung
+- ISO/IEC 27001:2022, 6.1.2 und 6.1.3
+
+## Viertens: die Mittel
+
+- Personen, Zeit und Geld, und zwar dauerhaft und nicht einmalig
+- Die häufigste Ursache eines stehengebliebenen Systems ist eine Rolle, die
+  jemand zusätzlich zu seiner vollen Arbeit trägt
+- ISO/IEC 27001:2022, 7.1
+
+# Was die Leitung dafür zurückbekommt
+
+## Vier Dinge, regelmäßig
+
+- Eine Aussage darüber, welche Risiken die Organisation trägt, und wer sie
+  genehmigt hat
+- Zahlen, an denen sich ablesen lässt, ob die Maßnahmen wirken
+- Befunde aus internen Prüfungen, bevor ein Kunde oder eine Aufsicht sie findet
+- Eine Vorlage zur Entscheidung, in festem Takt
+- ISO/IEC 27001:2022, 9.1 und 9.3
+
+## Was sie nicht zurückbekommt
+
+- Keine Zusicherung, dass nichts passiert
+- Kein Restrisiko von null; wer eines vorgelegt bekommt, hat eine falsche
+  Rechnung vor sich und keine gute Nachricht
+
+# Was danach zu tun oder zu entscheiden ist
+
+## Die Vorlage
+
+- Wird ein Managementsystem nach ISO/IEC 27001 aufgebaut, ja oder nein
+- Wenn ja: welcher Geltungsbereich, mit einem Satz Begründung
+- Wenn ja: welche Person trägt die Rolle, mit welchem Zeitanteil
+- Wenn ja: wird eine Zertifizierung angestrebt, und bis wann
+- Offen bleiben darf die Zertifizierung; der Geltungsbereich nicht, denn ohne
+  ihn kann die Arbeit nicht anfangen
+
+# Verweise
+
+## Norm, Klausel und Ausgabe
+
+- ISO/IEC 27001:2022, 4.3
+- ISO/IEC 27001:2022, 5.2, 5.3
+- ISO/IEC 27001:2022, 6.1.2, 6.1.3
+- ISO/IEC 27001:2022, 7.1
+- ISO/IEC 27001:2022, 9.1, 9.3
+
+Auf diesen Folien steht kein Normtext, weder wörtlich noch als Umschreibung,
+die dem Aufbau des Originals folgt. Wer den Wortlaut braucht, schlägt ihn in
+einer lizenzierten Ausgabe nach.
+
+# Herkunft
+
+## Lizenz und Herkunft
+
+ISO/IEC 27001, was die Leitung entscheidet, aus iso27000-isms, unter
+CC-BY-SA-4.0, `https://creativecommons.org/licenses/by-sa/4.0/`
+
+- Stand: 06.08.2026
+- Gelesen wurde: ISO/IEC 27001:2022, geprüft gegen öffentliche
+  Sekundärquellen und nicht gegen eine lizenzierte Ausgabe
+- Die Norm selbst steht nicht unter dieser Lizenz.

@@ -1,0 +1,152 @@
+---
+title: ISO/IEC 27001, clause by clause
+subtitle: ISO/IEC 27001, practitioners
+lang: en
+id: presentation-iso-iec-27001-practitioners
+kind: presentation
+updated: 2026-08-06
+translated_from: de.qmd 2026-08-06
+format:
+  revealjs:
+    slide-number: true
+    incremental: false
+---
+
+# Occasion and audience
+
+## What this deck is made for
+
+- Occasion: a training at the start of the build, or a refresher before an
+  audit
+- Audience: `practitioners`
+- Length: 60 minutes, with questions in between
+- What the listeners already know: the terms risk, control, scope and the three
+  objectives
+
+::: {.notes}
+This slide is not presented. The deck for the leadership sits beside it and is
+a different talk: it ends at four decisions, this one ends at an order of work.
+Neither is the shortened version of the other.
+:::
+
+# What it is about
+
+## The subject in one sentence
+
+ISO/IEC 27001 says what an organisation has to be able to show for its
+information security to be steered and not merely done, and clauses 4 to 10 are
+the order in which that gets built.
+
+## Why it concerns the practitioners
+
+- Those clauses are the list an audit asks against
+- Every clause gives the same question: is this here, and where is it written
+  down
+- Anyone who knows the order saves themselves the work done twice
+
+# The seven clauses
+
+## Clause 4: the context
+
+- What surrounds the organisation and who expects something of it
+- The scope gets cut out of that, and the interfaces outward belong expressly
+  inside
+- Result: a written determination, not a slide
+- ISO/IEC 27001:2022, 4.1, 4.2, 4.3
+
+## Clause 5: the leadership
+
+- Policy, responsibilities, and what the leadership has to do itself
+- These clauses cannot be replaced by diligence in clause 8
+- ISO/IEC 27001:2022, 5.1, 5.2, 5.3
+
+## Clause 6: the planning
+
+- The heart sits here: assess risks, treat them, and determine the controls
+  only out of the treatment
+- The comparison against the annex comes after and looks for what was forgotten
+- The statement of applicability is the result, not the form
+- ISO/IEC 27001:2022, 6.1.2, 6.1.3, 6.2
+
+## Clause 7: the resources
+
+- People, competence, awareness, communication
+- And the documented information: almost every requirement ends in a record
+- ISO/IEC 27001:2022, 7.1 to 7.5
+
+## Clause 8: the doing
+
+- Assessment and treatment, now actually carried out and recorded
+- The commonest finding is not a missing procedure but one that has not run
+  since it was introduced
+- ISO/IEC 27001:2022, 8.2, 8.3
+
+## Clause 9: the checking
+
+- Monitoring, measuring, analysing and evaluating are four different
+  activities
+- With the internal audit and the management review beside them
+- ISO/IEC 27001:2022, 9.1, 9.2, 9.3
+
+## Clause 10: the improving
+
+- Continual improvement, including when nothing is broken
+- And the corrective action, which removes the cause and not the single case
+- ISO/IEC 27001:2022, 10.1, 10.2
+
+# The order it all hangs on
+
+## Why the annex does not come first
+
+- The controls follow from the treatment of the risks, and the comparison
+  against the annex comes after that
+- The other way round produces an inventory that looks like a management system
+  and carries no reasoning
+- It shows up only in the statement of applicability, where every number lacks
+  a why
+- ISO/IEC 27001:2022, 6.1.3
+
+## How to recognise the order turned around
+
+- The statement of applicability was finished before the risk register
+- No line in it points back at a risk
+- Every residual risk stands at zero
+
+# What to do or decide afterwards
+
+## The next steps
+
+- Read the scope and establish whether it is written down
+- Take one first risk all the way through to the line in the statement of
+  applicability, checking the order while doing it
+- For every clause from 4 to 10, note where the record sits or that there is
+  none
+- Who, by when: belongs in the discussion and not on this slide
+
+# References
+
+## Standard, clause and edition
+
+- ISO/IEC 27001:2022, 4.1, 4.2, 4.3
+- ISO/IEC 27001:2022, 5.1, 5.2, 5.3
+- ISO/IEC 27001:2022, 6.1.2, 6.1.3, 6.2
+- ISO/IEC 27001:2022, 7.1 to 7.5
+- ISO/IEC 27001:2022, 8.2, 8.3
+- ISO/IEC 27001:2022, 9.1, 9.2, 9.3
+- ISO/IEC 27001:2022, 10.1, 10.2
+
+No text from a standard stands on these slides, neither verbatim nor as a
+paraphrase following the structure of the original. What a clause requires in
+detail stands in a licensed copy.
+
+# Origin
+
+## Licence and origin
+
+ISO/IEC 27001, clause by clause, from iso27000-isms, under CC-BY-SA-4.0,
+`https://creativecommons.org/licenses/by-sa/4.0/`
+
+- State: 2026-08-06
+- What was read: ISO/IEC 27001:2022, checked against public secondary sources
+  and not against a licensed copy
+- The standard itself is not under this licence.
