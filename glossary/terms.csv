@@ -1,0 +1,26 @@
+id,term_de,term_en,alias_de,alias_en,definition_standard,definition_clause,definition_edition,read_on
+4.1,Anlage,Asset,Asset Wert,none,iso-iec-27000,3,2018,2026-08-06
+4.2,Internes Audit,Internal audit,none,none,iso-iec-27001,9.2,2022,2026-08-06
+4.3,Bedrohung,Threat,none,none,iso-iec-27000,3,2018,2026-08-06
+4.4,Dokumentierte Information,Documented information,none,none,iso-iec-27001,7.5,2022,2026-08-06
+4.5,Erklärung zur Anwendbarkeit,Statement of applicability,SoA,SoA,iso-iec-27001,6.1.3,2022,2026-08-06
+4.6,Geltungsbereich,Scope,Scope,none,iso-iec-27001,4.3,2022,2026-08-06
+4.7,Informationssicherheit,Information security,InfoSec,InfoSec,iso-iec-27000,3,2018,2026-08-06
+4.8,Informationssicherheits-Managementsystem,Information security management system,ISMS,ISMS,iso-iec-27000,3,2018,2026-08-06
+4.9,Interessierte Partei,Interested party,Stakeholder,stakeholder,iso-iec-27000,3,2018,2026-08-06
+4.10,Korrekturmaßnahme und Nichtkonformität,Corrective action and nonconformity,none,none,iso-iec-27001,10.2,2022,2026-08-06
+4.11,Managementbewertung,Management review,none,none,iso-iec-27001,9.3,2022,2026-08-06
+4.12,Maßnahme,Control,Control Sicherheitsmaßnahme,safeguard countermeasure,iso-iec-27000,3,2018,2026-08-06
+4.13,Reifegrad,Maturity,none,none,none,none,none,2026-08-06
+4.14,Restrisiko,Residual risk,none,none,iso-iec-27000,3,2018,2026-08-06
+4.15,Risiko,Risk,none,none,iso-iec-27000,3,2018,2026-08-06
+4.16,Risikobeurteilung,Risk assessment,none,none,iso-iec-27001,6.1.2 8.2,2022,2026-08-06
+4.17,Risikobehandlung,Risk treatment,none,none,iso-iec-27001,6.1.3 8.3,2022,2026-08-06
+4.18,Risikoeigentümer,Risk owner,Risikoverantwortlicher,none,iso-iec-27000,3,2018,2026-08-06
+4.19,"Schutzziele: Vertraulichkeit, Integrität, Verfügbarkeit","The objectives: confidentiality, integrity, availability",CIA,CIA,iso-iec-27000,3,2018,2026-08-06
+4.20,Schwachstelle,Vulnerability,Verwundbarkeit,none,iso-iec-27000,3,2018,2026-08-06
+4.21,Sicherheitsereignis und Sicherheitsvorfall,Security event and security incident,none,none,iso-iec-27000,3,2018,2026-08-06
+4.22,Ständige Verbesserung,Continual improvement,KVP,none,iso-iec-27001,10.1,2022,2026-08-06
+4.23,Überwachung und Messung,Monitoring and measurement,none,none,iso-iec-27001,9.1,2022,2026-08-06
+4.24,Wirksamkeit,Effectiveness,none,none,iso-iec-27000,3,2018,2026-08-06
+4.25,Zertifizierung und Akkreditierung,Certification and accreditation,none,none,none,none,none,2026-08-06
