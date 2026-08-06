@@ -281,10 +281,26 @@ python scripts/check-translations-test.py
 Was sie nicht beurteilt, ist die Übersetzung selbst. Ob sie gut ist und ob sie
 dasselbe sagt, liest ein Mensch, und das bleibt so.
 
-Was auch diese drei Prüfungen nicht tun: sie laufen nirgends von selbst. Kein
-Hook und kein Ablauf auf dem Server ruft sie auf. Sie weisen deshalb keinen
-Beitrag zurück, sondern sagen einem Menschen, der sie aufruft, was sie gefunden
-haben. Der erste Absatz dieses Abschnitts gilt unverändert.
+Seit dem 06.08.2026 laufen diese drei von selbst, auf dem Server, zu jedem Pull
+Request und zu jedem Schub nach `main`. Der Ablauf steht in
+`.github/workflows/checks.yml`. Er führt zwei Aufträge nebeneinander, den einen
+über die drei Beweise und den anderen über die drei Prüfungen, und warum sie
+nicht hintereinanderstehen, sagt der Kopf der Datei. Ein Hook, der sie vor dem
+Schieben aufruft, liegt hier weiterhin nicht.
+
+Zurückgewiesen wird damit trotzdem nichts. Das Regelwerk auf `main` führt keine
+erforderliche Prüfung, und ein roter Lauf verhindert das Zusammenführen deshalb
+nicht:
+
+```
+gh api repos/iderex/iso27000-isms/rulesets --jq '.[] | select(.name == "gate") | .id'
+20444259
+gh api repos/iderex/iso27000-isms/rulesets/20444259 --jq '{enforcement, bypass: .bypass_actors, required: [.rules[].type]}'
+{"bypass":[],"enforcement":"active","required":["deletion","non_fast_forward","pull_request"]}
+```
+
+Ein Lauf sagt also einem Menschen, was er gefunden hat, und niemandem sonst.
+Der erste Absatz dieses Abschnitts gilt unverändert.
 
 Ein Punkt ließe sich ebenfalls maschinell prüfen, und er steht hier als das, was
 er ist, nämlich als noch nicht vorhandene Prüfung:
@@ -565,10 +581,25 @@ python scripts/check-translations-test.py
 What it does not judge is the translation itself. Whether it is good and
 whether it says the same thing is read by a person, and that stays so.
 
-What these three checks do not do either: they run nowhere on their own. No
-hook and no run on the server calls them. So they refuse no contribution; they
-tell a person who calls them what they found. The first paragraph of this
-section holds unchanged.
+Since 2026-08-06 these three run on their own, on the server, on every pull
+request and on every push to `main`. The run stands in
+`.github/workflows/checks.yml`. It carries two jobs beside each other, one over
+the three proofs and one over the three checks, and why they do not stand one
+behind the other is said in the head of the file. A hook that calls them before
+a push still does not sit here.
+
+Nothing is refused by that all the same. The ruleset on `main` carries no
+required status check, so a red run does not stop a merge:
+
+```
+gh api repos/iderex/iso27000-isms/rulesets --jq '.[] | select(.name == "gate") | .id'
+20444259
+gh api repos/iderex/iso27000-isms/rulesets/20444259 --jq '{enforcement, bypass: .bypass_actors, required: [.rules[].type]}'
+{"bypass":[],"enforcement":"active","required":["deletion","non_fast_forward","pull_request"]}
+```
+
+So a run tells a person what it found, and nobody else. The first paragraph of
+this section holds unchanged.
 
 One point could be checked mechanically as well, and it stands here as what it
 is, namely as a check that does not exist yet:

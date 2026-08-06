@@ -1,0 +1,63 @@
+# Ruft die drei Prüfungen aus CONTRIBUTING.md, Abschnitt 10, auf, und daneben
+# die drei Beweise, die bei den Skripten liegen. Beide Aufträge laufen
+# unabhängig voneinander, und das ist gemessen und nicht geraten: mit
+# `needs: proofs` am zweiten Auftrag hat eine Datei mit absolutem Verweis den
+# ersten Auftrag rot gemacht und den zweiten übersprungen, weil
+# `check-links-test.py` einen Prüffall gegen den echten Baum führt. Der Leser
+# sah dann einen fehlgeschlagenen Beweis und nicht die Meldung der Prüfung, die
+# Datei, Zeile und Regel nennt.
+#
+# Calls the three checks from CONTRIBUTING.md, section 20, and beside them the
+# three proofs that sit with the scripts. Both jobs run independently of each
+# other, and that is measured rather than supposed: with `needs: proofs` on the
+# second job, a file carrying an absolute link turned the first job red and
+# skipped the second, because `check-links-test.py` carries one test case
+# against the real tree. The reader then saw a failed proof and not the message
+# of the check, which names file, line and rule.
+#
+# Was dieser Ablauf nicht tut: einen Beitrag zurückweisen. Das Regelwerk auf
+# `main` führt keine erforderliche Prüfung, und ein roter Lauf verhindert das
+# Zusammenführen deshalb nicht. Er ist sichtbar und nicht bindend.
+#
+# What this run does not do: refuse a contribution. The ruleset on `main`
+# carries no required status check, so a red run does not stop a merge. It is
+# visible and not binding.
+
+name: Prüfungen / Checks
+
+on:
+  pull_request:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  proofs:
+    name: Beweise / Proofs
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Fassung von Python / Version of Python
+        run: python3 --version
+      - name: Beweis der Verweisprüfung / Proof of the link check
+        run: python3 scripts/check-links-test.py
+      - name: Beweis der CSV-Prüfung / Proof of the CSV check
+        run: python3 scripts/check-csv-test.py
+      - name: Beweis der Übersetzungsprüfung / Proof of the translation check
+        run: python3 scripts/check-translations-test.py
+
+  checks:
+    name: Prüfungen / Checks
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Verweise / Links
+        run: python3 scripts/check-links.py .
+      - name: CSV-Dateien / CSV files
+        run: python3 scripts/check-csv.py .
+      - name: Übersetzungen / Translations
+        run: python3 scripts/check-translations.py .
