@@ -256,12 +256,18 @@ The statement of applicability in
 [templates/soa/en.md](../../templates/soa/en.md) is the result of the treatment
 and belongs at the end of this activity.
 
-Presentations: there is no deck in the tree for this topic today. The layout
+Presentations: the decks for this topic sit under
+`presentations/iso-iec-27005`, one directory per audience. The layout
 stands in [presentations/en.md](../../presentations/en.md).
 
-Trainings: there is no training in the tree for this topic today.
+Trainings: what there is of a training for this topic sits under
+`trainings/iso-iec-27005`.
 
-Mappings: there is no mapping table in the tree for this topic today.
+Mappings: the rows for this topic sit in the tables under `mappings/external`
+and carry `iso-iec-27005:2022` in the field `source_scheme`.
+
+These three paragraphs name directories and not contents. What sits there sits
+there, and this chapter does not enumerate it.
 
 Where it says here that something is not there, it is not there.
 
@@ -338,9 +344,12 @@ It supports the requirements 6.1.2, 6.1.3, 8.2 and 8.3 of ISO/IEC 27001 and
 names no control numbers of its own; those arise only from the treatment.
 
 The matching equipment sits in `templates/registers/risk-register`,
-`templates/registers/asset-register` and `templates/soa`. Under
-`presentations`, `trainings` and `mappings` there is nothing for this topic
-today, and that is no invitation to invent something.
+`templates/registers/asset-register` and `templates/soa`. What there is for
+this topic of decks, trainings and mappings sits under
+`presentations/iso-iec-27005` and `trainings/iso-iec-27005` and in the tables
+under `mappings/external` with `iso-iec-27005:2022` in the field
+`source_scheme`. Those directories are not enumerated here, and what does not
+sit there is not invented.
 
 Nothing is quoted from the standard at all. This chapter is quoted under
 CC-BY-SA-4.0, with the title of the file, the repository, the licence and the

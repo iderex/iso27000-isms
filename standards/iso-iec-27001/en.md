@@ -305,14 +305,20 @@ the policy pattern in
 instruction pattern in
 [templates/work-instructions/en.md](../../templates/work-instructions/en.md).
 
-Presentations: there is no deck in the tree for this topic today. The layout
+Presentations: the decks for this topic sit under
+`presentations/iso-iec-27001`, one directory per audience. The layout
 and the pattern stand in [presentations/en.md](../../presentations/en.md).
 
-Trainings: there is no training in the tree for this topic today.
+Trainings: what there is of a training for this topic sits under
+`trainings/iso-iec-27001`.
 
-Mappings: there is no mapping table in the tree for this topic today. What the
+Mappings: the rows for this topic sit in the tables under `mappings/external`
+and carry `iso-iec-27001:2022` in the field `source_scheme`. What the
 terms of the three external target schemes permit stands in
 [mappings/external/terms.en.md](../../mappings/external/terms.en.md).
+
+These three paragraphs name directories and not contents. What sits there sits
+there, and this chapter does not enumerate it.
 
 Where it says here that something is not there, it is not there. That is no
 invitation to invent it.
@@ -394,9 +400,11 @@ the controls of ISO/IEC 27002 by their numbers without enumerating them.
 
 The matching equipment sits in `templates/soa`,
 `templates/registers/risk-register`, `templates/registers/asset-register`,
-`templates/policies` and `templates/work-instructions`. Under `presentations`,
-`trainings` and `mappings` there is nothing for this topic today, and that is
-no invitation to invent something.
+`templates/policies` and `templates/work-instructions`. What there is for this
+topic of decks, trainings and mappings sits under `presentations/iso-iec-27001`
+and `trainings/iso-iec-27001` and in the tables under `mappings/external` with
+`iso-iec-27001:2022` in the field `source_scheme`. Those directories are not
+enumerated here, and what does not sit there is not invented.
 
 Nothing is quoted from the standard at all. This chapter is quoted under
 CC-BY-SA-4.0, with the title of the file, the repository, the licence and the
