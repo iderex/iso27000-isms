@@ -1,0 +1,13 @@
+id: awareness-all-staff
+objective: >
+  Wer dieses Training abgeschlossen hat, erkennt die wenigen Lagen im eigenen
+  Arbeitsalltag, in denen das eigene Verhalten über die Sicherheit von
+  Informationen entscheidet, und weiß, wen er in jeder davon anspricht.
+duration_minutes: 30
+audience: all-staff
+question_count: 10
+pass_mark_percent: 80
+requirement_reference:
+  - ISO/IEC 27001:2022, 7.3
+  - ISO/IEC 27001:2022, 7.2
+  - ISO/IEC 27001:2022, 7.4

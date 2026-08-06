@@ -1,0 +1,136 @@
+// AWARENESS QUESTION SET, from iso27000-isms, under CC-BY-SA-4.0,
+// https://creativecommons.org/licenses/by-sa/4.0/
+// Topic: awareness-all-staff. Language: en. The German version sits in de.gift.
+//
+// This file carries no YAML header. A header ahead of the first line becomes a
+// question on import. The exception to format rule 3 and its reason stand in
+// ../en.md, section 5. These lines carry what the header would have carried.
+//
+// Ten scored questions, which is the number in the meta.yaml. The text before
+// them is a description and is not scored.
+// No clause number and no standard wording, not in an answer either.
+
+$CATEGORY: awareness-all-staff
+
+::Note before the following questions::
+The following questions come from daily work. They are not about repeating a
+rule but about recognising, in a situation, what to do and whom to speak to.
+
+// 1
+
+::A message that pushes::
+A message demands something immediately, arrives by an unusual route and rules
+out questions. What is the first step?{
+=Do not click the link and check the usual way. #Right.
+~Open the link to see what it is about. #Opening it is the step the message is
+after.
+~Reply to the message and ask. #The reply goes to the sender of the message and
+not to the person it claims to be about.
+~Wait and see whether somebody else speaks up. #Waiting is the one response that
+certainly improves nothing.
+####The three marks together are the pattern. Each on its own occurs in genuine
+messages too; all three together rarely do.}
+
+// 2
+
+::Reporting although it was genuine::
+A reported message turns out to be genuine. That was a mistake.{FALSE
+####Wrong. A genuine message reported costs a few minutes. A false one not
+reported costs the time in which nobody can do anything.}
+
+// 3
+
+::The second factor on the phone::
+Who may the second factor be told to?{
+=Nobody.
+=nobody
+=No one
+####Not your own IT department either. Anyone asking for it is presenting
+themselves as somebody who would not need to.}
+
+// 4
+
+::A stand-in during leave::
+A colleague goes on leave and her cases have to carry on. What is right?{
+=The access administration sets up an account of its own for the stand-in.
+#Right.
+~She passes her password to the stand-in. #Then it is no longer possible to tell
+who did what.
+~She passes the password on only by word of mouth and changes it afterwards.
+#That too removes the attribution for as long as it holds.
+~The stand-in works under the department account. #A shared account is the same
+case, larger.
+####An account belongs to exactly one person, because otherwise nobody can say
+who acted.}
+
+// 5
+
+::Loss of a device::
+A work phone is left on a train on Saturday. When is it reported?{
+=Immediately, at the weekend too. #Right.
+~On Monday morning, because nobody is there before then. #The time until Monday
+is the time without a response.
+~Only once it is clear it is not in lost property. #The report does not rule out
+the search.
+~Only if work data was on it. #Neither the finder nor the loser decides that.
+####Between loss and report nobody can do anything, and it is exactly that time
+that can be shortened.}
+
+// 6
+
+::Two rules before sending::
+Which two questions belong before every send of data?{
+~%50%Does the recipient need this at all. #Right.
+~%50%Do they need it in full, or is an extract enough. #Right.
+~%-100%Is the file small enough to attach. #A question of technology and not of
+security.
+~%-100%Is the format readable for the recipient. #A question of technology as
+well.
+####Both questions cost seconds and prevent the commonest incident there is,
+namely too much to too many.}
+
+// 7
+
+::After the click::
+It has been clicked and the password entered. What is the first step?{
+=Report it, immediately. #Right.
+~Switch the device off. #That loses traces the response needs.
+~Clear the history. #That hinders the response and changes nothing about the
+incident.
+~Wait and see whether anything happens. #Until then the response has not
+started.
+####The report comes before everything else. The password is changed afterwards,
+and on another device.}
+
+// 8
+
+::Private storage::
+Work data may sit on a private storage device as long as nobody passes it on.
+{FALSE
+####Wrong. What belongs to the organisation or to its customers stays in the
+routes the organisation provides for it.}
+
+// 9
+
+::On a change of role::
+What belongs to a move into another role?{
+=Saying yourself which accounts are no longer needed. #Right.
+~Keeping the accounts in case questions come up. #That is exactly how the old
+account that stands open later arises.
+~Nothing, human resources handles it by itself. #They hear about the move, but
+not which accounts arose in daily work.
+~Passing the accounts on to your successor. #Accounts are set up anew and not
+handed over.
+####A change of role leaves more open accounts behind than a departure, because
+at a departure somebody looks.}
+
+// 10
+
+::Your own situation::
+Describe in two sentences a situation from your own daily work in which your own
+behaviour decides about the security of information, and whom you speak to in
+it.{
+####Model answer. What is expected is a concrete situation from your own work
+rather than an example from the material, and with it the place in the house that
+is spoken to in that situation. Anyone finding no situation has not yet carried
+the question over to their own work.}
