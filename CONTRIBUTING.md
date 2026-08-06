@@ -203,7 +203,7 @@ die Signed-off-by-Zeile fehlt, weil eine Lesung ausgeblieben ist oder weil er
 Normtext enthält. Diese Prüflisten liest ein Mensch. Wer sie für eine Kontrolle
 hält, verlässt sich auf etwas, das es nicht gibt.
 
-Zwei Prüfungen gibt es inzwischen. Die erste liest jede Markdown-Datei im Baum
+Drei Prüfungen gibt es inzwischen. Die erste liest jede Markdown-Datei im Baum
 und weist einen Verweis zurück, der absolut ist, der nicht auf `.md` endet oder
 der auf keine vorhandene Datei zeigt:
 
@@ -248,23 +248,52 @@ entscheidet sie nicht: sie weist einen Namen zurück, der kein
 kleingeschriebenes Wort aus ASCII ist, und ein Name wie `datum` kommt damit
 durch. Diese Hälfte bleibt eine Lesung durch einen Menschen.
 
-Was auch diese beiden Prüfungen nicht tun: sie laufen nirgends von selbst. Kein
+Die dritte liest jede Datei, deren Name eine Sprache trägt, und tut daran zwei
+verschiedene Dinge:
+
+```
+python scripts/check-translations.py .
+```
+
+Eine deutsche Datei ohne englisches Gegenstück und umgekehrt wird gemeldet und
+nicht zurückgewiesen. Abschnitt 5 sagt, dass eine Sprache für einen Beitrag
+reicht und die fehlende ein eigenes Issue wird, und eine Prüfung, die sie
+zurückwiese, sagte einem Beitragenden, er habe eine Regel gebrochen, von der
+dieselbe Datei sagt, dass er sie nicht gebrochen hat. Diese Hälfte ist eine
+Meldung, sie ändert den Rückgabewert nicht, und sie eine Kontrolle zu nennen
+wäre falsch.
+
+Ein kaputter Eintrag in `translated_from` wird zurückgewiesen. Dort stehen
+beide Dateien im Baum, und eine davon sagt schriftlich, aus welchem Stand der
+anderen sie gemacht ist. Ist dieser Satz falsch, wird der Leser in die Irre
+geführt, und in die Irre geführt zu werden ist schlechter, als nichts gesagt zu
+bekommen. Zurückgewiesen werden sechs Formen: kein Eintrag, ein Eintrag ohne
+Datum, ein Datum ohne genannte Quelle, eine genannte Quelle, die es nicht gibt,
+ein Stand, der älter ist als das `updated` der Quelle, und einer, der neuer
+ist.
+
+Der Beweis liegt auch hier daneben:
+
+```
+python scripts/check-translations-test.py
+```
+
+Was sie nicht beurteilt, ist die Übersetzung selbst. Ob sie gut ist und ob sie
+dasselbe sagt, liest ein Mensch, und das bleibt so.
+
+Was auch diese drei Prüfungen nicht tun: sie laufen nirgends von selbst. Kein
 Hook und kein Ablauf auf dem Server ruft sie auf. Sie weisen deshalb keinen
 Beitrag zurück, sondern sagen einem Menschen, der sie aufruft, was sie gefunden
 haben. Der erste Absatz dieses Abschnitts gilt unverändert.
 
-Zwei Punkte ließen sich ebenfalls maschinell prüfen, und sie stehen hier als
-das, was sie sind, nämlich als noch nicht vorhandene Prüfungen:
+Ein Punkt ließe sich ebenfalls maschinell prüfen, und er steht hier als das, was
+er ist, nämlich als noch nicht vorhandene Prüfung:
 
-- ob zu jeder deutschen Datei eine englische mit passendem Übersetzungsstand
-  existiert,
 - ob jede erzeugte Ansicht zu ihrer Quelle passt.
 
-Jeder der zwei hat ein Issue, in der Reihenfolge der Liste #61 und #62. Ein
-Issue ist keine Prüfung: keiner der zwei Punkte wird heute von etwas
-zurückgewiesen, und die Liste bleibt eine Liste dessen, was es noch nicht gibt.
-Der Rest, die Urheberrechtsgrenze voran, bleibt eine Lesung durch einen
-Menschen und wird auch später keine Prüfung.
+Er hat ein Issue, #62. Ein Issue ist keine Prüfung: dieser Punkt wird heute von
+nichts zurückgewiesen. Der Rest, die Urheberrechtsgrenze voran, bleibt eine
+Lesung durch einen Menschen und wird auch später keine Prüfung.
 
 Wie hier miteinander umgegangen wird, steht in
 [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md).
@@ -463,7 +492,7 @@ Signed-off-by line is missing, because a reading did not happen, or because it
 carries text from a standard. These checklists are read by a person. Anyone
 taking them for a control is relying on something that does not exist.
 
-Two checks exist by now. The first reads every Markdown file in the tree and
+Three checks exist by now. The first reads every Markdown file in the tree and
 refuses a link that is absolute, that does not end in `.md`, or that points at
 no existing file:
 
@@ -506,23 +535,49 @@ are refused. Whether a field name is English it does not decide: it refuses a
 name that is not a lowercase ASCII word, so a name like `datum` comes through.
 That half stays a reading by a person.
 
-What these two checks do not do either: they run nowhere on their own. No hook
-and no run on the server calls them. So they refuse no contribution; they tell
-a person who calls them what they found. The first paragraph of this section
-holds unchanged.
+The third reads every file whose name carries a language and does two different
+things with it:
 
-Two points could be checked mechanically as well, and they stand here as what
-they are, namely as checks that do not exist yet:
+```
+python scripts/check-translations.py .
+```
 
-- whether every German file has an English one with a matching translation
-  state,
+A German file with no English counterpart, and the other way round, is reported
+and not refused. Section 15 says one language is enough for a contribution and
+that the missing one becomes an issue of its own, and a check refusing it would
+tell a contributor they broke a rule the same file says they did not break.
+That half is a report, it changes no exit status, and calling it a control
+would be wrong.
+
+A broken entry in `translated_from` is refused. There both files sit in the
+tree and one of them says in writing which state of the other it was made from.
+Where that sentence is wrong the reader is misled, and being misled is worse
+than being told nothing. Six shapes are refused: no entry at all, an entry with
+no date, a date with no source named, a source named that is not there, a state
+older than the source's own `updated`, and one that is newer.
+
+The proof sits beside this one too:
+
+```
+python scripts/check-translations-test.py
+```
+
+What it does not judge is the translation itself. Whether it is good and
+whether it says the same thing is read by a person, and that stays so.
+
+What these three checks do not do either: they run nowhere on their own. No
+hook and no run on the server calls them. So they refuse no contribution; they
+tell a person who calls them what they found. The first paragraph of this
+section holds unchanged.
+
+One point could be checked mechanically as well, and it stands here as what it
+is, namely as a check that does not exist yet:
+
 - whether every generated view matches its source.
 
-Each of the two has an issue, in the order of the list #61 and #62. An issue is
-not a check: neither of the two points is refused by anything today, and the
-list stays a list of what does not exist yet. The rest, the copyright boundary
-above all, stays a reading by a person and will not become a check later
-either.
+It has an issue, #62. An issue is not a check: that point is refused by nothing
+today. The rest, the copyright boundary above all, stays a reading by a person
+and will not become a check later either.
 
 How people treat each other here stands in
 [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md).
