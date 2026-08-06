@@ -1,0 +1,128 @@
+---
+title: ISO/IEC 27002, putting a single control in place
+subtitle: ISO/IEC 27002, engineering
+lang: en
+id: presentation-iso-iec-27002-engineering
+kind: presentation
+updated: 2026-08-06
+translated_from: de.qmd 2026-08-06
+format:
+  revealjs:
+    slide-number: true
+    incremental: false
+---
+
+# Occasion and audience
+
+## What this deck is made for
+
+- Occasion: handing a mapped control over to engineering, before the
+  implementation
+- Audience: `engineering`
+- Length: 30 minutes, on a number that is currently due
+- What the audience already knows: their own systems; no prior knowledge of the
+  management system needed
+
+::: {.notes}
+This slide is not presented. There is a second deck for this topic, for the
+practitioners. This one is not its short version: it starts at a single number
+and does not go through the procedure.
+:::
+
+# What it is about
+
+## The subject in one sentence
+
+Behind every number of the annex stands an intention, and ISO/IEC 27002 says
+what matters when it is put in place.
+
+## Why it concerns engineering
+
+- What gets implemented arrives as a number, and a number alone does not say
+  when it is met
+- Without the intention behind it an implementation arises that fits formally
+  and lowers no risk
+- The question how it is recognised that it works comes later anyway, and then
+  without preparation
+
+# A number arrives
+
+## What has to arrive with it
+
+- The number itself, say 5.18 or 8.16
+- The risk row it comes from, in one sentence
+- Who answers for the consequences
+
+## What to do before building
+
+- Read up on what matters for this number, in a licensed copy
+- Check whether the intention matches the purpose or only its name
+- Ask back where the intention settles more than the number does, or less
+
+# How it is recognised that it works
+
+## The evidence is planned with it
+
+- Every implementation comes with an observation showing that it runs
+- It arises while building and not in the audit
+- ISO/IEC 27001:2022, 9.1, asks for the evaluation; the figure for it has to
+  arise somewhere
+
+## Two forms that are enough
+
+- A record that arises without anyone thinking about it
+- A look back at a fixed interval whose result is written down
+- Both with a date, otherwise it is a memory and not evidence
+
+# What engineering does not decide
+
+## Three boundaries
+
+- Whether a control is applied: the risk treatment decides that
+- Whether a number is dropped: the reason for that is the risk situation and
+  stands in the statement of applicability
+- What stands in the standard: the wording is looked up in a licensed copy and
+  not passed on second hand
+
+## The list is not the starting point
+
+- The annex does not get worked through from top to bottom
+- A number with no risk row behind it is effort without a reason
+- Anyone receiving such a number asks for the row
+
+# What to do or decide afterwards
+
+## The next steps
+
+- Fetch the risk row for the number that is due, where it is missing
+- Describe the implementation and beside it the observation that evidences it
+- Name the point at which the implementation settles more than the number, and
+  report it back
+- Who, by when: belongs in the discussion and not on this slide
+
+# References
+
+## Standard, clause and edition
+
+- ISO/IEC 27002:2022, as a whole standard
+- ISO/IEC 27001:2022, 6.1.3
+- ISO/IEC 27001:2022, 8.1
+- ISO/IEC 27001:2022, 9.1
+- ISO/IEC 27004:2016, as a whole standard
+
+No standard wording, no control title and no enumeration of the annex numbers
+stands on these slides. The two numbers named stand as an example of the form
+and without the title that stands behind them in the standard.
+
+# Origin
+
+## Licence and origin
+
+ISO/IEC 27002, putting a single control in place, from iso27000-isms, under
+CC-BY-SA-4.0, `https://creativecommons.org/licenses/by-sa/4.0/`
+
+- State: 2026-08-06
+- What was read: ISO/IEC 27002:2022, whose catalog entry carries `confirmed`,
+  and ISO/IEC 27001:2022, checked against public secondary sources and not
+  against a licensed copy
+- The standards themselves are not under this licence.

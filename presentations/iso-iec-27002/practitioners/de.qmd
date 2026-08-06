@@ -1,0 +1,131 @@
+---
+title: ISO/IEC 27002, vom behandelten Risiko zur begründeten Nummer
+subtitle: ISO/IEC 27002, Praxis
+lang: de
+id: presentation-iso-iec-27002-practitioners
+kind: presentation
+updated: 2026-08-06
+translated_from: original
+format:
+  revealjs:
+    slide-number: true
+    incremental: false
+---
+
+# Anlass und Zielgruppe
+
+## Wofür dieser Foliensatz gemacht ist
+
+- Anlass: Schulung nach der ersten Risikobehandlung, bevor die Erklärung zur
+  Anwendbarkeit geschrieben wird
+- Zielgruppe: `practitioners`
+- Dauer: 45 Minuten, mit einer gemeinsamen Zuordnung an einer echten Zeile aus
+  dem eigenen Risikoregister
+- Was die Zuhörer schon wissen: eine abgeschlossene Behandlung, die Begriffe
+  Maßnahme, Restrisiko und Erklärung zur Anwendbarkeit
+
+::: {.notes}
+Diese Folie wird nicht vorgetragen. Zu diesem Thema gibt es einen zweiten Satz,
+für die Technik. Er ist nicht die kürzere Fassung dieses hier: er beginnt bei
+einer einzelnen Nummer, dieser hier an der Reihenfolge des Verfahrens.
+:::
+
+# Worum es geht
+
+## Der Gegenstand in einem Satz
+
+ISO/IEC 27002 sagt, was hinter den Nummern des Anhangs steht, und diese Norm
+wird von der Behandlung her benutzt und nicht von der Liste her.
+
+## Warum das die Praxis angeht
+
+- Die Erklärung zur Anwendbarkeit schreibt die Praxis, und sie steht später im
+  Audit
+- Verlangt ist der Abgleich gegen den Anhang, ISO/IEC 27001:2022, 6.1.3, und
+  nicht die Anwendung jeder Nummer
+- Wer mit der Liste anfängt, macht eine Bestandsaufnahme, die aussieht wie ein
+  ISMS
+
+# Die Richtung
+
+## Von der Behandlung zur Nummer
+
+- Nach der Behandlung steht zu jedem Risiko, was getan werden soll
+- Zu jedem Vorhaben wird die Nummer gesucht, unter der es im Anhang steht
+- Meist eine, manchmal zwei, gelegentlich keine
+
+## Wenn keine Nummer passt
+
+- Das ist kein Fehler, sondern eine eigene Maßnahme
+- Sie steht im Risikoregister und nicht in der Erklärung zur Anwendbarkeit
+- Die Erklärung ist gegen den Anhang gebaut und nicht gegen die Organisation
+
+# Der Abgleich
+
+## Was der Abgleich wirklich ist
+
+- Den Anhang einmal in ganzer Länge durchgehen
+- Zu jeder Nummer fragen: betrifft das ein Risiko, das wir übersehen haben
+- Das ist eine Kontrolle auf Vergessenes und kein Vollständigkeitsversprechen
+
+## Zwei Ergebnisse und kein drittes
+
+- Anwendung mit Begründung, die auf eine Risikozeile zurückzeigt
+- Nichtanwendung mit Begründung, die eine Feststellung über die Risikolage ist
+- Eine leere Zeile ist keines von beidem, und genau danach sucht ein Audit
+
+# Wo es kippt
+
+## Drei Fehler, die gleich aussehen wie richtige Arbeit
+
+- Der Abgleich vor der Behandlung: die Begründungen stammen dann aus der Norm
+  statt aus der eigenen Lage
+- Nichtanwendung mit dem Aufwand begründet: Aufwand ist ein Grund, anders zu
+  behandeln, und keine Aussage über das Risiko
+- Die alte Zuordnung weiterbenutzt: die Ausgabe 2022 ist umgebaut, und eine
+  Nummer aus der Ausgabe 2013 zeigt woanders hin
+
+## Was in der Erklärung am Ende steht
+
+- Zu jeder Nummer des Anhangs eine Entscheidung mit Begründung
+- Datum und Verantwortlicher
+- Daneben die eigenen Maßnahmen, die im Anhang nicht vorkommen
+
+# Was danach zu tun oder zu entscheiden ist
+
+## Die nächsten Schritte
+
+- Eine behandelte Zeile vollständig durchziehen, bis zwei begründete Nummern
+  dastehen
+- Die Vorlage in `templates/soa` nehmen und keine eigenen Felder danebenstellen
+- Die Nichtanwendungen sammeln, deren Begründung nach Aufwand klingt, und sie
+  gegen die Risikolage halten
+- Wer, bis wann: gehört in die Aussprache und nicht auf diese Folie
+
+# Verweise
+
+## Norm, Klausel und Ausgabe
+
+- ISO/IEC 27002:2022, als ganze Norm
+- ISO/IEC 27001:2022, 6.1.3
+- ISO/IEC 27001:2022, 8.1, 8.3
+- ISO/IEC 27001:2022, 9.1
+- ISO/IEC 27005:2022, als ganze Norm
+
+Auf diesen Folien steht kein Normtext, kein Maßnahmentitel und keine Aufzählung
+der Anhangsnummern. Zu ISO/IEC 27002 wird keine Klauselnummer genannt, und der
+Grund steht im Kapitel zu dieser Norm.
+
+# Herkunft
+
+## Lizenz und Herkunft
+
+ISO/IEC 27002, vom behandelten Risiko zur begründeten Nummer, aus
+iso27000-isms, unter CC-BY-SA-4.0,
+`https://creativecommons.org/licenses/by-sa/4.0/`
+
+- Stand: 06.08.2026
+- Gelesen wurde: ISO/IEC 27002:2022, dessen Katalogeintrag `confirmed` trägt,
+  und ISO/IEC 27001:2022, geprüft gegen öffentliche Sekundärquellen und nicht
+  gegen eine lizenzierte Ausgabe
+- Die Normen selbst stehen nicht unter dieser Lizenz.
