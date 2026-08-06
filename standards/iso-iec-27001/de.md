@@ -319,15 +319,22 @@ das Richtlinienmuster in
 Arbeitsanweisungen in
 [templates/work-instructions/de.md](../../templates/work-instructions/de.md).
 
-Präsentationen: Zu diesem Thema liegt heute kein Foliensatz im Baum. Der Aufbau
+Präsentationen: die Foliensätze zu diesem Thema liegen unter
+`presentations/iso-iec-27001`, je Zielgruppe ein Verzeichnis. Der Aufbau
 und das Muster stehen in
 [presentations/de.md](../../presentations/de.md).
 
-Trainings: Zu diesem Thema liegt heute kein Training im Baum.
+Trainings: was zu diesem Thema an Training vorliegt, liegt unter
+`trainings/iso-iec-27001`.
 
-Zuordnungen: Zu diesem Thema liegt heute keine Zuordnungstabelle im Baum. Was
-die Bedingungen der drei externen Zielschemata erlauben, steht in
+Zuordnungen: die Zeilen zu diesem Thema stehen in den Tabellen unter
+`mappings/external` und tragen dort `iso-iec-27001:2022` im Feld
+`source_scheme`. Was die Bedingungen der drei externen Zielschemata erlauben,
+steht in
 [mappings/external/terms.de.md](../../mappings/external/terms.de.md).
+
+Diese drei Absätze nennen Verzeichnisse und keine Inhalte. Was dort liegt,
+steht dort, und dieses Kapitel zählt es nicht auf.
 
 Wo hier steht, dass etwas nicht da ist, ist es nicht da. Das ist keine
 Aufforderung, es zu erfinden.
@@ -410,9 +417,12 @@ die Maßnahmen aus ISO/IEC 27002 über ihre Nummern an, ohne sie aufzuzählen.
 
 Die zugehörige Ausstattung liegt in `templates/soa`,
 `templates/registers/risk-register`, `templates/registers/asset-register`,
-`templates/policies` und `templates/work-instructions`. Unter `presentations`,
-`trainings` und `mappings` liegt zu diesem Thema heute nichts, und das ist
-keine Aufforderung, etwas zu erfinden.
+`templates/policies` und `templates/work-instructions`. Was zu diesem Thema an
+Foliensätzen, Trainings und Zuordnungen vorliegt, liegt unter
+`presentations/iso-iec-27001` und `trainings/iso-iec-27001` und in den Tabellen
+unter `mappings/external` mit `iso-iec-27001:2022` im Feld `source_scheme`.
+Diese Verzeichnisse werden hier nicht aufgezählt, und was dort nicht liegt,
+wird nicht erfunden.
 
 Aus der Norm wird gar nicht zitiert. Aus diesem Kapitel wird unter
 CC-BY-SA-4.0 zitiert, mit Titel der Datei, Repository, Lizenz und Adresse des

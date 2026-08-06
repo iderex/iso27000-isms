@@ -265,12 +265,19 @@ ist die Quelle der Ziele, an denen gemessen wird.
 
 Eine Vorlage für eine Kennzahl liegt heute nicht im Baum.
 
-Präsentationen: Zu diesem Thema liegt heute kein Foliensatz im Baum. Der Aufbau
+Präsentationen: die Foliensätze zu diesem Thema liegen unter
+`presentations/iso-iec-27004`, je Zielgruppe ein Verzeichnis. Der Aufbau
 steht in [presentations/de.md](../../presentations/de.md).
 
-Trainings: Zu diesem Thema liegt heute kein Training im Baum.
+Trainings: was zu diesem Thema an Training vorliegt, liegt unter
+`trainings/iso-iec-27004`.
 
-Zuordnungen: Zu diesem Thema liegt heute keine Zuordnungstabelle im Baum.
+Zuordnungen: die Zeilen zu diesem Thema stehen in den Tabellen unter
+`mappings/external` und tragen dort `iso-iec-27004:2016` im Feld
+`source_scheme`.
+
+Diese drei Absätze nennen Verzeichnisse und keine Inhalte. Was dort liegt,
+steht dort, und dieses Kapitel zählt es nicht auf.
 
 Wo hier steht, dass etwas nicht da ist, ist es nicht da.
 
@@ -351,8 +358,11 @@ und nennt selbst keine Maßnahmennummern.
 
 Die zugehörige Ausstattung liegt in `templates/maturity` und
 `templates/registers/risk-register`. Eine Vorlage für eine Kennzahl gibt es
-nicht, und unter `presentations`, `trainings` und `mappings` liegt zu diesem
-Thema heute nichts. Das ist keine Aufforderung, etwas zu erfinden.
+nicht. Was zu diesem Thema an Foliensätzen, Trainings und Zuordnungen vorliegt,
+liegt unter `presentations/iso-iec-27004` und `trainings/iso-iec-27004` und in
+den Tabellen unter `mappings/external` mit `iso-iec-27004:2016` im Feld
+`source_scheme`. Diese Verzeichnisse werden hier nicht aufgezählt, und was dort
+nicht liegt, wird nicht erfunden.
 
 Aus der Norm wird gar nicht zitiert. Aus diesem Kapitel wird unter
 CC-BY-SA-4.0 zitiert, mit Titel der Datei, Repository, Lizenz und Adresse des
