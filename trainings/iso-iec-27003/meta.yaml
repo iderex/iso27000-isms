@@ -1,0 +1,9 @@
+id: iso-iec-27003
+objective: >
+  Wer dieses Training abgeschlossen hat, kann zu einem vorhandenen Bestandteil
+  eines ISMS die Klausel aus ISO/IEC 27001:2022 benennen, an der er hängt, und
+  sagen, ob eine Anleitung dabei verbindlich ist oder nicht.
+duration_minutes: 60
+audience: practitioners
+question_count: 12
+pass_mark_percent: 70
