@@ -1,0 +1,152 @@
+// FRAGENSATZ ZU ISO/IEC 27004, aus iso27000-isms, unter CC-BY-SA-4.0,
+// https://creativecommons.org/licenses/by-sa/4.0/
+// Thema: iso-iec-27004. Sprache: de. Die englische Fassung liegt in en.gift.
+//
+// Diese Datei trägt keinen YAML-Kopf. Ein Kopf vor der ersten Zeile wird beim
+// Einlesen zu einer Frage. Die Ausnahme von Formatregel 3 und ihr Grund stehen
+// in ../de.md, Abschnitt 5. Diese Zeilen tragen, was der Kopf getragen hätte.
+//
+// Zwölf bewertete Fragen, das ist die Zahl in der meta.yaml. Der Text davor
+// ist eine Beschreibung und wird nicht bewertet.
+// Kein Normtext, weder in einer Frage noch in einer Antwortmöglichkeit.
+
+$CATEGORY: iso-iec-27004
+
+::Vorbemerkung zu den folgenden Fragen::
+Die folgenden Fragen prüfen, ob eine Kennzahl über die Durchführung von einer
+über die Wirkung unterschieden wird und woran zu merken ist, dass eine Messung
+nichts aussagt. Verwiesen wird über Norm, Klausel und Ausgabe.
+
+// 1
+
+::Messen allein::
+Wer eine Zahl erhebt, hat damit eine Aussage über die Wirkung des ISMS.{FALSE
+####Falsch. ISO/IEC 27001\:2022 verlangt in 9.1 vier Tätigkeiten. Ohne das
+Bewerten an einem vorher gesetzten Maßstab bleibt es bei Zahlen.}
+
+// 2
+
+::Zuständige Klausel für die Messung::
+In welcher Klausel von ISO/IEC 27001\:2022 werden Überwachung, Messung, Analyse
+und Bewertung verlangt?{
+=9.1 #Richtig.
+~9.2 #Dort steht das interne Audit.
+~9.3 #Dort steht die Managementbewertung.
+~10.1 #Dort steht die fortlaufende Verbesserung.
+####Die drei anderen Nummern nehmen das Ergebnis auf oder folgen daraus. Erhoben
+wird es in 9.1.}
+
+// 3
+
+::Durchführung oder Wirkung::
+"Anteil der Geräte mit verschlüsseltem Datenträger". Was misst diese Kennzahl?{
+=Die Durchführung einer Maßnahme. #Richtig.
+~Die Wirkung der Maßnahme auf das Risiko. #Dafür müsste gemessen werden, was
+bei einem Verlust tatsächlich geschieht.
+~Das Ziel der Informationssicherheit. #Das Ziel wäre, dass ein verlorenes Gerät
+nichts preisgibt.
+~Die Reife des Managementsystems. #Davon sagt ein einzelner Anteil nichts.
+####Sie ist billig zu erheben und ehrlich, solange sie nicht mehr behauptet.
+Hundert Prozent sagen nichts darüber, ob ein Verlust noch schadet.}
+
+// 4
+
+::Die Ebenen einer Kennzahl::
+Ordne zu, was wo steht.{
+=Unten -> was unmittelbar gezählt oder abgelesen wird
+=In der Mitte -> was daraus gerechnet wird
+=Oben -> die Schwelle und was bei ihrer Überschreitung geschieht
+=Daneben -> das Ziel, zu dem die Kennzahl gehört
+####Der praktische Wert liegt oben. Eine Kennzahl ohne Schwelle löst nichts aus
+und wird nach zwei Quartalen nicht mehr erhoben.}
+
+// 5
+
+::Eine Zahl, die nur steigen kann::
+Eine Kennzahl zählt die insgesamt seit Einführung geschulten Personen. Was ist
+der Einwand?{
+=Sie kann sich nicht verschlechtern und misst deshalb nichts. #Richtig.
+~Sie ist zu leicht zu erheben. #Der Aufwand ist kein Maßstab.
+~Sie gehört in das interne Audit. #Das Audit fragt nach der Einhaltung, nicht
+nach der Zahl.
+~Sie braucht einen Mittelwert. #Ein Mittelwert ändert nichts an der Richtung.
+####Eine Zahl, die nur in eine Richtung geht, kann keine Schwelle
+unterschreiten und löst nie etwas aus.}
+
+// 6
+
+::Der falsche Nenner::
+Ein Anteil wird gegen eine Geräteliste gerechnet, in der sechs von
+sechsundachtzig Geräten fehlen. Wie wirkt das auf die Zahl?{
+=Der Anteil sieht besser aus, als er ist, weil die fehlenden Geräte nicht
+mitzählen. #Richtig.
+~Der Anteil sieht schlechter aus, weil Geräte fehlen. #Fehlende Geräte fehlen
+im Nenner und nicht im Zähler.
+~Der Anteil bleibt gleich. #Nur, wenn die fehlenden Geräte denselben Zustand
+hätten, und das ist unbekannt.
+~Der Anteil ist ungültig und wird nicht berichtet. #Er wird berichtet, mit dem
+richtigen Nenner.
+####Die Grundgesamtheit ist die Frage, die in Berichten am seltensten gestellt
+wird, und sie holt am meisten heraus.}
+
+// 7
+
+::Anteil mit dem richtigen Nenner::
+78 von 86 Geräten sind verschlüsselt. Wie hoch ist der Anteil in Prozent, auf
+eine Nachkommastelle und als Dezimalzahl mit Punkt?{#90.7:0.1
+####Mit 80 als Nenner wären es 97,5 Prozent. Derselbe Zähler und ein anderer
+Nenner ergeben eine andere Aussage.}
+
+// 8
+
+::Was aus drei Zeiten abgelesen wird::
+Die Zeit vom gemeldeten Verlust bis zum Entzug des Zugangs betrug in drei Fällen
+4, 31 und 96 Stunden. Bei einer Schwelle von 24 Stunden\: welche zwei Aussagen
+sind zulässig?{
+~%50%Die Schwelle wurde in zwei von drei Fällen überschritten. #Richtig.
+~%50%Der schlechteste Wert ist die Aussage und nicht der Mittelwert. #Richtig.
+~%-100%Der Mittelwert von rund 44 Stunden ist das Ergebnis. #Ein Mittelwert
+verdeckt hier genau den Fall, um den es geht.
+~%-100%Ein Fall unter der Schwelle zeigt, dass das Verfahren trägt. #Ein Fall
+zeigt, dass es gehen kann, und nicht, dass es geht.
+####Bei einer Schwelle, die für jeden Fall gilt, zählt der schlechteste Fall.
+Ein Mittelwert beantwortet eine andere Frage.}
+
+// 9
+
+::Lücke, wohin das Ergebnis geht::
+Das Ergebnis der Messung geht in die Managementbewertung nach ISO/IEC
+27001\:2022, {=9.3 ~9.1 ~9.2 ~10.2}.{####9.1 ist die Messung selbst, 9.2 das
+interne Audit und 10.2 die Korrekturmaßnahme, die erst folgt, wenn eine
+Anforderung nicht erfüllt ist.}
+
+// 10
+
+::Audit und Messung::
+Das interne Audit nach 9.2 ersetzt die Messung nach 9.1, weil beide die
+Wirksamkeit prüfen.{FALSE
+####Falsch. Das Audit fragt, ob getan wird, was festgelegt ist. Die Messung
+fragt, ob das Festgelegte wirkt. Beide Ergebnisse gehen in 9.3 ein.}
+
+// 11
+
+::Die vierte Tätigkeit::
+Wie heißt die Tätigkeit aus 9.1, bei der das Ergebnis an einem vorher gesetzten
+Maßstab abgelesen wird?{
+=Bewerten
+=bewerten
+=Bewertung
+####Ohne sie hat man Zahlen und keine Aussage, und der Maßstab muss vor der
+Messung feststehen, sonst wird er so gesetzt, dass das Ergebnis passt.}
+
+// 12
+
+::Eine Kennzahl, der die Spitze fehlt::
+Im Quartalsbericht steht\: "Verschlüsselungsquote Diensttelefone\: 98 Prozent.
+Ziel erreicht." Schreibe in zwei Sätzen, was dieser Kennzahl fehlt und welche
+zweite Kennzahl daneben gehört.{
+####Musterlösung. Ihr fehlt die obere Ebene, also die vorher gesetzte Schwelle,
+die Folge bei Überschreitung und die Angabe, wer handelt; außerdem misst sie die
+Durchführung und nicht das Ziel. Daneben gehört eine Kennzahl über die Wirkung,
+etwa die Zeit vom gemeldeten Verlust bis zum Entzug des Zugangs, und die kann
+sich verschlechtern.}
