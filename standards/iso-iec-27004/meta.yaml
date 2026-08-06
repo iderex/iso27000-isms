@@ -1,0 +1,43 @@
+id: iso-iec-27004
+number: 27004
+edition_year: 2016
+doc_type: is
+status: published
+family: core-27000
+layer: core
+isms_relation: adjacent
+catalog_confirmation: unconfirmed
+languages:
+  - de
+  - en
+presentation:
+  management:
+    needed: true
+    note: >
+      Die Leitung bekommt die Zahlen in der Managementbewertung vorgelegt und
+      entscheidet daraus. Dieser Satz zeigt, was eine Kennzahl trägt und was
+      sie nicht trägt, und führt auf die Entscheidung hin, welche wenigen
+      Kennzahlen überhaupt vorgelegt werden.
+  practitioners:
+    needed: true
+    note: >
+      Wer misst, baut die Kennzahl und braucht dafür den Weg von der Zählung
+      über die Rechnung zur Ablesung samt Entscheidungsschwelle. Dieser Satz
+      führt auf eine Handlung hin, ist länger als der für die Leitung und ist
+      nicht dessen ausführliche Fassung, weil er eine andere Frage beantwortet.
+  engineering:
+    needed: false
+    note: >
+      Was gezählt wird, fällt in den Systemen an, aber die Auswahl der
+      Kennzahlen ist keine technische Frage. Was die Technik liefern muss,
+      steht im Satz für die Praxis.
+  all-staff:
+    needed: false
+    note: >
+      Für alle Beschäftigten ist eine Kennzahl der falsche Gegenstand. Sie
+      erzeugen die Zahlen, sie lesen sie nicht ab.
+  auditors:
+    needed: false
+    note: >
+      Wer prüft, sieht sich die Aufzeichnungen der Organisation an und nicht
+      einen Foliensatz aus diesem Repository.
