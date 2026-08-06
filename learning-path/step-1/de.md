@@ -136,10 +136,10 @@ Sie lässt den Wortlaut aus. Diese Stufe verweist über Norm, Klausel und
 Ausgabe, etwa ISO/IEC 27001:2022, 6.1.3, und gibt nichts wieder, was dort
 steht.
 
-Was heute außerdem fehlt: Die Kapitel zu den fünf Normen liegen noch nicht im
-Baum. Sobald sie unter `standards/` stehen, führt diese Stufe dorthin. Bis
-dahin sind die Nummern in Abschnitt 3 der Weg, und das Glossar trägt die
-Begriffe.
+Sie lässt die Vertiefung in die einzelne Norm aus. Das Kapitel zu einer Norm
+steht unter `standards/`, ein Verzeichnis je Thema, und diese Stufe führt
+dorthin, ohne aufzuzählen, was dort liegt. Die Nummern in Abschnitt 3 bleiben
+der Weg dahin, und das Glossar trägt die Begriffe.
 
 ## 6. Selbstprüfung
 
