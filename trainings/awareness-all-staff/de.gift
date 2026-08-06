@@ -1,0 +1,139 @@
+// AWARENESS-FRAGENSATZ, aus iso27000-isms, unter CC-BY-SA-4.0,
+// https://creativecommons.org/licenses/by-sa/4.0/
+// Thema: awareness-all-staff. Sprache: de. Die englische Fassung liegt in
+// en.gift.
+//
+// Diese Datei trägt keinen YAML-Kopf. Ein Kopf vor der ersten Zeile wird beim
+// Einlesen zu einer Frage. Die Ausnahme von Formatregel 3 und ihr Grund stehen
+// in ../de.md, Abschnitt 5. Diese Zeilen tragen, was der Kopf getragen hätte.
+//
+// Zehn bewertete Fragen, das ist die Zahl in der meta.yaml. Der Text davor ist
+// eine Beschreibung und wird nicht bewertet.
+// Keine Klauselnummer und kein Normtext, auch nicht in einer Antwort.
+
+$CATEGORY: awareness-all-staff
+
+::Vorbemerkung zu den folgenden Fragen::
+Die folgenden Fragen kommen aus dem Arbeitsalltag. Es geht nicht darum, eine
+Regel wiederzugeben, sondern darum, in einer Lage zu erkennen, was zu tun ist
+und wer anzusprechen ist.
+
+// 1
+
+::Eine Nachricht, die drängt::
+Eine Nachricht verlangt etwas sofort, kommt auf ungewöhnlichem Weg und schließt
+eine Rückfrage aus. Was ist der erste Schritt?{
+=Nicht auf den Verweis klicken und auf dem gewohnten Weg prüfen. #Richtig.
+~Den Verweis öffnen, um zu sehen, worum es geht. #Das Öffnen ist der Schritt,
+den die Nachricht erreichen will.
+~Auf die Nachricht antworten und nachfragen. #Die Antwort geht an den Absender
+der Nachricht und nicht an die Person, um die es angeblich geht.
+~Warten, ob sich jemand anderes meldet. #Warten ist die einzige Reaktion, die
+sicher nichts verbessert.
+####Die drei Merkmale zusammen sind das Muster. Jedes für sich kommt auch in
+echten Nachrichten vor, alle drei zusammen selten.}
+
+// 2
+
+::Melden, obwohl es echt war::
+Eine gemeldete Nachricht stellt sich als echt heraus. Das war ein Fehler.{FALSE
+####Falsch. Eine gemeldete echte Nachricht kostet ein paar Minuten. Eine nicht
+gemeldete falsche kostet die Zeit, in der niemand etwas tun kann.}
+
+// 3
+
+::Der zweite Faktor am Telefon::
+Wem darf der zweite Faktor weitergesagt werden?{
+=Niemandem.
+=niemandem
+=Keinem
+####Auch nicht der eigenen Technikabteilung. Wer danach fragt, gibt sich als
+jemand aus, der es nicht nötig hätte.}
+
+// 4
+
+::Vertretung im Urlaub::
+Eine Kollegin fährt in Urlaub und ihre Vorgänge müssen weiterlaufen. Was ist
+richtig?{
+=Die Zugangsverwaltung richtet der Vertretung einen eigenen Zugang ein.
+#Richtig.
+~Sie gibt ihr Kennwort an die Vertretung weiter. #Dann ist nicht mehr
+unterscheidbar, wer was getan hat.
+~Sie gibt das Kennwort nur mündlich weiter und ändert es danach. #Auch das hebt
+die Zuordnung auf, solange es gilt.
+~Die Vertretung arbeitet unter dem Konto der Abteilung. #Ein geteiltes Konto ist
+derselbe Fall in größer.
+####Ein Zugang gehört zu genau einer Person, weil sonst niemand mehr sagen kann,
+wer gehandelt hat.}
+
+// 5
+
+::Verlust eines Geräts::
+Ein Diensttelefon bleibt am Samstag im Zug liegen. Wann wird gemeldet?{
+=Sofort, auch am Wochenende. #Richtig.
+~Am Montagmorgen, weil vorher niemand da ist. #Die Zeit bis Montag ist die Zeit
+ohne Reaktion.
+~Erst wenn feststeht, dass es nicht im Fundbüro liegt. #Die Meldung schließt die
+Suche nicht aus.
+~Nur wenn dienstliche Daten darauf waren. #Das entscheidet nicht der Finder und
+nicht der Verlierer.
+####Zwischen Verlust und Meldung kann niemand etwas tun, und genau diese Zeit
+lässt sich verkürzen.}
+
+// 6
+
+::Zwei Regeln beim Versand::
+Welche zwei Fragen gehören vor jeden Versand von Daten?{
+~%50%Braucht der Empfänger das überhaupt. #Richtig.
+~%50%Braucht er es vollständig, oder genügt ein Auszug. #Richtig.
+~%-100%Ist die Datei klein genug für den Anhang. #Eine Frage der Technik und
+nicht der Sicherheit.
+~%-100%Ist das Format lesbar für den Empfänger. #Ebenfalls eine Frage der
+Technik.
+####Beide Fragen kosten Sekunden und verhindern den häufigsten Vorfall
+überhaupt, nämlich zu viel an zu viele.}
+
+// 7
+
+::Nach dem Klick::
+Es wurde geklickt und das Kennwort eingegeben. Was ist der erste Schritt?{
+=Melden, und zwar sofort. #Richtig.
+~Das Gerät ausschalten. #Damit gehen Spuren verloren, die für die Reaktion
+gebraucht werden.
+~Den Verlauf löschen. #Das erschwert die Reaktion und ändert am Vorfall nichts.
+~Abwarten, ob etwas passiert. #Bis dahin ist die Reaktion nicht angelaufen.
+####Die Meldung steht vor allem anderen. Das Kennwort wird danach geändert, und
+zwar auf einem anderen Gerät.}
+
+// 8
+
+::Private Ablage::
+Dienstliche Daten dürfen auf einem privaten Datenträger liegen, solange sie
+niemand weitergibt.{FALSE
+####Falsch. Was der Organisation oder ihren Kunden gehört, bleibt in den Wegen,
+die die Organisation dafür vorsieht.}
+
+// 9
+
+::Beim Rollenwechsel::
+Was gehört beim Wechsel in eine andere Rolle dazu?{
+=Selbst sagen, welche Zugänge nicht mehr gebraucht werden. #Richtig.
+~Die Zugänge behalten, falls Rückfragen kommen. #Genau daraus entsteht der alte
+Zugang, der später offen steht.
+~Nichts, das erledigt die Personalabteilung von selbst. #Sie erfährt den
+Wechsel, aber nicht, welche Zugänge im Alltag entstanden sind.
+~Die Zugänge an die Nachfolge weitergeben. #Zugänge werden neu eingerichtet und
+nicht übergeben.
+####Ein Wechsel hinterlässt mehr offene Zugänge als ein Austritt, weil beim
+Austritt jemand hinsieht.}
+
+// 10
+
+::Die eigene Lage::
+Beschreibe in zwei Sätzen eine Lage aus dem eigenen Arbeitsalltag, in der das
+eigene Verhalten über die Sicherheit von Informationen entscheidet, und wen du
+darin ansprichst.{
+####Musterlösung. Erwartet wird eine konkrete Lage aus der eigenen Arbeit, nicht
+ein Beispiel aus dem Stoff, und dazu die Stelle im Haus, die in dieser Lage
+angesprochen wird. Wer keine Lage findet, hat die Frage noch nicht auf die
+eigene Arbeit übertragen.}
