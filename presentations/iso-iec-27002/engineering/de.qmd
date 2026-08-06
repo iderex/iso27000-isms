@@ -1,0 +1,126 @@
+---
+title: ISO/IEC 27002, eine einzelne Maßnahme umsetzen
+subtitle: ISO/IEC 27002, Technik
+lang: de
+id: presentation-iso-iec-27002-engineering
+kind: presentation
+updated: 2026-08-06
+translated_from: original
+format:
+  revealjs:
+    slide-number: true
+    incremental: false
+---
+
+# Anlass und Zielgruppe
+
+## Wofür dieser Foliensatz gemacht ist
+
+- Anlass: Übergabe einer zugeordneten Maßnahme an die Technik, vor der Umsetzung
+- Zielgruppe: `engineering`
+- Dauer: 30 Minuten, an einer Nummer, die gerade ansteht
+- Was die Zuhörer schon wissen: die eigenen Systeme; kein Vorwissen über das
+  Managementsystem nötig
+
+::: {.notes}
+Diese Folie wird nicht vorgetragen. Zu diesem Thema gibt es einen zweiten Satz,
+für die Praxis. Dieser hier ist nicht dessen Kurzfassung: er beginnt bei einer
+einzelnen Nummer und geht das Verfahren nicht durch.
+:::
+
+# Worum es geht
+
+## Der Gegenstand in einem Satz
+
+Hinter jeder Nummer aus dem Anhang steht eine Absicht, und ISO/IEC 27002 sagt,
+worauf es bei ihrer Umsetzung ankommt.
+
+## Warum das die Technik angeht
+
+- Was umgesetzt wird, kommt als Nummer an, und eine Nummer allein sagt nicht,
+  wann sie erfüllt ist
+- Ohne die Absicht dahinter entsteht eine Umsetzung, die formal passt und das
+  Risiko nicht senkt
+- Die Frage, woran man erkennt, dass es wirkt, kommt später ohnehin, und dann
+  ohne Vorbereitung
+
+# Eine Nummer kommt an
+
+## Was mit ihr mitkommen muss
+
+- Die Nummer selbst, etwa 5.18 oder 8.16
+- Die Risikozeile, aus der sie stammt, in einem Satz
+- Wer für die Folgen einsteht
+
+## Was zu tun ist, bevor gebaut wird
+
+- Nachlesen, worauf es bei dieser Nummer ankommt, in einer lizenzierten Ausgabe
+- Prüfen, ob das Vorhaben der Absicht entspricht oder nur ihrem Namen
+- Zurückfragen, wo das Vorhaben mehr regelt als die Nummer oder weniger
+
+# Woran man erkennt, dass sie wirkt
+
+## Der Nachweis wird mitgeplant
+
+- Zu jeder Umsetzung gehört eine Beobachtung, die zeigt, dass sie läuft
+- Sie entsteht beim Bau und nicht im Audit
+- ISO/IEC 27001:2022, 9.1, verlangt die Bewertung; die Zahl dafür muss anfallen
+
+## Zwei Formen, die genügen
+
+- Eine Aufzeichnung, die anfällt, ohne dass jemand daran denkt
+- Eine Nachschau in festem Takt, deren Ergebnis aufgeschrieben wird
+- Beides mit Datum, sonst ist es eine Erinnerung und kein Nachweis
+
+# Was die Technik nicht entscheidet
+
+## Drei Grenzen
+
+- Ob eine Maßnahme angewendet wird: das entscheidet die Risikobehandlung
+- Ob eine Nummer entfällt: die Begründung dafür ist die Risikolage und steht in
+  der Erklärung zur Anwendbarkeit
+- Was in der Norm steht: der Wortlaut wird in einer lizenzierten Ausgabe
+  nachgeschlagen und nicht aus zweiter Hand weitergegeben
+
+## Die Liste ist nicht der Ausgangspunkt
+
+- Der Anhang wird nicht von oben nach unten abgearbeitet
+- Eine Nummer ohne Risikozeile dahinter ist Aufwand ohne Grund
+- Wer eine solche Nummer bekommt, fragt nach der Zeile
+
+# Was danach zu tun oder zu entscheiden ist
+
+## Die nächsten Schritte
+
+- Zur anstehenden Nummer die Risikozeile einholen, wenn sie fehlt
+- Die Umsetzung beschreiben und daneben die Beobachtung, die sie belegt
+- Den Punkt benennen, an dem die Umsetzung mehr regelt als die Nummer, und ihn
+  zurückmelden
+- Wer, bis wann: gehört in die Aussprache und nicht auf diese Folie
+
+# Verweise
+
+## Norm, Klausel und Ausgabe
+
+- ISO/IEC 27002:2022, als ganze Norm
+- ISO/IEC 27001:2022, 6.1.3
+- ISO/IEC 27001:2022, 8.1
+- ISO/IEC 27001:2022, 9.1
+- ISO/IEC 27004:2016, als ganze Norm
+
+Auf diesen Folien steht kein Normtext, kein Maßnahmentitel und keine Aufzählung
+der Anhangsnummern. Die beiden genannten Nummern stehen als Beispiel für die
+Form und ohne den Titel, der in der Norm dahintersteht.
+
+# Herkunft
+
+## Lizenz und Herkunft
+
+ISO/IEC 27002, eine einzelne Maßnahme umsetzen, aus iso27000-isms, unter
+CC-BY-SA-4.0, `https://creativecommons.org/licenses/by-sa/4.0/`
+
+- Stand: 06.08.2026
+- Gelesen wurde: ISO/IEC 27002:2022, dessen Katalogeintrag `confirmed` trägt,
+  und ISO/IEC 27001:2022, geprüft gegen öffentliche Sekundärquellen und nicht
+  gegen eine lizenzierte Ausgabe
+- Die Normen selbst stehen nicht unter dieser Lizenz.
