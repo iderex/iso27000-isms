@@ -1,0 +1,144 @@
+---
+title: ISO/IEC 27005, das Verfahren
+subtitle: ISO/IEC 27005, Praxis
+lang: de
+id: presentation-iso-iec-27005-practitioners
+kind: presentation
+updated: 2026-08-06
+translated_from: original
+format:
+  revealjs:
+    slide-number: true
+    incremental: false
+---
+
+# Anlass und Zielgruppe
+
+## Wofür dieser Foliensatz gemacht ist
+
+- Anlass: Schulung vor der ersten Risikobeurteilung, oder vor einem neuen
+  Durchgang
+- Zielgruppe: `practitioners`
+- Dauer: 45 Minuten, mit einer gemeinsamen Übung am Ende
+- Was die Zuhörer schon wissen: die Kapitel 4 und 6 von ISO/IEC 27001 und die
+  Begriffe Bedrohung, Schwachstelle und Restrisiko
+
+::: {.notes}
+Diese Folie wird nicht vorgetragen. Zu diesem Thema gibt es nur diesen einen
+Satz. Für die Leitung steht das Nötige im Satz zu ISO/IEC 27001, denn ihre
+Entscheidungen sind die Kriterien und die Genehmigung und nicht das Verfahren.
+:::
+
+# Worum es geht
+
+## Der Gegenstand in einem Satz
+
+ISO/IEC 27005 trägt das Verfahren, aus dem die Maßnahmen überhaupt erst
+entstehen: feststellen, was schiefgehen kann, wie schwer es wöge, was zuerst
+dran ist und was damit geschieht.
+
+## Warum das die Praxis angeht
+
+- ISO/IEC 27001:2022 verlangt in 6.1.2 und 6.1.3, dass beurteilt und behandelt
+  wird, und lässt offen, wie
+- Diese Norm füllt das Offene, und sie schreibt trotzdem keine Skala vor
+- Wer das Verfahren nicht festlegt, legt es bei jedem Risiko neu fest
+
+# Vier Festlegungen vor dem ersten Risiko
+
+## Die vier Fragen
+
+- Auf welcher Skala wird eingeschätzt
+- Ab welchem Wert muss behandelt werden
+- Wer darf ein Restrisiko genehmigen
+- In welchem Zeitraum wird gedacht
+
+Ohne diese vier ist keine spätere Zahl vergleichbar, auch nicht mit sich selbst
+im nächsten Jahr.
+
+## Woran man merkt, dass sie fehlen
+
+- Zwei Personen schätzen dasselbe Risiko verschieden ein und beide haben recht
+- Kein Risiko liegt unter der Schwelle
+- Oder jedes liegt darunter
+
+# Der Ablauf
+
+## Die Reihenfolge
+
+- Rahmen festlegen, also die vier Fragen von eben
+- Feststellen, welche Risiken es gibt
+- Einschätzen, wie groß sie sind, mit Begründung für jede Stufe
+- Entscheiden, welche behandelt werden müssen
+- Behandeln: verringern, teilen, vermeiden oder bewusst tragen
+- Das Übriggebliebene genehmigen lassen
+- Im Betrieb weiterführen statt einmal zu tun
+
+## Der Schritt, an dem es kippt
+
+- Aus der Behandlung ergeben sich die Maßnahmen, und erst danach wird gegen den
+  Anhang von ISO/IEC 27001:2022 geprüft
+- Wer die Maßnahmenliste zuerst nimmt, macht eine Bestandsaufnahme und keine
+  Beurteilung
+- ISO/IEC 27001:2022, 6.1.3
+
+## Der stille Fehler bei mehreren Risiken
+
+- Die Mittel reichen nicht für alle über der Schwelle
+- Statt die Knappheit aufzuschreiben, wird das dritte Risiko so lange
+  niedriger eingeschätzt, bis es unter die Schwelle fällt
+- Deshalb steht die Einschätzung vor der Entscheidung über die Reihenfolge und
+  nicht danach
+
+# Was aufgeschrieben wird
+
+## Je Risiko
+
+- Der Satz, aus dem hervorgeht, was schiefgeht und was dann verloren ist
+- Zwei Stufen mit je einer Begründung, nicht nur die Zahl
+- Der Risikoeigentümer, also wer für die Folgen einsteht
+- Die gewählte Richtung der Behandlung, mit Begründung
+- Das Restrisiko und seine Genehmigung, mit Datum
+- ISO/IEC 27001:2022, 8.2 und 8.3
+
+## Auch dann, wenn nichts getan wird
+
+- Ein Risiko unter der Schwelle wird bewusst getragen und aufgeschrieben
+- Eine fehlende Zeile sagt nicht, ob niemand nachgesehen hat oder ob nichts da
+  war
+
+# Was danach zu tun oder zu entscheiden ist
+
+## Die nächsten Schritte
+
+- Die vier Festlegungen aufschreiben und von der Leitung bestätigen lassen
+- Ein erstes Risiko vollständig durchziehen, mit beiden Begründungen
+- Für die wartenden Risiken einen Wiedervorlagepunkt setzen, und zwar an ein
+  Ereignis und nicht nur an ein Datum
+- Wer, bis wann: gehört in die Aussprache und nicht auf diese Folie
+
+# Verweise
+
+## Norm, Klausel und Ausgabe
+
+- ISO/IEC 27005:2022, als ganze Norm
+- ISO/IEC 27001:2022, 6.1.2, 6.1.3
+- ISO/IEC 27001:2022, 8.2, 8.3
+- ISO 31000:2018, als ganze Norm
+
+Auf diesen Folien steht kein Normtext. Zu ISO/IEC 27005 wird keine
+Klauselnummer genannt, und der Grund steht im Kapitel zu dieser Norm: eine
+Nummer, die niemand nachgeschlagen hat, sieht nachprüfbar aus und ist es nicht.
+
+# Herkunft
+
+## Lizenz und Herkunft
+
+ISO/IEC 27005, das Verfahren, aus iso27000-isms, unter CC-BY-SA-4.0,
+`https://creativecommons.org/licenses/by-sa/4.0/`
+
+- Stand: 06.08.2026
+- Gelesen wurde: ISO/IEC 27005:2022, dessen Katalogeintrag `unconfirmed`
+  trägt, und ISO/IEC 27001:2022, geprüft gegen öffentliche Sekundärquellen und
+  nicht gegen eine lizenzierte Ausgabe
+- Die Normen selbst stehen nicht unter dieser Lizenz.
