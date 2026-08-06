@@ -1,0 +1,131 @@
+---
+title: ISO/IEC 27004, eine Kennzahl bauen
+subtitle: ISO/IEC 27004, Praxis
+lang: de
+id: presentation-iso-iec-27004-practitioners
+kind: presentation
+updated: 2026-08-06
+translated_from: original
+format:
+  revealjs:
+    slide-number: true
+    incremental: false
+---
+
+# Anlass und Zielgruppe
+
+## Wofür dieser Foliensatz gemacht ist
+
+- Anlass: Schulung, sobald die ersten Maßnahmen laufen und gemessen werden soll
+- Zielgruppe: `practitioners`
+- Dauer: 45 Minuten, mit einer gemeinsamen Übung am Ende
+- Was die Zuhörer schon wissen: die Ziele aus ISO/IEC 27001:2022, 6.2, und
+  welche Maßnahmen aus der Risikobehandlung entstanden sind
+
+::: {.notes}
+Diese Folie wird nicht vorgetragen. Der Satz für die Leitung liegt daneben und
+beantwortet eine andere Frage, nämlich welche Kennzahlen überhaupt vorgelegt
+werden. Dieser hier zeigt den Bau einer einzelnen.
+:::
+
+# Worum es geht
+
+## Der Gegenstand in einem Satz
+
+ISO/IEC 27004 sagt, wie man von einer laufenden Maßnahme zu einer Zahl kommt,
+aus der jemand etwas ablesen und entscheiden kann.
+
+## Vier Wörter, vier Tätigkeiten
+
+- Überwachen: feststellen, in welchem Zustand etwas ist
+- Messen: dem einen Wert zuordnen
+- Analysieren: aus mehreren Werten einen Zusammenhang bilden
+- Bewerten: das Ergebnis an einem vorher gesetzten Maßstab ablesen
+- Wer nur das zweite tut, hat Zahlen und keine Aussage
+- ISO/IEC 27001:2022, 9.1
+
+# Die vier Fragen vor der ersten Zählung
+
+## Der Bauplan
+
+- Welches Ziel aus 6.2 soll die Kennzahl belegen
+- Was wird unmittelbar gezählt, und wo fällt das an
+- Wie wird daraus gerechnet
+- Ab welchem Wert geschieht was, und wer entscheidet das
+
+Die vierte fehlt meistens. Ohne sie entsteht eine Zahl, über die in jeder
+Sitzung neu verhandelt wird.
+
+## Zwei Regeln für die zweite Frage
+
+- Gezählt wird aus Quellen, die es ohnehin gibt
+- Eine Kennzahl, für die eigens etwas erhoben werden muss, wird nach zwei
+  Quartalen nicht mehr erhoben
+
+# Ein Beispiel, durchgerechnet
+
+## Das Ziel und die Zählung
+
+- Ziel: kein Zugang bleibt länger als zehn Arbeitstage nach einem Rollenwechsel
+  bestehen
+- Gezählt wird: die Rollenwechsel je Quartal, und je Wechsel die Arbeitstage
+  bis zum Entzug
+- Gerechnet wird: der Anteil der Wechsel, bei denen der Entzug innerhalb von
+  zehn Arbeitstagen erfolgte
+- Schwelle: unter 90 Prozent wird vorgelegt und eine zusätzliche Maßnahme
+  benannt
+
+## Zwei Quartale
+
+| Quartal | Wechsel | davon rechtzeitig | Anteil |
+| --- | --- | --- | --- |
+| Q3 | 4 | 3 | 75 Prozent |
+| Q4 | 6 | 5 | 83 Prozent |
+
+Der Wert ist gestiegen und liegt trotzdem unter der Schwelle. Gehandelt wird
+wegen der Schwelle und nicht wegen der Richtung.
+
+## Warum die Grundzahl danebensteht
+
+- Drei von vier sind 75 Prozent, dreißig von vierzig auch
+- Ein Anteil ohne Grundzahl ist der häufigste Fehler in einer Vorlage
+- Die Zahlen sind erfunden und stammen aus keiner echten Organisation
+
+# Was danach zu tun oder zu entscheiden ist
+
+## Die nächsten Schritte
+
+- Für eine bereits laufende Maßnahme die vier Fragen beantworten und
+  aufschreiben
+- Die Schwelle festlegen, bevor zum ersten Mal gezählt wird
+- Zweimal erheben, bevor irgendetwas vorgelegt wird
+- Auch aufschreiben, wenn nichts zu tun war
+- Nach vier Quartalen entscheiden, ob die Kennzahl bleibt
+
+# Verweise
+
+## Norm, Klausel und Ausgabe
+
+- ISO/IEC 27004:2016, als ganze Norm
+- ISO/IEC 27001:2022, 6.2
+- ISO/IEC 27001:2022, 9.1, 9.2, 9.3
+- ISO/IEC 27001:2022, 10.1
+- ISO/IEC 27002:2022, 5.15, als Beispiel für die Form eines Verweises
+
+Auf diesen Folien steht kein Normtext. Zu ISO/IEC 27004 wird keine
+Klauselnummer genannt, und der Grund steht im Kapitel zu dieser Norm. Die drei
+Ebenen einer Kennzahl sind hier in eigenen Worten benannt und tragen deshalb
+nicht die Begriffe, die die Norm dafür führt.
+
+# Herkunft
+
+## Lizenz und Herkunft
+
+ISO/IEC 27004, eine Kennzahl bauen, aus iso27000-isms, unter CC-BY-SA-4.0,
+`https://creativecommons.org/licenses/by-sa/4.0/`
+
+- Stand: 06.08.2026
+- Gelesen wurde: ISO/IEC 27004:2016, dessen Katalogeintrag `unconfirmed` trägt,
+  und ISO/IEC 27001:2022, geprüft gegen öffentliche Sekundärquellen und nicht
+  gegen eine lizenzierte Ausgabe
+- Die Normen selbst stehen nicht unter dieser Lizenz.

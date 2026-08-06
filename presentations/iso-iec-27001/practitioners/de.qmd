@@ -1,0 +1,152 @@
+---
+title: ISO/IEC 27001, Kapitel für Kapitel
+subtitle: ISO/IEC 27001, Praxis
+lang: de
+id: presentation-iso-iec-27001-practitioners
+kind: presentation
+updated: 2026-08-06
+translated_from: original
+format:
+  revealjs:
+    slide-number: true
+    incremental: false
+---
+
+# Anlass und Zielgruppe
+
+## Wofür dieser Foliensatz gemacht ist
+
+- Anlass: Schulung zu Beginn des Aufbaus, oder Auffrischung vor einem Audit
+- Zielgruppe: `practitioners`
+- Dauer: 60 Minuten, mit Fragen zwischendurch
+- Was die Zuhörer schon wissen: die Begriffe Risiko, Maßnahme,
+  Geltungsbereich und die drei Schutzziele
+
+::: {.notes}
+Diese Folie wird nicht vorgetragen. Der Satz für die Leitung liegt daneben und
+ist ein anderer Vortrag: er endet bei vier Entscheidungen, dieser endet bei
+einer Arbeitsreihenfolge. Keiner der beiden ist die gekürzte Fassung des
+anderen.
+:::
+
+# Worum es geht
+
+## Der Gegenstand in einem Satz
+
+ISO/IEC 27001 sagt, was eine Organisation vorweisen muss, damit ihre
+Informationssicherheit gesteuert und nicht nur gemacht wird, und die Kapitel 4
+bis 10 sind die Reihenfolge, in der man das aufbaut.
+
+## Warum das die Praxis angeht
+
+- Diese Kapitel sind die Liste, gegen die im Audit gefragt wird
+- Zu jeder Klausel gibt es dieselbe Frage: gibt es das hier, und wo steht es
+  aufgeschrieben
+- Wer die Reihenfolge kennt, spart sich die zweimal gemachte Arbeit
+
+# Die sieben Kapitel
+
+## Kapitel 4: der Kontext
+
+- Was die Organisation umgibt und wer etwas von ihr erwartet
+- Daraus wird der Geltungsbereich geschnitten, und die Schnittstellen nach
+  außen gehören ausdrücklich hinein
+- Ergebnis: eine aufgeschriebene Festlegung, keine Folie
+- ISO/IEC 27001:2022, 4.1, 4.2, 4.3
+
+## Kapitel 5: die Leitung
+
+- Richtlinie, Zuständigkeiten, und was die Leitung selbst tun muss
+- Diese Klauseln lassen sich nicht durch Fleiß in Kapitel 8 ersetzen
+- ISO/IEC 27001:2022, 5.1, 5.2, 5.3
+
+## Kapitel 6: die Planung
+
+- Hier steht das Herzstück: Risiken beurteilen, behandeln, und erst aus der
+  Behandlung die Maßnahmen bestimmen
+- Der Abgleich mit dem Anhang kommt danach und sucht Vergessenes
+- Die Erklärung zur Anwendbarkeit ist das Ergebnis, nicht das Formular
+- ISO/IEC 27001:2022, 6.1.2, 6.1.3, 6.2
+
+## Kapitel 7: die Mittel
+
+- Personen, Kompetenz, Bewusstsein, Kommunikation
+- Und die dokumentierte Information: fast jede Anforderung endet in einer
+  Aufzeichnung
+- ISO/IEC 27001:2022, 7.1 bis 7.5
+
+## Kapitel 8: das Tun
+
+- Beurteilung und Behandlung, jetzt tatsächlich durchgeführt und aufgezeichnet
+- Der häufigste Befund ist nicht ein fehlendes Verfahren, sondern eines, das
+  seit der Einführung nicht mehr gelaufen ist
+- ISO/IEC 27001:2022, 8.2, 8.3
+
+## Kapitel 9: das Prüfen
+
+- Überwachen, messen, analysieren, bewerten sind vier verschiedene Tätigkeiten
+- Dazu das interne Audit und die Managementbewertung
+- ISO/IEC 27001:2022, 9.1, 9.2, 9.3
+
+## Kapitel 10: das Verbessern
+
+- Ständige Verbesserung, auch wenn nichts kaputt ist
+- Und die Korrekturmaßnahme, die die Ursache beseitigt und nicht den Einzelfall
+- ISO/IEC 27001:2022, 10.1, 10.2
+
+# Die Reihenfolge, an der es hängt
+
+## Warum der Anhang nicht am Anfang steht
+
+- Aus der Behandlung der Risiken ergeben sich die Maßnahmen, und danach wird
+  gegen den Anhang geprüft
+- Umgekehrt entsteht eine Bestandsaufnahme, die wie ein Managementsystem
+  aussieht und keine Begründung trägt
+- Auffällig wird das erst in der Erklärung zur Anwendbarkeit, wo zu jeder
+  Nummer ein Warum fehlt
+- ISO/IEC 27001:2022, 6.1.3
+
+## Woran man die umgedrehte Reihenfolge erkennt
+
+- Die Erklärung zur Anwendbarkeit war vor dem Risikoregister fertig
+- Keine Zeile darin zeigt auf ein Risiko zurück
+- Jedes Restrisiko steht auf null
+
+# Was danach zu tun oder zu entscheiden ist
+
+## Die nächsten Schritte
+
+- Den Geltungsbereich nachlesen und feststellen, ob er aufgeschrieben ist
+- Ein erstes Risiko vollständig durchziehen, bis zur Zeile in der Erklärung
+  zur Anwendbarkeit, und dabei die Reihenfolge prüfen
+- Für jede Klausel aus Kapitel 4 bis 10 notieren, wo die Aufzeichnung liegt
+  oder dass es keine gibt
+- Wer, bis wann: gehört in die Aussprache und nicht auf diese Folie
+
+# Verweise
+
+## Norm, Klausel und Ausgabe
+
+- ISO/IEC 27001:2022, 4.1, 4.2, 4.3
+- ISO/IEC 27001:2022, 5.1, 5.2, 5.3
+- ISO/IEC 27001:2022, 6.1.2, 6.1.3, 6.2
+- ISO/IEC 27001:2022, 7.1 bis 7.5
+- ISO/IEC 27001:2022, 8.2, 8.3
+- ISO/IEC 27001:2022, 9.1, 9.2, 9.3
+- ISO/IEC 27001:2022, 10.1, 10.2
+
+Auf diesen Folien steht kein Normtext, weder wörtlich noch als Umschreibung,
+die dem Aufbau des Originals folgt. Was eine Klausel im Einzelnen verlangt,
+steht in einer lizenzierten Ausgabe.
+
+# Herkunft
+
+## Lizenz und Herkunft
+
+ISO/IEC 27001, Kapitel für Kapitel, aus iso27000-isms, unter CC-BY-SA-4.0,
+`https://creativecommons.org/licenses/by-sa/4.0/`
+
+- Stand: 06.08.2026
+- Gelesen wurde: ISO/IEC 27001:2022, geprüft gegen öffentliche
+  Sekundärquellen und nicht gegen eine lizenzierte Ausgabe
+- Die Norm selbst steht nicht unter dieser Lizenz.

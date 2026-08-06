@@ -1,0 +1,138 @@
+---
+title: ISO/IEC 27001, what the leadership decides
+subtitle: ISO/IEC 27001, top management
+lang: en
+id: presentation-iso-iec-27001-management
+kind: presentation
+updated: 2026-08-06
+translated_from: de.qmd 2026-08-06
+format:
+  revealjs:
+    slide-number: true
+    incremental: false
+---
+
+# Occasion and audience
+
+## What this deck is made for
+
+- Occasion: a decision paper, before the build or before a certification
+- Audience: `management`
+- Length: 20 minutes, without discussion
+- What the listeners already know: that information security is a subject, and
+  nothing else about the standard
+
+::: {.notes}
+This slide is not presented. It stands at the front so that a second presenter
+sees in thirty seconds whether the deck fits their appointment. The deck for
+the practitioners sits beside it and is a different talk, not a long version of
+this one.
+:::
+
+# What it is about
+
+## The subject in one sentence
+
+ISO/IEC 27001 asks that information security be steered and not merely done,
+and it describes a management system for that.
+
+## Why it concerns the leadership
+
+- Four decisions the standard assigns expressly to top management, and none of
+  them can be handed down
+- Without those four the system stands still, however much work goes on
+  underneath
+- The organisation gets certified, not the department
+
+## What a management system means here
+
+- No tool, no software, no project with a closing date
+- Arrangements, responsibilities, procedures and records that together bring it
+  about that decisions get made, things get done, results get measured and
+  things get changed
+- The difference from today is usually not that nothing gets done but that
+  nobody looks at whether it worked
+
+# The four decisions
+
+## First: the scope
+
+- Which parts, sites, activities and systems belong to it
+- What stays outside does not disappear but is not steered
+- A narrow scope is allowed and is reached sooner; it then also says less
+- ISO/IEC 27001:2022, 4.3
+
+## Second: the policy and the responsibilities
+
+- An adopted information security policy, carried by the leadership and not
+  written by the specialists and signed off
+- Named responsibilities, so that a risk belongs to somebody in the end
+- ISO/IEC 27001:2022, 5.2 and 5.3
+
+## Third: the criteria for risks
+
+- Above what size does a risk have to be treated
+- Who may approve a risk that remains
+- Both get set rather than calculated, and both belong to the leadership
+- ISO/IEC 27001:2022, 6.1.2 and 6.1.3
+
+## Fourth: the resources
+
+- People, time and money, and lastingly rather than once
+- The commonest cause of a system that stopped is a role somebody carries on
+  top of their full workload
+- ISO/IEC 27001:2022, 7.1
+
+# What the leadership gets back for it
+
+## Four things, regularly
+
+- A statement of which risks the organisation carries, and who approved them
+- Numbers that show whether the controls work
+- Findings from internal examinations, before a customer or a supervisor finds
+  them
+- A paper to decide on, on a fixed beat
+- ISO/IEC 27001:2022, 9.1 and 9.3
+
+## What it does not get back
+
+- No assurance that nothing will happen
+- No residual risk of zero; anyone shown one is looking at a wrong calculation
+  and not at good news
+
+# What to do or decide afterwards
+
+## The paper
+
+- Is a management system to ISO/IEC 27001 built, yes or no
+- If yes: which scope, with one sentence of reasoning
+- If yes: which person carries the role, with what share of their time
+- If yes: is a certification aimed for, and by when
+- The certification may stay open; the scope may not, because without it the
+  work cannot start
+
+# References
+
+## Standard, clause and edition
+
+- ISO/IEC 27001:2022, 4.3
+- ISO/IEC 27001:2022, 5.2, 5.3
+- ISO/IEC 27001:2022, 6.1.2, 6.1.3
+- ISO/IEC 27001:2022, 7.1
+- ISO/IEC 27001:2022, 9.1, 9.3
+
+No text from a standard stands on these slides, neither verbatim nor as a
+paraphrase following the structure of the original. Anyone who needs the
+wording looks it up in a licensed copy.
+
+# Origin
+
+## Licence and origin
+
+ISO/IEC 27001, what the leadership decides, from iso27000-isms, under
+CC-BY-SA-4.0, `https://creativecommons.org/licenses/by-sa/4.0/`
+
+- State: 2026-08-06
+- What was read: ISO/IEC 27001:2022, checked against public secondary sources
+  and not against a licensed copy
+- The standard itself is not under this licence.

@@ -1,0 +1,143 @@
+---
+title: ISO/IEC 27005, the method
+subtitle: ISO/IEC 27005, practitioners
+lang: en
+id: presentation-iso-iec-27005-practitioners
+kind: presentation
+updated: 2026-08-06
+translated_from: de.qmd 2026-08-06
+format:
+  revealjs:
+    slide-number: true
+    incremental: false
+---
+
+# Occasion and audience
+
+## What this deck is made for
+
+- Occasion: a training before the first risk assessment, or before a new round
+- Audience: `practitioners`
+- Length: 45 minutes, with a shared exercise at the end
+- What the listeners already know: clauses 4 and 6 of ISO/IEC 27001 and the
+  terms threat, vulnerability and residual risk
+
+::: {.notes}
+This slide is not presented. There is only this one deck for this topic. For
+the leadership what is needed stands in the deck on ISO/IEC 27001, because its
+decisions are the criteria and the approval and not the method.
+:::
+
+# What it is about
+
+## The subject in one sentence
+
+ISO/IEC 27005 carries the activity the controls come out of in the first place:
+establishing what can go wrong, how heavily it would weigh, what comes first
+and what happens to it.
+
+## Why it concerns the practitioners
+
+- ISO/IEC 27001:2022 requires in 6.1.2 and 6.1.3 that assessment and treatment
+  happen, and leaves the how open
+- This standard fills what is open, and it still prescribes no scale
+- Anyone not settling the method settles it anew at every risk
+
+# Four settlements before the first risk
+
+## The four questions
+
+- On which scale is the estimate made
+- Above which value does treatment become obligatory
+- Who may approve a residual risk
+- Over what period is the thinking done
+
+Without those four no later number is comparable, not even with itself next
+year.
+
+## How you notice they are missing
+
+- Two people estimate the same risk differently and both are right
+- No risk lies below the threshold
+- Or every one does
+
+# The run
+
+## The order
+
+- Settle the frame, so the four questions above
+- Establish which risks there are
+- Estimate how large they are, with a reason for every step
+- Decide which have to be treated
+- Treat: reduce, share, avoid or carry knowingly
+- Have what is left approved
+- Carry it on in operation rather than doing it once
+
+## The step where it tips
+
+- The controls follow from the treatment, and only afterwards comes the
+  comparison against the annex of ISO/IEC 27001:2022
+- Anyone taking the control collection first makes an inventory and not an
+  assessment
+- ISO/IEC 27001:2022, 6.1.3
+
+## The silent mistake with several risks
+
+- The resources do not run to all of those above the threshold
+- Instead of writing the scarcity down, the third risk gets estimated lower
+  until it falls below the threshold
+- That is why the estimate stands before the decision about the order and not
+  after it
+
+# What gets written down
+
+## Per risk
+
+- The sentence saying what goes wrong and what is then lost
+- Two steps with a reason each, not only the number
+- The risk owner, so who answers for the consequences
+- The chosen direction of treatment, with its reason
+- The residual risk and its approval, with a date
+- ISO/IEC 27001:2022, 8.2 and 8.3
+
+## Including where nothing gets done
+
+- A risk below the threshold gets carried knowingly and written down
+- A missing line does not say whether nobody looked or whether nothing was
+  there
+
+# What to do or decide afterwards
+
+## The next steps
+
+- Write the four settlements down and have the leadership confirm them
+- Take one first risk all the way through, with both reasons
+- Set a point of return for the waiting risks, and hang it on an event and not
+  only on a date
+- Who, by when: belongs in the discussion and not on this slide
+
+# References
+
+## Standard, clause and edition
+
+- ISO/IEC 27005:2022, as a whole standard
+- ISO/IEC 27001:2022, 6.1.2, 6.1.3
+- ISO/IEC 27001:2022, 8.2, 8.3
+- ISO 31000:2018, as a whole standard
+
+No text from a standard stands on these slides. No clause number of
+ISO/IEC 27005 is named, and the reason stands in the chapter on that standard:
+a number nobody has looked up looks checkable and is not.
+
+# Origin
+
+## Licence and origin
+
+ISO/IEC 27005, the method, from iso27000-isms, under CC-BY-SA-4.0,
+`https://creativecommons.org/licenses/by-sa/4.0/`
+
+- State: 2026-08-06
+- What was read: ISO/IEC 27005:2022, whose catalog entry carries `unconfirmed`,
+  and ISO/IEC 27001:2022, checked against public secondary sources and not
+  against a licensed copy
+- The standards themselves are not under this licence.

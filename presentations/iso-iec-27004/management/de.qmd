@@ -1,0 +1,116 @@
+---
+title: ISO/IEC 27004, was eine Kennzahl trägt
+subtitle: ISO/IEC 27004, Geschäftsführung und oberste Leitung
+lang: de
+id: presentation-iso-iec-27004-management
+kind: presentation
+updated: 2026-08-06
+translated_from: original
+format:
+  revealjs:
+    slide-number: true
+    incremental: false
+---
+
+# Anlass und Zielgruppe
+
+## Wofür dieser Foliensatz gemacht ist
+
+- Anlass: vor der ersten Managementbewertung, oder wenn eine Zahlenreihe
+  vorgelegt wird, mit der niemand etwas anfängt
+- Zielgruppe: `management`
+- Dauer: 15 Minuten
+- Was die Zuhörer schon wissen: dass ein Managementsystem läuft, und dass sie
+  regelmäßig etwas vorgelegt bekommen
+
+::: {.notes}
+Diese Folie wird nicht vorgetragen. Der Satz für die Praxis liegt daneben und
+beantwortet eine andere Frage: dieser fragt, welche Kennzahlen überhaupt
+vorgelegt werden sollen, jener zeigt, wie eine gebaut wird.
+:::
+
+# Worum es geht
+
+## Der Gegenstand in einem Satz
+
+ISO/IEC 27004 beantwortet, woran man merkt, dass ein Managementsystem wirkt,
+und ISO/IEC 27001:2022 verlangt das in 9.1.
+
+## Warum das die Leitung angeht
+
+- Die Zahlen werden ihr in der Managementbewertung vorgelegt, und sie
+  entscheidet daraus
+- Eine Zahl ohne vorher gesetzte Schwelle löst nichts aus und wird in jeder
+  Sitzung neu ausgelegt
+- Wer nichts entscheidet, bekommt beim nächsten Mal dieselbe Zahl
+- ISO/IEC 27001:2022, 9.3
+
+# Was eine Kennzahl trägt
+
+## Drei Ebenen, und die dritte fehlt meistens
+
+- Was unmittelbar gezählt wird, und wo es anfällt
+- Was daraus gerechnet wird
+- Was daraus abgelesen wird, samt der Schwelle, ab der etwas geschieht
+
+Die dritte Ebene ist die, an der eine Kennzahl zur Entscheidung wird. Ohne sie
+ist sie eine Beobachtung.
+
+## Was sie nicht trägt
+
+- Keine Aussage darüber, ob die Organisation eine Anforderung erfüllt; das
+  entscheidet ein Audit
+- Keine Voraussage; eine Kennzahl beobachtet, eine Risikobewertung schätzt
+- Kein Ersatz für den Befund eines internen Audits
+
+# Woran eine Vorlage zu erkennen ist, die nichts leistet
+
+## Drei Zeichen
+
+- Der Anteil steht da und die Grundzahl nicht: drei von vier sind 75 Prozent,
+  dreißig von vierzig auch, und die beiden sind nicht gleich viel wert
+- Es steht ein Wert da und keine Reihe; erst der zweite Wert sagt, ob sich
+  etwas bewegt
+- Die Schwelle wurde nach der Erhebung festgelegt oder gar nicht
+
+## Die Frage, die das aufdeckt
+
+Was geschieht, wenn diese Zahl im nächsten Quartal schlechter ist? Wenn darauf
+keine Antwort kommt, trägt die Kennzahl nichts, und sie kostet trotzdem Arbeit.
+
+# Was danach zu tun oder zu entscheiden ist
+
+## Die Vorlage
+
+- Wie viele Kennzahlen werden der Leitung vorgelegt, und welche
+- Wer setzt die Schwelle je Kennzahl, und wann
+- In welchem Takt wird vorgelegt
+- Was geschieht mit einer Kennzahl, die vier Quartale lang nichts ausgelöst hat
+
+Weniger Kennzahlen mit einer Schwelle sind mehr wert als viele ohne. Die
+Entscheidung über die Zahl ist die eigentliche Entscheidung dieser Folie.
+
+# Verweise
+
+## Norm, Klausel und Ausgabe
+
+- ISO/IEC 27004:2016, als ganze Norm
+- ISO/IEC 27001:2022, 6.2
+- ISO/IEC 27001:2022, 9.1, 9.3
+- ISO/IEC 27001:2022, 10.1
+
+Auf diesen Folien steht kein Normtext. Zu ISO/IEC 27004 wird keine
+Klauselnummer genannt, und der Grund steht im Kapitel zu dieser Norm.
+
+# Herkunft
+
+## Lizenz und Herkunft
+
+ISO/IEC 27004, was eine Kennzahl trägt, aus iso27000-isms, unter
+CC-BY-SA-4.0, `https://creativecommons.org/licenses/by-sa/4.0/`
+
+- Stand: 06.08.2026
+- Gelesen wurde: ISO/IEC 27004:2016, dessen Katalogeintrag `unconfirmed` trägt,
+  und ISO/IEC 27001:2022, geprüft gegen öffentliche Sekundärquellen und nicht
+  gegen eine lizenzierte Ausgabe
+- Die Normen selbst stehen nicht unter dieser Lizenz.
