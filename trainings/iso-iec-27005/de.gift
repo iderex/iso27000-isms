@@ -1,0 +1,155 @@
+// FRAGENSATZ ZU ISO/IEC 27005, aus iso27000-isms, unter CC-BY-SA-4.0,
+// https://creativecommons.org/licenses/by-sa/4.0/
+// Thema: iso-iec-27005. Sprache: de. Die englische Fassung liegt in en.gift.
+//
+// Diese Datei trägt keinen YAML-Kopf. Ein Kopf vor der ersten Zeile wird beim
+// Einlesen zu einer Frage. Die Ausnahme von Formatregel 3 und ihr Grund stehen
+// in ../de.md, Abschnitt 5. Diese Zeilen tragen, was der Kopf getragen hätte.
+//
+// Zwölf bewertete Fragen, das ist die Zahl in der meta.yaml. Der Text davor
+// ist eine Beschreibung und wird nicht bewertet.
+// Kein Normtext, weder in einer Frage noch in einer Antwortmöglichkeit.
+
+$CATEGORY: iso-iec-27005
+
+::Vorbemerkung zu den folgenden Fragen::
+Die folgenden Fragen prüfen die Reihenfolge, also erst die Risikobehandlung und
+danach den Abgleich mit dem Anhang, und ob eine umgedrehte Reihenfolge am
+Ergebnis erkannt wird. Verwiesen wird über Norm, Klausel und Ausgabe.
+
+// 1
+
+::Die Reihenfolge::
+Die Maßnahmen werden aus der Risikobehandlung bestimmt, und der Abgleich mit dem
+Anhang kommt danach.{TRUE
+####Richtig. ISO/IEC 27001\:2022 verlangt diese Reihenfolge in 6.1.3, und der
+Abgleich ist dort eine Kontrolle auf Vergessenes und kein Ausgangspunkt.}
+
+// 2
+
+::Zuständige Klausel für die Beurteilung::
+In welcher Klausel von ISO/IEC 27001\:2022 wird die Risikobeurteilung
+verlangt?{
+=6.1.2 #Richtig.
+~6.1.3 #Dort steht die Behandlung, die auf der Beurteilung aufsetzt.
+~8.2 #Dort steht die Durchführung der Beurteilung im Betrieb.
+~9.1 #Dort steht die Messung.
+####6.1.2 und 6.1.3 sind zwei Schritte in dieser Reihenfolge. 8.2 und 8.3
+verlangen, dass sie im Betrieb auch tatsächlich stattfinden.}
+
+// 3
+
+::Womit der Abgleich anfangen würde::
+Eine Organisation geht die Nummern des Anhangs von vorne durch und entscheidet
+je Nummer, ob sie angewendet wird. Was folgt daraus?{
+=Es entstehen Maßnahmen ohne Risiko dahinter, und die Begründung fehlt.
+#Richtig.
+~Es entsteht dieselbe Auswahl wie über die Risikobehandlung, nur schneller.
+#Dann wäre die Reihenfolge gleichgültig, und sie ist es nicht.
+~Es ist zulässig, solange am Ende eine Erklärung zur Anwendbarkeit steht. #Die
+Erklärung ist das Ergebnis der Behandlung und nicht ihr Ersatz.
+~Es spart die Beurteilung ein. #Die Beurteilung wird in 6.1.2 verlangt und ist
+nicht abwählbar.
+####Der Anhang kennt die Lage dieser Organisation nicht. Vorne gelesen liefert
+er eine Liste, hinten gelesen zeigt er, was übersehen wurde.}
+
+// 4
+
+::Anzeichen für die umgedrehte Reihenfolge::
+Welche zwei Beobachtungen deuten darauf hin, dass mit dem Anhang angefangen
+wurde?{
+~%50%Die Erklärung zur Anwendbarkeit ist gefüllt, das Risikoregister ist dünn.
+#Richtig.
+~%50%Zu einer angewendeten Maßnahme lässt sich keine Zeile im Register
+benennen. #Richtig.
+~%-100%Die Zahl der nicht angewendeten Maßnahmen ist hoch. #Das kann eine
+sauber begründete Auswahl sein.
+~%-100%Das Register führt Zeilen ohne Maßnahme. #Ein getragenes Risiko ist eine
+zulässige Entscheidung.
+####Beide Anzeichen sind Lücken zwischen Register und Erklärung. Die beiden
+anderen Beobachtungen sind für sich genommen unauffällig.}
+
+// 5
+
+::Die Teile der Beurteilung und der Schritt danach::
+Ordne jedem Schritt zu, was in ihm entsteht.{
+=Erkennen -> die Zeile im Register
+=Analysieren -> die Zahlen zu Eintritt und Auswirkung
+=Bewerten -> die Entscheidung, ob das Risiko so bleiben darf
+=Behandeln -> die Maßnahmen und das Restrisiko
+####Die ersten drei gehören zur Beurteilung nach 6.1.2, der vierte ist der
+Schritt danach nach 6.1.3.}
+
+// 6
+
+::Was übrig bleibt::
+Wie heißt das, was von einem Risiko übrig bleibt, nachdem die Maßnahmen
+wirken?{
+=Restrisiko
+=das Restrisiko
+=Restrisiko, es wird genehmigt
+####Es ist nie null. Wer es für null hält, hat die Maßnahmen überschätzt, und
+es wird ausdrücklich genehmigt, von jemandem, der die Folge tragen kann.}
+
+// 7
+
+::Eine Zeile ohne Eigner::
+Ein Risikoregister führt eine Zeile, zu der niemand als Eigner eingetragen ist.
+Was ist die Folge?{
+=Die Zeile wird verwaltet und nicht behandelt, weil niemand über sie
+entscheidet. #Richtig.
+~Die Zeile ist damit automatisch getragen. #Ein getragenes Risiko ist eine
+Entscheidung, und eine Entscheidung braucht jemanden, der sie trifft.
+~Die Zeile gehört der Geschäftsführung. #Nur, wenn sie dort eingetragen ist.
+~Die Zeile ist ungültig und wird gestrichen. #Das Risiko verschwindet nicht,
+weil die Zeile verschwindet.
+####Eine Entscheidung ohne jemanden, der sie trifft, ist keine. Der Eigner ist
+der Unterschied zwischen einem Register und einer Sammlung.}
+
+// 8
+
+::Lücke, die Klausel der Behandlung::
+Die Risikobehandlung und der Abgleich mit dem Anhang stehen in ISO/IEC
+27001\:2022 in {=6.1.3 ~6.1.2 ~6.2 ~8.3}.{####6.1.2 ist die Beurteilung davor,
+6.2 sind die Ziele, und 8.3 verlangt die Durchführung der Behandlung im
+Betrieb.}
+
+// 9
+
+::Die Schwelle::
+Aus welcher Quelle stammt die Schwelle, ab der ein Risiko behandelt wird?{
+=Aus der Organisation, die sie vorher festlegt. #Richtig.
+~Aus ISO/IEC 27005. #Die Anleitung nennt keine Schwelle.
+~Aus dem Anhang von ISO/IEC 27001\:2022. #Dort stehen Maßnahmen und keine
+Schwellen.
+~Aus der Zertifizierungsstelle. #Sie prüft, ob es ein Kriterium gibt, und setzt
+es nicht.
+####Das Kriterium wird vor der Bewertung festgelegt. Wer es hinterher festlegt,
+legt es so fest, dass das Ergebnis passt.}
+
+// 10
+
+::Zahl der Wege::
+Auf wie viele Wege wird ein bewertetes Risiko in diesem Training behandelt?{#4:0
+####Verkleinern, lassen, teilen, tragen. Alle vier sind Entscheidungen, und
+alle vier werden begründet.}
+
+// 11
+
+::Was der Abgleich leistet::
+Der Abgleich mit dem Anhang liefert Maßnahmen, die in der Behandlung nicht
+bestimmt wurden.{TRUE
+####Richtig, und genau dafür steht er hinten. Er findet Vergessenes; er
+erfindet keinen Bedarf, weil die Aufnahme einer gefundenen Nummer weiterhin an
+eine Zeile des Registers gebunden ist.}
+
+// 12
+
+::Eine Begründung, die keine ist::
+In einer Erklärung zur Anwendbarkeit steht zu einer nicht angewendeten Maßnahme
+nur\: "zu aufwendig". Schreibe in zwei Sätzen, was daran fehlt und was
+stattdessen dastehen muss.{
+####Musterlösung. Es fehlt der Rückbezug auf die Risikobehandlung\: welches
+Risiko die Maßnahme behandeln würde und warum es auf einem anderen Weg
+behandelt oder getragen wird. Der Aufwand allein ist keine Begründung, solange
+kein Risiko dazu benannt ist, und die Zeile des Registers gehört mit dazu.}

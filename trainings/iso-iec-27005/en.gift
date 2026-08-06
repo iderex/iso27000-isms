@@ -1,0 +1,150 @@
+// QUESTION SET ON ISO/IEC 27005, from iso27000-isms, under CC-BY-SA-4.0,
+// https://creativecommons.org/licenses/by-sa/4.0/
+// Topic: iso-iec-27005. Language: en. The German version sits in de.gift.
+//
+// This file carries no YAML header. A header ahead of the first line becomes a
+// question on import. The exception to format rule 3 and its reason stand in
+// ../en.md, section 5. These lines carry what the header would have carried.
+//
+// Twelve graded questions, which is the number in the meta.yaml. The text
+// before them is a description and is not graded.
+// No text from a standard, neither in a question nor in an answer option.
+
+$CATEGORY: iso-iec-27005
+
+::Note ahead of the following questions::
+The following questions test the order, meaning the risk treatment first and the
+comparison against the annex after it, and whether a reversed order is
+recognised in the result. References are by standard, clause and edition.
+
+// 1
+
+::The order::
+The controls are determined out of the risk treatment, and the comparison
+against the annex comes after that.{TRUE
+####Correct. ISO/IEC 27001\:2022 asks for that order in 6.1.3, and the
+comparison is a check for what was forgotten there and not a starting point.}
+
+// 2
+
+::The clause that asks for the assessment::
+Which clause of ISO/IEC 27001\:2022 asks for the risk assessment?{
+=6.1.2 #Correct.
+~6.1.3 #That is the treatment, which builds on the assessment.
+~8.2 #That is carrying out the assessment in operation.
+~9.1 #That is the measurement.
+####6.1.2 and 6.1.3 are two steps in that order. 8.2 and 8.3 ask that they
+actually take place in operation.}
+
+// 3
+
+::What starting from the annex leads to::
+An organisation goes through the numbers of the annex from the front and decides
+per number whether it is applied. What follows from that?{
+=Controls come into being with no risk behind them, and the justification is
+missing. #Correct.
+~The same selection comes out as through the risk treatment, only faster. #Then
+the order would not matter, and it does.
+~It is admissible as long as a statement of applicability stands at the end.
+#The statement is the result of the treatment and not a substitute for it.
+~It saves the assessment. #The assessment is asked for in 6.1.2 and cannot be
+deselected.
+####The annex does not know this organisation's situation. Read from the front
+it supplies a list, read from the back it shows what was missed.}
+
+// 4
+
+::Signs of the reversed order::
+Which two observations point at the annex having been the starting point?{
+~%50%The statement of applicability is full, the risk register is thin.
+#Correct.
+~%50%For an applied control, no row in the register can be named. #Correct.
+~%-100%The number of controls that are not applied is high. #That can be a
+cleanly justified selection.
+~%-100%The register carries rows with no control. #A carried risk is an
+admissible decision.
+####Both signs are gaps between the register and the statement. The other two
+observations are unremarkable on their own.}
+
+// 5
+
+::The parts of the assessment and the step after it::
+Match each step to what comes into being in it.{
+=Identifying -> the row in the register
+=Analysing -> the numbers for likelihood and consequence
+=Evaluating -> the decision whether the risk may stay as it is
+=Treating -> the controls and the residual risk
+####The first three belong to the assessment under 6.1.2, the fourth is the step
+after it under 6.1.3.}
+
+// 6
+
+::What is left over::
+What is the thing called that is left of a risk once the controls work?{
+=Residual risk
+=residual risk
+=the residual risk
+####It is never zero. Anyone who thinks it is has overestimated the controls,
+and it is approved expressly, by somebody who can carry the consequence.}
+
+// 7
+
+::A row with no owner::
+A risk register carries a row with nobody entered as its owner. What follows?{
+=The row is administered and not treated, because nobody decides about it.
+#Correct.
+~The row is thereby carried automatically. #A carried risk is a decision, and a
+decision needs somebody to make it.
+~The row belongs to the management. #Only if it is entered there.
+~The row is invalid and is struck out. #The risk does not go away because the
+row goes away.
+####A decision with nobody to make it is none. The owner is the difference
+between a register and a collection.}
+
+// 8
+
+::Gap, the clause of the treatment::
+The risk treatment and the comparison against the annex stand in ISO/IEC
+27001\:2022 in {=6.1.3 ~6.1.2 ~6.2 ~8.3}.{####6.1.2 is the assessment before it,
+6.2 are the objectives, and 8.3 asks for the treatment to be carried out in
+operation.}
+
+// 9
+
+::The threshold::
+Where does the threshold come from above which a risk is treated?{
+=From the organisation, which fixes it beforehand. #Correct.
+~From ISO/IEC 27005. #The guidance names no threshold.
+~From the annex of ISO/IEC 27001\:2022. #That carries controls and no
+thresholds.
+~From the certification body. #It checks that a criterion exists and does not
+set it.
+####The criterion is fixed before the evaluation. Anyone fixing it afterwards
+fixes it so the result fits.}
+
+// 10
+
+::Number of ways::
+On how many ways is an evaluated risk treated in this training?{#4:0
+####Make it smaller, drop it, share it, carry it. All four are decisions, and
+all four are justified.}
+
+// 11
+
+::What the comparison does::
+The comparison against the annex supplies controls that were not determined in
+the treatment.{TRUE
+####Correct, and that is exactly why it stands at the back. It finds what was
+forgotten; it invents no need, because taking in a number that was found stays
+tied to a row of the register.}
+
+// 12
+
+::A justification that is none::
+In a statement of applicability, all that stands for a control that is not
+applied is\: "too expensive". Write in two sentences what is missing and what has
+to stand there instead.{
+####Model answer. What is missing is the pointer back at the risk treatment\:
+which risk the control would treat and why that risk is treated another way or
+carried. Cost alone is no justification as long as no risk is named for it, and
+the row of the register belongs with it.}
