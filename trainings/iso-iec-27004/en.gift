@@ -1,0 +1,152 @@
+// QUESTION SET ON ISO/IEC 27004, from iso27000-isms, under CC-BY-SA-4.0,
+// https://creativecommons.org/licenses/by-sa/4.0/
+// Topic: iso-iec-27004. Language: en. The German version sits in de.gift.
+//
+// This file carries no YAML header. A header ahead of the first line becomes a
+// question on import. The exception to format rule 3 and its reason stand in
+// ../en.md, section 5. These lines carry what the header would have carried.
+//
+// Twelve graded questions, which is the number in the meta.yaml. The text
+// before them is a description and is not graded.
+// No text from a standard, neither in a question nor in an answer option.
+
+$CATEGORY: iso-iec-27004
+
+::Note ahead of the following questions::
+The following questions test whether a metric about the doing is told apart from
+one about the effect, and how to notice that a measurement says nothing.
+References are by standard, clause and edition.
+
+// 1
+
+::Measuring on its own::
+Anyone who collects a number has a statement about the effect of the ISMS by
+doing so.{FALSE
+####False. ISO/IEC 27001\:2022 asks for four activities in 9.1. Without the
+evaluating against a measure set beforehand it stays at numbers.}
+
+// 2
+
+::The clause that asks for the measurement::
+Which clause of ISO/IEC 27001\:2022 asks for monitoring, measurement, analysis
+and evaluation?{
+=9.1 #Correct.
+~9.2 #That is the internal audit.
+~9.3 #That is the management review.
+~10.1 #That is continual improvement.
+####The other three numbers take the result in or follow from it. It is
+collected in 9.1.}
+
+// 3
+
+::Doing or effect::
+"Share of devices with encrypted storage". What does this metric measure?{
+=The doing of a control. #Correct.
+~The effect of the control on the risk. #That would need a measurement of what
+actually happens on a loss.
+~The information security objective. #The objective would be that a lost device
+gives nothing up.
+~The maturity of the management system. #A single share says nothing about that.
+####It is cheap to collect and honest, as long as it claims no more. A hundred
+per cent says nothing about whether a loss still does harm.}
+
+// 4
+
+::The levels of a metric::
+Match what stands where.{
+=At the bottom -> what is counted or read off directly
+=In the middle -> what is calculated from that
+=At the top -> the threshold and what happens when it is exceeded
+=Beside it -> the objective the metric belongs to
+####The practical value sits at the top. A metric with no threshold triggers
+nothing and stops being collected after two quarters.}
+
+// 5
+
+::A number that can only rise::
+A metric counts the people trained in total since the start. What is the
+objection?{
+=It cannot get worse and therefore measures nothing. #Correct.
+~It is too easy to collect. #Effort is no measure.
+~It belongs in the internal audit. #The audit asks about conformity, not about
+the count.
+~It needs an average. #An average changes nothing about the direction.
+####A number that goes one way only can never fall below a threshold and
+triggers nothing.}
+
+// 6
+
+::The wrong denominator::
+A share is calculated against a device list in which six of eighty-six devices
+are missing. How does that affect the number?{
+=The share looks better than it is, because the missing devices do not count.
+#Correct.
+~The share looks worse, because devices are missing. #Missing devices are
+missing from the denominator and not from the numerator.
+~The share stays the same. #Only if the missing devices were in the same state,
+and that is unknown.
+~The share is invalid and is not reported. #It is reported, with the right
+denominator.
+####The population is the question asked least often in reports, and it gets the
+most out.}
+
+// 7
+
+::The share with the right denominator::
+78 of 86 devices are encrypted. What is the share in per cent, to one decimal
+place?{#90.7:0.1
+####With 80 as the denominator it would be 97.5 per cent. The same numerator and
+a different denominator make a different statement.}
+
+// 8
+
+::What is read off three times::
+The time from the reported loss to the withdrawal of access was 4, 31 and 96
+hours in three cases. With a threshold of 24 hours, which two statements hold?{
+~%50%The threshold was exceeded in two of three cases. #Correct.
+~%50%The worst value is the statement and not the average. #Correct.
+~%-100%The average of about 44 hours is the result. #An average covers up
+exactly the case this is about.
+~%-100%One case under the threshold shows the procedure holds. #One case shows
+it can work, not that it does.
+####With a threshold that holds for every case, the worst case counts. An
+average answers a different question.}
+
+// 9
+
+::Gap, where the result goes::
+The result of the measurement goes into the management review under ISO/IEC
+27001\:2022, {=9.3 ~9.1 ~9.2 ~10.2}.{####9.1 is the measurement itself, 9.2 the
+internal audit, and 10.2 the corrective action, which only follows once a
+requirement has not been met.}
+
+// 10
+
+::Audit and measurement::
+The internal audit under 9.2 replaces the measurement under 9.1, because both
+check effectiveness.{FALSE
+####False. The audit asks whether what was laid down is being done. The
+measurement asks whether what was laid down works. Both results go into 9.3.}
+
+// 11
+
+::The fourth activity::
+What is the activity from 9.1 called in which the result is read off a measure
+set beforehand?{
+=Evaluating
+=evaluating
+=Evaluation
+####Without it there are numbers and no statement, and the measure has to stand
+fixed before the measurement, or it gets set so the result fits.}
+
+// 12
+
+::A metric with no top::
+The quarterly report says\: "Encryption rate of work phones\: 98 per cent.
+Objective met." Write in two sentences what this metric is missing and which
+second metric belongs beside it.{
+####Model answer. It is missing the top level, meaning the threshold set
+beforehand, the consequence when it is exceeded and who acts; besides that it
+measures the doing and not the objective. Beside it belongs a metric about the
+effect, for example the time from the reported loss to the withdrawal of access,
+and that one can get worse.}

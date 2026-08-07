@@ -1,0 +1,10 @@
+id: iso-iec-27005
+objective: >
+  Wer dieses Training abgeschlossen hat, führt eine Zeile aus dem Risikoregister
+  bis zur Behandlungsentscheidung und gleicht erst danach mit dem Anhang ab, und
+  sagt, woran im Ergebnis zu sehen ist, dass jemand die Reihenfolge umgedreht
+  hat.
+duration_minutes: 90
+audience: practitioners
+question_count: 12
+pass_mark_percent: 70
