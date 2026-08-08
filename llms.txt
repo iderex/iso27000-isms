@@ -53,23 +53,14 @@ Heute im Baum:
   CONTRIBUTING.md             Mitwirken, Sprachregel, Formatregeln, Review
   CODE_OF_CONDUCT.md          Verhaltenskodex
   LICENSE                     der vollständige Lizenztext
+  NOTICE.md                   Hinweis zur rechtmäßigen Nutzung
   license-notice.de.md        was die Lizenz deckt und was nicht
   license-notice.en.md
   copyright/                  die Urheberrechtsgrenze und ihre Prüfliste
   catalog/schema.de.md        Aufnahmetest und Feldschema des Katalogs
   catalog/schema.en.md
-  assistant-block.de.md       der Musterblock für Assistenten
-  assistant-block.en.md
-  llms.txt                    diese Datei
-  .github/                    Vorlagen für Issues und Pull Requests
-
-Geplant und heute nicht im Baum:
-
   catalog/entries/            die Katalogeinträge, acht CSV nach Familie
-  catalog/catalog.md          erzeugte Ansicht des Katalogs
-  catalog/by-clause.md        umgekehrte Sicht, nach Klausel von ISO/IEC 27001
   standards/KENNUNG/          ein Kapitel je Norm, de.md und en.md
-  topics/                     Sachthemen ohne eigene Norm
   learning-path/step-0 bis 4  der Lernpfad
   tutorials/                  themenübergreifende Anleitungen
   presentations/              Foliensätze, je Thema und Zielgruppe
@@ -79,6 +70,17 @@ Geplant und heute nicht im Baum:
   mappings/iso/               Zuordnungen innerhalb der ISO-Welt
   mappings/external/          Zuordnungen zu Rahmenwerken außerhalb
   glossary/                   Glossar und Begriffsliste
+  assistant-block.de.md       der Musterblock für Assistenten
+  assistant-block.en.md
+  llms.txt                    diese Datei
+  scripts/                    die Prüfskripte und die Beweise daneben
+  .github/                    Vorlagen für Issues und Pull Requests, Ablauf
+
+Geplant und heute nicht im Baum:
+
+  catalog/catalog.md          erzeugte Ansicht des Katalogs
+  catalog/by-clause.md        umgekehrte Sicht, nach Klausel von ISO/IEC 27001
+  topics/                     Sachthemen ohne eigene Norm
 
 Die Sprache steht am Ende des Dateinamens, also de.md und en.md im
 Themenverzeichnis oder name.de.md und name.en.md. Zu jeder CSV gehört eine
@@ -145,7 +147,7 @@ Sie ist auch keine vollständige Inhaltsangabe. Sie zeigt auf die Verzeichnisse
 und wiederholt deren Inhalt nicht, damit sie nicht gegen den Baum auseinander
 läuft.
 
-Stand dieser Datei: 2026-08-05.
+Stand dieser Datei: 2026-08-08.
 
 
 ---
@@ -198,23 +200,14 @@ In the tree today:
   CONTRIBUTING.md             contributing, language rule, format rules, review
   CODE_OF_CONDUCT.md          code of conduct
   LICENSE                     the full licence text
+  NOTICE.md                   notice on lawful use
   license-notice.de.md        what the licence covers and what it does not
   license-notice.en.md
   copyright/                  the copyright boundary and its checklist
   catalog/schema.de.md        inclusion test and field schema of the catalog
   catalog/schema.en.md
-  assistant-block.de.md       the sample block for assistants
-  assistant-block.en.md
-  llms.txt                    this file
-  .github/                    templates for issues and pull requests
-
-Planned and not in the tree today:
-
   catalog/entries/            the catalog entries, eight CSV by family
-  catalog/catalog.md          generated view of the catalog
-  catalog/by-clause.md        reverse view, by clause of ISO/IEC 27001
   standards/ID/               one chapter per standard, de.md and en.md
-  topics/                     subjects with no standard of their own
   learning-path/step-0 to 4   the learning path
   tutorials/                  cross-topic walk-throughs
   presentations/              decks, per topic and audience
@@ -224,6 +217,17 @@ Planned and not in the tree today:
   mappings/iso/               mappings inside the ISO world
   mappings/external/          mappings to frameworks outside it
   glossary/                   glossary and term list
+  assistant-block.de.md       the sample block for assistants
+  assistant-block.en.md
+  llms.txt                    this file
+  scripts/                    the checks and the proofs beside them
+  .github/                    templates for issues and pull requests, workflow
+
+Planned and not in the tree today:
+
+  catalog/catalog.md          generated view of the catalog
+  catalog/by-clause.md        reverse view, by clause of ISO/IEC 27001
+  topics/                     subjects with no standard of their own
 
 The language sits at the end of the file name, so de.md and en.md in a subject
 directory or name.de.md and name.en.md. Every CSV has a generated Markdown view
@@ -290,4 +294,4 @@ content, and that is all it does.
 It is not a full table of contents either. It points at the directories and
 does not repeat what is in them, so that it cannot drift against the tree.
 
-State of this file: 2026-08-05.
+State of this file: 2026-08-08.
