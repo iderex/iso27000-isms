@@ -3,8 +3,8 @@ title: The inclusion test and the field schema of the catalog
 lang: en
 id: catalog-schema
 kind: schema
-updated: 2026-08-05
-translated_from: schema.de.md, state of 2026-08-05
+updated: 2026-08-08
+translated_from: schema.de.md, state of 2026-08-08
 ---
 
 # The inclusion test and the field schema of the catalog
@@ -345,6 +345,15 @@ filled.
 Section 3.1 was added on 2026-08-05, when the columns `layer` and `layer_reason`
 were filled. It records how the six values were assigned there, so that a single
 placement can be attacked without putting the whole column in question.
+
+On 2026-08-08 the three entries under the designation BS 7799 got their value in
+`amendments`. They had stayed empty on 2026-08-05 because the catalogue read
+then does not carry them. Another catalogue does, and that is why
+`amendments_source` names a different address for those three than for the other
+entries. Section 4.3 asks for no particular catalogue but for one that carries a
+history of the document; which one it was per entry stands in the row. The
+second of the three cases in 4.3, the one where `amendments` stays empty, has no
+entry today and stands on as the rule for the next one.
 
 None of these rules is enforced by a check today. People read them, in the
 second reading of a contribution. That stands here so nobody takes this file for
