@@ -3,7 +3,7 @@ title: Aufnahmetest und Feldschema des Katalogs
 lang: de
 id: catalog-schema
 kind: schema
-updated: 2026-08-05
+updated: 2026-08-08
 translated_from: keine, diese Fassung ist die Ausgangssprache
 ---
 
@@ -354,6 +354,16 @@ Abschnitt 3.1 kam am 05.08.2026 dazu, als die Spalten `layer` und
 `layer_reason` gefüllt wurden. Er hält fest, wie die sechs Werte dabei vergeben
 wurden, damit eine einzelne Einordnung angreifbar ist, ohne dass man die ganze
 Spalte in Frage stellen muss.
+
+Am 08.08.2026 bekamen die drei Einträge unter der Bezeichnung BS 7799 ihren
+Wert in `amendments`. Sie waren am 05.08.2026 leer geblieben, weil der damals
+gelesene Katalog sie nicht führt. Ein anderer Katalog führt sie, und deshalb
+nennt `amendments_source` bei diesen dreien eine andere Adresse als bei den
+übrigen Einträgen. Abschnitt 4.3 verlangt keinen bestimmten Katalog, sondern
+einen, der einen Verlauf zum Dokument führt; welcher es je Eintrag war, steht in
+der Zeile. Der zweite der drei Fälle aus 4.3, in dem `amendments` leer bleibt,
+hat damit heute keinen Eintrag mehr und bleibt als Regel für den nächsten
+stehen.
 
 Keine dieser Regeln wird heute von einer Prüfung erzwungen. Sie werden von
 Menschen gelesen, in der zweiten Lesung eines Beitrags. Das steht hier, damit
