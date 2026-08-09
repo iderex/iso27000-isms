@@ -131,9 +131,25 @@ jobs:
               echo "Kein Verweis auf die Gegenfassung / no link to the counterpart: $f"
               exit 1
             fi
+            if ! grep -q 'class="language-switch"' "$f"; then
+              echo "Kein Umschalter auf der Seite / no switch on the page: $f"
+              exit 1
+            fi
             pages=$((pages + 1))
           done
+          # Die Zahl wird gegen den Baum gehalten, damit eine Seite, die gar
+          # nicht erst erzeugt wurde, nicht als eine gilt, die nichts zu
+          # beanstanden hat.
+          #
+          # The number is held against the tree, so a page that was never
+          # rendered does not count as one with nothing wrong with it.
+          expected="$(git ls-files '*.md' | grep -Ec '(^|[./])(de|en)\.md$')"
           echo "$pages Seite(n) mit Sprachumschalter / page(s) carrying the language switch"
+          echo "$expected Sprachdatei(en) im Baum / language file(s) in the tree"
+          if [ "$pages" -ne "$expected" ]; then
+            echo "Die beiden Zahlen gehen auseinander / the two numbers differ"
+            exit 1
+          fi
 
       # Kein zweiter Sprachbaum. Die Sprache steht am Ende des Dateinamens und
       # nirgends als Verzeichnis.

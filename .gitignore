@@ -13,3 +13,5 @@
 # to measure.
 /.quarto/
 /_site/
+
+**/*.quarto_ipynb

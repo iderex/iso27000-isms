@@ -54,11 +54,19 @@ local function counterpart(input)
   return head .. counterpart_of[lang] .. ".html", lang
 end
 
--- Woher der Name der Eingabe kommt. Quarto kennt ihn; was Pandoc in einem
--- Quarto-Lauf sieht, ist nicht in jedem Fall dieselbe Datei.
+-- Der Name der Eingabe kommt von Quarto und nicht von Pandoc. Pandoc sieht in
+-- einem Quarto-Lauf eine Zwischendatei, deren Name die Sprache nicht trägt.
+-- Gemessen, nicht angenommen: ein Lauf hat zu jeder Seite beide Namen in den
+-- Bericht geschrieben, und zu `.../standards/iso-iec-27001/de.md` stand bei
+-- Pandoc `/tmp/quarto-session.../quarto-input....md`. Der Umschalter kam
+-- deshalb auf keiner einzigen Seite an.
 --
--- Where the name of the input comes from. Quarto knows it; what pandoc sees in
--- a Quarto run is not in every case the same file.
+-- The name of the input comes from Quarto and not from pandoc. In a Quarto run
+-- pandoc sees an intermediate file whose name does not carry the language.
+-- Measured rather than assumed: one run wrote both names into its report for
+-- every page, and against `.../standards/iso-iec-27001/de.md` pandoc had
+-- `/tmp/quarto-session.../quarto-input....md`. That is why the switch reached
+-- no page at all.
 local function input_name()
   if quarto ~= nil and quarto.doc ~= nil and quarto.doc.input_file ~= nil then
     return quarto.doc.input_file
@@ -78,8 +86,6 @@ function Pandoc(doc)
     io.stderr:write("language-switch: kein Name der Eingabe / no name of the input\n")
     return doc
   end
-  io.stderr:write("language-switch: " .. tostring(input) .. " | pandoc: " ..
-    tostring(PANDOC_STATE and PANDOC_STATE.input_files and PANDOC_STATE.input_files[1]) .. "\n")
   local href, lang = counterpart(input)
   if href == nil then
     return doc
