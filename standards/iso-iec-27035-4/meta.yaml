@@ -1,0 +1,44 @@
+id: iso-iec-27035-4
+number: 27035
+part: 4
+edition_year: 2024
+doc_type: is
+status: published
+family: extended-27000
+layer: depth
+isms_relation: adjacent
+catalog_confirmation: confirmed
+languages:
+  - de
+  - en
+presentation:
+  management:
+    needed: false
+    note: >
+      Die Leitung gibt frei, was das Haus verlässt. Diese Freigabe ist der
+      Gegenstand des Foliensatzes zu ISO/IEC 27010, wo die Weitergabe nach
+      außen als Ganzes behandelt wird; hier käme dieselbe Folie ein zweites
+      Mal.
+  practitioners:
+    needed: false
+    note: >
+      Der Foliensatz zu ISO/IEC 27035-1 trägt Begriffe und Phasen für diese
+      Gruppe, und die Regeln für die Weitergabe nach außen trägt der zu
+      ISO/IEC 27010. Zwischen beiden bleibt für einen dritten Satz kein
+      eigener Gegenstand.
+  engineering:
+    needed: false
+    note: >
+      Die Technik liefert die Angaben, die abgestimmt werden, und stimmt nicht
+      ab. Was sie im Vorfall tut, steht in Teil 3.
+  all-staff:
+    needed: false
+    note: >
+      Für alle Beschäftigten gilt, dass Angaben über einen Vorfall das Haus
+      nicht ohne Freigabe verlassen. Das steht im Awareness-Training unter
+      `trainings/awareness-all-staff`.
+  auditors:
+    needed: false
+    note: >
+      Wer prüft, sieht nach, ob eine Weitergabe freigegeben und aufgezeichnet
+      wurde. Das ist ein Punkt in der Prüfung und kein eigener Kursstoff.

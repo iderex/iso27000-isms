@@ -1,0 +1,45 @@
+id: iso-iec-27031
+number: 27031
+edition_year: 2025
+doc_type: is
+status: published
+family: continuity
+layer: depth
+isms_relation: controls
+catalog_confirmation: unconfirmed
+languages:
+  - de
+  - en
+presentation:
+  management:
+    needed: true
+    note: >
+      Wie lange die Organisation ohne ihre Technik auskommt und wie viel Arbeit
+      sie im Ernstfall verlieren darf, sind zwei Zahlen, die niemand außer der
+      Leitung festlegen kann. Wo die Technik sie sich selbst gibt, entsteht ein
+      Plan, den niemand bestellt hat, und genau das ist der Regelfall.
+  practitioners:
+    needed: false
+    note: >
+      Die Praxis führt die Auswirkungsanalyse und übersetzt ihre Ergebnisse in
+      Anforderungen. Das ist die Arbeit am eigenen Haus, und der allgemeine Teil
+      steht im Foliensatz zu ISO/IEC 27005, wo dieselbe Bewertung von Ausmaß
+      und Häufigkeit gelehrt wird.
+  engineering:
+    needed: false
+    note: >
+      Die Technik baut Redundanz, Sicherung und Wiederanlauf. Was dabei möglich
+      ist, hängt an den Systemen des Hauses, und die allgemeinen Anforderungen
+      stehen im Foliensatz zu ISO/IEC 27002.
+  all-staff:
+    needed: false
+    note: >
+      Für alle Beschäftigten zählt, wie sie arbeiten, wenn ein System steht.
+      Das steht im jeweiligen Notfallverfahren des Bereichs und nicht in einem
+      Foliensatz zu einer Norm.
+  auditors:
+    needed: false
+    note: >
+      Wer prüft, sieht nach, ob es die beiden Zahlen gibt, wer sie festgelegt
+      hat und ob eine Wiederherstellung geprüft wurde. Das ist ein Punkt in der
+      Prüfung und kein eigener Kursstoff.

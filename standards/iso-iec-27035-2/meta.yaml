@@ -1,0 +1,44 @@
+id: iso-iec-27035-2
+number: 27035
+part: 2
+edition_year: 2023
+doc_type: is
+status: published
+family: extended-27000
+layer: depth
+isms_relation: adjacent
+catalog_confirmation: confirmed
+languages:
+  - de
+  - en
+presentation:
+  management:
+    needed: false
+    note: >
+      Die Leitung genehmigt den Plan und die Mittel dafür. Was sie dazu wissen
+      muss, steht im Foliensatz zu ISO/IEC 27001 bei den Pflichten der obersten
+      Leitung, und der Inhalt eines Plans ist keine Folie wert, solange niemand
+      ihn geübt hat.
+  practitioners:
+    needed: false
+    note: >
+      Der Foliensatz zu ISO/IEC 27035-1 trägt die Begriffe und die Phasen für
+      diese ganze Gruppe. Was hier dazukommt, ist die Arbeit am eigenen Plan,
+      und die geschieht am eigenen Plan und nicht an Folien.
+  engineering:
+    needed: false
+    note: >
+      Die Technik liefert Erkennung, Aufzeichnung und Werkzeuge. Was sie dabei
+      tut, steht in Teil 3, und die allgemeinen Anforderungen stehen im
+      Foliensatz zu ISO/IEC 27002.
+  all-staff:
+    needed: false
+    note: >
+      Für alle Beschäftigten zählt eine einzige Handlung, nämlich zu melden. Sie
+      steht im Awareness-Training unter `trainings/awareness-all-staff`.
+  auditors:
+    needed: false
+    note: >
+      Wer prüft, sieht nach, ob es einen genehmigten Plan gibt, ob er geübt
+      wurde und ob die Übung etwas geändert hat. Das ist ein Punkt in der
+      Prüfung und kein eigener Kursstoff.
