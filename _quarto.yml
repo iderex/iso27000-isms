@@ -1,0 +1,70 @@
+# Die Konfiguration des Website-Generators. Welcher es wird, ist auf #68 am
+# 09.08.2026 entschieden worden: Quarto, weil es seit dem 04.08.2026 für die
+# Foliensätze im Baum steht und die Verweise nur in der Ausgabe umschreibt.
+#
+# Diese Datei ist die einzige Stelle, an der die Darstellung eingerichtet wird.
+# Keine Inhaltsdatei trägt etwas für sie. Formatregel 4 verlangt relative
+# Verweise mit der Endung `.md`, und die stehen in den Quellen unverändert; was
+# der Leser im Browser anklickt, ist das Ergebnis des Erzeugens und nicht die
+# Datei im Baum.
+#
+# The configuration of the site generator. Which one it becomes was decided on
+# #68 on 2026-08-09: Quarto, because it has been in the tree for the decks
+# since 2026-08-04 and rewrites links in the output only.
+#
+# This file is the only place where the rendering is set up. No content file
+# carries anything for it. Format rule 4 requires relative links ending in
+# `.md`, and those stand unchanged in the sources; what a reader clicks in the
+# browser is the result of rendering and not the file in the tree.
+
+project:
+  type: website
+  output-dir: _site
+  # `README.md` steht ausdrücklich hier, weil Quarto sie sonst auslässt. Sie
+  # ist die Startseite, und ohne diese Zeile bliebe die Adresse der Website
+  # leer. Gemessen an einem Lauf, in dem sie fehlte:
+  # `cp: cannot stat '_site/README.html': No such file or directory`.
+  #
+  # `README.md` stands here explicitly, because Quarto leaves it out
+  # otherwise. It is the home page, and without this line the address of the
+  # site would stay empty. Measured on a run where it was missing:
+  # `cp: cannot stat '_site/README.html': No such file or directory`.
+  render:
+    - README.md
+    - "**/*.md"
+    - "**/*.qmd"
+  # Was nicht erzeugt, sondern mitkopiert wird: die Datei, an der ein Assistent
+  # liest, der vollständige Lizenztext, die acht Katalogdateien und die
+  # übrigen Rohdaten. Formatregel 7 verlangt, dass die CSV zum Herunterladen
+  # liegen bleibt.
+  #
+  # What is copied rather than rendered: the file an assistant reads, the full
+  # licence text, the eight catalog files and the remaining raw data. Format
+  # rule 7 requires the CSV to stay there for download.
+  resources:
+    - llms.txt
+    - LICENSE
+    - "**/*.csv"
+    - "**/*.gift"
+    - "**/*.yaml"
+
+website:
+  title: "iso27000-isms"
+  navbar:
+    href: README.md
+
+format:
+  html:
+    theme: cosmo
+    toc: true
+    toc-depth: 3
+
+# Der Sprachumschalter. Er tauscht das letzte Stück des Dateinamens und sonst
+# nichts, so dass kein zweiter Sprachbaum entsteht. Der Filter läuft beim
+# Erzeugen und schreibt in die Ausgabe; er fasst keine Quelle an.
+#
+# The language switch. It exchanges the last piece of the file name and
+# nothing else, so no second language tree arises. The filter runs at render
+# time and writes into the output; it touches no source.
+filters:
+  - _generator/language-switch.lua

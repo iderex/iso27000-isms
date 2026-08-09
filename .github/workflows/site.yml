@@ -1,0 +1,205 @@
+# Erzeugt die Darstellung aus dem Baum und rechnet an der Ausgabe nach, was
+# #68 an den Generator stellt. Der Lauf lädt die erzeugte Darstellung als
+# Artefakt hoch, damit ein Leser sie ansehen kann, ohne sie selbst zu erzeugen.
+#
+# Veröffentlicht wird hier nichts. GitHub Pages ist für dieses Repository nicht
+# eingeschaltet:
+#
+#   gh api repos/iderex/iso27000-isms/pages
+#   {"message":"Not Found","status":"404"}
+#
+# Einschalten ist eine Einstellung am Repository und wird nicht von hier aus
+# gemacht. Solange sie aussteht, ist die Darstellung erzeugt und nachgerechnet,
+# aber nicht erreichbar, und die Fertig-Bedingung von #68 ist an diesem einen
+# Punkt nicht erfüllt.
+#
+# Was dieser Ablauf nicht tut: einen Beitrag zurückweisen. Das Regelwerk auf
+# `main` führt keine erforderliche Prüfung, und ein roter Lauf verhindert das
+# Zusammenführen deshalb nicht. Er ist sichtbar und nicht bindend, genau wie
+# `checks.yml` in seinem eigenen Kopf sagt.
+#
+# Renders the site from the tree and recomputes, against the output, what #68
+# asks of a generator. The run uploads the rendering as an artifact so a reader
+# can look at it without rendering it.
+#
+# Nothing is published here. GitHub Pages is not switched on for this
+# repository, and switching it on is a repository setting that is not made from
+# here. While it is outstanding the rendering is produced and checked but not
+# reachable, and the done-condition of #68 is unmet at that one point.
+#
+# What this run does not do: refuse a contribution. The ruleset on `main`
+# carries no required status check, so a red run does not stop a merge.
+
+name: Darstellung / Site
+
+on:
+  pull_request:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  render:
+    name: Erzeugen und nachrechnen / Render and recompute
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: quarto-dev/quarto-actions/setup@v2
+
+      - name: Fassung von Quarto / Version of Quarto
+        run: quarto --version
+
+      - name: Erzeugen / Render
+        run: quarto render
+
+      # Die Startseite ist die README, und sie steht im Baum. Es entsteht kein
+      # Inhalt, den es nur auf der Website gibt: `index.html` ist eine Kopie
+      # der erzeugten README und keine zweite Fassung von irgendetwas.
+      #
+      # The home page is the README, and it stands in the tree. No content
+      # arises that exists only on the site: `index.html` is a copy of the
+      # rendered README and not a second version of anything.
+      - name: Startseite / Home page
+        run: cp _site/README.html _site/index.html
+
+      # Formatregel 4 und die Fertig-Bedingung von #68: keine Inhaltsdatei
+      # wurde für die Darstellung geändert. Gerechnet wird das am Baum nach dem
+      # Erzeugen, denn ein Generator, der Verweise in den Quellen umschreibt,
+      # hinterlässt hier eine geänderte Datei.
+      #
+      # Format rule 4 and the done-condition of #68: no content file was
+      # changed for the rendering. This is measured against the tree after
+      # rendering, because a generator that rewrites links in the sources
+      # leaves a changed file here.
+      - name: Keine Quelle angefasst / No source touched
+        run: |
+          set -eu
+          changed="$(git status --porcelain -- . ':(exclude)_site')"
+          if [ -n "$changed" ]; then
+            echo "Das Erzeugen hat den Baum geändert / rendering changed the tree:"
+            echo "$changed"
+            git --no-pager diff
+            exit 1
+          fi
+          echo "0 Datei(en) geändert / 0 file(s) changed"
+
+      # Kein Verweis auf `.md` bleibt in der Ausgabe stehen. Im Baum enden
+      # alle Verweise auf `.md`; ein solcher Verweis in der Ausgabe wäre einer,
+      # den der Generator nicht aufgelöst hat, und er ginge ins Leere.
+      #
+      # No link to `.md` is left standing in the output. In the tree every link
+      # ends in `.md`; such a link in the output would be one the generator did
+      # not resolve, and it would go nowhere.
+      - name: Verweise aufgelöst / Links resolved
+        run: |
+          set -eu
+          left="$(grep -rEoh 'href="[^":]*\.md"' _site --include='*.html' | sort -u || true)"
+          if [ -n "$left" ]; then
+            echo "Nicht aufgelöste Verweise / unresolved links:"
+            echo "$left"
+            exit 1
+          fi
+          echo "0 nicht aufgelöste(r) Verweis(e) / 0 unresolved link(s)"
+
+      # Der Sprachumschalter. Zu jeder erzeugten Seite, deren Name auf `de` oder
+      # `en` endet, gibt es die Gegenfassung an derselben Stelle, und die Seite
+      # verweist darauf. Die Foliensätze stehen nicht darunter; der Filter lässt
+      # sie aus, und der Grund steht in seinem Kopf.
+      #
+      # The language switch. For every rendered page whose name ends in `de` or
+      # `en` the counterpart sits in the same place and the page links to it.
+      # The decks are not among them; the filter leaves them out and says why.
+      - name: Sprachumschalter / Language switch
+        run: |
+          set -eu
+          # Die Liste kommt aus dem Baum und nicht aus der Ausgabe. Eine Seite,
+          # die gar nicht erzeugt wurde, fehlt sonst in beiden und gilt als
+          # eine, an der nichts zu beanstanden ist.
+          #
+          # The list comes from the tree and not from the output. A page that
+          # was never rendered is otherwise missing from both and counts as one
+          # with nothing wrong with it.
+          pages=0
+          for src in $(git ls-files '*.md' | grep -E '(^|[./])(de|en)\.md$'); do
+            page="_site/${src%.md}.html"
+            case "$src" in
+              *de.md) other="_site/${src%de.md}en.html" ;;
+              *en.md) other="_site/${src%en.md}de.html" ;;
+            esac
+            if [ ! -f "$page" ]; then
+              echo "Seite fehlt / page missing: $page"
+              exit 1
+            fi
+            if [ ! -f "$other" ]; then
+              echo "Gegenfassung fehlt / counterpart missing: $other"
+              exit 1
+            fi
+            if ! grep -q "href=\"$(basename "$other")\" class=\"language-switch\"" "$page"; then
+              echo "Kein Umschalter auf die Gegenfassung / no switch to the counterpart: $page"
+              exit 1
+            fi
+            pages=$((pages + 1))
+          done
+          echo "$pages Sprachdatei(en) im Baum, jede mit Umschalter auf ihre Gegenfassung"
+          echo "$pages language file(s) in the tree, each with a switch to its counterpart"
+          if [ "$pages" -eq 0 ]; then
+            echo "Keine Sprachdatei gefunden / no language file found"
+            exit 1
+          fi
+
+      # Kein zweiter Sprachbaum. Die Sprache steht am Ende des Dateinamens und
+      # nirgends als Verzeichnis.
+      #
+      # No second language tree. The language sits at the end of the file name
+      # and nowhere as a directory.
+      - name: Kein zweiter Sprachbaum / No second language tree
+        run: |
+          set -eu
+          found="$(find _site -type d \( -name de -o -name en \) || true)"
+          if [ -n "$found" ]; then
+            echo "Sprachverzeichnis in der Ausgabe / language directory in the output:"
+            echo "$found"
+            exit 1
+          fi
+          echo "0 Sprachverzeichnis(se) / 0 language directory(ies)"
+
+      # `llms.txt` bleibt erreichbar, denn ein Assistent liest die Adresse und
+      # nicht die Darstellung. Daneben die acht Katalogdateien, die nach
+      # Formatregel 7 zum Herunterladen liegen bleiben.
+      #
+      # `llms.txt` stays reachable, because an assistant reads the address and
+      # not the rendering. Beside it the eight catalog files, which format
+      # rule 7 keeps there for download.
+      - name: Rohdaten erreichbar / Raw files reachable
+        run: |
+          set -eu
+          test -f _site/llms.txt
+          test -f _site/LICENSE
+          test -f _site/index.html
+          csv="$(find _site/catalog/entries -name '*.csv' | wc -l)"
+          echo "llms.txt, LICENSE, index.html vorhanden / present"
+          echo "$csv Katalogdatei(en) in der Ausgabe / catalog file(s) in the output"
+          if [ "$csv" -ne 8 ]; then
+            echo "Nicht acht Katalogdateien / not eight catalog files"
+            exit 1
+          fi
+
+      - name: Was erzeugt wurde / What was produced
+        if: always()
+        run: |
+          set -eu
+          echo "$(find _site -name '*.html' | wc -l) HTML-Datei(en) / HTML file(s)"
+          echo "$(git ls-files '*.md' '*.qmd' | wc -l) Eingabe(n) im Baum / input(s) in the tree"
+          du -sh _site
+
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: darstellung-site
+          path: _site
+          retention-days: 7
