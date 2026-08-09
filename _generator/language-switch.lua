@@ -54,15 +54,33 @@ local function counterpart(input)
   return head .. counterpart_of[lang] .. ".html", lang
 end
 
+-- Woher der Name der Eingabe kommt. Quarto kennt ihn; was Pandoc in einem
+-- Quarto-Lauf sieht, ist nicht in jedem Fall dieselbe Datei.
+--
+-- Where the name of the input comes from. Quarto knows it; what pandoc sees in
+-- a Quarto run is not in every case the same file.
+local function input_name()
+  if quarto ~= nil and quarto.doc ~= nil and quarto.doc.input_file ~= nil then
+    return quarto.doc.input_file
+  end
+  if PANDOC_STATE ~= nil and PANDOC_STATE.input_files ~= nil then
+    return PANDOC_STATE.input_files[1]
+  end
+  return nil
+end
+
 function Pandoc(doc)
   if FORMAT:match("revealjs") then
     return doc
   end
-  local inputs = PANDOC_STATE.input_files
-  if inputs == nil or inputs[1] == nil then
+  local input = input_name()
+  if input == nil then
+    io.stderr:write("language-switch: kein Name der Eingabe / no name of the input\n")
     return doc
   end
-  local href, lang = counterpart(inputs[1])
+  io.stderr:write("language-switch: " .. tostring(input) .. " | pandoc: " ..
+    tostring(PANDOC_STATE and PANDOC_STATE.input_files and PANDOC_STATE.input_files[1]) .. "\n")
+  local href, lang = counterpart(input)
   if href == nil then
     return doc
   end
