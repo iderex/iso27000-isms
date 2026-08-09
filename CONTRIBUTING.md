@@ -130,8 +130,10 @@ man sie an einer fertigen Datei durchgehen kann.
     den Daten, Feldnamen englisch und kleingeschrieben, Datum als `JJJJ-MM-TT`
     und mehrere Werte durch Leerzeichen getrennt?
 11. Bleibt die Datei unabhängig von einem bestimmten Website-Generator? Welcher
-    es wird, ist nicht entschieden, und die Regeln 1 bis 10 halten mehrere
-    offen, aber nicht alle.
+    es wird, ist am 09.08.2026 auf #68 entschieden worden, und es ist Quarto.
+    Die Frage bleibt trotzdem stehen: eine Inhaltsdatei soll auch dann lesbar
+    sein, wenn sie ohne diesen Generator gelesen wird, und die Regeln 1 bis 10
+    sind darauf geschrieben.
 
 Nicht jede Regel hat in jeder Änderung einen Gegenstand. Eine Änderung ohne CSV
 beantwortet die Punkte 7 und 10 mit dem Hinweis, dass es nichts zu prüfen gab,
@@ -436,8 +438,9 @@ they can be walked through against a finished file.
     field names English and lowercase, dates as `YYYY-MM-DD`, and several
     values separated by a space?
 11. Does the file stay independent of any one site generator? Which one it
-    becomes is not decided, and rules 1 to 10 keep several open, though not
-    all.
+    becomes was decided on 2026-08-09 on #68, and it is Quarto. The question
+    stays all the same: a content file should still be readable when it is read
+    without that generator, and rules 1 to 10 are written for that.
 
 Not every rule has a subject in every change. A change with no CSV answers
 points 7 and 10 by recording that there was nothing to check, rather than

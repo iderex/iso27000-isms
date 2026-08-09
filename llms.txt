@@ -74,7 +74,12 @@ Heute im Baum:
   assistant-block.en.md
   llms.txt                    diese Datei
   scripts/                    die Prüfskripte und die Beweise daneben
-  .github/                    Vorlagen für Issues und Pull Requests, Ablauf
+  .github/                    Vorlagen für Issues und Pull Requests, der Lauf
+                              der Prüfungen und der Lauf der Darstellung
+  _quarto.yml                 richtet die Darstellung als Website ein
+  _generator/                 was das Erzeugen der Darstellung braucht
+  .gitignore                  was beim Erzeugen entsteht und deshalb nicht in
+                              den Baum gehört
 
 Geplant und heute nicht im Baum:
 
@@ -85,6 +90,11 @@ Geplant und heute nicht im Baum:
 Die Sprache steht am Ende des Dateinamens, also de.md und en.md im
 Themenverzeichnis oder name.de.md und name.en.md. Zu jeder CSV gehört eine
 erzeugte Markdown-Ansicht daneben.
+
+Die drei zuletzt genannten Einträge richten die Darstellung ein, sie tragen
+keinen Inhalt, und keine Inhaltsdatei trägt etwas für sie. Die Darstellung
+selbst liegt nicht im Baum und ist heute nicht erreichbar; woran das liegt,
+steht auf #68 und im Kopf von .github/workflows/site.yml.
 
 
 4. Wie ein Kapitel aufgebaut ist
@@ -147,7 +157,7 @@ Sie ist auch keine vollständige Inhaltsangabe. Sie zeigt auf die Verzeichnisse
 und wiederholt deren Inhalt nicht, damit sie nicht gegen den Baum auseinander
 läuft.
 
-Stand dieser Datei: 2026-08-08.
+Stand dieser Datei: 2026-08-09.
 
 
 ---
@@ -221,7 +231,12 @@ In the tree today:
   assistant-block.en.md
   llms.txt                    this file
   scripts/                    the checks and the proofs beside them
-  .github/                    templates for issues and pull requests, workflow
+  .github/                    templates for issues and pull requests, the run
+                              of the checks and the run of the rendering
+  _quarto.yml                 sets the rendering up as a website
+  _generator/                 what producing the rendering needs
+  .gitignore                  what rendering produces and what therefore does
+                              not belong in the tree
 
 Planned and not in the tree today:
 
@@ -232,6 +247,11 @@ Planned and not in the tree today:
 The language sits at the end of the file name, so de.md and en.md in a subject
 directory or name.de.md and name.en.md. Every CSV has a generated Markdown view
 beside it.
+
+The last three entries named above set the rendering up, they carry no content,
+and no content file carries anything for them. The rendering itself does not sit
+in the tree and is not reachable today; why that is stands on #68 and in the
+head of .github/workflows/site.yml.
 
 
 12. How a chapter is built
@@ -294,4 +314,4 @@ content, and that is all it does.
 It is not a full table of contents either. It points at the directories and
 does not repeat what is in them, so that it cannot drift against the tree.
 
-State of this file: 2026-08-08.
+State of this file: 2026-08-09.
