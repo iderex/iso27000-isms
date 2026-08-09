@@ -1,0 +1,47 @@
+id: iso-27799
+number: 27799
+edition_year: 2025
+doc_type: is
+status: published
+family: extended-27000
+layer: context
+isms_relation: controls sector
+catalog_confirmation: confirmed
+languages:
+  - de
+  - en
+presentation:
+  management:
+    needed: false
+    note: >
+      Die Leitung eines Hauses im Gesundheitswesen entscheidet über
+      Aufbewahrung, über den Notzugriff und über die Meldung eines Vorfalls an
+      die Aufsicht. Alle drei hängen am Recht des jeweiligen Landes und an der
+      Berufsordnung, und ein Foliensatz nach einer internationalen Norm würde
+      dort entweder Recht behaupten oder nichts sagen.
+  practitioners:
+    needed: true
+    note: >
+      Der Widerspruch zwischen dem engen Zugriff im Alltag und dem weiten
+      Zugriff im Notfall ist der Punkt, an dem in dieser Branche die meisten
+      Verfahren scheitern. Er lässt sich zeigen, er ist überall derselbe, und
+      der Standpunkt dieses Repositoriums liegt in diesem Feld.
+  engineering:
+    needed: false
+    note: >
+      Die Technik richtet Rollen, Notzugriff und Protokollierung im
+      Krankenhausinformationssystem ein. Was dabei geht, hängt am Erzeugnis und
+      nicht an dieser Norm; der allgemeine Teil steht im Foliensatz zu
+      ISO/IEC 27002.
+  all-staff:
+    needed: false
+    note: >
+      Für alle Beschäftigten gilt die Schweigepflicht, und sie kommt aus dem
+      Berufsrecht und aus dem Arbeitsvertrag, nicht aus dieser Norm. Der Stoff
+      dafür liegt im Awareness-Training unter `trainings/awareness-all-staff`.
+  auditors:
+    needed: false
+    note: >
+      Wer prüft, sieht nach, ob der Notzugriff geregelt, protokolliert und
+      nachgesehen wird. Das ist ein Punkt in der Prüfung der Zugriffsrechte und
+      kein eigener Kursstoff.

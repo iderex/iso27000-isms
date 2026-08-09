@@ -1,0 +1,47 @@
+id: iso-iec-27017
+number: 27017
+edition_year: 2015
+doc_type: is
+status: published
+family: extended-27000
+layer: context
+isms_relation: controls sector
+catalog_confirmation: unconfirmed
+languages:
+  - de
+  - en
+presentation:
+  management:
+    needed: false
+    note: >
+      Die Leitung entscheidet, ob eine Leistung eingekauft wird, und das ist
+      eine Lieferantenentscheidung. Wofür sie dabei haftbar bleibt, steht im
+      Foliensatz zu ISO/IEC 27002 bei den Maßnahmen zur Lieferantenbeziehung.
+      Ein eigener Satz hätte dort eine Folie zu ergänzen und keine eigene
+      Stunde zu füllen.
+  practitioners:
+    needed: true
+    note: >
+      Die Aufteilung der Verantwortung zwischen Anbieter und Kunde ist der
+      Punkt, an dem in der Praxis am häufigsten etwas liegen bleibt, weil beide
+      Seiten annehmen, die andere tue es. Cloud betrifft anders als die übrigen
+      Branchenlesungen fast jede Organisation, also lohnt der eigene Satz.
+  engineering:
+    needed: false
+    note: >
+      Die Technik richtet Mandanten, Rollen und Protokollierung ein. Was dabei
+      zu tun ist, hängt am gebuchten Dienst und nicht an dieser Norm, und ein
+      Foliensatz nach ihr wäre für jeden Anbieter ein anderer.
+  all-staff:
+    needed: false
+    note: >
+      Für alle Beschäftigten ändert sich mit der Cloud nichts an den Regeln zum
+      Umgang mit Daten. Was sich ändert, ist der Ort, und der ist keine
+      Handlungsanweisung.
+  auditors:
+    needed: false
+    note: >
+      Wer prüft, sieht nach, ob die Aufteilung der Verantwortung aufgeschrieben
+      ist und ob die Zusagen des Anbieters nachgehalten werden. Das ist ein
+      Punkt in der Prüfung der Lieferantenbeziehungen und kein eigener
+      Kursstoff.

@@ -1,0 +1,46 @@
+id: iso-iec-27011
+number: 27011
+edition_year: 2024
+doc_type: is
+status: published
+family: extended-27000
+layer: context
+isms_relation: controls sector
+catalog_confirmation: unconfirmed
+languages:
+  - de
+  - en
+presentation:
+  management:
+    needed: false
+    note: >
+      Die Leitung eines Netzbetreibers entscheidet über Versorgungssicherheit
+      und über die Pflichten aus dem Telekommunikationsrecht. Beides ist eine
+      Frage der eigenen Rechtslage und nicht dieser Norm, und ein Foliensatz
+      dazu wäre für jedes Land ein anderer.
+  practitioners:
+    needed: false
+    note: >
+      Wer in der Praxis eines Netzbetreibers arbeitet, liest diese Norm als
+      Ergänzung zu ISO/IEC 27002 und braucht dafür den Foliensatz zu
+      ISO/IEC 27002 und dieses Kapitel. Ein zweiter Satz, der die Maßnahmen ein
+      weiteres Mal durchgeht, hätte nur die Branche als Unterschied.
+  engineering:
+    needed: false
+    note: >
+      Die Technik eines Netzbetreibers arbeitet an Vermittlung, Übertragung und
+      Zusammenschaltung. Der Foliensatz für Technik in diesem Repository ist auf
+      die IT einer Organisation geschnitten und wäre hier der falsche.
+  all-staff:
+    needed: false
+    note: >
+      Das Fernmeldegeheimnis ist für alle Beschäftigten eines Netzbetreibers
+      eine Rechtspflicht und gehört in die Unterweisung nach dem jeweiligen
+      Recht. Ein Foliensatz nach einer internationalen Norm wäre dafür die
+      falsche Quelle.
+  auditors:
+    needed: false
+    note: >
+      Wer prüft, prüft gegen die Erklärung zur Anwendbarkeit der geprüften
+      Organisation. Dass diese Norm dort als Quelle einer Maßnahme steht, ändert
+      am Vorgehen der Prüfung nichts.
