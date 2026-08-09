@@ -1,0 +1,44 @@
+id: iso-iec-27099
+number: 27099
+edition_year: 2022
+doc_type: is
+status: published
+family: cryptography
+layer: depth
+isms_relation: requirements
+catalog_confirmation: unconfirmed
+languages:
+  - de
+  - en
+presentation:
+  management:
+    needed: true
+    note: >
+      Eine eigene Infrastruktur für öffentliche Schlüssel ist eine Zusage über
+      Jahrzehnte: der Vertrauensanker überlebt das Vorhaben, die Beschäftigten
+      und oft den Hersteller, und die Kosten des Ausstiegs steigen mit jedem
+      Jahr. Das ist eine Entscheidung der Leitung und keine des Entwurfs, und
+      sie unterscheidet sich von der Abwägung einer einzelnen Maßnahme im
+      Foliensatz zu ISO/IEC 27016 gerade durch diese Laufzeit.
+  practitioners:
+    needed: false
+    note: >
+      Die Praxis schreibt und liest die beiden Dokumente, die eine solche
+      Infrastruktur tragen. Das ist Arbeit an Dokumenten des eigenen Hauses,
+      und der Aufbau dafür steht im Muster für Richtlinien.
+  engineering:
+    needed: false
+    note: >
+      Die Technik betreibt, was entschieden ist. Was dabei zu tun ist, hängt am
+      Erzeugnis, und der allgemeine Teil steht im Foliensatz zu ISO/IEC 27002.
+  all-staff:
+    needed: false
+    note: >
+      Für alle Beschäftigten hat der Betrieb einer solchen Infrastruktur keine
+      Handlungsfolge.
+  auditors:
+    needed: false
+    note: >
+      Wer prüft, hält den Betrieb gegen die beiden Dokumente, die die
+      Organisation dafür geschrieben hat. Das ist ein Vorgehen wie bei jeder
+      anderen Regelung und kein eigener Kursstoff.

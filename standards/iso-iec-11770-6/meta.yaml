@@ -1,0 +1,42 @@
+id: iso-iec-11770-6
+number: 11770
+part: 6
+edition_year: 2016
+doc_type: is
+status: published
+family: cryptography
+layer: depth
+isms_relation: requirements controls
+catalog_confirmation: confirmed
+languages:
+  - de
+  - en
+presentation:
+  management:
+    needed: false
+    note: >
+      Die Ableitung eines Schlüssels ist keine Entscheidung der Leitung. Was sie
+      an der Schlüsselverwaltung angeht, steht im Foliensatz zu ISO/IEC 27099.
+  practitioners:
+    needed: false
+    note: >
+      Für die Praxis zählt, dass ein Schlüssel genau einen Zweck hat, und das
+      trägt der Foliensatz zu ISO/IEC 11770-1. Wie viele Schlüssel daraus
+      entstehen, ist eine technische Frage darunter.
+  engineering:
+    needed: false
+    note: >
+      Der Foliensatz zu ISO/IEC 11770-1 trägt den Lebensweg eines Schlüssels
+      für diese ganze Reihe, und die Trennung nach Zweck ist einer seiner
+      Punkte. Ein zweiter Satz über die Rechnung dahinter hätte keinen eigenen
+      Gegenstand.
+  all-staff:
+    needed: false
+    note: >
+      Für alle Beschäftigten hat die Ableitung von Schlüsseln keine
+      Handlungsfolge.
+  auditors:
+    needed: false
+    note: >
+      Wer prüft, sieht nach, ob ein Schlüssel für zwei Zwecke benutzt wird. Das
+      ist ein Punkt in der Prüfung und kein eigener Kursstoff.
