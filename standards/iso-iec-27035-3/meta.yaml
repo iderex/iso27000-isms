@@ -1,0 +1,43 @@
+id: iso-iec-27035-3
+number: 27035
+part: 3
+edition_year: 2020
+doc_type: is
+status: published
+family: extended-27000
+layer: depth
+isms_relation: adjacent
+catalog_confirmation: confirmed
+languages:
+  - de
+  - en
+presentation:
+  management:
+    needed: false
+    note: >
+      Was im Betrieb einer Reaktion geschieht, ist keine Entscheidung der
+      Leitung. Sie entscheidet über die Freigabe nach außen und über die
+      Mittel, und beides steht im Foliensatz zu ISO/IEC 27001.
+  practitioners:
+    needed: false
+    note: >
+      Der Foliensatz zu ISO/IEC 27035-1 trägt Begriffe und Phasen für diese
+      Gruppe. Was hier dazukommt, ist der Betrieb, und der wird an der eigenen
+      Umgebung geübt und nicht an Folien.
+  engineering:
+    needed: false
+    note: >
+      Die Technik handelt hier, aber was zu tun ist, hängt an den Systemen des
+      Hauses. Der allgemeine Teil, Erkennung, Protokollierung und Trennung von
+      Netzen, steht im Foliensatz zu ISO/IEC 27002.
+  all-staff:
+    needed: false
+    note: >
+      Für alle Beschäftigten zählt eine einzige Handlung, nämlich zu melden. Sie
+      steht im Awareness-Training unter `trainings/awareness-all-staff`.
+  auditors:
+    needed: false
+    note: >
+      Wer prüft, sieht nach, ob eine Reaktion aufgezeichnet ist und ob die
+      Reihenfolge von Bewertung und Handlung eingehalten wurde. Das ist ein
+      Punkt in der Prüfung und kein eigener Kursstoff.

@@ -1,0 +1,46 @@
+id: iso-iec-27035-1
+number: 27035
+part: 1
+edition_year: 2023
+doc_type: is
+status: published
+family: extended-27000
+layer: depth
+isms_relation: adjacent
+catalog_confirmation: confirmed
+languages:
+  - de
+  - en
+presentation:
+  management:
+    needed: false
+    note: >
+      Die Leitung entscheidet über die Meldung nach außen und über die Mittel
+      für die Bereitschaft. Beides steht im Foliensatz zu ISO/IEC 27001 bei den
+      Pflichten der obersten Leitung; der Ablauf eines Vorfalls ist kein
+      Gegenstand einer Sitzung der Leitung.
+  practitioners:
+    needed: true
+    note: >
+      Der Unterschied zwischen Ereignis, Schwachstelle und Vorfall und die
+      Reihenfolge der Phasen sind das, was vor dem ersten Vorfall sitzen muss
+      und was sich ohne ein Erzeugnis zeigen lässt. Dieser Satz trägt die
+      ganze Gruppe: die übrigen drei Teile verweisen auf ihn.
+  engineering:
+    needed: false
+    note: >
+      Die Technik erkennt und behandelt, und was sie dabei tut, steht in Teil 3
+      und im Foliensatz zu ISO/IEC 27002. Ein Satz über Grundsätze hilft ihr bei
+      keiner Handlung.
+  all-staff:
+    needed: false
+    note: >
+      Für alle Beschäftigten zählt eine einzige Handlung, nämlich zu melden. Sie
+      steht im Awareness-Training unter `trainings/awareness-all-staff` und
+      braucht keinen eigenen Satz.
+  auditors:
+    needed: false
+    note: >
+      Wer prüft, sieht nach, ob es einen Plan gibt, ob Vorfälle aufgezeichnet
+      sind und ob aus ihnen etwas gefolgt ist. Das ist ein Punkt in der Prüfung
+      und kein eigener Kursstoff.

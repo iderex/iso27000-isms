@@ -1,0 +1,46 @@
+id: iso-iec-27039
+number: 27039
+edition_year: 2015
+doc_type: is
+status: published
+family: extended-27000
+layer: depth
+isms_relation: controls
+catalog_confirmation: unconfirmed
+languages:
+  - de
+  - en
+presentation:
+  management:
+    needed: false
+    note: >
+      Die Leitung entscheidet über die laufenden Mittel, und die größte
+      Position ist hier nicht das Erzeugnis, sondern die Person, die die
+      Meldungen liest. Diese Abwägung gehört in den Foliensatz zu
+      ISO/IEC 27016, wo die Wirtschaftlichkeit einer Maßnahme der Gegenstand
+      ist.
+  practitioners:
+    needed: false
+    note: >
+      Was die Praxis hier braucht, ist die Meldung, die bei ihr ankommt, und
+      die steht im Foliensatz zu ISO/IEC 27035-1 als Eingang der
+      Vorfallbehandlung. Die Wahl und der Betrieb des Systems sind eine
+      technische Entscheidung.
+  engineering:
+    needed: true
+    note: >
+      Wo ein solches System steht, ob es nur meldet oder auch eingreift und was
+      das Nachziehen der Regeln laufend kostet, ist eine technische
+      Entscheidung, die ohne Erzeugnis erklärbar ist und in jedem Haus dieselbe
+      Form hat. Das ist der einzige bejahte Satz zu diesem Thema.
+  all-staff:
+    needed: false
+    note: >
+      Für alle Beschäftigten hat die Angriffserkennung keine Handlungsfolge
+      außer der, weiter zu melden, was ihnen auffällt.
+  auditors:
+    needed: false
+    note: >
+      Wer prüft, sieht nach, ob die Meldungen dieses Systems bei einem Menschen
+      ankommen und ob daraus Vorfälle geworden sind. Das ist ein Punkt in der
+      Prüfung und kein eigener Kursstoff.
