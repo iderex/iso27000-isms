@@ -1,0 +1,48 @@
+id: iso-iec-27034-1
+number: 27034
+part: 1
+edition_year: 2011
+doc_type: is
+status: published
+family: extended-27000
+layer: depth
+isms_relation: terms
+catalog_confirmation: confirmed
+languages:
+  - de
+  - en
+presentation:
+  management:
+    needed: false
+    note: >
+      Die Leitung entscheidet, wie viel eine Anwendung an Sicherheit wert ist,
+      und dafür liefert der Foliensatz zu ISO/IEC 27016 die Sprache. Der
+      Bauplan darunter ist kein Gegenstand einer Sitzung der Leitung.
+  practitioners:
+    needed: false
+    note: >
+      Die Praxis bringt die Anforderungen an eine Anwendung in das
+      Risikoregister und in die Erklärung zur Anwendbarkeit. Der Weg dorthin
+      steht im Foliensatz zu ISO/IEC 27005, und der Gedanke dieser Reihe wird
+      im Satz für die Technik gezeigt.
+  engineering:
+    needed: true
+    note: >
+      Zwei Gedanken dieser Reihe ändern die Arbeit an einer Anwendung, und
+      beide sind ohne Erzeugnis erklärbar: der Aufwand richtet sich nach dem
+      Zusammenhang der Anwendung und nicht nach einer festen Liste, und eine
+      Maßnahme wird einmal beschrieben und in vielen Vorhaben wiederverwendet.
+      Dieser Satz trägt die ganze Reihe; die übrigen fünf Teile verweisen auf
+      ihn.
+  all-staff:
+    needed: false
+    note: >
+      Für alle Beschäftigten hat die Entwicklung einer Anwendung keine
+      Handlungsfolge. Wer eine Anwendung benutzt, findet seine Regeln im
+      Awareness-Training.
+  auditors:
+    needed: false
+    note: >
+      Wer prüft, sieht nach, ob zu einer Anwendung eine Begründung und ein
+      Nachweis vorliegen. Das ist ein Punkt in der Prüfung der Entwicklung und
+      kein eigener Kursstoff.
