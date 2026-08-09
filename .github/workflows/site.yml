@@ -117,37 +117,38 @@ jobs:
       - name: Sprachumschalter / Language switch
         run: |
           set -eu
+          # Die Liste kommt aus dem Baum und nicht aus der Ausgabe. Eine Seite,
+          # die gar nicht erzeugt wurde, fehlt sonst in beiden und gilt als
+          # eine, an der nichts zu beanstanden ist.
+          #
+          # The list comes from the tree and not from the output. A page that
+          # was never rendered is otherwise missing from both and counts as one
+          # with nothing wrong with it.
           pages=0
-          for f in $(find _site -name '*.html' | grep -E '(^|[./])(de|en)\.html$' | grep -v '^_site/presentations/'); do
-            case "$f" in
-              *de.html) other="${f%de.html}en.html"; ;;
-              *en.html) other="${f%en.html}de.html"; ;;
+          for src in $(git ls-files '*.md' | grep -E '(^|[./])(de|en)\.md$'); do
+            page="_site/${src%.md}.html"
+            case "$src" in
+              *de.md) other="_site/${src%de.md}en.html" ;;
+              *en.md) other="_site/${src%en.md}de.html" ;;
             esac
+            if [ ! -f "$page" ]; then
+              echo "Seite fehlt / page missing: $page"
+              exit 1
+            fi
             if [ ! -f "$other" ]; then
               echo "Gegenfassung fehlt / counterpart missing: $other"
               exit 1
             fi
-            if ! grep -q "href=\"$(basename "$other")\"" "$f"; then
-              echo "Kein Verweis auf die Gegenfassung / no link to the counterpart: $f"
-              exit 1
-            fi
-            if ! grep -q 'class="language-switch"' "$f"; then
-              echo "Kein Umschalter auf der Seite / no switch on the page: $f"
+            if ! grep -q "href=\"$(basename "$other")\" class=\"language-switch\"" "$page"; then
+              echo "Kein Umschalter auf die Gegenfassung / no switch to the counterpart: $page"
               exit 1
             fi
             pages=$((pages + 1))
           done
-          # Die Zahl wird gegen den Baum gehalten, damit eine Seite, die gar
-          # nicht erst erzeugt wurde, nicht als eine gilt, die nichts zu
-          # beanstanden hat.
-          #
-          # The number is held against the tree, so a page that was never
-          # rendered does not count as one with nothing wrong with it.
-          expected="$(git ls-files '*.md' | grep -Ec '(^|[./])(de|en)\.md$')"
-          echo "$pages Seite(n) mit Sprachumschalter / page(s) carrying the language switch"
-          echo "$expected Sprachdatei(en) im Baum / language file(s) in the tree"
-          if [ "$pages" -ne "$expected" ]; then
-            echo "Die beiden Zahlen gehen auseinander / the two numbers differ"
+          echo "$pages Sprachdatei(en) im Baum, jede mit Umschalter auf ihre Gegenfassung"
+          echo "$pages language file(s) in the tree, each with a switch to its counterpart"
+          if [ "$pages" -eq 0 ]; then
+            echo "Keine Sprachdatei gefunden / no language file found"
             exit 1
           fi
 
