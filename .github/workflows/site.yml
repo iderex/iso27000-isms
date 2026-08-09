@@ -172,6 +172,7 @@ jobs:
           fi
 
       - name: Was erzeugt wurde / What was produced
+        if: always()
         run: |
           set -eu
           echo "$(find _site -name '*.html' | wc -l) HTML-Datei(en) / HTML file(s)"
@@ -179,6 +180,7 @@ jobs:
           du -sh _site
 
       - uses: actions/upload-artifact@v4
+        if: always()
         with:
           name: darstellung-site
           path: _site

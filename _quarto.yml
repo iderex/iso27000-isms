@@ -20,6 +20,19 @@
 project:
   type: website
   output-dir: _site
+  # `README.md` steht ausdrücklich hier, weil Quarto sie sonst auslässt. Sie
+  # ist die Startseite, und ohne diese Zeile bliebe die Adresse der Website
+  # leer. Gemessen an einem Lauf, in dem sie fehlte:
+  # `cp: cannot stat '_site/README.html': No such file or directory`.
+  #
+  # `README.md` stands here explicitly, because Quarto leaves it out
+  # otherwise. It is the home page, and without this line the address of the
+  # site would stay empty. Measured on a run where it was missing:
+  # `cp: cannot stat '_site/README.html': No such file or directory`.
+  render:
+    - README.md
+    - "**/*.md"
+    - "**/*.qmd"
   # Was nicht erzeugt, sondern mitkopiert wird: die Datei, an der ein Assistent
   # liest, der vollständige Lizenztext, die acht Katalogdateien und die
   # übrigen Rohdaten. Formatregel 7 verlangt, dass die CSV zum Herunterladen
