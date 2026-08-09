@@ -1,0 +1,45 @@
+id: iso-iec-11770-1
+number: 11770
+part: 1
+edition_year: 2010
+doc_type: is
+status: published
+family: cryptography
+layer: depth
+isms_relation: requirements controls
+catalog_confirmation: confirmed
+languages:
+  - de
+  - en
+presentation:
+  management:
+    needed: false
+    note: >
+      Die Leitung entscheidet, ob eine eigene Schlüsselverwaltung betrieben oder
+      eingekauft wird. Diese Entscheidung steht im Foliensatz zu ISO/IEC 27099,
+      weil sie dort mit ihrer Laufzeit zusammenhängt; der Lebensweg eines
+      Schlüssels ist kein Gegenstand einer Sitzung der Leitung.
+  practitioners:
+    needed: false
+    note: >
+      Die Praxis trägt die Regelung zum Umgang mit Schlüsseln in die Erklärung
+      zur Anwendbarkeit, und der Weg dorthin steht im Foliensatz zu
+      ISO/IEC 27002 bei der Maßnahme zur Kryptografie.
+  engineering:
+    needed: true
+    note: >
+      Ein Schlüssel hat einen Lebensweg, und die Fehler liegen fast nie beim
+      Verfahren, sondern bei der Verteilung, der Aufbewahrung und dem
+      Zurückziehen. Das ist ohne Erzeugnis erklärbar und in jedem Haus dasselbe.
+      Dieser Satz trägt die ganze Reihe; die Teile 2 bis 7 verweisen auf ihn.
+  all-staff:
+    needed: false
+    note: >
+      Für alle Beschäftigten hat die Verwaltung von Schlüsseln keine
+      Handlungsfolge über das hinaus, was ohnehin für Zugangsdaten gilt.
+  auditors:
+    needed: false
+    note: >
+      Wer prüft, sieht nach, ob es eine Regelung zum Umgang mit Schlüsseln gibt
+      und ob ein Zurückziehen vorgesehen ist. Das ist ein Punkt in der Prüfung
+      und kein eigener Kursstoff.

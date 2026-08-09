@@ -1,0 +1,44 @@
+id: iso-iec-11770-3
+number: 11770
+part: 3
+edition_year: 2021
+doc_type: is
+status: published
+family: cryptography
+layer: depth
+isms_relation: controls
+catalog_confirmation: confirmed
+languages:
+  - de
+  - en
+presentation:
+  management:
+    needed: false
+    note: >
+      Die Wahl eines Verfahrens ist keine Entscheidung der Leitung. Die
+      Entscheidung, die aus diesem Teil folgt und die Leitung angeht, ist die
+      über eine eigene Infrastruktur für öffentliche Schlüssel, und sie steht
+      im Foliensatz zu ISO/IEC 27099.
+  practitioners:
+    needed: false
+    note: >
+      Die Praxis trägt die Regelung zur Kryptografie in die Erklärung zur
+      Anwendbarkeit und wählt kein Verfahren aus. Der Weg dorthin steht im
+      Foliensatz zu ISO/IEC 27002.
+  engineering:
+    needed: false
+    note: >
+      Der Foliensatz zu ISO/IEC 11770-1 trägt den Lebensweg eines Schlüssels
+      für diese ganze Reihe. Was hier dazukommt, ist die Frage nach der
+      Echtheit öffentlicher Schlüssel, und die wird im Satz zu ISO/IEC 27099
+      an ihrem eigentlichen Ort behandelt.
+  all-staff:
+    needed: false
+    note: >
+      Für alle Beschäftigten hat die Wahl eines Schlüsselverfahrens keine
+      Handlungsfolge.
+  auditors:
+    needed: false
+    note: >
+      Wer prüft, sieht nach, ob eine Regelung zur Kryptografie besteht und
+      eingehalten wird, und nicht, welches Verfahren gewählt wurde.
