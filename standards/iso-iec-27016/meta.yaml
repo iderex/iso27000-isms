@@ -1,0 +1,40 @@
+id: iso-iec-27016
+number: 27016
+edition_year: 2014
+doc_type: tr
+status: published
+family: extended-27000
+layer: depth
+isms_relation: adjacent
+catalog_confirmation: unconfirmed
+languages:
+  - de
+  - en
+presentation:
+  management:
+    needed: true
+    note: >
+      Die Entscheidung, wie viel eine Maßnahme kosten darf, trifft die Leitung,
+      und dieser Bericht ist das Einzige in der Reihe, das ihr dafür eine
+      Sprache gibt. Das ist der einzige bejahte Satz zu diesem Thema.
+  practitioners:
+    needed: false
+    note: >
+      Die Praxis schätzt Risiken ein und rechnet keine Geschäftsfälle. Was sie
+      an Zahlen liefert, steht im Foliensatz zu ISO/IEC 27004, und was sie
+      damit tut, in dem zu ISO/IEC 27005.
+  engineering:
+    needed: false
+    note: >
+      Die Technik setzt um, was entschieden ist. Ein Foliensatz über die
+      Begründung einer Entscheidung hilft ihr bei keiner Handlung.
+  all-staff:
+    needed: false
+    note: >
+      Für alle Beschäftigten hat die Wirtschaftlichkeit einer Maßnahme keine
+      Handlungsfolge.
+  auditors:
+    needed: false
+    note: >
+      Wer prüft, sieht nach, ob eine Entscheidung begründet und aufgezeichnet
+      ist, und nicht, ob die Rechnung dahinter elegant war.

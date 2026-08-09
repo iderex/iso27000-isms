@@ -1,0 +1,39 @@
+id: iso-iec-27022
+number: 27022
+edition_year: 2021
+doc_type: ts
+status: published
+family: extended-27000
+layer: depth
+isms_relation: adjacent
+catalog_confirmation: unconfirmed
+languages:
+  - de
+  - en
+presentation:
+  management:
+    needed: false
+    note: >
+      Die Leitung entscheidet über Richtung und Mittel und nicht über den
+      Schnitt der Prozesse. Was sie davon braucht, steht im Foliensatz zu
+      ISO/IEC 27014.
+  practitioners:
+    needed: true
+    note: >
+      Wer ein ISMS betreibt, arbeitet in genau diesen Prozessen und braucht
+      ihre Grenzen, ihre Eingaben und ihre Ergebnisse an einer Stelle. Das ist
+      der einzige bejahte Satz zu diesem Thema.
+  engineering:
+    needed: false
+    note: >
+      Die Technik liefert an einzelne Prozesse zu und betreibt sie nicht. Was
+      sie tut, steht in den Foliensätzen zu ISO/IEC 27002.
+  all-staff:
+    needed: false
+    note: >
+      Für alle Beschäftigten ist der Schnitt der Prozesse ohne Handlungsfolge.
+  auditors:
+    needed: false
+    note: >
+      Wer prüft, folgt den Anforderungen aus ISO/IEC 27001 und nicht einem
+      Prozessmodell, das die Organisation nicht führen muss.

@@ -1,0 +1,41 @@
+id: iso-iec-27102
+number: 27102
+edition_year: 2019
+doc_type: is
+status: published
+family: risk
+layer: depth
+isms_relation: risk
+catalog_confirmation: confirmed
+languages:
+  - de
+  - en
+presentation:
+  management:
+    needed: true
+    note: >
+      Eine Versicherung zu nehmen oder nicht zu nehmen ist eine Entscheidung
+      über Geld und über getragenes Risiko, und sie fällt in der Leitung. Das
+      ist der einzige bejahte Satz zu diesem Thema.
+  practitioners:
+    needed: false
+    note: >
+      Die Praxis liefert die Angaben, aus denen ein Antrag entsteht, und
+      entscheidet nicht über den Abschluss. Was sie dafür braucht, steht im
+      Foliensatz zu ISO/IEC 27005.
+  engineering:
+    needed: false
+    note: >
+      Die Technik setzt Maßnahmen um. Ob sie versichert sind, ändert an ihrer
+      Arbeit nichts.
+  all-staff:
+    needed: false
+    note: >
+      Für alle Beschäftigten hat eine Versicherungspolice keine
+      Handlungsfolge; im Gegenteil ist die Vorstellung, es sei ja versichert,
+      genau das falsche Ergebnis eines Foliensatzes.
+  auditors:
+    needed: false
+    note: >
+      Wer prüft, sieht sich die Behandlung des Risikos an und nicht den
+      Versicherungsvertrag.
