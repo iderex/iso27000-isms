@@ -1,0 +1,47 @@
+id: iso-iec-27019
+number: 27019
+edition_year: 2024
+doc_type: is
+status: published
+family: extended-27000
+layer: context
+isms_relation: controls sector
+catalog_confirmation: unconfirmed
+languages:
+  - de
+  - en
+presentation:
+  management:
+    needed: false
+    note: >
+      Die Leitung eines Versorgers entscheidet über Versorgungssicherheit und
+      über die Auflagen ihrer Aufsicht. Beides hängt am Recht des jeweiligen
+      Landes, und ein Foliensatz nach einer internationalen Norm würde
+      entweder Recht behaupten, das er nicht kennt, oder nichts sagen.
+  practitioners:
+    needed: false
+    note: >
+      Wer die Prozessleittechnik eines Versorgers betreut, ist Fachperson für
+      diesen Prozess und liest die Norm selbst. Der Foliensatz zu
+      ISO/IEC 27002 trägt den Katalog, dieses Kapitel trägt die Lesart, und ein
+      dritter Satz dazwischen hätte keinen eigenen Gegenstand.
+  engineering:
+    needed: false
+    note: >
+      Der Foliensatz für die Technik in diesem Repository ist auf die IT einer
+      Organisation geschnitten. Eine Leitwarte ist ein anderer Gegenstand, und
+      ein Satz über sie ohne eine Leitwarte im Rücken wäre schlechter als
+      keiner.
+  all-staff:
+    needed: false
+    note: >
+      Für alle Beschäftigten eines Versorgers gelten die allgemeinen Regeln,
+      und die stehen im Awareness-Training. Wer an der Anlage arbeitet,
+      bekommt eine Unterweisung nach dem Arbeitsschutz und nicht nach dieser
+      Norm.
+  auditors:
+    needed: false
+    note: >
+      Wer prüft, prüft gegen die Erklärung zur Anwendbarkeit der geprüften
+      Organisation. Dass eine Zeile ihre Begründung aus dieser Norm zieht,
+      ändert am Vorgehen der Prüfung nichts.

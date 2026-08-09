@@ -1,0 +1,45 @@
+id: iso-iec-27010
+number: 27010
+edition_year: 2015
+doc_type: is
+status: published
+family: extended-27000
+layer: context
+isms_relation: sector
+catalog_confirmation: unconfirmed
+languages:
+  - de
+  - en
+presentation:
+  management:
+    needed: false
+    note: >
+      Ob die Organisation einer Austauschgemeinschaft beitritt, entscheidet die
+      Leitung, und diese Entscheidung ist ein Fall der Lieferanten- und
+      Partnerbeziehung, für die der Foliensatz zu ISO/IEC 27002 die Sprache
+      liefert. Ein eigener Satz hätte für die Leitung eine einzige Folie.
+  practitioners:
+    needed: true
+    note: >
+      Die Praxis entscheidet im Einzelfall, was das Haus verlässt, und dieser
+      Punkt ist der einzige in der ganzen Reihe, an dem eine Weitergabe an
+      Dritte beabsichtigt ist statt ein Verstoß. Wer die Regeln dafür nicht vor
+      dem ersten Vorfall gelernt hat, lernt sie an ihm.
+  engineering:
+    needed: false
+    note: >
+      Die Technik liefert die Angaben, die weitergegeben werden, und entscheidet
+      nicht über die Weitergabe. Was sie an Werkzeugen dafür braucht, hängt an
+      der Gemeinschaft, der die Organisation beitritt, und nicht an dieser Norm.
+  all-staff:
+    needed: false
+    note: >
+      Für alle Beschäftigten bleibt es bei der Regel, dass Angaben über Vorfälle
+      das Haus nicht ohne Freigabe verlassen. Die steht im Awareness-Training
+      und braucht keinen eigenen Satz.
+  auditors:
+    needed: false
+    note: >
+      Wer prüft, sieht nach, ob die Freigabe geregelt und aufgezeichnet ist. Das
+      ist ein Punkt in der Prüfung der Lieferantenbeziehungen und kein eigener
+      Kursstoff.
