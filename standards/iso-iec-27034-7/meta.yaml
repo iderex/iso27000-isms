@@ -1,0 +1,43 @@
+id: iso-iec-27034-7
+number: 27034
+part: 7
+edition_year: 2018
+doc_type: is
+status: published
+family: extended-27000
+layer: depth
+isms_relation: adjacent
+catalog_confirmation: confirmed
+languages:
+  - de
+  - en
+presentation:
+  management:
+    needed: false
+    note: >
+      Eine Vorhersage über die Wirkung eines Maßnahmensatzes ist eine
+      Argumentation und keine Zahl, die die Leitung entgegennimmt. Was sie an
+      dieser Reihe angeht, steht im Foliensatz zu ISO/IEC 27016.
+  practitioners:
+    needed: false
+    note: >
+      Die Praxis kennt dieselbe Frage aus der Risikobeurteilung, nämlich ob
+      eine Behandlung wirken wird, bevor sie umgesetzt ist. Der Foliensatz zu
+      ISO/IEC 27005 trägt sie bereits.
+  engineering:
+    needed: false
+    note: >
+      Der Foliensatz zu ISO/IEC 27034-1 trägt die beiden Gedanken der Reihe.
+      Dieser Teil ist das spezialisierte Ende, und ein Satz dazu hätte für die
+      meisten Leser dieses Repositoriums keinen Gegenstand.
+  all-staff:
+    needed: false
+    note: >
+      Für alle Beschäftigten hat eine Vorhersage über einen Maßnahmensatz keine
+      Handlungsfolge.
+  auditors:
+    needed: false
+    note: >
+      Wer prüft, sieht sich an, was umgesetzt und nachgewiesen ist, und nicht,
+      was vorhergesagt wurde. Der Unterschied zwischen beidem steht in diesem
+      Kapitel.

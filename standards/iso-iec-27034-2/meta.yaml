@@ -1,0 +1,45 @@
+id: iso-iec-27034-2
+number: 27034
+part: 2
+edition_year: 2015
+doc_type: is
+status: published
+family: extended-27000
+layer: depth
+isms_relation: requirements
+catalog_confirmation: confirmed
+languages:
+  - de
+  - en
+presentation:
+  management:
+    needed: false
+    note: >
+      Die Leitung genehmigt, dass ein solcher Bestand geführt wird, und stellt
+      die Zeit dafür bereit. Diese Abwägung steht im Foliensatz zu
+      ISO/IEC 27016, wo die Wirtschaftlichkeit einer Maßnahme der Gegenstand
+      ist.
+  practitioners:
+    needed: false
+    note: >
+      Der Bestand ist eine Sammlung technischer Anforderungen, und die Praxis
+      berührt ihn dort, wo eine Anwendung in die Erklärung zur Anwendbarkeit
+      kommt. Der Weg dorthin steht im Foliensatz zu ISO/IEC 27002.
+  engineering:
+    needed: false
+    note: >
+      Der Foliensatz zu ISO/IEC 27034-1 trägt die beiden Gedanken für diese
+      ganze Reihe, und der zweite von ihnen ist genau der Bestand. Was hier
+      dazukommt, ist die Arbeit am eigenen Bestand, und die geschieht an ihm
+      und nicht an Folien.
+  all-staff:
+    needed: false
+    note: >
+      Für alle Beschäftigten hat der Bestand einer Organisation keine
+      Handlungsfolge.
+  auditors:
+    needed: false
+    note: >
+      Wer prüft, sieht nach, ob es den Bestand gibt, wer ihn pflegt und wann er
+      zuletzt geändert wurde. Das ist ein Punkt in der Prüfung und kein eigener
+      Kursstoff.
