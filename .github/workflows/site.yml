@@ -83,6 +83,7 @@ jobs:
           if [ -n "$changed" ]; then
             echo "Das Erzeugen hat den Baum geändert / rendering changed the tree:"
             echo "$changed"
+            git --no-pager diff
             exit 1
           fi
           echo "0 Datei(en) geändert / 0 file(s) changed"
