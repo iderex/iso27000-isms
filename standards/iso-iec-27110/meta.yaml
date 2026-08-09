@@ -1,0 +1,39 @@
+id: iso-iec-27110
+number: 27110
+edition_year: 2021
+doc_type: ts
+status: published
+family: extended-27000
+layer: depth
+isms_relation: adjacent
+catalog_confirmation: confirmed
+languages:
+  - de
+  - en
+presentation:
+  management:
+    needed: false
+    note: >
+      Ob eine Organisation ein eigenes Rahmenwerk baut, ist eine Entscheidung,
+      die in den Foliensatz zu ISO/IEC 27014 gehört. Der Bauplan dafür ist
+      nicht der Gegenstand einer Sitzung der Leitung.
+  practitioners:
+    needed: false
+    note: >
+      Die wenigsten Organisationen bauen ein eigenes Rahmenwerk; sie benutzen
+      eines. Was dabei zu tun ist, steht im Foliensatz zu ISO/IEC 27103. Ein
+      eigener Satz hier hätte für die meisten Leser keinen Gegenstand.
+  engineering:
+    needed: false
+    note: >
+      Die Technik setzt Maßnahmen um und baut keine Rahmenwerke.
+  all-staff:
+    needed: false
+    note: >
+      Für alle Beschäftigten hat der Aufbau eines Rahmenwerks keine
+      Handlungsfolge.
+  auditors:
+    needed: false
+    note: >
+      Wer prüft, prüft gegen die Anforderungen, die eine Organisation gewählt
+      hat, und nicht gegen den Bauplan des Rahmenwerks, aus dem sie stammen.

@@ -1,0 +1,41 @@
+id: iso-iec-27103
+number: 27103
+edition_year: 2026
+doc_type: ts
+status: published
+family: extended-27000
+layer: depth
+isms_relation: adjacent
+catalog_confirmation: confirmed
+languages:
+  - de
+  - en
+presentation:
+  management:
+    needed: false
+    note: >
+      Die Leitung entscheidet, ob ein fremdes Rahmenwerk gilt, und das gehört in
+      den Foliensatz zu ISO/IEC 27014. Wie die vorhandenen Normen darin
+      untergebracht werden, ist Arbeit und keine Entscheidung.
+  practitioners:
+    needed: true
+    note: >
+      Wer ein ISMS betreibt und daneben ein Rahmenwerk erfüllen muss, macht
+      genau diese Zuordnung, und sie zweimal falsch zu machen ist teuer. Das
+      ist der einzige bejahte Satz zu diesem Thema.
+  engineering:
+    needed: false
+    note: >
+      Die Technik setzt einzelne Maßnahmen um, gleich aus welchem Rahmenwerk
+      die Forderung stammt.
+  all-staff:
+    needed: false
+    note: >
+      Für alle Beschäftigten macht es keinen Unterschied, aus welchem
+      Rahmenwerk eine Regel kommt.
+  auditors:
+    needed: false
+    note: >
+      Wer prüft, arbeitet gegen ein Anforderungswerk und nicht gegen die
+      Zuordnung zwischen zweien. Was er dabei sucht, steht im Satz für die
+      Praxis.

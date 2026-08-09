@@ -1,0 +1,42 @@
+id: iso-iec-27014
+number: 27014
+edition_year: 2020
+doc_type: is
+status: published
+family: extended-27000
+layer: depth
+isms_relation: adjacent
+catalog_confirmation: unconfirmed
+languages:
+  - de
+  - en
+presentation:
+  management:
+    needed: true
+    note: >
+      Der Gegenstand dieser Norm ist die Aufgabe des leitenden Organs selbst.
+      Wer sie erklärt bekommt, sitzt in dem Gremium, das lenkt und nicht
+      betreibt, und braucht die Trennung zwischen Lenken und Betreiben an einer
+      Stelle. Das ist der einzige bejahte Satz zu diesem Thema.
+  practitioners:
+    needed: false
+    note: >
+      Die Praxis betreibt das ISMS und lenkt es nicht. Was sie an das leitende
+      Organ berichtet, steht im Foliensatz zu ISO/IEC 27004, und was sie tut,
+      in den Sätzen zu ISO/IEC 27001 und 27002.
+  engineering:
+    needed: false
+    note: >
+      Die Technik hat an der Lenkung keinen Anteil. Ein Foliensatz dazu würde
+      eine Verantwortung erklären, die sie nicht trägt.
+  all-staff:
+    needed: false
+    note: >
+      Für alle Beschäftigten ist die Frage, wer lenkt, ohne Handlungsfolge. Was
+      sie angeht, steht im Awareness-Material.
+  auditors:
+    needed: false
+    note: >
+      Wer prüft, sieht sich Aufzeichnungen der Lenkung an, also Beschlüsse und
+      Managementbewertungen, und nicht einen Foliensatz. Was er dabei sucht,
+      steht im Satz für die Leitung.
