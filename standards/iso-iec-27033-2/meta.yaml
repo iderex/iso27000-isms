@@ -1,0 +1,45 @@
+id: iso-iec-27033-2
+number: 27033
+part: 2
+edition_year: 2012
+doc_type: is
+status: published
+family: extended-27000
+layer: depth
+isms_relation: adjacent
+catalog_confirmation: confirmed
+languages:
+  - de
+  - en
+presentation:
+  management:
+    needed: false
+    note: >
+      Die Leitung entscheidet, ob eine Sicherheitsanforderung vor oder nach dem
+      Entwurf eines Netzes geschrieben wird, und diese Entscheidung fällt beim
+      Geld für ein Vorhaben. Das steht im Foliensatz zu ISO/IEC 27005 bei der
+      Übernahme eines Risikos.
+  practitioners:
+    needed: false
+    note: >
+      Der Satz, den die Praxis an dieser Reihe braucht, steht im Foliensatz zum
+      ersten Teil. Was dieser Teil hinzufügt, gehört in eine Prüfliste für
+      Vorhaben.
+  engineering:
+    needed: true
+    note: >
+      Zwei Sätze gehören in die Hand der Technik: eine Anforderung, die nach
+      dem Entwurf kommt, kostet ein Vielfaches, und ein Netz sammelt Regeln,
+      die niemand mehr zu löschen wagt, weil neben ihnen kein Grund steht.
+      Beide entscheiden über ein Vorhaben und kommen ohne Erzeugnis aus.
+  all-staff:
+    needed: false
+    note: >
+      Für alle Beschäftigten hat der Entwurf eines Netzes keine
+      Handlungsfolge.
+  auditors:
+    needed: false
+    note: >
+      Wer prüft, sieht nach, ob neben jeder Regel ein Grund und ein Datum
+      stehen und was bei einem Ausfall eines Schutzes geschieht. Das sind
+      Punkte in der Prüfung und kein eigener Kursstoff.

@@ -1,0 +1,44 @@
+id: iso-iec-27033-7
+number: 27033
+part: 7
+edition_year: 2023
+doc_type: is
+status: published
+family: extended-27000
+layer: depth
+isms_relation: controls
+catalog_confirmation: confirmed
+languages:
+  - de
+  - en
+presentation:
+  management:
+    needed: false
+    note: >
+      Die Leitung entscheidet, wem die Steuerung einer solchen Anlage
+      anvertraut wird, und das ist eine Entscheidung über Rechte. Sie steht im
+      Foliensatz zu ISO/IEC 27002 bei den erweiterten Rechten.
+  practitioners:
+    needed: false
+    note: >
+      Der Satz, den die Praxis an dieser Reihe braucht, steht im Foliensatz zum
+      ersten Teil. Was dieser Teil hinzufügt, ist eine Frage an den Nachweis
+      einer Trennung, und sie gehört in die Prüfliste.
+  engineering:
+    needed: true
+    note: >
+      Zwei Sätze gehören in die Hand der Technik: die Trennung besteht nur
+      solange, wie die Einstellung sie beschreibt, und wer die Steuerung hat,
+      hat alle Grenzen auf einmal. Daraus folgt, dass die laufende Einstellung
+      und nicht die Zeichnung der Nachweis ist.
+  all-staff:
+    needed: false
+    note: >
+      Für alle Beschäftigten hat die Virtualisierung eines Netzes keine
+      Handlungsfolge.
+  auditors:
+    needed: false
+    note: >
+      Wer prüft, verlangt die laufende Einstellung statt einer Zeichnung und
+      sieht nach, von wo aus die Steuerung erreichbar ist. Das sind Punkte in
+      der Prüfung und kein eigener Kursstoff.
