@@ -1,0 +1,45 @@
+id: iso-iec-27036-2
+number: 27036
+part: 2
+edition_year: 2022
+doc_type: is
+status: published
+family: extended-27000
+layer: depth
+isms_relation: requirements risk sector
+catalog_confirmation: confirmed
+languages:
+  - de
+  - en
+presentation:
+  management:
+    needed: true
+    note: >
+      Die Fähigkeit, ein Lieferantenverhältnis zu beenden, kostet am Anfang Geld
+      und spart es am Ende, und sie wird nur von der Leitung beschafft. Ein
+      Ausstieg, den niemand bezahlt und niemand durchgerechnet hat, findet im
+      Ernstfall nicht statt. Das ist ohne Technik erklärbar und in jedem Haus
+      dasselbe.
+  practitioners:
+    needed: false
+    note: >
+      Die Praxis baut den Ablauf aus Auswahl, Vereinbarung, Betrieb und Ende.
+      Der Einstieg dazu steht im Foliensatz zu ISO/IEC 27036-1, und die Maßnahmen
+      zu Lieferanten stehen im Foliensatz zu ISO/IEC 27002.
+  engineering:
+    needed: false
+    note: >
+      Für die Technik ändert sich am Bau nichts durch die Anforderungen an ein
+      Vertragsverhältnis. Was sie beisteuert, ist der Weg der Rückgabe, und der
+      hängt am einzelnen Verfahren.
+  all-staff:
+    needed: false
+    note: >
+      Für alle Beschäftigten hat der Ablauf für Lieferanten keine
+      Handlungsfolge.
+  auditors:
+    needed: false
+    note: >
+      Wer prüft, sieht nach, ob der Zuschnitt der Anforderungen begründet ist
+      und ob ein Ausstieg durchgerechnet wurde. Das ist ein Punkt in der Prüfung
+      und kein eigener Kursstoff.

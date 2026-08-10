@@ -1,0 +1,46 @@
+id: iso-iec-27036-1
+number: 27036
+part: 1
+edition_year: 2021
+doc_type: is
+status: published
+family: extended-27000
+layer: depth
+isms_relation: terms sector
+catalog_confirmation: confirmed
+languages:
+  - de
+  - en
+presentation:
+  management:
+    needed: false
+    note: >
+      Die Leitung entscheidet, welche Aufgabe abgegeben wird, und diese
+      Entscheidung steht im Foliensatz zu ISO/IEC 27005 bei der Übernahme eines
+      Risikos. Die Begriffe darunter sind kein Gegenstand einer Sitzung.
+  practitioners:
+    needed: true
+    note: >
+      Die Liste der Lieferanten nach Abhängigkeit statt nach Umsatz zu sortieren
+      ist der eine Satz, der die ganze Reihe trägt, und er wird gebraucht, bevor
+      ein Vertrag angefasst wird. Dazu gehört, dass unter dem Wort Lieferant vier
+      verschiedene Verhältnisse stehen. Beides ist ohne Erzeugnis erklärbar, und
+      dieser Satz trägt die Teile 2 bis 4 mit.
+  engineering:
+    needed: false
+    note: >
+      Für die Technik ändert sich am Bau nichts dadurch, wie ein Verhältnis
+      benannt wird. Was sie an dieser Reihe braucht, steht im Kapitel zu
+      ISO/IEC 27036-3 bei den Bauteilen, die sich nicht ersetzen lassen.
+  all-staff:
+    needed: false
+    note: >
+      Für alle Beschäftigten zählt, dass ein Fremder im Haus ein Fremder bleibt.
+      Das steht im Awareness-Training und braucht keinen eigenen Satz zu dieser
+      Norm.
+  auditors:
+    needed: false
+    note: >
+      Wer prüft, sieht nach, ob es eine Liste gibt, ob sie nach Abhängigkeit
+      geordnet ist und ob das Ende eines Verhältnisses vorgesehen ist. Das ist
+      ein Punkt in der Prüfung und kein eigener Kursstoff.

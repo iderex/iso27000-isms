@@ -1,0 +1,42 @@
+id: iso-iec-27032
+number: 27032
+edition_year: 2023
+doc_type: is
+status: published
+family: extended-27000
+layer: depth
+isms_relation: adjacent
+catalog_confirmation: unconfirmed
+languages:
+  - de
+  - en
+presentation:
+  management:
+    needed: false
+    note: >
+      Dass für das Internet niemand haftet, ändert an keiner Entscheidung der
+      Leitung etwas. Was sie angeht, ist die Abhängigkeit von einzelnen
+      Anbietern, und die steht im Foliensatz zu ISO/IEC 27005.
+  practitioners:
+    needed: false
+    note: >
+      Die Linie zwischen eigener Hand und Umfeld ist eine Tabelle, und die
+      Maßnahmen zu Netzen stehen im Foliensatz zu ISO/IEC 27002. Ein eigener
+      Satz hätte daneben keinen Gegenstand.
+  engineering:
+    needed: false
+    note: >
+      Was die Technik hier tut, hängt am eigenen Rand und an den eigenen
+      Diensten. Ein Foliensatz hat diesen Rand nicht.
+  all-staff:
+    needed: false
+    note: >
+      Der menschliche Teil dieses Themas gehört in das Awareness-Training und
+      nicht in einen Foliensatz zu einer Norm. Dort steht er bereits, und ein
+      zweiter Ort dafür ließe beide veralten.
+  auditors:
+    needed: false
+    note: >
+      Wer prüft, sieht nach, ob die nach außen sichtbaren Dienste und die Namen
+      erfasst sind und ob ihre Fristen überwacht werden. Das ist ein Punkt in
+      der Prüfung und kein eigener Kursstoff.
