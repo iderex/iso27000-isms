@@ -1,0 +1,43 @@
+id: iso-iec-29191
+number: 29191
+edition_year: 2012
+doc_type: is
+status: published
+family: privacy-identity
+layer: depth
+isms_relation: requirements controls
+catalog_confirmation: unconfirmed
+languages:
+  - de
+  - en
+presentation:
+  management:
+    needed: false
+    note: >
+      Weniger zu erheben ist eine Entscheidung mit Folgen für das Geschäft, und
+      sie wird an der Beurteilung des Risikos getroffen. Der Weg dorthin steht
+      im Foliensatz zu ISO/IEC 27005.
+  practitioners:
+    needed: false
+    note: >
+      Die Frage nach der Entscheidung hinter jedem Feld gehört in den Entwurf
+      eines Verfahrens, und die Praxis begegnet ihr dort. Der Foliensatz zu
+      ISO/IEC 29184 trägt die Einwilligung für diese Gruppe.
+  engineering:
+    needed: true
+    note: >
+      Dass eine gleichbleibende Kennung ohne Namen trotzdem alle Vorgänge einer
+      Person verbindet, fehlt in Entwürfen regelmäßig, und dass die Umgebung
+      eines Vorgangs dasselbe tut, ebenso. Beides ist ohne Erzeugnis erklärbar
+      und ändert die Wahl der Kennung.
+  all-staff:
+    needed: false
+    note: >
+      Für alle Beschäftigten hat der Zuschnitt eines Nachweises keine
+      Handlungsfolge.
+  auditors:
+    needed: false
+    note: >
+      Wer prüft, sieht nach, ob zu jedem erhobenen Feld eine Entscheidung
+      genannt ist und ob die Bedingungen für eine Auflösung aufgeschrieben sind.
+      Das ist ein Punkt in der Prüfung und kein eigener Kursstoff.

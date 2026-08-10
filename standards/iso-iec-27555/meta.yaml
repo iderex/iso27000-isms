@@ -1,0 +1,43 @@
+id: iso-iec-27555
+number: 27555
+edition_year: 2021
+doc_type: is
+status: published
+family: privacy-identity
+layer: depth
+isms_relation: controls
+catalog_confirmation: confirmed
+languages:
+  - de
+  - en
+presentation:
+  management:
+    needed: false
+    note: >
+      Der Widerspruch zwischen einer Pflicht zur Aufbewahrung und einer zur
+      Löschung wird an der Beurteilung des Risikos entschieden, und der Weg
+      dorthin steht im Foliensatz zu ISO/IEC 27005.
+  practitioners:
+    needed: true
+    note: >
+      Dass eine Frist einen Auslöser braucht und dass die meisten Systeme das
+      Ende eines Zwecks nie erfahren, ist der Satz, an dem Löschkonzepte
+      scheitern. Dazu gehört, dass eine Löschung die Kopien zuletzt erreicht.
+      Beides ist ohne Erzeugnis erklärbar.
+  engineering:
+    needed: false
+    note: >
+      Den Auslöser zu bauen ist Arbeit am einzelnen Verfahren, und die
+      technische Seite des Löschens steht im Kapitel zu ISO/IEC 27040. Ein
+      eigener Foliensatz hätte daneben keinen Gegenstand.
+  all-staff:
+    needed: false
+    note: >
+      Für alle Beschäftigten zählt, dass eigene Ablagen mitgemeint sind. Das
+      steht im Awareness-Training.
+  auditors:
+    needed: false
+    note: >
+      Wer prüft, sieht nach, ob jede Löschregel einen Auslöser hat und ob
+      gezählt wird, was gelöscht wurde und was nicht. Das ist ein Punkt in der
+      Prüfung und kein eigener Kursstoff.

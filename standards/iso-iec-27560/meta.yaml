@@ -1,0 +1,41 @@
+id: iso-iec-27560
+number: 27560
+edition_year: 2023
+doc_type: ts
+status: published
+family: privacy-identity
+layer: depth
+isms_relation: adjacent
+catalog_confirmation: confirmed
+languages:
+  - de
+  - en
+presentation:
+  management:
+    needed: false
+    note: >
+      Für die Leitung ist die Frage, ob eine Einwilligung überhaupt eine
+      Entscheidung ist, und die steht im Foliensatz zu ISO/IEC 29184. Wie sie
+      festgehalten wird, ist eine Frage darunter.
+  practitioners:
+    needed: false
+    note: >
+      Die vier Fragen an den eigenen Bestand sind eine Aufgabe und kein Vortrag.
+      Die Einwilligung selbst trägt der Foliensatz zu ISO/IEC 29184.
+  engineering:
+    needed: false
+    note: >
+      Dass eine Rücknahme ein weiteres Ereignis ist und kein überschriebener
+      Wert, hängt am eigenen Speicher, und ein Foliensatz hat diesen Speicher
+      nicht.
+  all-staff:
+    needed: false
+    note: >
+      Für alle Beschäftigten hat die Struktur einer Aufzeichnung keine
+      Handlungsfolge.
+  auditors:
+    needed: false
+    note: >
+      Wer prüft, sieht nach, ob sich aus dem Bestand Zeitpunkt, Zweck und
+      Fassung beantworten lassen und ob eine Rücknahme abgebildet ist. Das ist
+      ein Punkt in der Prüfung und kein eigener Kursstoff.

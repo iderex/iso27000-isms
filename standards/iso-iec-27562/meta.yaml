@@ -1,0 +1,41 @@
+id: iso-iec-27562
+number: 27562
+edition_year: 2024
+doc_type: is
+status: published
+family: privacy-identity
+layer: context
+isms_relation: sector
+catalog_confirmation: confirmed
+languages:
+  - de
+  - en
+presentation:
+  management:
+    needed: false
+    note: >
+      Ob Zahlungsdaten für einen zweiten Zweck benutzt werden, ist eine
+      Entscheidung mit Geld daran, und sie wird an der Beurteilung des Risikos
+      getroffen. Der Weg dorthin steht im Foliensatz zu ISO/IEC 27005.
+  practitioners:
+    needed: false
+    note: >
+      Die Einwilligung trägt der Foliensatz zu ISO/IEC 29184 und der Umgang mit
+      Lieferanten der zu ISO/IEC 27036-1. Die Zeichnung des Weges ist eine
+      Aufgabe am eigenen Verfahren.
+  engineering:
+    needed: false
+    note: >
+      Welche Stellen einen Vorgang sehen, hängt am einzelnen Dienst, und ein
+      Foliensatz hat diesen Dienst nicht. Der allgemeine Satz dazu steht im
+      Kapitel zu ISO/IEC 27036-3.
+  all-staff:
+    needed: false
+    note: >
+      Für alle Beschäftigten hat der Bau der Branche keine Handlungsfolge.
+  auditors:
+    needed: false
+    note: >
+      Wer prüft, sieht nach, ob der Weg eines Vorgangs beschrieben ist und ob je
+      Stelle eine Grundlage genannt ist. Das ist ein Punkt in der Prüfung und
+      kein eigener Kursstoff.

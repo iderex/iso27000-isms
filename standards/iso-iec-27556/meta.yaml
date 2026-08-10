@@ -1,0 +1,42 @@
+id: iso-iec-27556
+number: 27556
+edition_year: 2022
+doc_type: is
+status: published
+family: privacy-identity
+layer: depth
+isms_relation: adjacent
+catalog_confirmation: confirmed
+languages:
+  - de
+  - en
+presentation:
+  management:
+    needed: false
+    note: >
+      Die Voreinstellung ist eine Entscheidung mit Folgen für alle, die nichts
+      setzen, und sie gehört in die Regelung, die die Leitung freigibt. Der Weg
+      dorthin steht im Foliensatz zu ISO/IEC 27002.
+  practitioners:
+    needed: false
+    note: >
+      Die Einwilligung trägt der Foliensatz zu ISO/IEC 29184. Eine Einstellung
+      durch das eigene Haus zu verfolgen ist eine Aufgabe an den eigenen
+      Systemen und kein Vortrag.
+  engineering:
+    needed: false
+    note: >
+      Dass jedes handelnde System die Einstellung kennen muss, bevor es handelt,
+      ist eine Anforderung an die eigene Architektur, und ein Foliensatz hat
+      diese Architektur nicht.
+  all-staff:
+    needed: false
+    note: >
+      Für alle Beschäftigten zählt, dass sie eigene Einstellungen setzen können.
+      Das steht im Awareness-Training.
+  auditors:
+    needed: false
+    note: >
+      Wer prüft, sieht nach, ob eine gesetzte Einstellung an den nachgelagerten
+      Stellen wirkt und ob die Voreinstellung entschieden ist. Das ist ein Punkt
+      in der Prüfung und kein eigener Kursstoff.
