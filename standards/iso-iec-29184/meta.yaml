@@ -1,0 +1,43 @@
+id: iso-iec-29184
+number: 29184
+edition_year: 2020
+doc_type: is
+status: published
+family: privacy-identity
+layer: depth
+isms_relation: controls
+catalog_confirmation: unconfirmed
+languages:
+  - de
+  - en
+presentation:
+  management:
+    needed: false
+    note: >
+      Die Entscheidung, ob ein Zusatzzweck abwählbar ist, kostet Erlös und
+      gehört der Leitung. Sie wird an der Beurteilung des Risikos getroffen,
+      und der Weg dorthin steht im Foliensatz zu ISO/IEC 27005.
+  practitioners:
+    needed: true
+    note: >
+      Die Ablehnungsprobe, also die Frage, was passiert wäre, wenn die Person
+      nicht zugestimmt hätte, ist in fünf Minuten erklärt und findet in den
+      meisten Häusern etwas. Sie trägt auch die übrigen Kapitel dieser Gruppe,
+      in denen Einwilligung vorkommt.
+  engineering:
+    needed: false
+    note: >
+      Was die Technik hier baut, ist die getrennte Frage und der Rückweg. Beides
+      folgt aus der Entscheidung und braucht keinen eigenen Satz.
+  all-staff:
+    needed: false
+    note: >
+      Für alle Beschäftigten hat die Gestaltung eines Hinweises keine
+      Handlungsfolge. Was sie über eigene Daten wissen sollen, steht im
+      Awareness-Training.
+  auditors:
+    needed: false
+    note: >
+      Wer prüft, sieht nach, ob eine Einwilligung verweigert werden kann, ohne
+      dass die eigentliche Sache ausfällt. Das ist ein Punkt in der Prüfung und
+      kein eigener Kursstoff.
