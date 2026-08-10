@@ -1,0 +1,45 @@
+id: iso-iec-9798-1
+number: 9798
+part: 1
+edition_year: 2010
+doc_type: is
+status: published
+family: cryptography
+layer: depth
+isms_relation: requirements controls
+catalog_confirmation: confirmed
+languages:
+  - de
+  - en
+presentation:
+  management:
+    needed: false
+    note: >
+      Die Wahl eines Verfahrens ist keine Entscheidung der Leitung.
+  practitioners:
+    needed: true
+    note: >
+      Zwei Sätze gehören in die Hand der Praxis: ein Nachweis darüber, wer am
+      anderen Ende ist, gilt für einen Augenblick und nicht für alles, was
+      danach über die Leitung geht; und wer jemand ist, sagt nichts darüber,
+      was er darf. Beide entscheiden über den Entwurf einer Anmeldung und
+      kommen ohne Rechnung aus.
+  engineering:
+    needed: false
+    note: >
+      Für die Technik ist der Punkt die Bindung des Nachweises an die
+      Sitzung, die danach läuft, und die Wahl zwischen Zufallswert, Uhr und
+      Zähler für die Frische. Beides gehört in den Entwurf des Protokolls und
+      wird in aller Regel von einem fertigen Protokoll erledigt.
+  all-staff:
+    needed: false
+    note: >
+      Für alle Beschäftigten zählt, wie ein Nachweis geführt wird, also
+      Kennwort, Karte oder Gerät. Das steht im Awareness-Training und nicht in
+      dieser Norm.
+  auditors:
+    needed: false
+    note: >
+      Wer prüft, sieht nach, ob die Anmeldung an die folgende Sitzung gebunden
+      ist und ob Rechte getrennt von der Anmeldung geprüft werden. Das sind
+      Punkte in der Prüfung und kein eigener Kursstoff.

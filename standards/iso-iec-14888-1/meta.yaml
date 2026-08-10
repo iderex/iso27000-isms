@@ -1,0 +1,46 @@
+id: iso-iec-14888-1
+number: 14888
+part: 1
+edition_year: 2008
+doc_type: is
+status: published
+family: cryptography
+layer: depth
+isms_relation: controls
+catalog_confirmation: confirmed
+languages:
+  - de
+  - en
+presentation:
+  management:
+    needed: false
+    note: >
+      Die Wahl eines Verfahrens ist keine Entscheidung der Leitung. Was sie
+      angeht, ist der Unterschied zwischen einem Prüfwert und einer Signatur,
+      und der steht im Foliensatz zu ISO/IEC 9797-2.
+  practitioners:
+    needed: true
+    note: >
+      Ein Satz gehört in die Hand der Praxis und wird beim Einführen einer
+      Signatur regelmäßig übersehen: eine gültige Signatur sagt nichts darüber,
+      ob der Schlüssel zu dem gehört, für den man ihn hält, und nichts darüber,
+      wann sie entstanden ist. Beides kommt von woanders. Dazu gehört der
+      zweite Satz, dass ein System, das eine fehlgeschlagene Prüfung
+      protokolliert und weiterarbeitet, keine Signatur hat.
+  engineering:
+    needed: false
+    note: >
+      Für die Technik ist die Wahl des Verfahrens eine Entscheidung im Entwurf
+      und hängt an den Teilen 2 bis 4 und an der Vorgabe, die das Haus
+      einhalten muss. Ein Foliensatz kann sie nicht abnehmen.
+  all-staff:
+    needed: false
+    note: >
+      Für alle Beschäftigten hat die Wahl eines Signaturverfahrens keine
+      Handlungsfolge.
+  auditors:
+    needed: false
+    note: >
+      Wer prüft, sieht nach, woher der öffentliche Schlüssel kommt, was bei
+      einer fehlgeschlagenen Prüfung geschieht und ob ein Zeitbezug besteht.
+      Das sind Punkte in der Prüfung und kein eigener Kursstoff.

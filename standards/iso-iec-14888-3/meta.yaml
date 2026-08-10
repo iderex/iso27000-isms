@@ -1,0 +1,44 @@
+id: iso-iec-14888-3
+number: 14888
+part: 3
+edition_year: 2018
+doc_type: is
+status: published
+family: cryptography
+layer: depth
+isms_relation: controls
+catalog_confirmation: confirmed
+languages:
+  - de
+  - en
+presentation:
+  management:
+    needed: false
+    note: >
+      Die Wahl eines Verfahrens ist keine Entscheidung der Leitung.
+  practitioners:
+    needed: false
+    note: >
+      Der Satz, den die Praxis an dieser Reihe braucht, steht im Foliensatz zu
+      ISO/IEC 14888-1. Was dieser Teil hinzufügt, ist eine Bedingung im
+      Entwurf und im Betrieb und keine in der Regelung.
+  engineering:
+    needed: true
+    note: >
+      Ein Satz gehört in die Hand der Technik und ist der schärfste dieser
+      Reihe: bei dieser Familie wird zu jeder Signatur ein geheimer Zufallswert
+      gebraucht, und wiederholt er sich oder ist er vorhersagbar, lässt sich
+      der geheime Schlüssel aus zwei Signaturen berechnen. Dazu gehört, woher
+      dieser Wert nach einem Neustart, in einem vervielfältigten Abbild und im
+      ersten Start eines frischen Geräts kommt.
+  all-staff:
+    needed: false
+    note: >
+      Für alle Beschäftigten hat die Wahl eines Verfahrens keine
+      Handlungsfolge.
+  auditors:
+    needed: false
+    note: >
+      Wer prüft, sieht nach, ob im Entwurf steht, woher der Zufallswert je
+      Signatur kommt und was in einem vervielfältigten Abbild mit ihm
+      geschieht. Das ist ein Punkt in der Prüfung und kein eigener Kursstoff.
