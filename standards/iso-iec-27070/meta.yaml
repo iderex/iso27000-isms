@@ -1,0 +1,42 @@
+id: iso-iec-27070
+number: 27070
+edition_year: 2021
+doc_type: is
+status: published
+family: extended-27000
+layer: depth
+isms_relation: requirements sector
+catalog_confirmation: unconfirmed
+languages:
+  - de
+  - en
+presentation:
+  management:
+    needed: false
+    note: >
+      Die Entscheidung, die der Leitung gehört, ist die für oder gegen einen
+      Betreiber, und sie steht im Foliensatz zu ISO/IEC 27005 beim Umgang mit
+      Risiken aus fremder Hand. Wo der Anker sitzt, ist eine Frage darunter.
+  practitioners:
+    needed: false
+    note: >
+      Die Praxis schreibt die Abhängigkeit vom Betreiber in das Risikoregister
+      und die Zusage in die Vereinbarung. Der Weg dorthin steht im Foliensatz zu
+      ISO/IEC 27002 bei den Maßnahmen zu Anbietern.
+  engineering:
+    needed: false
+    note: >
+      Der Satz, der über dieses Thema hinausreicht, ist der vom umziehenden
+      Vertrauen, und er steht im Foliensatz zu ISO/IEC 27002. Was darunter zu
+      entscheiden ist, hängt an der einzelnen Plattform, und die hat ein
+      Foliensatz nicht.
+  all-staff:
+    needed: false
+    note: >
+      Für alle Beschäftigten hat dieses Thema keine Handlungsfolge.
+  auditors:
+    needed: false
+    note: >
+      Wer prüft, sieht nach, ob aufgeschrieben ist, worauf sich die
+      Unversehrtheit stützt und wer den Anker zurücksetzen darf. Das ist ein
+      Punkt in der Prüfung und kein eigener Kursstoff.

@@ -1,0 +1,43 @@
+id: iso-iec-27404
+number: 27404
+edition_year: 2025
+doc_type: is
+status: published
+family: extended-27000
+layer: context
+isms_relation: sector
+catalog_confirmation: confirmed
+languages:
+  - de
+  - en
+presentation:
+  management:
+    needed: false
+    note: >
+      Ob ein Erzeugnis eine Kennzeichnung tragen soll, ist eine Entscheidung
+      über den Markt und über eine Zusage, die über Jahre bindet. Was daran das
+      Managementsystem angeht, steht im Foliensatz zu ISO/IEC 27400 bei der
+      Zusage über Erneuerungen.
+  practitioners:
+    needed: false
+    note: >
+      Die Praxis liest ein Zeichen auf vier Angaben und hebt die Zusage aus der
+      Verpackung in den Vertrag. Das ist eine Zeile in einer Arbeitsanweisung,
+      und der Umgang mit Anbietern steht im Foliensatz zu ISO/IEC 27002.
+  engineering:
+    needed: false
+    note: >
+      Was ein Gerät können muss, steht im Kapitel zu ISO/IEC 27402. Eine
+      Kennzeichnung macht diese Aussage sichtbar und ändert an ihr nichts.
+  all-staff:
+    needed: false
+    note: >
+      Für alle Beschäftigten hat eine Kennzeichnung im Handel keine
+      Handlungsfolge im Haus. Was für ihre eigenen Geräte zu Hause gilt, steht
+      im Awareness-Training.
+  auditors:
+    needed: false
+    note: >
+      Wer prüft, sieht nach, ob eine Zusage aus einer Kennzeichnung im Vertrag
+      steht und nicht nur auf der Verpackung. Das ist ein Punkt in der Prüfung
+      und kein eigener Kursstoff.

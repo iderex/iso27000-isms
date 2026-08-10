@@ -1,0 +1,43 @@
+id: iso-iec-27071
+number: 27071
+edition_year: 2023
+doc_type: is
+status: published
+family: extended-27000
+layer: depth
+isms_relation: adjacent
+catalog_confirmation: unconfirmed
+languages:
+  - de
+  - en
+presentation:
+  management:
+    needed: false
+    note: >
+      Für die Leitung ändert sich an der Entscheidung nichts, ob Geräte an einen
+      eigenen Dienst angebunden werden. Was daran das Managementsystem angeht,
+      steht im Foliensatz zu ISO/IEC 27400.
+  practitioners:
+    needed: false
+    note: >
+      Die Praxis trägt die Maßnahmen zur Authentisierung, und der Weg dorthin
+      steht im Foliensatz zu ISO/IEC 27002. Dass hier zwei Richtungen zu bauen
+      sind, ändert an der Maßnahme nichts, sondern an ihrer Umsetzung.
+  engineering:
+    needed: true
+    note: >
+      Dass eine verschlüsselte Verbindung nichts darüber sagt, wer am anderen
+      Ende sitzt, wird in fast jedem Entwurf einmal übersehen, und die zweite
+      Richtung des Nachweises wird regelmäßig weggelassen. Beides ist ohne
+      Erzeugnis erklärbar und gilt für jede Anbindung von Geräten.
+  all-staff:
+    needed: false
+    note: >
+      Für alle Beschäftigten hat die Anbindung von Geräten an einen Dienst keine
+      Handlungsfolge.
+  auditors:
+    needed: false
+    note: >
+      Wer prüft, sieht nach, ob beide Richtungen des Nachweises gebaut sind und
+      ob gescheiterte Nachweise gezählt werden. Das ist ein Punkt in der Prüfung
+      und kein eigener Kursstoff.
