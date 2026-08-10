@@ -1,0 +1,43 @@
+id: iso-iec-18033-2
+number: 18033
+part: 2
+edition_year: 2006
+doc_type: is
+status: published
+family: cryptography
+layer: depth
+isms_relation: controls
+catalog_confirmation: confirmed
+languages:
+  - de
+  - en
+presentation:
+  management:
+    needed: false
+    note: >
+      Für die Leitung entsteht aus dieser Klasse von Verfahren keine eigene
+      Entscheidung. Was sie entscheidet, steht in der Regelung über
+      kryptografische Verfahren.
+  practitioners:
+    needed: true
+    note: >
+      Die Praxis braucht den Satz, dass ein solches Verfahren gewöhnlich einen
+      Schlüssel bewegt und nicht die Daten. Wer das nicht weiß, sucht die
+      Sicherheit an der falschen Stelle.
+  engineering:
+    needed: true
+    note: >
+      Ein Satz gehört in die Hand der Technik: der private Teil hat eine
+      Lebensdauer, und was mit ihm geschieht, wenn eine Person das Haus
+      verlässt oder ein Gerät ausgetauscht wird, entscheidet über den Zugang zu
+      allem, was mit ihm geöffnet wird.
+  all-staff:
+    needed: false
+    note: >
+      Für alle Beschäftigten hat diese Klasse von Verfahren keine
+      Handlungsfolge.
+  auditors:
+    needed: false
+    note: >
+      Wer prüft, sieht sich den Lebenslauf des privaten Teils an. Das ist ein
+      Punkt in der Prüfung und kein eigener Kursstoff.

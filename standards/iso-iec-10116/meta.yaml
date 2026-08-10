@@ -1,0 +1,40 @@
+id: iso-iec-10116
+number: 10116
+edition_year: 2017
+doc_type: is
+status: published
+family: cryptography
+layer: depth
+isms_relation: controls
+catalog_confirmation: confirmed
+languages:
+  - de
+  - en
+presentation:
+  management:
+    needed: false
+    note: >
+      Für die Leitung entsteht aus der Wahl einer Betriebsart keine eigene
+      Entscheidung.
+  practitioners:
+    needed: true
+    note: >
+      Die Praxis braucht den Satz, dass die Betriebsart und nicht das Verfahren
+      entscheidet, was geschützt ist. Ohne ihn wird ein Datenblatt für eine
+      Auskunft gehalten.
+  engineering:
+    needed: true
+    note: >
+      Ein Satz gehört in die Hand der Technik: jede Betriebsart hat eine
+      Bedingung an den Startwert, und diese Bedingung ist der Ort, an dem in
+      der Praxis alles schiefgeht.
+  all-staff:
+    needed: false
+    note: >
+      Für alle Beschäftigten hat die Wahl einer Betriebsart keine
+      Handlungsfolge.
+  auditors:
+    needed: false
+    note: >
+      Wer prüft, fragt nach der Betriebsart und nach dem Startwert. Das ist ein
+      Punkt in der Prüfung und kein eigener Kursstoff.

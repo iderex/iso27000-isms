@@ -1,0 +1,41 @@
+id: iso-iec-18033-4
+number: 18033
+part: 4
+edition_year: 2011
+doc_type: is
+status: published
+family: cryptography
+layer: depth
+isms_relation: controls
+catalog_confirmation: confirmed
+languages:
+  - de
+  - en
+presentation:
+  management:
+    needed: false
+    note: >
+      Für die Leitung entsteht aus dieser Klasse von Verfahren keine eigene
+      Entscheidung.
+  practitioners:
+    needed: false
+    note: >
+      Für die Praxis entsteht hier keine Handlung, die nicht schon aus der
+      Regelung folgt.
+  engineering:
+    needed: true
+    note: >
+      Ein Satz gehört in die Hand der Technik: derselbe Schlüssel mit demselben
+      Startwert zweimal ist der eine Fehler, der diese Klasse von Verfahren
+      vollständig aufhebt, und er entsteht durch Neustarts und
+      Wiederherstellungen und nicht durch Absicht.
+  all-staff:
+    needed: false
+    note: >
+      Für alle Beschäftigten hat diese Klasse von Verfahren keine
+      Handlungsfolge.
+  auditors:
+    needed: false
+    note: >
+      Wer prüft, fragt, woher der Startwert kommt und ob er sich wiederholen
+      kann. Das ist ein Punkt in der Prüfung und kein eigener Kursstoff.

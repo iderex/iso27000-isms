@@ -1,0 +1,42 @@
+id: iso-iec-18033-7
+number: 18033
+part: 7
+edition_year: 2022
+doc_type: is
+status: published
+family: cryptography
+layer: depth
+isms_relation: controls
+catalog_confirmation: confirmed
+languages:
+  - de
+  - en
+presentation:
+  management:
+    needed: false
+    note: >
+      Für die Leitung entsteht aus dieser Klasse von Verfahren keine eigene
+      Entscheidung.
+  practitioners:
+    needed: false
+    note: >
+      Für die Praxis entsteht hier keine Handlung, die nicht schon aus der
+      Regelung folgt. Die Frage nach dem Datenträger steht bei den Maßnahmen zu
+      Speichermedien.
+  engineering:
+    needed: true
+    note: >
+      Ein Satz gehört in die Hand der Technik: der zweite Eingang macht
+      denselben Schlüssel an verschiedenen Stellen verschieden wirksam, und
+      genau deshalb muss er je Stelle verschieden sein. Wird er wiederholt,
+      wird auch die Wirkung wiederholt.
+  all-staff:
+    needed: false
+    note: >
+      Für alle Beschäftigten hat diese Klasse von Verfahren keine
+      Handlungsfolge.
+  auditors:
+    needed: false
+    note: >
+      Wer prüft, fragt, was der Datenträger nach dem Ausbau noch preisgibt. Das
+      ist ein Punkt in der Prüfung und kein eigener Kursstoff.
