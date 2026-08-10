@@ -1,0 +1,44 @@
+id: iso-iec-27050-3
+number: 27050
+part: 3
+edition_year: 2020
+doc_type: is
+status: published
+family: extended-27000
+layer: depth
+isms_relation: controls
+catalog_confirmation: confirmed
+languages:
+  - de
+  - en
+presentation:
+  management:
+    needed: false
+    note: >
+      Die Leitung entscheidet über Zuständigkeit und Aufwand, und das steht im
+      Foliensatz zum zweiten Teil. Die Durchführung braucht von ihr keine
+      Entscheidung mehr.
+  practitioners:
+    needed: true
+    note: >
+      Ein Satz gehört in die Hand der Praxis: gefragt ist nicht die beste
+      Suche, sondern eine, die sich erklären lässt. Eine erklärbare Suche
+      schlägt eine bessere, über die niemand Auskunft geben kann.
+  engineering:
+    needed: true
+    note: >
+      Für die Technik gehört dazu, dass alles einzusammeln der teure Fehler
+      ist. Was vor dem Lesen an Menge wegfällt, spart dort, wo das Geld
+      ausgegeben wird, und was eine Maschine dabei aussortiert, muss an einer
+      Stichprobe nachweisbar sein.
+  all-staff:
+    needed: false
+    note: >
+      Für alle Beschäftigten hat die Durchführung keine Handlungsfolge, außer
+      wenn sie eine Anordnung erhalten haben, und die steht im zweiten Teil.
+  auditors:
+    needed: false
+    note: >
+      Wer prüft, sieht nach, ob zu einer Herausgabe aufgeschrieben ist, was
+      gesucht und was verworfen wurde. Das ist ein Punkt in der Prüfung und
+      kein eigener Kursstoff.

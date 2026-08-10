@@ -1,0 +1,43 @@
+id: iso-iec-27041
+number: 27041
+edition_year: 2015
+doc_type: is
+status: published
+family: extended-27000
+layer: depth
+isms_relation: adjacent
+catalog_confirmation: unconfirmed
+languages:
+  - de
+  - en
+presentation:
+  management:
+    needed: false
+    note: >
+      Die Leitung entscheidet, ob eine Untersuchung im Haus oder außer Haus
+      geführt wird. Das ist eine Zeile im Foliensatz zu ISO/IEC 27005 bei der
+      Übernahme eines Risikos und braucht keinen eigenen.
+  practitioners:
+    needed: true
+    note: >
+      Ein Satz gehört in die Hand der Praxis: der Nachweis, dass eine Methode
+      taugt, entsteht vor dem Vorfall und nicht in dem Augenblick, in dem
+      jemand sie bestreitet. Danach ist er nicht mehr zu führen.
+  engineering:
+    needed: false
+    note: >
+      Für die Technik ist der Stoff hier zu dünn. Was ein Werkzeug an einem
+      Datenträger tatsächlich leistet, gehört in den Foliensatz zur Auswertung
+      und nicht in einen eigenen.
+  all-staff:
+    needed: false
+    note: >
+      Für alle Beschäftigten hat die Frage nach der Tauglichkeit einer Methode
+      keine Handlungsfolge.
+  auditors:
+    needed: true
+    note: >
+      Ein Satz gehört in die Hand der Prüfung: der Name eines Werkzeugs ist
+      keine Antwort auf die Frage, ob die Methode geeignet war. Wer prüft,
+      fragt nach der Frage, die beantwortet werden sollte, und danach erst
+      nach dem Weg.

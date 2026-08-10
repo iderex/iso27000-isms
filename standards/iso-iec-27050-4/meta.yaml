@@ -1,0 +1,43 @@
+id: iso-iec-27050-4
+number: 27050
+part: 4
+edition_year: 2021
+doc_type: is
+status: published
+family: extended-27000
+layer: depth
+isms_relation: adjacent
+catalog_confirmation: confirmed
+languages:
+  - de
+  - en
+presentation:
+  management:
+    needed: false
+    note: >
+      Die Leitung entscheidet über Zuständigkeit und Aufwand, und das steht im
+      Foliensatz zum zweiten Teil. Was eine Anlage können muss, folgt daraus
+      und ist keine eigene Entscheidung.
+  practitioners:
+    needed: false
+    note: >
+      Für die Praxis steht der Stoff im dritten Teil. Dieser Teil richtet sich
+      an die, die Anlagen auswählen und betreiben.
+  engineering:
+    needed: true
+    note: >
+      Zwei Sätze gehören in die Hand der Technik: die Fähigkeit zur Herausgabe
+      wird bei der Auswahl eines Systems gekauft und nicht später, und eine
+      Ausleitung, die niemand ausprobiert hat, ist eine Annahme. Beides
+      entscheidet über ein Vorhaben und kommt ohne Erzeugnis aus.
+  all-staff:
+    needed: false
+    note: >
+      Für alle Beschäftigten hat die Bereitschaft einer Anlage keine
+      Handlungsfolge.
+  auditors:
+    needed: false
+    note: >
+      Wer prüft, sieht nach, ob eine Ausleitung je Ablage einmal ausprobiert
+      wurde und wie lange sie gedauert hat. Das ist ein Punkt in der Prüfung
+      und kein eigener Kursstoff.
