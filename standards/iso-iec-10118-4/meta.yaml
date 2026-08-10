@@ -1,0 +1,41 @@
+id: iso-iec-10118-4
+number: 10118
+part: 4
+edition_year: 1998
+doc_type: is
+status: published
+family: cryptography
+layer: depth
+isms_relation: controls
+catalog_confirmation: confirmed
+languages:
+  - de
+  - en
+presentation:
+  management:
+    needed: false
+    note: >
+      Ob eine Hash-Funktion aus modularer Arithmetik gebaut wird, ist eine
+      Frage des Entwurfs und keine Entscheidung der Leitung.
+  practitioners:
+    needed: false
+    note: >
+      Die Praxis trägt die Regelung zur Kryptografie. Der Satz, der für die
+      ganze Reihe zählt, steht im Foliensatz zum ersten Teil, und der Satz über
+      das Alter einer Ausgabe steht im Foliensatz zum dritten.
+  engineering:
+    needed: false
+    note: >
+      Für die Technik ist der Punkt eine Abwägung zwischen Fläche und Zeit auf
+      einem einzelnen Bauteil, und die trifft ein Entwurf. Ein Foliensatz
+      könnte sie nur allgemein beantworten, und allgemein ist sie falsch.
+  all-staff:
+    needed: false
+    note: >
+      Für alle Beschäftigten hat diese Bauart keine Handlungsfolge.
+  auditors:
+    needed: false
+    note: >
+      Wer prüft, sieht nach, ob der Entwurf sagt, warum diese Bauart gewählt
+      wurde und aus welcher Quelle ihre Beurteilung stammt. Das ist ein Punkt
+      in der Prüfung und kein eigener Kursstoff.

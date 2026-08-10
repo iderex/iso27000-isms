@@ -1,0 +1,46 @@
+id: iso-iec-10118-1
+number: 10118
+part: 1
+edition_year: 2016
+doc_type: is
+status: published
+family: cryptography
+layer: depth
+isms_relation: requirements controls
+catalog_confirmation: confirmed
+languages:
+  - de
+  - en
+presentation:
+  management:
+    needed: false
+    note: >
+      Welche Hash-Funktion benutzt wird, entscheidet die Leitung nicht. Was sie
+      an der Kryptografie angeht, also die Regelung und ihre Überprüfung, steht
+      im Foliensatz zu ISO/IEC 27002 bei der Maßnahme zur Kryptografie.
+  practitioners:
+    needed: true
+    note: >
+      Ein Satz aus diesem Teil gehört in die Regelung zur Kryptografie und
+      wird dort heute meist vergessen: eine Hash-Funktion ohne Schlüssel sagt
+      nichts über die Herkunft. Wer eine Prüfsumme veröffentlicht und daraus
+      Echtheit liest, hat sich vertan. Das ist ohne Rechnung erklärbar und
+      trägt die vier Teile dieser Reihe mit.
+  engineering:
+    needed: false
+    note: >
+      Für die Technik ist die Wahl einer Funktion eine Entscheidung im Entwurf
+      und hängt an der Plattform und an der Vorgabe, die das Haus einhalten
+      muss. Ein Foliensatz kann sie nicht abnehmen, und ein veralteter würde
+      eine Funktion empfehlen, die inzwischen niemand mehr nimmt.
+  all-staff:
+    needed: false
+    note: >
+      Für alle Beschäftigten hat die Wahl einer Hash-Funktion keine
+      Handlungsfolge.
+  auditors:
+    needed: false
+    note: >
+      Wer prüft, sieht nach, ob die Regelung zur Kryptografie eine Funktion
+      benennt, woher die Benennung stammt und wann sie zuletzt angesehen wurde.
+      Das ist ein Punkt in der Prüfung und kein eigener Kursstoff.

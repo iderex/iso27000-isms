@@ -1,0 +1,42 @@
+id: iso-iec-10118-2
+number: 10118
+part: 2
+edition_year: 2010
+doc_type: is
+status: published
+family: cryptography
+layer: depth
+isms_relation: controls
+catalog_confirmation: confirmed
+languages:
+  - de
+  - en
+presentation:
+  management:
+    needed: false
+    note: >
+      Ob eine Hash-Funktion aus einem Blockchiffre gebaut wird, ist eine Frage
+      des Entwurfs und keine Entscheidung der Leitung.
+  practitioners:
+    needed: false
+    note: >
+      Die Praxis trägt die Regelung zur Kryptografie. Der Satz, der für diese
+      ganze Reihe zählt, steht im Foliensatz zum ersten Teil, und dieser Teil
+      fügt ihm nichts hinzu, was ohne den Entwurf zu entscheiden wäre.
+  engineering:
+    needed: false
+    note: >
+      Für die Technik ist der Punkt eine Zahl im eigenen Bauteil, nämlich die
+      Blocklänge, und die steht im Datenblatt und nicht auf einer Folie. Ein
+      Foliensatz, der eine Grenze nennt, wäre am Tag danach falsch für das
+      nächste Bauteil.
+  all-staff:
+    needed: false
+    note: >
+      Für alle Beschäftigten hat diese Bauart keine Handlungsfolge.
+  auditors:
+    needed: false
+    note: >
+      Wer prüft, sieht nach, ob im Entwurf steht, warum diese Bauart gewählt
+      wurde und welche Länge dabei herauskommt. Das ist ein Punkt in der
+      Prüfung und kein eigener Kursstoff.

@@ -1,0 +1,47 @@
+id: iso-iec-7064
+number: 7064
+edition_year: 2003
+doc_type: is
+status: published
+family: cryptography
+layer: depth
+isms_relation: controls
+catalog_confirmation: confirmed
+languages:
+  - de
+  - en
+presentation:
+  management:
+    needed: false
+    note: >
+      Ob eine Kennnummer ein Prüfzeichen trägt, ist eine Frage des Entwurfs
+      und keine Entscheidung der Leitung.
+  practitioners:
+    needed: true
+    note: >
+      Ein Satz gehört in die Hand der Praxis: ein Prüfzeichen ist keine
+      Sicherheitsmaßnahme, es fängt Vertipper und keinen Angreifer. Wer es in
+      der Erklärung zur Anwendbarkeit als Maßnahme führt, hat eine Lücke, die
+      nach Deckung aussieht. Der zweite Satz daneben ist, dass ein Vertipper
+      ohne Prüfzeichen in einem Haus mit Personenbezug einen Datensatz an die
+      falsche Person hängt. Beides ist ohne Rechnung erklärbar.
+  engineering:
+    needed: false
+    note: >
+      Für die Technik ist der Punkt, dass ein Prüfzeichen die Kennnummer
+      verlängert und an der ersten Schnittstelle abgeschnitten wird, die eine
+      feste Feldlänge hat. Das gehört in die Prüfliste für Schnittstellen und
+      nicht auf eine Folie.
+  all-staff:
+    needed: false
+    note: >
+      Für alle Beschäftigten zählt, dass eine abgewiesene Nummer neu
+      abzuschreiben und nicht zu umgehen ist. Das steht in der
+      Arbeitsanweisung an der Stelle, an der die Nummer erfasst wird.
+  auditors:
+    needed: false
+    note: >
+      Wer prüft, sieht nach, ob ein Prüfzeichen irgendwo als
+      Sicherheitsmaßnahme geführt wird, und ob es über alle Schnittstellen
+      hinweg erhalten bleibt. Das sind Punkte in der Prüfung und kein eigener
+      Kursstoff.
