@@ -1,0 +1,42 @@
+id: iso-iec-27036-4
+number: 27036
+part: 4
+edition_year: 2016
+doc_type: is
+status: published
+family: extended-27000
+layer: depth
+isms_relation: sector
+catalog_confirmation: confirmed
+languages:
+  - de
+  - en
+presentation:
+  management:
+    needed: false
+    note: >
+      Die Entscheidung für einen Dienst aus fremder Hand fällt bei der Auswahl,
+      und was die Leitung daran angeht, steht im Foliensatz zu ISO/IEC 27036-2
+      bei der Fähigkeit zum Ausstieg.
+  practitioners:
+    needed: false
+    note: >
+      Die geteilte Verantwortung ist eine Tabelle mit einer Zuordnung je Zeile.
+      Die Maßnahmen dahinter stehen im Foliensatz zu ISO/IEC 27002, und der
+      Einstieg in die Reihe im Foliensatz zu ISO/IEC 27036-1.
+  engineering:
+    needed: false
+    note: >
+      Was die Technik beisteuert, ist der Weg der Herausgabe und die Frage, was
+      an Aufzeichnungen zu bekommen ist. Beides hängt am einzelnen Dienst.
+  all-staff:
+    needed: false
+    note: >
+      Für alle Beschäftigten hat die Zuordnung der Verantwortung zwischen
+      Anbieter und Haus keine Handlungsfolge.
+  auditors:
+    needed: false
+    note: >
+      Wer prüft, sieht nach, ob die geteilte Verantwortung aufgeschrieben ist
+      und ob die offenen Zeilen benannt sind. Das ist ein Punkt in der Prüfung
+      und kein eigener Kursstoff.

@@ -1,0 +1,43 @@
+id: iso-iec-27036-3
+number: 27036
+part: 3
+edition_year: 2023
+doc_type: is
+status: published
+family: extended-27000
+layer: depth
+isms_relation: sector
+catalog_confirmation: confirmed
+languages:
+  - de
+  - en
+presentation:
+  management:
+    needed: false
+    note: >
+      Was der Leitung an dieser Reihe gehört, ist die Fähigkeit zum Ausstieg,
+      und die steht im Foliensatz zu ISO/IEC 27036-2. Eine Kette, die niemand
+      vollständig kennt, ändert an dieser Entscheidung nichts.
+  practitioners:
+    needed: false
+    note: >
+      Der Einstieg in die Reihe steht im Foliensatz zu ISO/IEC 27036-1. Die
+      beiden Fragen nach nicht ersetzbaren Bestandteilen und nach der Zeit bis
+      zur Bemerkung sind eine Aufgabe an den eigenen Verzeichnissen.
+  engineering:
+    needed: false
+    note: >
+      Die Technik führt das Verzeichnis der Bestandteile und weiß, welche sich
+      nicht ersetzen lassen. Das hängt am einzelnen Erzeugnis, und ein
+      Foliensatz hat dieses Erzeugnis nicht.
+  all-staff:
+    needed: false
+    note: >
+      Für alle Beschäftigten hat die Kette hinter einem Lieferanten keine
+      Handlungsfolge.
+  auditors:
+    needed: false
+    note: >
+      Wer prüft, sieht nach, ob die Liste der nicht ersetzbaren Bestandteile
+      besteht und ob eine Auskunftspflicht vereinbart ist. Das ist ein Punkt in
+      der Prüfung und kein eigener Kursstoff.

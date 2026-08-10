@@ -1,0 +1,44 @@
+id: iso-iec-27040
+number: 27040
+edition_year: 2024
+doc_type: is
+status: published
+family: extended-27000
+layer: depth
+isms_relation: controls
+catalog_confirmation: unconfirmed
+languages:
+  - de
+  - en
+presentation:
+  management:
+    needed: false
+    note: >
+      Die Entscheidung, von Anfang an verschlüsselt zu schreiben, kostet beim
+      Aufbau und wird in der Beurteilung des Risikos begründet. Der Weg dorthin
+      steht im Foliensatz zu ISO/IEC 27005.
+  practitioners:
+    needed: true
+    note: >
+      Dass Löschen auf heutigem Speicher nicht die einfache Handlung ist, für
+      die alle es halten, und dass die verlässliche Antwort über die Vernichtung
+      des Schlüssels geht, ist der Satz, der in der Praxis am häufigsten fehlt.
+      Dazu gehört, dass eine Sicherung eine Kopie unter anderen Maßnahmen ist.
+      Beides ist ohne Erzeugnis erklärbar.
+  engineering:
+    needed: false
+    note: >
+      Welche Kopien eine bestimmte Umgebung erzeugt, hängt an ihr selbst, und
+      ein Foliensatz hat diese Umgebung nicht. Der Gedanke dahinter steht im
+      Foliensatz für die Praxis.
+  all-staff:
+    needed: false
+    note: >
+      Für alle Beschäftigten zählt, dass ein Datenträger nicht ohne Weiteres
+      weitergegeben wird. Das steht im Awareness-Training.
+  auditors:
+    needed: false
+    note: >
+      Wer prüft, sieht nach, ob die Kopien aufgezählt sind und ob eine Löschung
+      für jede von ihnen eine Aussage hat. Das ist ein Punkt in der Prüfung und
+      kein eigener Kursstoff.
