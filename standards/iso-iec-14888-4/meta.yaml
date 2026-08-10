@@ -1,0 +1,50 @@
+id: iso-iec-14888-4
+number: 14888
+part: 4
+edition_year: 2024
+doc_type: is
+status: published
+family: cryptography
+layer: depth
+isms_relation: requirements controls
+catalog_confirmation: confirmed
+languages:
+  - de
+  - en
+presentation:
+  management:
+    needed: false
+    note: >
+      Die Wahl eines Verfahrens ist keine Entscheidung der Leitung. Was sie
+      angeht, ist der Fall aus Abschnitt 8: eine Vorkehrung für die
+      Verfügbarkeit kann hier die Sicherheit aufheben. Dieser Satz gehört in
+      die Sitzung über die Betriebskontinuität und nicht in einen eigenen
+      Foliensatz zu dieser Norm.
+  practitioners:
+    needed: false
+    note: >
+      Die Praxis trägt die Regelung zur Kryptografie und die Anweisung für die
+      Wiederherstellung. Der Satz dafür ist derselbe wie für die Technik und
+      steht in deren Foliensatz.
+  engineering:
+    needed: true
+    note: >
+      Ein Satz gehört in die Hand der Technik und steht in keinem anderen
+      Kapitel dieser Reihe: der Unterzeichner führt einen Zustand, jeder
+      Einmalschlüssel darf genau einmal benutzt werden, und ein
+      zurückfallender Zustand hebt die Sicherheit auf. Daraus folgt, dass
+      Momentaufnahme, Rücksicherung, Ausfallpaar und vervielfältigtes Abbild
+      hier gefährliche Vorgänge sind. Dazu kommt, dass ein Schlüsselpaar nur
+      endlich viele Signaturen trägt.
+  all-staff:
+    needed: false
+    note: >
+      Für alle Beschäftigten hat die Wahl eines Verfahrens keine
+      Handlungsfolge.
+  auditors:
+    needed: false
+    note: >
+      Wer prüft, sieht nach, ob der Zustand vor der Ausgabe einer Signatur
+      dauerhaft festgeschrieben wird, ob die Wiederherstellung einen Schritt
+      dafür kennt und ob der Verbrauch der Signaturen beobachtet wird. Das
+      sind Punkte in der Prüfung und kein eigener Kursstoff.

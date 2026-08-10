@@ -1,0 +1,48 @@
+id: iso-iec-9797-2
+number: 9797
+part: 2
+edition_year: 2021
+doc_type: is
+status: published
+family: cryptography
+layer: depth
+isms_relation: controls
+catalog_confirmation: confirmed
+languages:
+  - de
+  - en
+presentation:
+  management:
+    needed: false
+    note: >
+      Die Wahl eines Verfahrens ist keine Entscheidung der Leitung. Was sie
+      angeht, ist der Fall aus Abschnitt 8: wer mit einem geteilten Geheimnis
+      arbeitet, kann eine Nachricht später nicht gegen den Partner belegen.
+      Dieser Satz gehört in die Sitzung über einen Vertrag und nicht in einen
+      eigenen Foliensatz zu dieser Norm.
+  practitioners:
+    needed: true
+    note: >
+      Ein Satz gehört in die Hand der Praxis: ein Prüfwert mit geteiltem
+      Schlüssel belegt nichts gegenüber einem Dritten, weil beide Seiten ihn
+      erzeugen können. Er entscheidet, ob eine Schnittstelle für einen Streit
+      taugt, er kommt ohne Rechnung aus, und er wird beim Entwurf einer
+      Schnittstelle regelmäßig übersehen.
+  engineering:
+    needed: false
+    note: >
+      Für die Technik sind die beiden Punkte der Vergleich in gleichbleibender
+      Zeit und die getrennten Schlüssel je Zweck. Beides gehört in die
+      Prüfliste für den Quelltext und nicht auf eine Folie.
+  all-staff:
+    needed: false
+    note: >
+      Für alle Beschäftigten hat die Wahl eines Verfahrens keine
+      Handlungsfolge.
+  auditors:
+    needed: false
+    note: >
+      Wer prüft, sieht nach, ob abgewiesene Nachrichten gezählt werden, ob je
+      Zweck ein eigener Schlüssel besteht und ob aufgeschrieben ist, dass diese
+      Schnittstelle für einen Streit nicht taugt. Das sind Punkte in der
+      Prüfung und kein eigener Kursstoff.

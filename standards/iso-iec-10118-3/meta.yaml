@@ -1,0 +1,46 @@
+id: iso-iec-10118-3
+number: 10118
+part: 3
+edition_year: 2018
+doc_type: is
+status: published
+family: cryptography
+layer: depth
+isms_relation: controls
+catalog_confirmation: confirmed
+languages:
+  - de
+  - en
+presentation:
+  management:
+    needed: false
+    note: >
+      Welche Hash-Funktion benutzt wird, entscheidet die Leitung nicht. Dass
+      eine solche Wahl ein Ablaufdatum braucht, gehört in die Regelung und
+      steht im Foliensatz zu ISO/IEC 27002 bei der Maßnahme zur Kryptografie.
+  practitioners:
+    needed: true
+    note: >
+      Ein Satz gehört in die Hand der Praxis und steht in keinem anderen
+      Kapitel dieser Reihe: eine Norm, die eine Funktion führt, sagt, was
+      genormt ist, und nicht, was heute geeignet ist. Dazu gehört, dass ein
+      gespeicherter Wert die Kennung seiner Funktion mitführen muss, sonst ist
+      ein Wechsel später nicht mehr möglich. Beides ist ohne Rechnung
+      erklärbar und wird regelmäßig übersehen.
+  engineering:
+    needed: false
+    note: >
+      Für die Technik ist die Wahl eine Entscheidung im Entwurf, und die
+      Kennung neben dem Wert ist eine Frage des Datenformats. Beides gehört in
+      den Entwurf und nicht auf eine Folie, die im nächsten Jahr eine
+      überholte Funktion nennt.
+  all-staff:
+    needed: false
+    note: >
+      Für alle Beschäftigten hat die Wahl einer Funktion keine Handlungsfolge.
+  auditors:
+    needed: false
+    note: >
+      Wer prüft, sieht nach, ob die Wahl eine Quelle und ein Datum trägt und ob
+      gespeicherte Werte ihre Kennung mitführen. Das ist ein Punkt in der
+      Prüfung und kein eigener Kursstoff.

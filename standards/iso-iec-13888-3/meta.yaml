@@ -1,0 +1,44 @@
+id: iso-iec-13888-3
+number: 13888
+part: 3
+edition_year: 2020
+doc_type: is
+status: published
+family: cryptography
+layer: depth
+isms_relation: controls
+catalog_confirmation: confirmed
+languages:
+  - de
+  - en
+presentation:
+  management:
+    needed: false
+    note: >
+      Die Leitung entscheidet, ob eine Schnittstelle im Streitfall etwas
+      hergeben muss. Diese Frage steht im Foliensatz zu ISO/IEC 9797-2 und
+      wird hier nur beantwortet.
+  practitioners:
+    needed: true
+    note: >
+      Ein Satz gehört in die Hand der Praxis und wird beim Einführen von
+      Signaturen fast immer übersehen: was im Streit gebraucht wird, muss im
+      Augenblick des Signierens eingesammelt werden, nicht im Augenblick des
+      Streits. Dazu gehört, dass ein Zertifikat später abgelaufen ist und die
+      Prüfung dann auf einen vergangenen Zeitpunkt zurückgehen muss.
+  engineering:
+    needed: false
+    note: >
+      Für die Technik ist der Punkt, welche Angaben beim Signieren mit abgelegt
+      werden. Das ist eine Anforderung an das Erzeugnis und gehört in den
+      Entwurf.
+  all-staff:
+    needed: false
+    note: >
+      Für alle Beschäftigten hat diese Wahl keine Handlungsfolge.
+  auditors:
+    needed: false
+    note: >
+      Wer prüft, sieht nach, ob neben der Signatur der Zeitnachweis, der
+      Zertifikatsweg und der Sperrstand von damals liegen und ob das Ganze
+      lesbar bleibt. Das sind Punkte in der Prüfung und kein eigener Kursstoff.

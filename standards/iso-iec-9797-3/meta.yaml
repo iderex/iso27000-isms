@@ -1,0 +1,47 @@
+id: iso-iec-9797-3
+number: 9797
+part: 3
+edition_year: 2011
+doc_type: is
+status: published
+family: cryptography
+layer: depth
+isms_relation: controls
+catalog_confirmation: confirmed
+languages:
+  - de
+  - en
+presentation:
+  management:
+    needed: false
+    note: >
+      Die Wahl eines Verfahrens ist keine Entscheidung der Leitung.
+  practitioners:
+    needed: false
+    note: >
+      Der Satz, der die Praxis an dieser Reihe angeht, steht im Foliensatz zu
+      ISO/IEC 9797-2: ein Prüfwert mit geteiltem Schlüssel belegt gegenüber
+      einem Dritten nichts. Was dieser Teil hinzufügt, ist eine Bedingung im
+      Entwurf und keine in der Regelung.
+  engineering:
+    needed: true
+    note: >
+      Ein Satz gehört in die Hand der Technik und steht in keinem anderen
+      Kapitel dieser Reihe so scharf: wiederholt sich der Wert gegen
+      Wiederholung unter einem Schlüssel, kann bei dieser Bauart der
+      Prüfschlüssel selbst offenliegen, und dann sind alle künftigen
+      Fälschungen umsonst. Dazu gehört, wo ein solcher Wert nach einem
+      Neustart, nach einer Rücksicherung und hinter einem Lastverteiler
+      herkommt. Beides ist ohne Rechnung erklärbar und entscheidet über den
+      Entwurf.
+  all-staff:
+    needed: false
+    note: >
+      Für alle Beschäftigten hat die Wahl eines Verfahrens keine
+      Handlungsfolge.
+  auditors:
+    needed: false
+    note: >
+      Wer prüft, sieht nach, ob im Entwurf steht, woher der Wert gegen
+      Wiederholung kommt und was nach einer Rücksicherung mit ihm geschieht.
+      Das ist ein Punkt in der Prüfung und kein eigener Kursstoff.

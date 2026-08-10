@@ -1,0 +1,45 @@
+id: iso-iec-13888-2
+number: 13888
+part: 2
+edition_year: 2010
+doc_type: is
+status: published
+family: cryptography
+layer: depth
+isms_relation: controls
+catalog_confirmation: confirmed
+languages:
+  - de
+  - en
+presentation:
+  management:
+    needed: true
+    note: >
+      Ein Satz gehört in die Sitzung, in der über eine Schnittstelle zwischen
+      zwei Häusern entschieden wird: mit geteilten Schlüsseln entsteht ein
+      Nachweis nur dadurch, dass eine dritte Stelle ihn bezeugt, und dieser
+      Nachweis ist genau so viel wert wie das Vertrauen in diese Stelle. Das
+      ist eine Entscheidung über eine Abhängigkeit und über Kosten, nicht über
+      ein Verfahren.
+  practitioners:
+    needed: false
+    note: >
+      Die Praxis trägt die Frage, gegen wen etwas belegt werden muss. Sie steht
+      im Foliensatz zu ISO/IEC 9797-2 und wird hier nur weitergeführt.
+  engineering:
+    needed: false
+    note: >
+      Für die Technik ist der Punkt der Bau einer Schnittstelle zu einer
+      dritten Stelle und die Aufbewahrung dessen, was sie ausstellt. Das gehört
+      in den Entwurf.
+  all-staff:
+    needed: false
+    note: >
+      Für alle Beschäftigten hat diese Wahl keine Handlungsfolge.
+  auditors:
+    needed: false
+    note: >
+      Wer prüft, sieht nach, ob die dritte Stelle benannt ist, ob ihre
+      Aufzeichnungen so lange aufbewahrt werden wie der Streit reichen kann und
+      ob ihre Uhr eine bekannte Quelle hat. Das sind Punkte in der Prüfung und
+      kein eigener Kursstoff.
