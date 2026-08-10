@@ -1,0 +1,43 @@
+id: iso-iec-27559
+number: 27559
+edition_year: 2022
+doc_type: is
+status: published
+family: privacy-identity
+layer: depth
+isms_relation: risk
+catalog_confirmation: confirmed
+languages:
+  - de
+  - en
+presentation:
+  management:
+    needed: true
+    note: >
+      Ein Satz gehört in die Sitzung: anonym ist keine Eigenschaft einer Datei,
+      sondern eine Aussage über eine Lage, und eine herausgegebene Datei kann
+      nicht zurückgeholt werden. Die Freigabe ist deshalb eine Entscheidung mit
+      einem Restrisiko und keine technische Einstellung.
+  practitioners:
+    needed: true
+    note: >
+      Die Praxis braucht die Frage nach dem Umfeld: was gibt es sonst noch,
+      womit sich der Bestand verbinden lässt. Ohne diese Frage wird das
+      Restrisiko am Bestand allein bemessen und damit zu niedrig.
+  engineering:
+    needed: true
+    note: >
+      Ein Satz gehört in die Hand der Technik: ein Verfahren ist erst dann
+      beurteilt, wenn feststeht, wogegen es schützen soll. Dieselbe Behandlung
+      ist gegen den einen Angriff wirksam und gegen den anderen nicht.
+  all-staff:
+    needed: false
+    note: >
+      Für alle Beschäftigten hat die Aufbereitung eines Bestands keine
+      Handlungsfolge.
+  auditors:
+    needed: false
+    note: >
+      Wer prüft, sieht nach, ob die Freigabe eine benannte Entscheidung war und
+      wer sie getroffen hat. Das ist ein Punkt in der Prüfung und kein eigener
+      Kursstoff.

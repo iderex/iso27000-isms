@@ -1,0 +1,41 @@
+id: iso-iec-29134
+number: 29134
+edition_year: 2023
+doc_type: is
+status: published
+family: privacy-identity
+layer: context
+isms_relation: risk
+catalog_confirmation: unconfirmed
+languages:
+  - de
+  - en
+presentation:
+  management:
+    needed: true
+    note: >
+      Ein Satz gehört in die Sitzung: eine Folgenabschätzung nach der
+      Inbetriebnahme ist eine Rechtfertigung und keine Abschätzung. Der
+      Zeitpunkt ist die Entscheidung, und er wird von der Leitung gehalten oder
+      gar nicht.
+  practitioners:
+    needed: true
+    note: >
+      Die Praxis braucht die Auslöserliste und den Unterschied zur gewöhnlichen
+      Risikobeurteilung. Ohne den Auslöser wird die Abschätzung dort gemacht,
+      wo jemand daran denkt.
+  engineering:
+    needed: false
+    note: >
+      Für die Technik entsteht aus diesem Verfahren keine eigene Handlung. Was
+      gebaut wird, folgt aus der Behandlung, die daraus hervorgeht.
+  all-staff:
+    needed: false
+    note: >
+      Für alle Beschäftigten hat das Verfahren keine Handlungsfolge.
+  auditors:
+    needed: true
+    note: >
+      Wer prüft, sieht nach, ob die Abschätzung vor der Entscheidung lag und ob
+      ihr Ergebnis die Entscheidung erreicht hat. Beides fällt in einer
+      gewöhnlichen Prüfung nicht auf.

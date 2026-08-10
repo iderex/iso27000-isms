@@ -1,0 +1,41 @@
+id: iso-iec-29101
+number: 29101
+edition_year: 2018
+doc_type: is
+status: published
+family: privacy-identity
+layer: depth
+isms_relation: controls
+catalog_confirmation: confirmed
+languages:
+  - de
+  - en
+presentation:
+  management:
+    needed: false
+    note: >
+      Für die Leitung entsteht aus einem Architekturrahmen keine eigene
+      Entscheidung. Sie entscheidet über das Vorhaben, nicht über seinen
+      Aufbau.
+  practitioners:
+    needed: false
+    note: >
+      Für die Praxis entsteht hier keine eigene Handlung, die nicht schon aus
+      der Anforderung folgt. Was sie braucht, steht bei der Methode und bei der
+      Folgenabschätzung.
+  engineering:
+    needed: true
+    note: >
+      Ein Satz gehört in die Hand der Technik: der Aufbau entscheidet, was
+      später noch möglich ist. Eine Trennung, die im Entwurf fehlt, wird durch
+      keine spätere Maßnahme nachgeholt, sondern nur überdeckt.
+  all-staff:
+    needed: false
+    note: >
+      Für alle Beschäftigten hat der Aufbau eines Systems keine
+      Handlungsfolge.
+  auditors:
+    needed: false
+    note: >
+      Wer prüft, sieht sich an, wo personenbezogene Daten im System fließen.
+      Das ist ein Punkt in der Prüfung und kein eigener Kursstoff.

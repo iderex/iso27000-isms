@@ -1,0 +1,41 @@
+id: iso-iec-27550
+number: 27550
+edition_year: 2019
+doc_type: tr
+status: published
+family: privacy-identity
+layer: depth
+isms_relation: adjacent
+catalog_confirmation: confirmed
+languages:
+  - de
+  - en
+presentation:
+  management:
+    needed: false
+    note: >
+      Für die Leitung entsteht aus diesem Bericht keine eigene Entscheidung. Was
+      sie entscheidet, steht beim Managementsystem und bei den Anforderungen an
+      ein Erzeugnis.
+  practitioners:
+    needed: true
+    note: >
+      Die Praxis braucht den Satz, dass eine Datenschutzanforderung übersetzt
+      werden muss, bevor sie gebaut werden kann, und dass diese Übersetzung die
+      eigentliche Arbeit ist und nicht die Weitergabe des Rechtstextes.
+  engineering:
+    needed: true
+    note: >
+      Ein Satz gehört in die Hand der Technik: die Übergabestellen im
+      Lebenszyklus sind die Orte, an denen eine Datenschutzanforderung verloren
+      geht. Wer sie nicht benennt, findet den Verlust erst bei der Abnahme.
+  all-staff:
+    needed: false
+    note: >
+      Für alle Beschäftigten hat die Entwurfsarbeit an einem System keine
+      Handlungsfolge.
+  auditors:
+    needed: false
+    note: >
+      Wer prüft, sucht die Übergabestelle, an der eine Anforderung verschwand.
+      Das ist ein Punkt in der Prüfung und kein eigener Kursstoff.
