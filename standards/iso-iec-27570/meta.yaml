@@ -1,0 +1,43 @@
+id: iso-iec-27570
+number: 27570
+edition_year: 2021
+doc_type: ts
+status: published
+family: privacy-identity
+layer: context
+isms_relation: sector
+catalog_confirmation: confirmed
+languages:
+  - de
+  - en
+presentation:
+  management:
+    needed: true
+    note: >
+      Ein Satz gehört in die Sitzung: in einem solchen Verbund entsteht der
+      Schaden nicht bei einem Beteiligten, sondern zwischen ihnen, und für den
+      Raum zwischen den Beteiligten ist niemand zuständig, solange niemand
+      benannt ist.
+  practitioners:
+    needed: true
+    note: >
+      Die Praxis braucht die Frage nach der Verknüpfung: welche zwei Bestände
+      ergeben zusammen etwas, das keiner von beiden allein ergibt. Das ist die
+      Stelle, an der eine Beurteilung je Beteiligtem versagt.
+  engineering:
+    needed: false
+    note: >
+      Für die Technik entsteht aus dieser Spezifikation keine eigene Handlung.
+      Was an einer Schnittstelle zu tun ist, folgt aus der Abrede zwischen den
+      Beteiligten.
+  all-staff:
+    needed: false
+    note: >
+      Für alle Beschäftigten hat die Beteiligung des Hauses an einem solchen
+      Verbund keine Handlungsfolge.
+  auditors:
+    needed: true
+    note: >
+      Wer prüft, sucht die Stelle, an der zwei Beteiligte einander für
+      zuständig halten. Das ist ein eigener Punkt, weil er in keiner der beiden
+      Prüfungen einzeln auffällt.

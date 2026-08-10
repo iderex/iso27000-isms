@@ -1,0 +1,43 @@
+id: iso-iec-27563
+number: 27563
+edition_year: 2023
+doc_type: tr
+status: published
+family: privacy-identity
+layer: depth
+isms_relation: adjacent
+catalog_confirmation: confirmed
+languages:
+  - de
+  - en
+presentation:
+  management:
+    needed: true
+    note: >
+      Ein Satz gehört in die Sitzung: was in ein Modell eingegangen ist, kommt
+      nicht mehr einzeln heraus. Eine Zusage, Daten später zu löschen, ist an
+      dieser Stelle eine andere Zusage als bei einer Datenbank.
+  practitioners:
+    needed: true
+    note: >
+      Die Praxis braucht die Reihenfolge: der Anwendungsfall wird beschrieben,
+      bevor über Technik gesprochen wird, weil aus ihm folgt, welche Daten
+      überhaupt gebraucht werden.
+  engineering:
+    needed: true
+    note: >
+      Ein Satz gehört in die Hand der Technik: die Trainingsdaten und die
+      Eingaben im Betrieb sind zwei verschiedene Bestände mit zwei
+      verschiedenen Wegen nach draußen, und beide werden getrennt betrachtet.
+  all-staff:
+    needed: false
+    note: >
+      Für alle Beschäftigten folgt aus diesem Bericht keine Handlung. Was in
+      ein solches Werkzeug eingegeben werden darf, steht in den Nutzungsregeln
+      und nicht hier.
+  auditors:
+    needed: false
+    note: >
+      Wer prüft, sieht nach, ob der Anwendungsfall beschrieben ist und ob die
+      beiden Datenbestände getrennt betrachtet wurden. Das sind Punkte in der
+      Prüfung und kein eigener Kursstoff.

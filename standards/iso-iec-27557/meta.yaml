@@ -1,0 +1,42 @@
+id: iso-iec-27557
+number: 27557
+edition_year: 2022
+doc_type: is
+status: published
+family: privacy-identity
+layer: context
+isms_relation: risk
+catalog_confirmation: confirmed
+languages:
+  - de
+  - en
+presentation:
+  management:
+    needed: true
+    note: >
+      Ein Satz gehört in die Sitzung: ein Schaden, der die betroffene Person
+      trifft und nicht das Haus, taucht in einem gewöhnlichen Risikoregister
+      nicht auf. Wer nur das Haus bewertet, hält ein hohes Risiko für ein
+      kleines.
+  practitioners:
+    needed: true
+    note: >
+      Die Praxis braucht den zweiten Maßstab neben dem ersten und die Regel,
+      wie beide nebeneinander geführt werden, ohne dass daraus zwei Register
+      werden.
+  engineering:
+    needed: false
+    note: >
+      Für die Technik entsteht aus diesem Dokument keine eigene Handlung. Was
+      aus einer Bewertung folgt, steht in den Kapiteln zu den Maßnahmen.
+  all-staff:
+    needed: false
+    note: >
+      Für alle Beschäftigten hat die Frage, nach welchem Maßstab bewertet wird,
+      keine Handlungsfolge.
+  auditors:
+    needed: true
+    note: >
+      Wer prüft, sieht nach, ob die Bewertung den Schaden bei der betroffenen
+      Person überhaupt kennt. Das ist ein eigener Punkt, weil eine Bewertung
+      ohne ihn vollständig aussieht.

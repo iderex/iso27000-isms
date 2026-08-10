@@ -1,0 +1,44 @@
+id: iso-iec-27018
+number: 27018
+edition_year: 2025
+doc_type: is
+status: published
+family: privacy-identity
+layer: context
+isms_relation: controls sector
+catalog_confirmation: unconfirmed
+languages:
+  - de
+  - en
+presentation:
+  management:
+    needed: true
+    note: >
+      Ein Satz gehört in die Sitzung: die Verantwortung für die Daten bleibt im
+      Haus, auch wenn die Verarbeitung ausgelagert ist. Was der Anbieter
+      zusichert, steht im Vertrag und nicht in seinem Prospekt, und wer den
+      Vertrag nicht gelesen hat, kennt die Zusicherung nicht.
+  practitioners:
+    needed: true
+    note: >
+      Die Praxis braucht die Zerlegung: welche Maßnahme liegt beim Anbieter,
+      welche beim Haus, und welche liegt nirgends, weil beide sie beim anderen
+      vermutet haben. Die dritte Gruppe ist der Ertrag dieses Themas.
+  engineering:
+    needed: false
+    note: >
+      Für die Technik entsteht aus diesem Dokument keine eigene Handlung. Was
+      am Übergang zum Anbieter technisch zu tun ist, folgt aus der Abrede und
+      steht in den Kapiteln zu den Maßnahmen, nicht hier.
+  all-staff:
+    needed: false
+    note: >
+      Für alle Beschäftigten hat die Rollenverteilung zwischen Auftraggeber und
+      Anbieter keine Handlungsfolge. Was sie mit welchem Dienst tun dürfen,
+      steht in den Nutzungsregeln und nicht in diesem Kapitel.
+  auditors:
+    needed: false
+    note: >
+      Wer prüft, hält die Zusicherungen des Anbieters gegen die Maßnahmenliste
+      des Hauses und sucht die Lücke dazwischen. Das ist ein Punkt in der
+      Prüfung und kein eigener Kursstoff.

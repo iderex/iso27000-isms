@@ -1,0 +1,42 @@
+id: iso-31700-1
+number: 31700
+part: 1
+edition_year: 2023
+doc_type: is
+status: published
+family: privacy-identity
+layer: context
+isms_relation: requirements risk
+catalog_confirmation: confirmed
+languages:
+  - de
+  - en
+presentation:
+  management:
+    needed: true
+    note: >
+      Ein Satz gehört in die Sitzung: die Voreinstellung eines Erzeugnisses ist
+      eine Entscheidung des Hauses und keine Einstellung des Kunden. Was
+      voreingestellt ist, bleibt bei der weit überwiegenden Mehrheit so.
+  practitioners:
+    needed: true
+    note: >
+      Die Praxis braucht die Unterscheidung zwischen einer Anforderung an einen
+      Ablauf und einer Anforderung an ein Erzeugnis. Ein Managementsystem
+      erfüllt die erste und beweist über die zweite nichts.
+  engineering:
+    needed: true
+    note: >
+      Ein Satz gehört in die Hand der Technik: das Ende des Lebenszyklus gehört
+      zum Entwurf. Was mit den Daten geschieht, wenn ein Erzeugnis abgeschaltet
+      wird, wird beim Bauen entschieden und nicht beim Abschalten.
+  all-staff:
+    needed: false
+    note: >
+      Für alle Beschäftigten hat der Entwurf eines Erzeugnisses keine
+      Handlungsfolge.
+  auditors:
+    needed: false
+    note: >
+      Wer prüft, sieht die Voreinstellungen an und fragt nach dem Ende des
+      Lebenszyklus. Das sind Punkte in der Prüfung und kein eigener Kursstoff.
