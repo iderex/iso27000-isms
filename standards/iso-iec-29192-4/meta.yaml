@@ -1,0 +1,46 @@
+id: iso-iec-29192-4
+number: 29192
+part: 4
+edition_year: 2013
+doc_type: is
+status: published
+family: cryptography
+layer: depth
+isms_relation: controls
+catalog_confirmation: confirmed
+languages:
+  - de
+  - en
+presentation:
+  management:
+    needed: false
+    note: >
+      Ob ein geteiltes Geheimnis in einer ganzen Geräteflotte tragbar ist, ist
+      eine Entscheidung mit Geld daran, aber sie wird an der Risikobeurteilung
+      getroffen und nicht an dieser Norm. Der Foliensatz zu ISO/IEC 27005 trägt
+      den Weg dorthin.
+  practitioners:
+    needed: false
+    note: >
+      Die Praxis führt das Verzeichnis der Werte, aus dem die betroffene Menge
+      kommt. Der Foliensatz zu ISO/IEC 27002 trägt die Maßnahme, in der ein
+      Schlüssel je Gerät oder je Los steht.
+  engineering:
+    needed: false
+    note: >
+      Der Gedanke, dass ein geteiltes Geheimnis mit einem einzigen ausgelesenen
+      Gerät überall gilt, steht im Foliensatz zu ISO/IEC 11770-1 beim Lebensweg
+      eines Schlüssels, und der Rahmen dieser Reihe im Foliensatz zu
+      ISO/IEC 29192-1. Ein dritter Satz hätte keinen eigenen Gegenstand.
+  all-staff:
+    needed: false
+    note: >
+      Für alle Beschäftigten hat die Wahl zwischen geteiltem Geheimnis und
+      Schlüsselpaar keine Handlungsfolge. Was für sie zählt, ist die Meldung
+      eines verlorenen Geräts, und die steht im Awareness-Training.
+  auditors:
+    needed: false
+    note: >
+      Wer prüft, sieht nach, ob die betroffene Menge bei einem Verlust bekannt
+      ist und ob ein Zurückziehen vorgesehen ist. Das ist ein Punkt in der
+      Prüfung und kein eigener Kursstoff.

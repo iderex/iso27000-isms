@@ -1,0 +1,41 @@
+id: iso-iec-29192-3
+number: 29192
+part: 3
+edition_year: 2012
+doc_type: is
+status: published
+family: cryptography
+layer: depth
+isms_relation: controls
+catalog_confirmation: confirmed
+languages:
+  - de
+  - en
+presentation:
+  management:
+    needed: false
+    note: >
+      Die Wahl einer Chiffre ist keine Entscheidung der Leitung. Was sie an
+      dieser Reihe angeht, steht im Foliensatz zu ISO/IEC 29192-1.
+  practitioners:
+    needed: false
+    note: >
+      Die Praxis trägt die Regelung zur Kryptografie, und der Weg dorthin steht
+      im Foliensatz zu ISO/IEC 27002. Dass Verschlüsselung keine
+      Fälschungssicherheit ist, steht dort bereits bei der Maßnahme.
+  engineering:
+    needed: false
+    note: >
+      Der Foliensatz zu ISO/IEC 29192-1 trägt den Gedanken für die ganze Reihe.
+      Die Frage, ob sich der zweite Wert nach einem Neustart wiederholen kann,
+      hängt am einzelnen Gerät, und ein Foliensatz hat dieses Gerät nicht.
+  all-staff:
+    needed: false
+    note: >
+      Für alle Beschäftigten hat die Wahl einer Chiffre keine Handlungsfolge.
+  auditors:
+    needed: false
+    note: >
+      Wer prüft, sieht nach, ob die Wiederholung des zweiten Werts
+      ausgeschlossen und die fehlende Integrität eingetragen ist. Das ist ein
+      Punkt in der Prüfung und kein eigener Kursstoff.

@@ -1,0 +1,42 @@
+id: iso-iec-29192-8
+number: 29192
+part: 8
+edition_year: 2022
+doc_type: is
+status: published
+family: cryptography
+layer: depth
+isms_relation: controls
+catalog_confirmation: confirmed
+languages:
+  - de
+  - en
+presentation:
+  management:
+    needed: false
+    note: >
+      Die Wahl eines Verfahrens ist keine Entscheidung der Leitung. Was sie an
+      dieser Reihe angeht, steht im Foliensatz zu ISO/IEC 29192-1.
+  practitioners:
+    needed: false
+    note: >
+      Die Praxis trägt die Regelung zur Kryptografie und die Beobachtung der
+      abgewiesenen Nachrichten. Beides steht im Foliensatz zu ISO/IEC 27002, bei
+      der Maßnahme zur Kryptografie und bei der zur Überwachung.
+  engineering:
+    needed: false
+    note: >
+      Der Foliensatz zu ISO/IEC 29192-1 trägt den Gedanken für die ganze Reihe.
+      Ab wann ein Befehl ausgeführt werden darf, hängt am Speicher und an der
+      Wirkung des einzelnen Geräts, und beides hat ein Foliensatz nicht.
+  all-staff:
+    needed: false
+    note: >
+      Für alle Beschäftigten hat die Wahl eines Verfahrens keine
+      Handlungsfolge.
+  auditors:
+    needed: false
+    note: >
+      Wer prüft, sieht nach, ob festgelegt ist, ab wann eine Nachricht benutzt
+      wird, und ob abgewiesene Nachrichten gezählt werden. Das ist ein Punkt in
+      der Prüfung und kein eigener Kursstoff.
