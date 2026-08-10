@@ -1,0 +1,41 @@
+id: iso-iec-27402
+number: 27402
+edition_year: 2023
+doc_type: is
+status: published
+family: extended-27000
+layer: context
+isms_relation: requirements sector
+catalog_confirmation: confirmed
+languages:
+  - de
+  - en
+presentation:
+  management:
+    needed: false
+    note: >
+      Die Festlegung, die der Leitung gehört, ist die zum Umfang und zur Zusage
+      über Erneuerungen, und die steht im Foliensatz zu ISO/IEC 27400. Ob ein
+      einzelnes Gerät eine Kante erreicht, ist eine Frage der Beschaffung.
+  practitioners:
+    needed: false
+    note: >
+      Die Praxis schreibt die Kante in die Vereinbarung und in die Abnahme. Der
+      Umgang mit Anbietern steht im Foliensatz zu ISO/IEC 27002, und was hier
+      dazukommt, ist ein Satz im Vertrag und ein Schritt in der Abnahme.
+  engineering:
+    needed: false
+    note: >
+      Wer ein Gerät baut, liest die Anforderungen in der lizenzierten Ausgabe
+      und nicht in einem Foliensatz. Ein Satz, der sie nicht wiedergeben darf,
+      hätte für die Technik keinen Gegenstand.
+  all-staff:
+    needed: false
+    note: >
+      Für alle Beschäftigten hat die Kante für ein Gerät keine Handlungsfolge.
+  auditors:
+    needed: false
+    note: >
+      Wer prüft, sieht nach, ob die Abnahme stattgefunden hat und ob ein Gerät
+      daran hätte scheitern können. Das ist ein Punkt in der Prüfung und kein
+      eigener Kursstoff.

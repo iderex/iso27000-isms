@@ -1,0 +1,47 @@
+id: iso-iec-29192-1
+number: 29192
+part: 1
+edition_year: 2012
+doc_type: is
+status: published
+family: cryptography
+layer: depth
+isms_relation: requirements controls sector
+catalog_confirmation: confirmed
+languages:
+  - de
+  - en
+presentation:
+  management:
+    needed: false
+    note: >
+      Die Leitung entscheidet, ob ein Erzeugnis mit eingebauten Geräten gebaut
+      wird, und nicht, welche Kryptografie darin rechnet. Was an dieser Reihe
+      eine Entscheidung der Leitung ist, ist die Lebenszeit der Geräte, und die
+      steht im Foliensatz zu ISO/IEC 27002 bei der Maßnahme zur Kryptografie.
+  practitioners:
+    needed: false
+    note: >
+      Die Praxis trägt die Ausnahme für Geräte innerhalb einer Grenze in die
+      Regelung zur Kryptografie und in die Erklärung zur Anwendbarkeit. Der Weg
+      dorthin steht im Foliensatz zu ISO/IEC 27002; ein zweiter Satz dazu hätte
+      keinen eigenen Gegenstand.
+  engineering:
+    needed: true
+    note: >
+      Die Umkehrung der üblichen Reihenfolge, also die Umsetzung zuerst und die
+      erreichbare Stärke danach, ist der eine Gedanke dieser Reihe. Er ist ohne
+      Erzeugnis erklärbar, er wird in der Praxis regelmäßig als Erlaubnis
+      missverstanden, weniger zu tun, und dieser Satz trägt die Teile 2 bis 8
+      mit.
+  all-staff:
+    needed: false
+    note: >
+      Für alle Beschäftigten hat die Wahl eines Verfahrens in einem eingebauten
+      Gerät keine Handlungsfolge.
+  auditors:
+    needed: false
+    note: >
+      Wer prüft, sieht nach, ob die Abweichung von der üblichen Kryptografie
+      begründet und die Grenze beziffert ist. Das ist ein Punkt in der Prüfung
+      und kein eigener Kursstoff.

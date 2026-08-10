@@ -1,0 +1,45 @@
+id: iso-iec-27400
+number: 27400
+edition_year: 2022
+doc_type: is
+status: published
+family: extended-27000
+layer: context
+isms_relation: sector
+catalog_confirmation: confirmed
+languages:
+  - de
+  - en
+presentation:
+  management:
+    needed: true
+    note: >
+      Ob die ausgelieferten Geräte im Umfang des Managementsystems liegen, ist
+      eine Festlegung mit Folgen über die ganze Lebenszeit der Geräte, und sie
+      wird von der Leitung getroffen. Dazu gehört die Zusage, wie lange ein
+      Stand Erneuerungen bekommt, denn sie bindet das Haus über Jahre. Beides
+      ist ohne Technik erklärbar.
+  practitioners:
+    needed: false
+    note: >
+      Die Praxis führt die Geräte im Verzeichnis der Werte und begründet die
+      Maßnahmen in der Erklärung zur Anwendbarkeit. Der Weg dorthin steht im
+      Foliensatz zu ISO/IEC 27002 und ändert sich durch die Art des Werts nicht.
+  engineering:
+    needed: false
+    note: >
+      Was die Technik an diesem Thema braucht, hängt am einzelnen Gerät und
+      steht in den Kapiteln zu ISO/IEC 27402 und ISO/IEC 27071. Ein Foliensatz
+      über die Lage hätte für sie keinen eigenen Gegenstand.
+  all-staff:
+    needed: false
+    note: >
+      Für alle Beschäftigten zählt, dass ein Gerät in der Umgebung mitmisst.
+      Das steht im Awareness-Training und braucht keinen eigenen Satz zu dieser
+      Norm.
+  auditors:
+    needed: false
+    note: >
+      Wer prüft, sieht nach, ob der Umfang die ausgelieferten Geräte nennt oder
+      ausschließt und ob beides begründet ist. Das ist ein Punkt in der Prüfung
+      und kein eigener Kursstoff.

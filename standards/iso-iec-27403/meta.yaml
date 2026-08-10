@@ -1,0 +1,44 @@
+id: iso-iec-27403
+number: 27403
+edition_year: 2024
+doc_type: is
+status: published
+family: extended-27000
+layer: context
+isms_relation: sector
+catalog_confirmation: confirmed
+languages:
+  - de
+  - en
+presentation:
+  management:
+    needed: false
+    note: >
+      Ob Fernarbeit zugelassen wird, ist eine Entscheidung der Leitung, und sie
+      steht im Foliensatz zu ISO/IEC 27002 bei der Maßnahme zur Fernarbeit. Die
+      Umgebung, in der sie stattfindet, ändert an der Entscheidung nichts.
+  practitioners:
+    needed: false
+    note: >
+      Die Praxis schreibt die Regelung zur Fernarbeit und stellt fest, welche
+      Maßnahme in einer Wohnung nicht ausführbar ist. Der Weg dorthin steht im
+      Foliensatz zu ISO/IEC 27002.
+  engineering:
+    needed: false
+    note: >
+      Was die Technik hier braucht, ist die Annahme, dass das Netz fremd ist,
+      und die steht im Kapitel zu ISO/IEC 27071. Ein eigener Foliensatz hätte
+      daneben keinen Gegenstand.
+  all-staff:
+    needed: true
+    note: >
+      Wer von zu Hause arbeitet, arbeitet in genau dieser Umgebung, und die
+      Geräte darin gehören ihm selbst. Was ein solches Gerät mitbekommt, wen es
+      außer dem Käufer erfasst und was beim Auszug mit ihm geschieht, ist ohne
+      Fachsprache erklärbar und betrifft jeden im Haus.
+  auditors:
+    needed: false
+    note: >
+      Wer prüft, sieht nach, ob eine Maßnahme, die in einer Wohnung nicht
+      ausführbar ist, dort auch nicht als erfüllt geführt wird. Das ist ein
+      Punkt in der Prüfung und kein eigener Kursstoff.

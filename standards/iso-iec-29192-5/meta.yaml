@@ -1,0 +1,43 @@
+id: iso-iec-29192-5
+number: 29192
+part: 5
+edition_year: 2016
+doc_type: is
+status: published
+family: cryptography
+layer: depth
+isms_relation: controls
+catalog_confirmation: confirmed
+languages:
+  - de
+  - en
+presentation:
+  management:
+    needed: false
+    note: >
+      Die Wahl einer Hash-Funktion ist keine Entscheidung der Leitung. Was sie
+      an dieser Reihe angeht, steht im Foliensatz zu ISO/IEC 29192-1.
+  practitioners:
+    needed: false
+    note: >
+      Die Praxis trägt die Regelung zur Kryptografie, und der Weg dorthin steht
+      im Foliensatz zu ISO/IEC 27002. Dass eine Prüfsumme allein keine Herkunft
+      belegt, steht dort bei der Maßnahme.
+  engineering:
+    needed: false
+    note: >
+      Der Foliensatz zu ISO/IEC 29192-1 trägt den Gedanken für die ganze Reihe.
+      Welche der drei Fragen an eine Hash-Funktion im eigenen Fall gilt, hängt
+      am Erzeugnis und an dem Angreifer, den es annimmt; beides hat ein
+      Foliensatz nicht.
+  all-staff:
+    needed: false
+    note: >
+      Für alle Beschäftigten hat die Wahl einer Hash-Funktion keine
+      Handlungsfolge.
+  auditors:
+    needed: false
+    note: >
+      Wer prüft, sieht nach, ob der Vergleichswert einen eigenen Weg hat und ob
+      ein Fehlschlag eine festgelegte Folge hat. Das ist ein Punkt in der
+      Prüfung und kein eigener Kursstoff.
