@@ -1,0 +1,42 @@
+id: iso-iec-27033-3
+number: 27033
+part: 3
+edition_year: 2010
+doc_type: is
+status: published
+family: extended-27000
+layer: depth
+isms_relation: controls
+catalog_confirmation: confirmed
+languages:
+  - de
+  - en
+presentation:
+  management:
+    needed: false
+    note: >
+      Die Wahl einer Vergleichslage ist keine Entscheidung der Leitung.
+  practitioners:
+    needed: false
+    note: >
+      Der Satz, den die Praxis an dieser Reihe braucht, steht im Foliensatz zum
+      ersten Teil. Was dieser Teil hinzufügt, ist eine Warnung an den, der eine
+      Vorlage benutzt, und die gehört in die Prüfliste für einen Entwurf.
+  engineering:
+    needed: false
+    note: >
+      Für die Technik ist der Punkt, dass eine Vergleichslage nach der
+      Bedrohung und nicht nach der Ähnlichkeit des Bildes gewählt wird. Das
+      gehört in den Entwurf, und ein Foliensatz mit Lagen von 2010 wäre am Tag
+      seiner Erstellung veraltet.
+  all-staff:
+    needed: false
+    note: >
+      Für alle Beschäftigten hat die Wahl einer Vergleichslage keine
+      Handlungsfolge.
+  auditors:
+    needed: false
+    note: >
+      Wer prüft, sieht nach, ob ein Entwurf sagt, welche Lage er zugrunde
+      gelegt hat und warum sie zur eigenen passt. Das ist ein Punkt in der
+      Prüfung und kein eigener Kursstoff.

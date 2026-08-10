@@ -1,0 +1,45 @@
+id: iso-iec-27033-1
+number: 27033
+part: 1
+edition_year: 2015
+doc_type: is
+status: published
+family: extended-27000
+layer: depth
+isms_relation: terms controls
+catalog_confirmation: confirmed
+languages:
+  - de
+  - en
+presentation:
+  management:
+    needed: false
+    note: >
+      Die Leitung entscheidet über den Geltungsbereich und über Geld für einen
+      Umbau. Beides steht im Foliensatz zu ISO/IEC 27001 beim Geltungsbereich
+      und im Foliensatz zu ISO/IEC 27005 bei der Übernahme eines Risikos.
+  practitioners:
+    needed: true
+    note: >
+      Ein Satz gehört in die Hand der Praxis und trägt die ganze Reihe: das
+      gezeichnete Netz und das laufende Netz sind zwei verschiedene Dinge, und
+      der Abstand zwischen ihnen ist der erste Befund. Dazu gehört, dass ein
+      gemeinsames Wort für innen und außen fehlt, solange niemand es
+      festgelegt hat.
+  engineering:
+    needed: false
+    note: >
+      Für die Technik steht der Stoff in den Teilen 2 bis 7 und in den
+      Kapiteln dazu. Dieser Teil ordnet Begriffe und gibt keinen Bauplan.
+  all-staff:
+    needed: false
+    note: >
+      Für alle Beschäftigten hat die Ordnung eines Netzes keine
+      Handlungsfolge.
+  auditors:
+    needed: false
+    note: >
+      Wer prüft, sieht nach, ob es ein Bild der Verbindungen gibt, wann es
+      zuletzt gegen die Wirklichkeit gehalten wurde und ob es zum
+      Geltungsbereich passt. Das sind Punkte in der Prüfung und kein eigener
+      Kursstoff.

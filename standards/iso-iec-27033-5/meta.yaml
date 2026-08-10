@@ -1,0 +1,45 @@
+id: iso-iec-27033-5
+number: 27033
+part: 5
+edition_year: 2013
+doc_type: is
+status: published
+family: extended-27000
+layer: depth
+isms_relation: controls
+catalog_confirmation: confirmed
+languages:
+  - de
+  - en
+presentation:
+  management:
+    needed: false
+    note: >
+      Die Leitung entscheidet, wer von außerhalb arbeiten darf. Das steht im
+      Foliensatz zu ISO/IEC 27002 bei der Maßnahme zum Arbeiten außerhalb der
+      Räume des Hauses.
+  practitioners:
+    needed: true
+    note: >
+      Ein Satz gehört in die Hand der Praxis: ein Tunnel verschlüsselt nicht
+      nur, er verschiebt die Grenze, und das Gerät am anderen Ende ist danach
+      Teil des Netzes. Daneben steht, dass der Tunnel eine Person nicht
+      nachweist und über den Zustand des Geräts nichts sagt.
+  engineering:
+    needed: false
+    note: >
+      Für die Technik sind die Punkte die Aufteilung des Verkehrs und das
+      Verhalten bei einem Ausfall. Beides gehört in den Entwurf und hängt am
+      eingesetzten Protokoll.
+  all-staff:
+    needed: false
+    note: >
+      Für alle Beschäftigten zählt, dass der Weg über den Tunnel zu benutzen
+      und nicht zu umgehen ist. Das steht im Awareness-Training und in den
+      Nutzungsregeln.
+  auditors:
+    needed: false
+    note: >
+      Wer prüft, sieht nach, was am anderen Ende des Tunnels hängt, ob der
+      Verkehr aufgeteilt wird und was geschieht, wenn der Tunnel steht. Das
+      sind Punkte in der Prüfung und kein eigener Kursstoff.

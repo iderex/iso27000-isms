@@ -1,0 +1,46 @@
+id: iso-iec-27033-6
+number: 27033
+part: 6
+edition_year: 2016
+doc_type: is
+status: published
+family: extended-27000
+layer: depth
+isms_relation: controls
+catalog_confirmation: confirmed
+languages:
+  - de
+  - en
+presentation:
+  management:
+    needed: false
+    note: >
+      Die Leitung entscheidet, ob Geräte beschafft werden, die sich nicht mehr
+      aktualisieren lassen, und diese Entscheidung fällt beim Einkauf. Sie
+      steht im Foliensatz zu ISO/IEC 27005 bei der Übernahme eines Risikos.
+  practitioners:
+    needed: true
+    note: >
+      Ein Satz gehört in die Hand der Praxis: bei einem drahtlosen Netz ist die
+      Reichweite die Grenze, und die endet nicht an der Hauswand. Daneben
+      steht, dass ein Gastnetz, das denselben Anschluss und dieselbe Steuerung
+      benutzt, getrennt heißt und nicht getrennt ist.
+  engineering:
+    needed: false
+    note: >
+      Für die Technik hängt der Stoff am eingesetzten Verfahren und an den
+      Geräten, die im Haus stehen. Ein Foliensatz kann das nicht tragen, und
+      ein veralteter würde ein Verfahren nennen, das niemand mehr benutzt.
+  all-staff:
+    needed: false
+    note: >
+      Für alle Beschäftigten zählt, dass ein Gerät nicht in ein beliebiges Netz
+      gehängt wird und dass ein Gastzugang für Gäste ist. Das steht im
+      Awareness-Training.
+  auditors:
+    needed: false
+    note: >
+      Wer prüft, sieht nach, wo das Netz noch zu empfangen ist, ob die
+      Trennung des Gastnetzes über den ganzen Weg gilt und welche Geräte keine
+      neuen Nachweise mehr annehmen können. Das sind Punkte in der Prüfung und
+      kein eigener Kursstoff.

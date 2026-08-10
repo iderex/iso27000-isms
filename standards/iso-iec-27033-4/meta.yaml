@@ -1,0 +1,47 @@
+id: iso-iec-27033-4
+number: 27033
+part: 4
+edition_year: 2014
+doc_type: is
+status: published
+family: extended-27000
+layer: depth
+isms_relation: controls
+catalog_confirmation: confirmed
+languages:
+  - de
+  - en
+presentation:
+  management:
+    needed: true
+    note: >
+      Ein Satz gehört in die Sitzung und nicht in den Entwurf: wer
+      verschlüsselten Verkehr einsehen will, muss ihn aufbrechen, und damit
+      entsteht eine Stelle im Haus, an der Klartext liegt. In einem Haus mit
+      Patientendaten ist das eine Entscheidung über Personen und nicht über
+      ein Gerät.
+  practitioners:
+    needed: false
+    note: >
+      Die Praxis trägt die Regelung, aus der die Regeln am Übergang folgen.
+      Der Satz dazu steht im Foliensatz zum zweiten Teil.
+  engineering:
+    needed: true
+    note: >
+      Ein Satz gehört in die Hand der Technik: die geladene Regelmenge ist die
+      einzige Fassung der Regelung, die wirklich läuft, und der Abstand zur
+      geschriebenen ist der Befund. Daneben steht die Entscheidung, ob der
+      Übergang bei einem Fehler durchlässt oder sperrt.
+  all-staff:
+    needed: false
+    note: >
+      Für alle Beschäftigten hat der Aufbau eines Übergangs keine
+      Handlungsfolge, mit einer Ausnahme: wo Verkehr aufgebrochen wird, gehört
+      der Hinweis darauf in die Nutzungsregeln, und der steht dort und nicht
+      hier.
+  auditors:
+    needed: false
+    note: >
+      Wer prüft, vergleicht die geschriebene Regelung mit der geladenen
+      Regelmenge und sieht nach, was bei einem Ausfall geschieht. Das sind
+      Punkte in der Prüfung und kein eigener Kursstoff.
