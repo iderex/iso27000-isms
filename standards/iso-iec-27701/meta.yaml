@@ -1,0 +1,43 @@
+id: iso-iec-27701
+number: 27701
+edition_year: 2025
+doc_type: is
+status: published
+family: privacy-identity
+layer: context
+isms_relation: requirements
+catalog_confirmation: confirmed
+languages:
+  - de
+  - en
+presentation:
+  management:
+    needed: true
+    note: >
+      Ein Satz gehört in die Sitzung: dies ist ein Managementsystem mit
+      Anforderungen und keine Handreichung. Wer es einführt, übernimmt Pflichten
+      zur Leitung, zur Bewertung und zur Korrektur, und die Rolle, in der das
+      Haus steht, entscheidet, welche davon gelten.
+  practitioners:
+    needed: true
+    note: >
+      Die Praxis braucht die Rollenfrage zuerst. Ob das Haus über den Zweck
+      entscheidet oder im Auftrag verarbeitet, ist keine Formalie, sondern
+      bestimmt, welcher Teil der Anforderungen überhaupt anwendbar ist.
+  engineering:
+    needed: false
+    note: >
+      Für die Technik entsteht aus diesem Dokument keine eigene Handlung. Was
+      gebaut wird, folgt aus den Maßnahmen, die das System auswählt.
+  all-staff:
+    needed: false
+    note: >
+      Für alle Beschäftigten hat der Aufbau eines Managementsystems keine
+      unmittelbare Handlungsfolge. Was sie tun sollen, steht in den Regelungen,
+      die daraus entstehen.
+  auditors:
+    needed: true
+    note: >
+      Wer prüft, braucht die Verbindung zum Sicherheitssystem und die Stelle, an
+      der eine Anforderung nur für eine der beiden Rollen gilt. Eine Prüfung,
+      die das übersieht, prüft die falsche Hälfte.

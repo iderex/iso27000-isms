@@ -1,0 +1,43 @@
+id: iso-iec-27566-1
+number: 27566
+part: 1
+edition_year: 2025
+doc_type: is
+status: published
+family: privacy-identity
+layer: depth
+isms_relation: adjacent
+catalog_confirmation: confirmed
+languages:
+  - de
+  - en
+presentation:
+  management:
+    needed: true
+    note: >
+      Ein Satz gehört in die Sitzung: eine Altersprüfung, die einen Ausweis
+      verlangt, schafft mehr personenbezogene Daten, als sie schützt. Ob das
+      Haus diesen Tausch eingeht, ist eine Entscheidung und keine
+      Umsetzungsfrage.
+  practitioners:
+    needed: true
+    note: >
+      Die Praxis braucht die Unterscheidung zwischen Schätzen und Nachweisen
+      und die Regel, was bei einem Zweifelsfall geschieht. Ohne diese Regel
+      trifft die Entscheidung das Erzeugnis.
+  engineering:
+    needed: false
+    note: >
+      Für die Technik entsteht aus diesem Teil keine eigene Handlung. Was
+      eingebaut wird, folgt aus der Wahl des Verfahrens und steht in den
+      Kapiteln zu den Maßnahmen.
+  all-staff:
+    needed: false
+    note: >
+      Für alle Beschäftigten hat der Aufbau einer Altersprüfung keine
+      Handlungsfolge.
+  auditors:
+    needed: false
+    note: >
+      Wer prüft, sieht nach, welche Daten die Prüfung erzeugt und wie lange sie
+      liegen. Das ist ein Punkt in der Prüfung und kein eigener Kursstoff.

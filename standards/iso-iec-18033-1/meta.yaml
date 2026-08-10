@@ -1,0 +1,42 @@
+id: iso-iec-18033-1
+number: 18033
+part: 1
+edition_year: 2021
+doc_type: is
+status: published
+family: cryptography
+layer: depth
+isms_relation: controls
+catalog_confirmation: confirmed
+languages:
+  - de
+  - en
+presentation:
+  management:
+    needed: false
+    note: >
+      Für die Leitung entsteht aus dem Eingang einer Algorithmenreihe keine
+      eigene Entscheidung. Was sie entscheidet, steht in der Regelung über
+      kryptografische Verfahren.
+  practitioners:
+    needed: true
+    note: >
+      Die Praxis braucht den Satz, dass die Wahl des Algorithmus die kleinere
+      Entscheidung ist. Die Betriebsart und die Schlüssel entscheiden, ob ein
+      System trägt, und beide stehen nicht in diesem Teil.
+  engineering:
+    needed: true
+    note: >
+      Ein Satz gehört in die Hand der Technik: dass ein Verfahren in einer Norm
+      steht, heißt nicht, dass es für den vorliegenden Zweck taugt. Eine Norm
+      führt auch, was nur noch für den Bestand gebraucht wird.
+  all-staff:
+    needed: false
+    note: >
+      Für alle Beschäftigten hat die Wahl eines Verfahrens keine
+      Handlungsfolge.
+  auditors:
+    needed: false
+    note: >
+      Wer prüft, sieht in die Regelung und in das, was wirklich eingestellt
+      ist. Das ist ein Punkt in der Prüfung und kein eigener Kursstoff.

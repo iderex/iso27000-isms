@@ -1,0 +1,39 @@
+id: iso-iec-29190
+number: 29190
+edition_year: 2015
+doc_type: is
+status: published
+family: privacy-identity
+layer: depth
+isms_relation: adjacent
+catalog_confirmation: unconfirmed
+languages:
+  - de
+  - en
+presentation:
+  management:
+    needed: true
+    note: >
+      Ein Satz gehört in die Sitzung: sobald eine Stufe ein Ziel ist, wird sie
+      erreicht und nicht verdient. Wer eine Bewertung als Kennzahl führt,
+      bekommt eine Kennzahl und keine Auskunft über den Zustand.
+  practitioners:
+    needed: true
+    note: >
+      Die Praxis braucht den Vergleich mit sich selbst über die Zeit und den
+      Satz, dass eine behauptete Stufe belegt werden muss. Ohne Beleg ist die
+      Bewertung eine Selbsteinschätzung mit einer Zahl davor.
+  engineering:
+    needed: false
+    note: >
+      Für die Technik entsteht aus einer Reifegradbewertung keine eigene
+      Handlung.
+  all-staff:
+    needed: false
+    note: >
+      Für alle Beschäftigten hat eine Reifegradbewertung keine Handlungsfolge.
+  auditors:
+    needed: true
+    note: >
+      Wer prüft, sucht zu jeder behaupteten Stufe den Beleg und die Stelle, an
+      der die Bewertung sich selbst beurteilt hat. Das ist ein eigener Punkt.

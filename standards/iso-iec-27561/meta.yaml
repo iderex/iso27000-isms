@@ -1,0 +1,41 @@
+id: iso-iec-27561
+number: 27561
+edition_year: 2024
+doc_type: is
+status: published
+family: privacy-identity
+layer: depth
+isms_relation: controls
+catalog_confirmation: confirmed
+languages:
+  - de
+  - en
+presentation:
+  management:
+    needed: false
+    note: >
+      Für die Leitung entsteht aus einer Methode keine eigene Entscheidung. Was
+      sie entscheidet, ist, ob eine solche Nachvollziehbarkeit verlangt wird,
+      und das gehört zum Managementsystem.
+  practitioners:
+    needed: true
+    note: >
+      Die Praxis braucht die Kette vom Grundsatz über die Anforderung und die
+      Maßnahme bis zum Nachweis. Ihr Wert liegt darin, dass eine gerissene
+      Stelle sichtbar wird, und nicht in den Namen der Glieder.
+  engineering:
+    needed: true
+    note: >
+      Ein Satz gehört in die Hand der Technik: ein Glied der Kette, das keinen
+      Nachweis trägt, ist eine Behauptung. Der Nachweis wird beim Bauen
+      festgelegt und nicht bei der Prüfung gesucht.
+  all-staff:
+    needed: false
+    note: >
+      Für alle Beschäftigten hat eine Entwurfsmethode keine Handlungsfolge.
+  auditors:
+    needed: false
+    note: >
+      Wer prüft, verfolgt eine Kette von hinten nach vorn und sucht das Glied
+      ohne Nachweis. Das ist ein Punkt in der Prüfung und kein eigener
+      Kursstoff.

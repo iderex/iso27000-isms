@@ -1,0 +1,42 @@
+id: iso-iec-19772
+number: 19772
+edition_year: 2020
+doc_type: is
+status: published
+family: cryptography
+layer: depth
+isms_relation: controls
+catalog_confirmation: confirmed
+languages:
+  - de
+  - en
+presentation:
+  management:
+    needed: false
+    note: >
+      Für die Leitung entsteht aus dieser Klasse von Verfahren keine eigene
+      Entscheidung.
+  practitioners:
+    needed: true
+    note: >
+      Die Praxis braucht den Satz, dass verschlüsselt nicht unverändert heißt.
+      Er entscheidet, ob eine Zusage eines Anbieters die Frage beantwortet, die
+      gestellt wurde.
+  engineering:
+    needed: true
+    note: >
+      Ein Satz gehört in die Hand der Technik: Vertraulichkeit und
+      Unversehrtheit werden zusammen genommen und nicht selbst aus zwei Teilen
+      zusammengebaut. Die Zusammenbauten sind die Stelle, an der Fehler
+      entstehen.
+  all-staff:
+    needed: false
+    note: >
+      Für alle Beschäftigten hat diese Klasse von Verfahren keine
+      Handlungsfolge.
+  auditors:
+    needed: true
+    note: >
+      Wer prüft, hört den Satz, es sei ja verschlüsselt, und fragt danach, ob
+      eine Veränderung erkannt wird. Das ist ein eigener Punkt, weil die Antwort
+      regelmäßig nein lautet.

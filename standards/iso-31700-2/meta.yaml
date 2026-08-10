@@ -1,0 +1,40 @@
+id: iso-31700-2
+number: 31700
+part: 2
+edition_year: 2023
+doc_type: tr
+status: published
+family: privacy-identity
+layer: context
+isms_relation: requirements
+catalog_confirmation: confirmed
+languages:
+  - de
+  - en
+presentation:
+  management:
+    needed: false
+    note: >
+      Für die Leitung entsteht aus einem Bericht mit Beispielen keine
+      Entscheidung. Die Entscheidungen stehen bei den Anforderungen im ersten
+      Teil.
+  practitioners:
+    needed: true
+    note: >
+      Die Praxis braucht die eine Warnung: ein Anwendungsfall ist kein Muster.
+      Wer den nächstliegenden Fall abschreibt, hat die Anforderung nicht
+      gelesen, sondern umgangen.
+  engineering:
+    needed: false
+    note: >
+      Für die Technik entsteht aus diesem Bericht keine eigene Handlung. Was
+      gebaut wird, folgt aus den Anforderungen im ersten Teil.
+  all-staff:
+    needed: false
+    note: >
+      Für alle Beschäftigten hat dieser Bericht keine Handlungsfolge.
+  auditors:
+    needed: false
+    note: >
+      Wer prüft, prüft gegen die Anforderungen und nicht gegen ein Beispiel.
+      Das ist der Grund, warum hier kein Kursstoff nötig ist.

@@ -1,0 +1,41 @@
+id: iso-iec-18033-6
+number: 18033
+part: 6
+edition_year: 2019
+doc_type: is
+status: published
+family: cryptography
+layer: depth
+isms_relation: controls
+catalog_confirmation: confirmed
+languages:
+  - de
+  - en
+presentation:
+  management:
+    needed: false
+    note: >
+      Für die Leitung entsteht aus dieser Bauart keine eigene Entscheidung. Die
+      Entscheidung, ob ein Bestand das Haus verlässt, steht bei der Freigabe und
+      nicht beim Rechenverfahren.
+  practitioners:
+    needed: true
+    note: >
+      Die Praxis braucht die eine Frage, die ein solches Angebot beantworten
+      muss: wer entschlüsselt das Ergebnis. Solange sie offen ist, ist über den
+      Schutz nichts gesagt.
+  engineering:
+    needed: true
+    note: >
+      Ein Satz gehört in die Hand der Technik: verborgen ist der Inhalt, nicht
+      der Vorgang. Dass gerechnet wurde, worauf zugegriffen wurde und wie oft,
+      bleibt sichtbar.
+  all-staff:
+    needed: false
+    note: >
+      Für alle Beschäftigten hat diese Bauart keine Handlungsfolge.
+  auditors:
+    needed: false
+    note: >
+      Wer prüft, sucht die Stelle, an der das Ergebnis wieder im Klartext
+      vorliegt. Das ist ein Punkt in der Prüfung und kein eigener Kursstoff.

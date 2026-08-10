@@ -1,0 +1,41 @@
+id: iso-iec-27565
+number: 27565
+edition_year: 2026
+doc_type: is
+status: published
+family: privacy-identity
+layer: depth
+isms_relation: adjacent
+catalog_confirmation: confirmed
+languages:
+  - de
+  - en
+presentation:
+  management:
+    needed: false
+    note: >
+      Für die Leitung entsteht aus diesem Thema keine Entscheidung, solange
+      kein Entwurf vorliegt, der es benutzt. Kommt einer, ist die Entscheidung
+      die über den Entwurf und nicht die über das Verfahren.
+  practitioners:
+    needed: true
+    note: >
+      Die Praxis braucht die eine Frage, die dieses Verfahren beantwortbar
+      macht: welche Aussage genau soll geprüft werden, ohne dass die Angabe
+      dahinter herausgegeben wird. Wer die Aussage nicht formulieren kann,
+      braucht das Verfahren nicht.
+  engineering:
+    needed: true
+    note: >
+      Ein Satz gehört in die Hand der Technik: der Beweis ersetzt die Angabe
+      beim Prüfenden und nicht bei der Stelle, die sie ausgestellt hat. Der
+      Bestand entsteht trotzdem, nur woanders.
+  all-staff:
+    needed: false
+    note: >
+      Für alle Beschäftigten hat dieses Verfahren keine Handlungsfolge.
+  auditors:
+    needed: false
+    note: >
+      Wer prüft, sieht nach, was der Prüfende am Ende trotzdem erfährt. Das ist
+      ein Punkt in der Prüfung und kein eigener Kursstoff.

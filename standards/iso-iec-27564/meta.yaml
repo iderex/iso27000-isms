@@ -1,0 +1,40 @@
+id: iso-iec-27564
+number: 27564
+edition_year: 2025
+doc_type: ts
+status: published
+family: privacy-identity
+layer: depth
+isms_relation: adjacent
+catalog_confirmation: confirmed
+languages:
+  - de
+  - en
+presentation:
+  management:
+    needed: false
+    note: >
+      Für die Leitung entsteht aus dem Gebrauch von Modellen keine eigene
+      Entscheidung.
+  practitioners:
+    needed: true
+    note: >
+      Die Praxis braucht die Frage, die ein Modell beantworten soll, bevor
+      eines gewählt wird. Ein Modell ohne Frage wird gepflegt und nicht
+      benutzt.
+  engineering:
+    needed: true
+    note: >
+      Ein Satz gehört in die Hand der Technik: der Wert eines Modells liegt in
+      dem, was es weglässt, und das Weggelassene ist die Stelle, an der es in
+      die Irre führt.
+  all-staff:
+    needed: false
+    note: >
+      Für alle Beschäftigten hat der Gebrauch von Modellen keine
+      Handlungsfolge.
+  auditors:
+    needed: false
+    note: >
+      Wer prüft, fragt nach dem Weggelassenen und nicht nach dem Abgebildeten.
+      Das ist ein Punkt in der Prüfung und kein eigener Kursstoff.

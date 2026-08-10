@@ -1,0 +1,42 @@
+id: iso-iec-18033-5
+number: 18033
+part: 5
+edition_year: 2015
+doc_type: is
+status: published
+family: cryptography
+layer: depth
+isms_relation: controls
+catalog_confirmation: confirmed
+languages:
+  - de
+  - en
+presentation:
+  management:
+    needed: true
+    note: >
+      Ein Satz gehört in die Sitzung: bei dieser Bauart erzeugt eine zentrale
+      Stelle die privaten Schlüssel und kann deshalb alles lesen, was für die
+      Beteiligten verschlüsselt wurde. Das ist keine Schwäche, sondern die
+      Bauart, und ob das Haus sie will, ist eine Entscheidung über Personen.
+  practitioners:
+    needed: true
+    note: >
+      Die Praxis braucht die zweite Folge: eine Kennung lässt sich nicht
+      wechseln wie ein Schlüssel. Was geschieht, wenn ein Schlüssel
+      kompromittiert ist, ist hier schwerer zu beantworten als sonst.
+  engineering:
+    needed: false
+    note: >
+      Für die Technik entsteht aus dieser Klasse keine eigene Handlung, solange
+      die Entscheidung über die zentrale Stelle nicht getroffen ist.
+  all-staff:
+    needed: false
+    note: >
+      Für alle Beschäftigten hat diese Klasse von Verfahren keine
+      Handlungsfolge.
+  auditors:
+    needed: false
+    note: >
+      Wer prüft, sieht sich die zentrale Stelle an und fragt, wer dort lesen
+      kann. Das ist ein Punkt in der Prüfung und kein eigener Kursstoff.

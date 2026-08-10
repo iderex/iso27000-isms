@@ -1,0 +1,41 @@
+id: iso-iec-18033-3
+number: 18033
+part: 3
+edition_year: 2010
+doc_type: is
+status: published
+family: cryptography
+layer: depth
+isms_relation: controls
+catalog_confirmation: confirmed
+languages:
+  - de
+  - en
+presentation:
+  management:
+    needed: false
+    note: >
+      Für die Leitung entsteht aus dieser Klasse von Verfahren keine eigene
+      Entscheidung.
+  practitioners:
+    needed: false
+    note: >
+      Für die Praxis entsteht hier keine Handlung, die nicht schon aus der
+      Regelung und aus der Betriebsart folgt. Der Satz, den sie braucht, steht
+      beim Eingang der Reihe.
+  engineering:
+    needed: true
+    note: >
+      Ein Satz gehört in die Hand der Technik: ein Blockverfahren allein ist
+      kein System. Ohne Betriebsart ist die Angabe eines Verfahrensnamens keine
+      Aussage darüber, was geschützt ist.
+  all-staff:
+    needed: false
+    note: >
+      Für alle Beschäftigten hat diese Klasse von Verfahren keine
+      Handlungsfolge.
+  auditors:
+    needed: false
+    note: >
+      Wer prüft, fragt nach der Betriebsart und nicht nach dem Verfahren. Das
+      ist ein Punkt in der Prüfung und kein eigener Kursstoff.

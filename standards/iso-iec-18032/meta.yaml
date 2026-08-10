@@ -1,0 +1,40 @@
+id: iso-iec-18032
+number: 18032
+edition_year: 2020
+doc_type: is
+status: published
+family: cryptography
+layer: depth
+isms_relation: controls
+catalog_confirmation: unconfirmed
+languages:
+  - de
+  - en
+presentation:
+  management:
+    needed: false
+    note: >
+      Für die Leitung entsteht aus der Erzeugung von Primzahlen keine eigene
+      Entscheidung.
+  practitioners:
+    needed: false
+    note: >
+      Für die Praxis entsteht hier keine eigene Handlung. Die Frage, die sie
+      stellt, ist die nach der Herkunft des Schlüssels, und die steht bei der
+      Schlüsselverwaltung.
+  engineering:
+    needed: true
+    note: >
+      Ein Satz gehört in die Hand der Technik: dieser Schritt liegt unter allem
+      anderen. Wo er schwach ist, ist jedes darauf gebaute Verfahren schwach,
+      und von außen sieht man dem Schlüssel nichts an.
+  all-staff:
+    needed: false
+    note: >
+      Für alle Beschäftigten hat die Erzeugung von Primzahlen keine
+      Handlungsfolge.
+  auditors:
+    needed: false
+    note: >
+      Wer prüft, fragt, wo ein Schlüssel erzeugt wurde und woraus. Das ist ein
+      Punkt in der Prüfung und kein eigener Kursstoff.

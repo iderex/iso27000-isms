@@ -1,0 +1,41 @@
+id: iso-iec-29151
+number: 29151
+edition_year: 2017
+doc_type: is
+status: published
+family: privacy-identity
+layer: context
+isms_relation: controls
+catalog_confirmation: unconfirmed
+languages:
+  - de
+  - en
+presentation:
+  management:
+    needed: false
+    note: >
+      Für die Leitung entsteht aus diesem Leitfaden keine eigene Entscheidung.
+      Die Entscheidungen stehen beim Managementsystem, das die Maßnahmen
+      auswählt.
+  practitioners:
+    needed: true
+    note: >
+      Die Praxis braucht den Satz, dass ein Leitfaden eine Auswahlhilfe ist und
+      keine Erfüllungsliste. Wer ihn abarbeitet, hat Maßnahmen und keine
+      Begründung, und die Begründung ist das, was eine Prüfung sehen will.
+  engineering:
+    needed: false
+    note: >
+      Für die Technik entsteht aus diesem Leitfaden keine eigene Handlung. Was
+      gebaut wird, folgt aus der ausgewählten Maßnahme.
+  all-staff:
+    needed: false
+    note: >
+      Für alle Beschäftigten hat die Auswahl der Maßnahmen keine
+      Handlungsfolge. Was sie tun sollen, steht in den Regelungen daraus.
+  auditors:
+    needed: false
+    note: >
+      Wer prüft, sieht nach, ob die Auswahl begründet ist und ob die Ausgabe von
+      2017 gegen die heutige Nummerierung gehalten wurde. Das sind Punkte in der
+      Prüfung und kein eigener Kursstoff.
