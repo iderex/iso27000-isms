@@ -312,8 +312,8 @@ in a view changes the CSV.
 
 ## 6. The CSV rule
 
-Every catalog file keeps to this rule, and it stands here so that such a file
-can be written without looking anywhere else.
+Every catalog file keeps to this rule. Whoever writes one finds it in full
+below and needs to look nowhere else.
 
 - UTF-8 without BOM.
 - LF line endings.
@@ -356,5 +356,4 @@ second of the three cases in 4.3, the one where `amendments` stays empty, has no
 entry today and stands on as the rule for the next one.
 
 None of these rules is enforced by a check today. People read them, in the
-second reading of a contribution. That stands here so nobody takes this file for
-a control.
+second reading of a contribution. This file is therefore not a control.

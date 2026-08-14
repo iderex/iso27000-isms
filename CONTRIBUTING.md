@@ -92,8 +92,8 @@ einem Themenverzeichnis oder als `name.de.md` und `name.en.md`.
 
 Diese Dateien tragen keinen YAML-Kopf. Die Plattform liest sie am Namen, ein
 Kopf erschiene beim Anzeigen als Text, und die README zeigt seit ihrem ersten
-Commit, dass es ohne geht. Das steht hier, damit die Ausnahme nicht
-stillschweigend gilt.
+Commit, dass es ohne geht. Die Ausnahme ist damit benannt und gilt nicht
+stillschweigend.
 
 Issue- und Pull-Request-Texte sind ebenfalls zweisprachig, Deutsch zuerst.
 
@@ -402,7 +402,7 @@ and `name.en.md`.
 
 Those files carry no YAML header. The platform reads them by name, a header
 would appear as text when displayed, and the README has shown since its first
-commit that it works without one. That stands here so the exception does not
+commit that it works without one. The exception is named by that, and does not
 hold silently.
 
 Issue and pull request text is bilingual too, German first.
