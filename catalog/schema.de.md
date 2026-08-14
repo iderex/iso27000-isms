@@ -321,8 +321,8 @@ nennen ihre Quelle und werden nie von Hand geändert. Wer etwas an einer Ansicht
 
 ## 6. Die CSV-Regel
 
-Jede Katalogdatei hält diese Regel ein, und sie steht hier, damit man eine
-solche Datei schreiben kann, ohne anderswo nachzusehen.
+Jede Katalogdatei hält diese Regel ein. Wer eine schreibt, findet sie unten
+vollständig und muss nirgendwo sonst nachsehen.
 
 - UTF-8 ohne BOM.
 - Zeilenende LF.
@@ -366,5 +366,5 @@ hat damit heute keinen Eintrag mehr und bleibt als Regel für den nächsten
 stehen.
 
 Keine dieser Regeln wird heute von einer Prüfung erzwungen. Sie werden von
-Menschen gelesen, in der zweiten Lesung eines Beitrags. Das steht hier, damit
-niemand diese Datei für eine Kontrolle hält.
+Menschen gelesen, in der zweiten Lesung eines Beitrags. Diese Datei ist damit
+keine Kontrolle.

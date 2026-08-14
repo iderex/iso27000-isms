@@ -60,8 +60,8 @@ hat und öffentlich besprochen werden kann. Sonst über die Kontaktmöglichkeite
 des Kontos, unter dem dieses Repository liegt.
 
 Es gibt heute keinen vertraulichen Meldeweg, der von diesem Repository selbst
-bereitgestellt wird, und keine zugesagte Antwortzeit. Das steht hier, damit
-niemand mit einem Meldeweg rechnet, den es nicht gibt.
+bereitgestellt wird, und keine zugesagte Antwortzeit. Wer eines von beidem
+erwartet, erwartet etwas, das dieses Repository nicht hat.
 
 ## 6. Was diese Datei nicht ist
 
@@ -128,8 +128,8 @@ can be discussed in public. Otherwise through the contact routes of the account
 this repository sits under.
 
 There is no confidential reporting route provided by this repository itself
-today, and no promised response time. That stands here so that nobody counts on
-a route that does not exist.
+today, and no promised response time. Anyone expecting either is expecting
+something this repository does not have.
 
 ## 12. What this file is not
 

@@ -2,15 +2,14 @@
 # gehört: das Arbeitsverzeichnis von Quarto und die erzeugte Darstellung
 # selbst. Quarto legt diese Datei beim ersten Lauf an, wenn sie fehlt; im Lauf
 # vom 09.08.2026 hat genau das den Vergleich rot gemacht, der nachrechnet, dass
-# das Erzeugen den Baum nicht ändert. Sie steht hier, damit dieser Vergleich
-# misst, was er messen soll.
+# das Erzeugen den Baum nicht ändert. Ohne diesen Eintrag misst der Vergleich
+# den eigenen Lauf mit.
 #
 # What the rendering produces and what therefore does not belong in the tree:
 # Quarto's working directory and the rendered site itself. Quarto writes this
 # file on the first run when it is missing, and on the run of 2026-08-09 that
 # is what reddened the comparison which recomputes that rendering does not
-# change the tree. It stands here so that comparison measures what it is meant
-# to measure.
+# change the tree. Without this entry the comparison measures its own run.
 /.quarto/
 /_site/
 
