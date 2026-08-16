@@ -1,0 +1,44 @@
+id: iso-iec-27553-1
+number: 27553
+part: 1
+edition_year: 2022
+doc_type: is
+status: published
+family: privacy-identity
+layer: depth
+isms_relation: requirements
+catalog_confirmation: confirmed
+languages:
+  - de
+  - en
+presentation:
+  management:
+    needed: false
+    note: >
+      Die Leitung entscheidet, ob biometrische Merkmale überhaupt eingesetzt
+      werden. Diese Entscheidung steht im Foliensatz zu ISO/IEC 27005 bei der
+      Übernahme eines Risikos und braucht hier keinen eigenen.
+  practitioners:
+    needed: true
+    note: >
+      Ein Satz gehört in die Hand der Praxis: was der Dienst erfährt, ist
+      nicht die Person, sondern die Auskunft des Geräts, und die Stärke
+      dieser Auskunft ist die des Rückfallwegs dahinter.
+  engineering:
+    needed: true
+    note: >
+      Für die Technik lohnen zwei Sätze eine Folie: ein biometrisches Merkmal
+      lässt sich nicht zurückrufen, und wer auf dem Gerät ein zweites Merkmal
+      hinterlegen darf, ist von da an dieselbe Person.
+  all-staff:
+    needed: false
+    note: >
+      Für alle Beschäftigten folgt aus diesem Thema keine eigene Handlung.
+      Der Hinweis, das eigene Gerät niemandem zum Hinterlegen eines zweiten
+      Merkmals zu überlassen, gehört in die allgemeine Unterweisung.
+  auditors:
+    needed: false
+    note: >
+      Wer prüft, sieht nach, ob der Rückfallweg aufgeschrieben ist und ob
+      seine Stärke dem entspricht, was der Zugang verlangt. Das ist ein Punkt
+      in der Prüfung und kein eigener Kursstoff.

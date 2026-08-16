@@ -1,0 +1,45 @@
+id: iso-iec-27553-2
+number: 27553
+part: 2
+edition_year: 2025
+doc_type: is
+status: published
+family: privacy-identity
+layer: depth
+isms_relation: requirements
+catalog_confirmation: confirmed
+languages:
+  - de
+  - en
+presentation:
+  management:
+    needed: true
+    note: >
+      Ein Satz gehört in die Hand der Leitung: mit dem entfernten Vergleich
+      übernimmt das Haus die Merkmale seiner Nutzer dauerhaft, und diese
+      Übernahme ist nicht rückgängig zu machen, weil ein Merkmal nicht
+      ersetzt werden kann.
+  practitioners:
+    needed: true
+    note: >
+      Ein Satz gehört in die Hand der Praxis: der entfernte Vergleich wird
+      fast immer wegen des verlorenen Geräts gewählt und nicht wegen der
+      Anmeldung, und dieser Grund gehört aufgeschrieben.
+  engineering:
+    needed: true
+    note: >
+      Für die Technik lohnt der Satz eine Folie, dass die Prüfung auf
+      Lebendigkeit eine Behauptung des fremden Geräts ist und der Server sie
+      nicht nachprüfen kann.
+  all-staff:
+    needed: false
+    note: >
+      Für alle Beschäftigten folgt aus diesem Thema keine eigene Handlung.
+      Was mit ihren Merkmalen geschieht, gehört in die Unterrichtung nach
+      Datenschutzrecht und nicht in einen Foliensatz.
+  auditors:
+    needed: false
+    note: >
+      Wer prüft, sieht nach, ob der Grund für den entfernten Vergleich
+      aufgeschrieben ist, wo die Merkmale liegen und wie lange. Das sind
+      Punkte in der Prüfung und kein eigener Kursstoff.

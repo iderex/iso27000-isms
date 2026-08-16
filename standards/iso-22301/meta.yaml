@@ -1,0 +1,43 @@
+id: iso-22301
+number: 22301
+edition_year: 2019
+doc_type: is
+status: published
+family: continuity
+layer: neighbour
+isms_relation: requirements
+catalog_confirmation: confirmed
+languages:
+  - de
+  - en
+presentation:
+  management:
+    needed: true
+    note: >
+      Ein Satz gehört in die Hand der Leitung: die beiden Zahlen je Tätigkeit,
+      wie lange sie ausfallen darf und wie viel Arbeit verloren gehen darf,
+      sind Entscheidungen der Leitung und keine Angaben der Technik.
+  practitioners:
+    needed: true
+    note: >
+      Ein Satz gehört in die Hand der Praxis: geplant wird für die Tätigkeit
+      und nicht für das System. Ein Plan, der ein System wieder hochbringt,
+      ist kein Plan für die Station, die weiterarbeiten muss.
+  engineering:
+    needed: false
+    note: >
+      Für die Technik folgt aus dieser Norm keine eigene Entscheidung. Was
+      die Technik tut, folgt aus den beiden Zahlen, und dafür liegt der
+      Foliensatz zu ISO/IEC 27031 näher.
+  all-staff:
+    needed: true
+    note: >
+      Für alle Beschäftigten lohnt eine Folie: was zu tun ist, wenn nichts
+      geht, steht auf Papier und nicht im System, und wer die Umstellung auf
+      Papier nie geübt hat, übt sie im Ernstfall zum ersten Mal.
+  auditors:
+    needed: false
+    note: >
+      Wer prüft, sieht nach, ob die beiden Zahlen je Tätigkeit vorliegen, wer
+      sie festgelegt hat und wann zuletzt geübt wurde. Das sind Punkte in der
+      Prüfung und kein eigener Kursstoff.

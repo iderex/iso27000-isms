@@ -1,0 +1,46 @@
+id: iso-iec-27038
+number: 27038
+edition_year: 2014
+doc_type: is
+status: published
+family: extended-27000
+layer: depth
+isms_relation: requirements
+catalog_confirmation: unconfirmed
+languages:
+  - de
+  - en
+presentation:
+  management:
+    needed: false
+    note: >
+      Die Leitung entscheidet, ob es eine benannte Stelle für die Herausgabe
+      von Unterlagen gibt. Das ist eine Zeile in der Regelung zur Freigabe und
+      steht im Foliensatz zu ISO/IEC 27001 beim Geltungsbereich.
+  practitioners:
+    needed: true
+    note: >
+      Ein Satz gehört in die Hand der Praxis: ein schwarzes Rechteck ist keine
+      Entfernung, sondern eine Anweisung an die Anzeige. Wer diesen Satz nicht
+      kennt, gibt Unterlagen heraus, aus denen sich das Geschwärzte mit einem
+      Handgriff zurückholen lässt.
+  engineering:
+    needed: true
+    note: >
+      Für die Technik gehört dazu, dass die sichtbare Seite die kleinere
+      Hälfte ist. Verfasser, Änderungsverlauf, Kommentare und eingebettete
+      Vorschaubilder reisen im selben Erzeugnis mit und werden beim Schwärzen
+      übersehen.
+  all-staff:
+    needed: true
+    note: >
+      Für alle Beschäftigten bleibt eine einzige Anweisung übrig, und die
+      lohnt eine Folie: wer eine Unterlage herausgeben soll, aus der etwas
+      heraus muss, macht das nicht selbst, sondern gibt sie an die benannte
+      Stelle.
+  auditors:
+    needed: false
+    note: >
+      Wer prüft, sieht nach, ob eine Freigabe zwei Personen kennt und ob zu
+      jeder herausgegebenen Unterlage ein Vermerk existiert. Das sind Punkte
+      in der Prüfung und kein eigener Kursstoff.

@@ -1,0 +1,44 @@
+id: iso-iec-27554
+number: 27554
+edition_year: 2024
+doc_type: is
+status: published
+family: risk
+layer: depth
+isms_relation: risk
+catalog_confirmation: confirmed
+languages:
+  - de
+  - en
+presentation:
+  management:
+    needed: true
+    note: >
+      Ein Satz gehört in die Hand der Leitung: der Schaden hat zwei
+      Richtungen, und die zweite trifft den Menschen, dessen Identität
+      benutzt wurde. Diese zweite Richtung steht in keinem Risikoregister,
+      das nicht ausdrücklich danach fragt.
+  practitioners:
+    needed: true
+    note: >
+      Ein Satz gehört in die Hand der Praxis: der geforderte Grad gilt je
+      Vorgang und nicht je Haus. Dieselbe Person braucht für das Lesen einer
+      Telefonnummer eine andere Sicherheit als für das Ändern einer
+      Bankverbindung.
+  engineering:
+    needed: false
+    note: >
+      Für die Technik entsteht hier keine eigene Entscheidung. Was aus der
+      Beurteilung folgt, steht in ISO/IEC 29115 und in den beiden Teilen zu
+      biometrischen Merkmalen auf mobilen Geräten.
+  all-staff:
+    needed: false
+    note: >
+      Für alle Beschäftigten folgt aus diesem Thema keine eigene Handlung.
+      Es ist eine Beurteilung und keine Anweisung.
+  auditors:
+    needed: false
+    note: >
+      Wer prüft, sieht nach, ob die Beurteilung je Vorgang vorliegt und ob
+      die abgelehnte Anmeldung als Schaden darin vorkommt. Das sind Punkte
+      in der Prüfung und kein eigener Kursstoff.

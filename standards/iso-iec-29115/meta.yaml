@@ -1,0 +1,44 @@
+id: iso-iec-29115
+number: 29115
+edition_year: 2013
+doc_type: is
+status: published
+family: privacy-identity
+layer: depth
+isms_relation: controls
+catalog_confirmation: confirmed
+languages:
+  - de
+  - en
+presentation:
+  management:
+    needed: false
+    note: >
+      Die Leitung entscheidet, ob ein fremder Nachweis angenommen wird, und
+      das ist eine Frage des Risikos. Sie steht im Foliensatz zu
+      ISO/IEC 27005 bei der Übernahme eines Risikos und braucht hier keinen
+      eigenen.
+  practitioners:
+    needed: true
+    note: >
+      Ein Satz gehört in die Hand der Praxis: über den Vertrauensgrad einer
+      Anmeldung entscheidet das schwächste Glied der Kette, und das ist fast
+      immer die Erfassung und nicht das Verfahren beim Anmelden.
+  engineering:
+    needed: true
+    note: >
+      Für die Technik lohnen zwei Sätze eine Folie: ein starkes Verfahren auf
+      einer nachlässigen Erfassung ergibt eine nachlässige Identität, und ein
+      Vertrauensgrad verfällt still über die Länge einer Sitzung.
+  all-staff:
+    needed: false
+    note: >
+      Für alle Beschäftigten folgt aus diesem Thema keine eigene Handlung.
+      Was sie tun sollen, steht in der allgemeinen Unterweisung zum Umgang
+      mit Anmeldedaten.
+  auditors:
+    needed: false
+    note: >
+      Wer prüft, sieht nach, ob der geforderte Grad je Zugang aufgeschrieben
+      ist und ob die Erfassung dazu passt. Das sind Punkte in der Prüfung und
+      kein eigener Kursstoff.

@@ -1,0 +1,45 @@
+id: iso-iec-27042
+number: 27042
+edition_year: 2015
+doc_type: is
+status: published
+family: extended-27000
+layer: depth
+isms_relation: adjacent
+catalog_confirmation: unconfirmed
+languages:
+  - de
+  - en
+presentation:
+  management:
+    needed: false
+    note: >
+      Die Leitung liest das Ergebnis einer Untersuchung und nicht ihren Weg.
+      Was sie dabei wissen muss, nämlich dass eine Deutung keine Feststellung
+      ist, passt in eine Folie des Foliensatzes zu ISO/IEC 27005 und braucht
+      keinen eigenen.
+  practitioners:
+    needed: true
+    note: >
+      Ein Satz gehört in die Hand der Praxis: eine Feststellung und eine
+      Deutung sehen im Bericht gleich aus und sind es nicht. Wer sie nicht
+      trennt, schreibt einen Bericht, der im Ganzen fällt, sobald ein Satz
+      darin bestritten wird.
+  engineering:
+    needed: true
+    note: >
+      Für die Technik gehört dazu, dass eine Spur sagt, was ein Gerät
+      aufgezeichnet hat, und nicht, was ein Mensch getan hat. Ein Konto ist
+      keine Person und ein Zeitstempel ist die Aussage einer Uhr, die jemand
+      gestellt hat.
+  all-staff:
+    needed: false
+    note: >
+      Für alle Beschäftigten hat die Auswertung eines Beweismittels keine
+      Handlungsfolge.
+  auditors:
+    needed: false
+    note: >
+      Wer prüft, sieht im Bericht nach, ob Feststellung und Deutung getrennt
+      stehen und ob eine zweite Erklärung geprüft wurde. Das sind Punkte in
+      der Prüfung und kein eigener Kursstoff.

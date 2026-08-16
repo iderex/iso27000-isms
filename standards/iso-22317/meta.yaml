@@ -1,0 +1,41 @@
+id: iso-22317
+number: 22317
+edition_year: 2021
+doc_type: ts
+status: published
+family: continuity
+layer: neighbour
+isms_relation: requirements risk
+catalog_confirmation: confirmed
+languages:
+  - de
+  - en
+presentation:
+  management:
+    needed: false
+    note: >
+      Die Leitung bestätigt das Ergebnis und führt die Erhebung nicht. Was
+      sie dazu braucht, steht im Foliensatz zu ISO 22301 bei den beiden
+      Zahlen je Tätigkeit.
+  practitioners:
+    needed: true
+    note: >
+      Ein Satz gehört in die Hand der Praxis: die Frage lautet nicht, wie
+      wichtig eine Abteilung ist, sondern was am ersten, am dritten und am
+      zehnten Tag geschieht, wenn sie stillsteht.
+  engineering:
+    needed: false
+    note: >
+      Für die Technik ist die Erhebung eine Eingangsgröße und keine eigene
+      Aufgabe. Was daraus folgt, steht im Foliensatz zu ISO/IEC 27031.
+  all-staff:
+    needed: false
+    note: >
+      Für alle Beschäftigten folgt aus der Erhebung keine eigene Handlung.
+      Sie werden befragt und bauen nichts.
+  auditors:
+    needed: true
+    note: >
+      Ein Satz gehört in die Hand der Prüfung: eine Liste, auf der jede
+      Tätigkeit als kritisch steht, ist das Zeichen einer nicht geführten
+      Erhebung, und eine erzwungene Rangfolge ist der Unterschied.

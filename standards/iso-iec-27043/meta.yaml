@@ -1,0 +1,43 @@
+id: iso-iec-27043
+number: 27043
+edition_year: 2015
+doc_type: is
+status: published
+family: extended-27000
+layer: depth
+isms_relation: adjacent
+catalog_confirmation: unconfirmed
+languages:
+  - de
+  - en
+presentation:
+  management:
+    needed: true
+    note: >
+      Zwei Sätze gehören in die Hand der Leitung: ob überhaupt untersucht
+      wird, ist eine Entscheidung mit einem Preis, und was im Ernstfall zur
+      Verfügung steht, wird vorher bezahlt oder gar nicht. Beides entscheidet
+      niemand sonst.
+  practitioners:
+    needed: true
+    note: >
+      Ein Satz gehört in die Hand der Praxis: die Arbeit, die eine
+      Untersuchung möglich macht, findet statt, bevor es etwas zu untersuchen
+      gibt. Danach kann nur noch benutzt werden, was schon da war.
+  engineering:
+    needed: false
+    note: >
+      Für die Technik steht der Stoff in den Kapiteln zu den einzelnen
+      Schritten. Ein eigener Foliensatz zum Rahmen würde ihn wiederholen.
+  all-staff:
+    needed: false
+    note: >
+      Für alle Beschäftigten bleibt die Meldung, und die steht im Foliensatz
+      zu ISO/IEC 27037. Der Rahmen einer Untersuchung hat für sie keine
+      Handlungsfolge.
+  auditors:
+    needed: false
+    note: >
+      Wer prüft, sieht nach, ob eine Untersuchung einen benannten Anfang, eine
+      benannte Befugnis und einen benannten Abschluss hatte. Das sind Punkte
+      in der Prüfung und kein eigener Kursstoff.

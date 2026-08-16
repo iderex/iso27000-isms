@@ -1,0 +1,44 @@
+id: iso-iec-27551
+number: 27551
+edition_year: 2021
+doc_type: is
+status: published
+family: privacy-identity
+layer: depth
+isms_relation: requirements
+catalog_confirmation: confirmed
+languages:
+  - de
+  - en
+presentation:
+  management:
+    needed: false
+    note: >
+      Für die Leitung ist der Stoff hier zu fein. Die Entscheidung, Daten
+      gar nicht erst zu erheben, gehört in den Foliensatz zu ISO/IEC 27005
+      bei der Vermeidung eines Risikos.
+  practitioners:
+    needed: true
+    note: >
+      Ein Satz gehört in die Hand der Praxis: die gewöhnliche Anmeldung
+      beantwortet, wer jemand ist, gebraucht wird aber meistens die Antwort,
+      ob jemand etwas darf, und wer die erste Frage stellt, erhebt Daten, die
+      niemand gebraucht hat.
+  engineering:
+    needed: true
+    note: >
+      Für die Technik lohnt der Satz eine Folie, dass Unverknüpfbarkeit und
+      Rücknahme gegeneinander stehen: was sich nicht verknüpfen lässt, lässt
+      sich auch nicht gezielt entziehen, und dieser Tausch ist die eigentliche
+      Entwurfsfrage.
+  all-staff:
+    needed: false
+    note: >
+      Für alle Beschäftigten folgt aus diesem Thema keine eigene Handlung.
+      Es ist eine Bauweise und keine Anweisung.
+  auditors:
+    needed: false
+    note: >
+      Wer prüft, sieht nach, welche Merkmale ein Zugang tatsächlich verlangt
+      und welche davon nur der Bequemlichkeit dienen. Das ist ein Punkt in
+      der Prüfung und kein eigener Kursstoff.

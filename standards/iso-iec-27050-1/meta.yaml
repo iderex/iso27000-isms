@@ -1,0 +1,43 @@
+id: iso-iec-27050-1
+number: 27050
+part: 1
+edition_year: 2019
+doc_type: is
+status: published
+family: extended-27000
+layer: depth
+isms_relation: terms
+catalog_confirmation: confirmed
+languages:
+  - de
+  - en
+presentation:
+  management:
+    needed: true
+    note: >
+      Ein Satz gehört in die Hand der Leitung: die Pflicht zur Herausgabe
+      kommt von außen, mit einer Frist von außen, und was sie kostet, hängt
+      allein daran, ob das Haus weiß, was es hat. Das ist eine Zahl im
+      Haushalt und keine Frage der Technik.
+  practitioners:
+    needed: false
+    note: >
+      Für die Praxis ist dieser Teil ein Begriffsteil. Was zu tun ist, steht
+      im Foliensatz zum dritten Teil, und ein eigener zu den Begriffen würde
+      ihn nur einleiten.
+  engineering:
+    needed: false
+    note: >
+      Für die Technik steht der Stoff im vierten Teil. Dieser Teil führt
+      Begriffe ein und beschreibt keine Anlage.
+  all-staff:
+    needed: false
+    note: >
+      Für alle Beschäftigten hat der Begriff der Herausgabe in einem Verfahren
+      keine Handlungsfolge, solange keine Aufforderung vorliegt.
+  auditors:
+    needed: false
+    note: >
+      Wer prüft, sieht nach, ob das Haus benennen kann, welche Ablagen es
+      führt und wie lange. Das ist ein Punkt in der Prüfung und kein eigener
+      Kursstoff.

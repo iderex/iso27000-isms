@@ -1,0 +1,40 @@
+id: iso-22316
+number: 22316
+edition_year: 2017
+doc_type: is
+status: published
+family: continuity
+layer: neighbour
+isms_relation: controls
+catalog_confirmation: confirmed
+languages:
+  - de
+  - en
+presentation:
+  management:
+    needed: true
+    note: >
+      Ein Satz gehört in die Hand der Leitung: Widerstandsfähigkeit lässt
+      sich nicht einführen. Sie ist eine Eigenschaft der Organisation, und
+      wer sie als Vorhaben führt, bekommt ein Vorhaben und keine Eigenschaft.
+  practitioners:
+    needed: false
+    note: >
+      Für die Praxis folgt aus diesem Dokument keine Aufgabe. Was zu tun ist,
+      steht in den Foliensätzen zu ISO 22301 und ISO 22317.
+  engineering:
+    needed: false
+    note: >
+      Für die Technik entsteht hier keine Entscheidung. Das Dokument
+      beschreibt eine Organisation und keine Anlage.
+  all-staff:
+    needed: false
+    note: >
+      Für alle Beschäftigten folgt aus diesem Dokument keine eigene Handlung.
+      Sie sind der Gegenstand der Beschreibung und nicht ihre Adressaten.
+  auditors:
+    needed: false
+    note: >
+      Wer prüft, prüft gegen Anforderungen. Dieses Dokument stellt keine, und
+      eine Bewertung mit Punkten darauf zu gründen sieht nach Daten aus und
+      ist keine.
