@@ -1,0 +1,43 @@
+id: iso-22361
+number: 22361
+edition_year: 2022
+doc_type: is
+status: published
+family: continuity
+layer: neighbour
+isms_relation: adjacent
+catalog_confirmation: confirmed
+languages:
+  - de
+  - en
+presentation:
+  management:
+    needed: true
+    note: >
+      Ein Satz gehört in die Hand der Leitung: das Erzeugnis ist ein benannter
+      Kreis mit Befugnis und keine Unterlage. Befugnis heißt Geld ausgeben,
+      Betrieb anhalten und öffentlich sprechen dürfen, ohne zu fragen.
+  practitioners:
+    needed: true
+    note: >
+      Ein Satz gehört in die Hand der Praxis: eine Krise ist das, was der
+      Plan nicht vorgesehen hat, und deshalb wird nicht die Lage geübt,
+      sondern das Entscheiden unter Unsicherheit.
+  engineering:
+    needed: false
+    note: >
+      Für die Technik entsteht hier keine eigene Entscheidung. Was während
+      einer Unterbrechung technisch geschieht, steht im Foliensatz zu
+      ISO/IEC 27031.
+  all-staff:
+    needed: false
+    note: >
+      Für alle Beschäftigten bleibt die Regel, nicht selbst nach außen zu
+      sprechen, und die gehört in die allgemeine Unterweisung und nicht in
+      einen eigenen Foliensatz.
+  auditors:
+    needed: false
+    note: >
+      Wer prüft, sieht nach, ob der Kreis benannt ist, ob seine Vertretungen
+      erreichbar sind und wann zuletzt geübt wurde. Das sind Punkte in der
+      Prüfung und kein eigener Kursstoff.

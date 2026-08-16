@@ -1,0 +1,41 @@
+id: iso-22313
+number: 22313
+edition_year: 2020
+doc_type: is
+status: published
+family: continuity
+layer: neighbour
+isms_relation: controls
+catalog_confirmation: confirmed
+languages:
+  - de
+  - en
+presentation:
+  management:
+    needed: false
+    note: >
+      Für die Leitung entsteht aus einer Anleitung keine Entscheidung. Was
+      entschieden wird, steht im Foliensatz zu ISO 22301 bei den beiden
+      Zahlen je Tätigkeit.
+  practitioners:
+    needed: true
+    note: >
+      Ein Satz gehört in die Hand der Praxis: alles hier ist mögliche und
+      nicht geschuldete Praxis, und wer die Anleitung als Prüfliste abarbeitet,
+      baut ein System, das er nicht halten kann.
+  engineering:
+    needed: false
+    note: >
+      Für die Technik steht der Stoff in ISO/IEC 27031. Diese Anleitung
+      erklärt eine Managementsystemnorm und keine Bereitschaft.
+  all-staff:
+    needed: false
+    note: >
+      Für alle Beschäftigten folgt aus einer Anleitung keine eigene Handlung.
+      Was sie tun sollen, steht in der Arbeitsanweisung für den Notbetrieb.
+  auditors:
+    needed: false
+    note: >
+      Wer prüft, prüft gegen die Anforderungen und nicht gegen eine
+      Anleitung. Dass beides auseinandergehalten wird, ist ein Punkt in der
+      Prüfung und kein eigener Kursstoff.

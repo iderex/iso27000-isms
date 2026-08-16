@@ -1,0 +1,42 @@
+id: iso-22331
+number: 22331
+edition_year: 2018
+doc_type: ts
+status: published
+family: continuity
+layer: neighbour
+isms_relation: adjacent
+catalog_confirmation: confirmed
+languages:
+  - de
+  - en
+presentation:
+  management:
+    needed: true
+    note: >
+      Ein Satz gehört in die Hand der Leitung: eine Strategie sagt, was nicht
+      geschützt wird. Wo dieser Satz fehlt, ist das Papier ein Antrag auf
+      Mittel und keine Strategie.
+  practitioners:
+    needed: true
+    note: >
+      Ein Satz gehört in die Hand der Praxis: gekauft wird Zeit, und Zeit
+      nahe null kostet ein Vielfaches. Der Sprung von vierundzwanzig auf vier
+      Stunden ist bezahlbar, der von vier Stunden auf eine Viertelstunde
+      meistens nicht.
+  engineering:
+    needed: false
+    note: >
+      Für die Technik folgt aus der Wahl eine Umsetzung und keine eigene
+      Entscheidung. Der Stoff dazu steht im Foliensatz zu ISO/IEC 27031.
+  all-staff:
+    needed: false
+    note: >
+      Für alle Beschäftigten folgt aus der Wahl keine eigene Handlung. Was
+      sie im Notbetrieb tun, steht in der Arbeitsanweisung.
+  auditors:
+    needed: false
+    note: >
+      Wer prüft, sieht nach, ob je Tätigkeit eine Wahl getroffen und mit
+      Kosten und Verantwortlichem versehen ist. Das ist ein Punkt in der
+      Prüfung und kein eigener Kursstoff.

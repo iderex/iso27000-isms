@@ -1,0 +1,41 @@
+id: iso-22318
+number: 22318
+edition_year: 2021
+doc_type: ts
+status: published
+family: continuity
+layer: neighbour
+isms_relation: controls sector
+catalog_confirmation: confirmed
+languages:
+  - de
+  - en
+presentation:
+  management:
+    needed: true
+    note: >
+      Ein Satz gehört in die Hand der Leitung: mehrere Lieferanten können auf
+      demselben Hersteller stehen, und diese Häufung ist eine Entscheidung
+      über Geld und nicht über Technik.
+  practitioners:
+    needed: true
+    note: >
+      Ein Satz gehört in die Hand der Praxis: die einzige tragende Maßnahme
+      ist die Ersetzbarkeit, und die Frage lautet, wie lange ein Wechsel
+      dauert und ob er je geübt wurde.
+  engineering:
+    needed: false
+    note: >
+      Für die Technik entsteht hier keine eigene Entscheidung. Was ein
+      einzelner Dienst braucht, steht im Foliensatz zu ISO/IEC 27036-2.
+  all-staff:
+    needed: false
+    note: >
+      Für alle Beschäftigten folgt aus diesem Thema keine eigene Handlung.
+      Es betrifft Verträge und Beschaffung.
+  auditors:
+    needed: false
+    note: >
+      Wer prüft, sieht nach, ob eine Zusage zur Fortführung im Vertrag steht
+      und ob sie eine Zahl trägt. Das ist ein Punkt in der Prüfung und kein
+      eigener Kursstoff.
