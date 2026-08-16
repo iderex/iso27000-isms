@@ -60,6 +60,8 @@ Heute im Baum:
   catalog/schema.de.md        Aufnahmetest und Feldschema des Katalogs
   catalog/schema.en.md
   catalog/entries/            die Katalogeinträge, acht CSV nach Familie
+  catalog/catalog.de.md       erzeugte Ansicht des Katalogs
+  catalog/catalog.en.md
   standards/KENNUNG/          ein Kapitel je Norm, de.md und en.md
   learning-path/step-0 bis 4  der Lernpfad
   tutorials/                  themenübergreifende Anleitungen
@@ -73,7 +75,8 @@ Heute im Baum:
   assistant-block.de.md       der Musterblock für Assistenten
   assistant-block.en.md
   llms.txt                    diese Datei
-  scripts/                    die Prüfskripte und die Beweise daneben
+  scripts/                    die Prüfskripte, das Erzeugen der
+                              Katalogansicht und die Beweise daneben
   .github/                    Vorlagen für Issues und Pull Requests, der Lauf
                               der Prüfungen und der Lauf der Darstellung
   _quarto.yml                 richtet die Darstellung als Website ein
@@ -83,7 +86,6 @@ Heute im Baum:
 
 Geplant und heute nicht im Baum:
 
-  catalog/catalog.md          erzeugte Ansicht des Katalogs
   catalog/by-clause.md        umgekehrte Sicht, nach Klausel von ISO/IEC 27001
   topics/                     Sachthemen ohne eigene Norm
 
@@ -157,7 +159,7 @@ Sie ist auch keine vollständige Inhaltsangabe. Sie zeigt auf die Verzeichnisse
 und wiederholt deren Inhalt nicht, damit sie nicht gegen den Baum auseinander
 läuft.
 
-Stand dieser Datei: 2026-08-09.
+Stand dieser Datei: 2026-08-16.
 
 
 ---
@@ -217,6 +219,8 @@ In the tree today:
   catalog/schema.de.md        inclusion test and field schema of the catalog
   catalog/schema.en.md
   catalog/entries/            the catalog entries, eight CSV by family
+  catalog/catalog.de.md       generated view of the catalog
+  catalog/catalog.en.md
   standards/ID/               one chapter per standard, de.md and en.md
   learning-path/step-0 to 4   the learning path
   tutorials/                  cross-topic walk-throughs
@@ -230,7 +234,8 @@ In the tree today:
   assistant-block.de.md       the sample block for assistants
   assistant-block.en.md
   llms.txt                    this file
-  scripts/                    the checks and the proofs beside them
+  scripts/                    the checks, the generating of the catalog
+                              view and the proofs beside them
   .github/                    templates for issues and pull requests, the run
                               of the checks and the run of the rendering
   _quarto.yml                 sets the rendering up as a website
@@ -240,7 +245,6 @@ In the tree today:
 
 Planned and not in the tree today:
 
-  catalog/catalog.md          generated view of the catalog
   catalog/by-clause.md        reverse view, by clause of ISO/IEC 27001
   topics/                     subjects with no standard of their own
 
@@ -314,4 +318,4 @@ content, and that is all it does.
 It is not a full table of contents either. It points at the directories and
 does not repeat what is in them, so that it cannot drift against the tree.
 
-State of this file: 2026-08-09.
+State of this file: 2026-08-16.

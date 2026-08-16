@@ -1,5 +1,5 @@
 # Ruft die drei Prüfungen aus CONTRIBUTING.md, Abschnitt 10, auf, und daneben
-# die drei Beweise, die bei den Skripten liegen. Beide Aufträge laufen
+# die Beweise, die bei den Skripten liegen. Beide Aufträge laufen
 # unabhängig voneinander, und das ist gemessen und nicht geraten: mit
 # `needs: proofs` am zweiten Auftrag hat eine Datei mit absolutem Verweis den
 # ersten Auftrag rot gemacht und den zweiten übersprungen, weil
@@ -8,7 +8,7 @@
 # Datei, Zeile und Regel nennt.
 #
 # Calls the three checks from CONTRIBUTING.md, section 20, and beside them the
-# three proofs that sit with the scripts. Both jobs run independently of each
+# proofs that sit with the scripts. Both jobs run independently of each
 # other, and that is measured rather than supposed: with `needs: proofs` on the
 # second job, a file carrying an absolute link turned the first job red and
 # skipped the second, because `check-links-test.py` carries one test case
@@ -49,6 +49,8 @@ jobs:
         run: python3 scripts/check-csv-test.py
       - name: Beweis der Übersetzungsprüfung / Proof of the translation check
         run: python3 scripts/check-translations-test.py
+      - name: Beweis der Katalogansicht / Proof of the catalog view
+        run: python3 scripts/generate-catalog-test.py
 
   checks:
     name: Prüfungen / Checks
