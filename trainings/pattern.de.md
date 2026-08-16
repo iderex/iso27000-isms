@@ -74,8 +74,7 @@ eine Bestehensgrenze, und diese stehen im Kursbericht des einlesenden Systems.
 Dieses Repository liefert Stoff, Fragen und Musterlösungen und führt keinen
 Nachweis über eine einzelne Person.
 
-Dieser Abschnitt wird nicht umgeschrieben. Er steht in jedem Training gleich,
-weil er in jedem Training dasselbe sagt.
+Dieser Abschnitt wird unverändert übernommen.
 
 ## 7. Lizenz und Herkunft
 

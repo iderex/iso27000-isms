@@ -69,8 +69,7 @@ pass mark, and those stand in the importing system's course report. This
 repository supplies material, questions and model answers and keeps no record
 about any individual person.
 
-This section is not rewritten. It stands the same in every training, because it
-says the same thing in every training.
+This section is copied unchanged.
 
 ## 7. Licence and origin
 
