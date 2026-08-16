@@ -149,9 +149,10 @@ stands the condition on the person applying them.
 Against the other parts of the ISO/IEC 19896 series: they deal with other groups
 of people. No chapter for them sits in this tree.
 
-Against the ISO/IEC 15408 series and ISO/IEC 18045: there stand the criteria and
-the methodology. This part presupposes both and says what somebody applying them
-has to be able to do. No chapter for either sits in this tree.
+Against the ISO/IEC 15408 series and
+[ISO/IEC 18045](../iso-iec-18045/en.md): there stand the criteria and the
+methodology. This part presupposes both and says what somebody applying them has
+to be able to do. No chapter for the ISO/IEC 15408 series sits in this tree.
 
 ## 7. Before and after
 
@@ -283,10 +284,11 @@ No clause number of ISO/IEC 19896-3 itself is named, and that is deliberate. A
 number nobody looked up is worse than none: it looks checkable. For the same
 reason no number of the ISO/IEC 15408 series or of ISO/IEC 18045 stands here.
 
-No chapter for the other parts of the ISO/IEC 19896 series, for the ISO/IEC 15408
-series or for ISO/IEC 18045 sits in this tree. That this part is written for their
-setting stands in the title of the catalog entry and is not taken from any of
-those documents.
+No chapter for the other parts of the ISO/IEC 19896 series or for the
+ISO/IEC 15408 series sits in this tree. One for ISO/IEC 18045 does, and it is
+written like this one and not against a licensed copy. That this part is written
+for the setting of those documents stands in the title of the catalog entry and
+is not taken from any of them.
 
 The areas of knowledge and the skills this part lists do not stand here, neither
 singly nor in number. Reproducing them would be an adopted list; the boundary in

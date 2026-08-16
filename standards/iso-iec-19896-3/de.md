@@ -157,9 +157,10 @@ steht die Voraussetzung an die Person, die sie anwendet.
 Gegen die übrigen Teile der Reihe ISO/IEC 19896: sie behandeln andere Gruppen von
 Personen. Zu ihnen liegt in diesem Baum kein Kapitel.
 
-Gegen die Reihe ISO/IEC 15408 und ISO/IEC 18045: dort stehen die Kriterien und
-die Vorgehensweise. Dieser Teil setzt beide voraus und sagt, was jemand können
-muss, der sie anwendet. Zu beiden liegt in diesem Baum kein Kapitel.
+Gegen die Reihe ISO/IEC 15408 und
+[ISO/IEC 18045](../iso-iec-18045/de.md): dort stehen die Kriterien und die
+Vorgehensweise. Dieser Teil setzt beide voraus und sagt, was jemand können muss,
+der sie anwendet. Zur Reihe ISO/IEC 15408 liegt in diesem Baum kein Kapitel.
 
 ## 7. Voraussetzung und Anschluss
 
@@ -308,10 +309,11 @@ Eine Nummer, die niemand nachgeschlagen hat, ist schlechter als keine: sie sieht
 nachprüfbar aus. Aus demselben Grund steht zur Reihe ISO/IEC 15408 und zu
 ISO/IEC 18045 hier keine Nummer.
 
-Zu den übrigen Teilen der Reihe ISO/IEC 19896, zur Reihe ISO/IEC 15408 und zu
-ISO/IEC 18045 liegt in diesem Baum kein Kapitel. Dass dieser Teil für deren
-Zusammenhang geschrieben ist, steht im Titel des Katalogeintrags und ist nicht
-aus einem der Dokumente entnommen.
+Zu den übrigen Teilen der Reihe ISO/IEC 19896 und zur Reihe ISO/IEC 15408 liegt
+in diesem Baum kein Kapitel. Zu ISO/IEC 18045 liegt eines vor, und es ist wie
+dieses hier geschrieben und nicht gegen eine lizenzierte Ausgabe. Dass dieser
+Teil für den Zusammenhang dieser Dokumente geschrieben ist, steht im Titel des
+Katalogeintrags und ist nicht aus einem von ihnen entnommen.
 
 Die Wissensgebiete und Fertigkeiten, die dieser Teil aufzählt, stehen hier nicht,
 weder einzeln noch in ihrer Zahl. Sie wiederzugeben wäre eine übernommene Liste;
