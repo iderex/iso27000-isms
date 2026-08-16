@@ -1,0 +1,42 @@
+id: iso-iec-20543
+number: 20543
+edition_year: 2019
+doc_type: is
+status: published
+family: evaluation-certification
+layer: neighbour
+isms_relation: controls
+catalog_confirmation: confirmed
+languages:
+  - de
+  - en
+presentation:
+  management:
+    needed: false
+    note: >
+      Für die Leitung entsteht hier keine eigene Entscheidung. Was entschieden
+      wird, ist der Einsatz von Kryptografie überhaupt, und das steht im
+      Foliensatz zu ISO/IEC 27002.
+  practitioners:
+    needed: false
+    note: >
+      Für die Praxis folgt daraus keine eigene Handlung neben der, die schon
+      im Foliensatz zur Kryptografie steht. Wer keine Zufallsquelle beurteilt,
+      begegnet diesem Thema nur über die Frage nach dem Modul.
+  engineering:
+    needed: true
+    note: >
+      Für die Technik lohnen zwei Sätze eine Folie: eine Zufallsquelle lässt
+      sich an ihrer Ausgabe nicht beurteilen, und die Prüfung, die im Betrieb
+      mitläuft, ist wichtiger als der Bericht aus dem Labor.
+  all-staff:
+    needed: false
+    note: >
+      Für alle Beschäftigten folgt aus diesem Thema keine eigene Handlung. Es
+      spielt sich unterhalb dessen ab, was jemand bedient.
+  auditors:
+    needed: false
+    note: >
+      Wer prüft, sieht nach, ob zu einem Modul eine Aussage über die
+      Zufallsquelle vorliegt und ob die mitlaufende Prüfung eingeschaltet ist.
+      Das ist ein Punkt in der Prüfung und kein eigener Kursstoff.

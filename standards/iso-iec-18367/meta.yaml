@@ -1,0 +1,44 @@
+id: iso-iec-18367
+number: 18367
+edition_year: 2016
+doc_type: is
+status: published
+family: evaluation-certification
+layer: neighbour
+isms_relation: controls
+catalog_confirmation: confirmed
+languages:
+  - de
+  - en
+presentation:
+  management:
+    needed: false
+    note: >
+      Für die Leitung entsteht hier keine eigene Entscheidung. Was entschieden
+      wird, ist die Anforderung an einen Lieferanten, und die steht im
+      Foliensatz zu ISO/IEC 27002 bei den Maßnahmen zur Beschaffung.
+  practitioners:
+    needed: true
+    note: >
+      Ein Satz gehört in die Hand der Praxis: eine bestandene
+      Konformitätsprüfung sagt, dass eine Umsetzung an den geprüften Stellen
+      mit der Spezifikation übereinstimmt, und sie sagt nichts darüber, ob das
+      Erzeugnis sicher ist.
+  engineering:
+    needed: true
+    note: >
+      Für die Technik lohnen zwei Sätze eine Folie: geprüft wird gegen die
+      Spezifikation und nicht gegen einen Angreifer, und Prüfvektoren sind eine
+      Untergrenze, weil sie nur die Punkte treffen, die jemand aufgeschrieben
+      hat.
+  all-staff:
+    needed: false
+    note: >
+      Für alle Beschäftigten folgt aus diesem Thema keine eigene Handlung. Wer
+      kein Erzeugnis beschafft und keines baut, begegnet dieser Prüfung nicht.
+  auditors:
+    needed: false
+    note: >
+      Wer prüft, sieht nach, ob zu einem eingesetzten Erzeugnis ein Nachweis
+      vorliegt und wogegen er ausgestellt wurde. Das ist ein Punkt in der
+      Prüfung und kein eigener Kursstoff.

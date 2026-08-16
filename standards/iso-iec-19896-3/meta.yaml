@@ -1,0 +1,45 @@
+id: iso-iec-19896-3
+number: 19896
+part: 3
+edition_year: 2025
+doc_type: is
+status: published
+family: evaluation-certification
+layer: neighbour
+isms_relation: requirements competence
+catalog_confirmation: confirmed
+languages:
+  - de
+  - en
+presentation:
+  management:
+    needed: false
+    note: >
+      Für die Leitung entsteht hier keine eigene Entscheidung. Ob eine
+      Evaluierung beauftragt wird, ist eine Beschaffung und steht im
+      Foliensatz zu ISO/IEC 27002 bei den Maßnahmen zur
+      Lieferantenbeziehung.
+  practitioners:
+    needed: true
+    note: >
+      Ein Satz gehört in die Hand der Praxis: ein Evaluierungsergebnis ist so
+      viel wert wie die Person, die es hergestellt hat, und die brauchbare
+      Frage an eine Prüfstelle lautet, welche Kompetenz sie für die Personen
+      belegt, die die Arbeit tun.
+  engineering:
+    needed: false
+    note: >
+      Für die Technik folgt daraus keine eigene Handlung. Der Gegenstand
+      dieses Dokuments ist eine Person und kein Erzeugnis.
+  all-staff:
+    needed: false
+    note: >
+      Für alle Beschäftigten folgt aus diesem Thema keine eigene Handlung. Es
+      betrifft die Prüfstelle und nicht das Haus.
+  auditors:
+    needed: true
+    note: >
+      Ein Satz gehört in die Hand der Prüfung: die Form der Kompetenzfrage ist
+      dieselbe wie bei einem Auditor eines Managementsystems, und der
+      Unterschied liegt allein im Gegenstand. Was ein Haus für seine eigenen
+      Leute schuldet, steht in ISO/IEC 27001, 7.2.
