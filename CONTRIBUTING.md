@@ -286,7 +286,7 @@ dasselbe sagt, liest ein Mensch, und das bleibt so.
 Seit dem 06.08.2026 laufen diese drei von selbst, auf dem Server, zu jedem Pull
 Request und zu jedem Schub nach `main`. Der Ablauf steht in
 `.github/workflows/checks.yml`. Er führt zwei Aufträge nebeneinander, den einen
-über die drei Beweise und den anderen über die drei Prüfungen, und warum sie
+über die Beweise und den anderen über die drei Prüfungen, und warum sie
 nicht hintereinanderstehen, sagt der Kopf der Datei. Ein Hook, der sie vor dem
 Schieben aufruft, liegt hier weiterhin nicht.
 
@@ -587,7 +587,7 @@ whether it says the same thing is read by a person, and that stays so.
 Since 2026-08-06 these three run on their own, on the server, on every pull
 request and on every push to `main`. The run stands in
 `.github/workflows/checks.yml`. It carries two jobs beside each other, one over
-the three proofs and one over the three checks, and why they do not stand one
+the proofs and one over the three checks, and why they do not stand one
 behind the other is said in the head of the file. A hook that calls them before
 a push still does not sit here.
 
