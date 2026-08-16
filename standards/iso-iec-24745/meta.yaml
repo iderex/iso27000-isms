@@ -1,0 +1,44 @@
+id: iso-iec-24745
+number: 24745
+edition_year: 2022
+doc_type: is
+status: published
+family: privacy-identity
+layer: depth
+isms_relation: adjacent
+catalog_confirmation: confirmed
+languages:
+  - de
+  - en
+presentation:
+  management:
+    needed: false
+    note: >
+      Die Leitung entscheidet, ob ein biometrisches Verfahren überhaupt
+      eingeführt wird und ob es einen anderen Weg daneben gibt. Beides steht
+      als Zeile im Foliensatz zu ISO/IEC 27005 bei der Übernahme eines
+      Risikos.
+  practitioners:
+    needed: true
+    note: >
+      Ein Satz gehört in die Hand der Praxis: ein Merkmal lässt sich nicht neu
+      ausstellen. Alles andere in diesem Gebiet folgt daraus, und wer damit
+      anfängt, stellt die richtigen Fragen an ein Vorhaben.
+  engineering:
+    needed: true
+    note: >
+      Für die Technik gehört dazu, dass nie das Merkmal gespeichert wird,
+      sondern etwas daraus Abgeleitetes, und dass diese Ableitung austauschbar
+      sein muss. Ohne diese beiden Eigenschaften ist ein Abfluss endgültig.
+  all-staff:
+    needed: false
+    note: >
+      Für alle Beschäftigten bleibt die Frage, ob sie zustimmen und welchen
+      anderen Weg sie haben. Das gehört in die Einführung des Verfahrens und
+      nicht in einen eigenen Foliensatz.
+  auditors:
+    needed: false
+    note: >
+      Wer prüft, sieht nach, ob ein anderer Weg besteht und ob die
+      Betriebsschwelle mit einer Begründung festgelegt wurde. Das sind Punkte
+      in der Prüfung und kein eigener Kursstoff.

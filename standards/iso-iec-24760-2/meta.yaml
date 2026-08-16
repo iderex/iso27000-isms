@@ -1,0 +1,43 @@
+id: iso-iec-24760-2
+number: 24760
+part: 2
+edition_year: 2025
+doc_type: is
+status: published
+family: privacy-identity
+layer: depth
+isms_relation: requirements controls
+catalog_confirmation: confirmed
+languages:
+  - de
+  - en
+presentation:
+  management:
+    needed: false
+    note: >
+      Die Leitung entscheidet, welcher Bestand die Wahrheit über eine Art von
+      Mensch hält. Das ist eine Zeile im Foliensatz zu ISO/IEC 27001 beim
+      Geltungsbereich und keine eigene Veranstaltung.
+  practitioners:
+    needed: true
+    note: >
+      Ein Satz gehört in die Hand der Praxis: eine Anforderung, die sich nicht
+      prüfen lässt, ist keine. Zentral verwaltet ist keine Anforderung; kein
+      Konto ohne Satz in der Quelle ist eine.
+  engineering:
+    needed: true
+    note: >
+      Zwei Sätze gehören in die Hand der Technik: jede Kopie einer Identität
+      ist ab dem Augenblick ihrer Entstehung veraltet, und das Verteilen von
+      Rechten geht in die Breite, das Zurücknehmen nicht. Beide entscheiden
+      über einen Aufbau.
+  all-staff:
+    needed: false
+    note: >
+      Für alle Beschäftigten hat der Aufbau eines Identitätsbestandes keine
+      Handlungsfolge.
+  auditors:
+    needed: false
+    note: >
+      Wer prüft, sieht nach, ob je Bestand benannt ist, welcher davon die
+      Quelle ist. Das ist ein Punkt in der Prüfung und kein eigener Kursstoff.

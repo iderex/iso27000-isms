@@ -1,0 +1,44 @@
+id: iso-iec-17922
+number: 17922
+edition_year: 2017
+doc_type: is
+status: published
+family: other
+layer: depth
+isms_relation: adjacent
+catalog_confirmation: confirmed
+languages:
+  - de
+  - en
+presentation:
+  management:
+    needed: false
+    note: >
+      Für die Leitung entsteht aus diesem Aufbau keine eigene Entscheidung.
+      Was entschieden wird, ist die Anmeldung selbst, und die steht im
+      Foliensatz zu ISO/IEC 27005 bei der Behandlung eines Risikos.
+  practitioners:
+    needed: false
+    note: >
+      Für die Praxis ist dieser Aufbau der seltene Fall. Wer eine Anmeldung
+      mit biometrischen Merkmalen plant, findet den Regelfall in
+      ISO/IEC 27553-1, und dieser Aufbau kommt erst danach in Betracht.
+  engineering:
+    needed: true
+    note: >
+      Für die Technik lohnen zwei Sätze eine Folie: ein gesondertes Modul
+      verlegt den Vertrauensanker aus dem Gerät heraus, und der Preis dafür
+      ist keine Rechenleistung, sondern Ausgabe, Ersatz und Verlust von
+      etwas Gegenständlichem.
+  all-staff:
+    needed: false
+    note: >
+      Für alle Beschäftigten folgt aus diesem Thema keine eigene Handlung.
+      Was mit einem ausgegebenen Gegenstand zu tun ist, steht in der
+      allgemeinen Unterweisung zum Umgang mit Ausweisen und Schlüsseln.
+  auditors:
+    needed: false
+    note: >
+      Wer prüft, sieht nach, ob die Ausgabe und der Ersatz der Module geregelt
+      sind und ob ihre Zahl stimmt. Das sind Punkte in der Prüfung und kein
+      eigener Kursstoff.

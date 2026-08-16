@@ -1,0 +1,42 @@
+id: iso-iec-24760-1
+number: 24760
+part: 1
+edition_year: 2025
+doc_type: is
+status: published
+family: privacy-identity
+layer: depth
+isms_relation: terms controls
+catalog_confirmation: confirmed
+languages:
+  - de
+  - en
+presentation:
+  management:
+    needed: false
+    note: >
+      Für die Leitung ist dieser Teil ein Begriffsteil. Was sie zu entscheiden
+      hat, nämlich wer das Verzeichnis der Personen führt, steht im Foliensatz
+      zu ISO/IEC 27001 beim Geltungsbereich.
+  practitioners:
+    needed: true
+    note: >
+      Ein Satz gehört in die Hand der Praxis: eine Identität ist keine Person.
+      Ein Mensch trägt mehrere, und jedes Verfahren, das eins zu eins rechnet,
+      bricht am ersten Dienstleister mit zwei Rollen.
+  engineering:
+    needed: false
+    note: >
+      Für die Technik steht der Stoff im zweiten Teil. Dieser Teil führt
+      Begriffe ein und beschreibt keinen Aufbau.
+  all-staff:
+    needed: false
+    note: >
+      Für alle Beschäftigten hat der Begriff der Identität keine
+      Handlungsfolge.
+  auditors:
+    needed: false
+    note: >
+      Wer prüft, sieht nach, ob zu einem Merkmal einer Person gesagt werden
+      kann, woher es stammt und wann es zuletzt bestätigt wurde. Das ist ein
+      Punkt in der Prüfung und kein eigener Kursstoff.

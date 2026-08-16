@@ -1,0 +1,45 @@
+id: iso-iec-24760-3
+number: 24760
+part: 3
+edition_year: 2025
+doc_type: is
+status: published
+family: privacy-identity
+layer: depth
+isms_relation: adjacent
+catalog_confirmation: confirmed
+languages:
+  - de
+  - en
+presentation:
+  management:
+    needed: false
+    note: >
+      Die Leitung bekommt aus diesem Teil eine Zahl und keine Folien. Die
+      Differenz aus dem Abgleich gehört in den Bericht an die Leitung, wie
+      ihn der Foliensatz zu ISO/IEC 27004 beschreibt.
+  practitioners:
+    needed: true
+    note: >
+      Ein Satz gehört in die Hand der Praxis: der Wechsel innerhalb des Hauses
+      ist der vergessene Fall. Der Eintritt und der Austritt haben einen
+      Auslöser, der Wechsel hat meistens keinen, und dort sammeln sich die
+      Rechte an.
+  engineering:
+    needed: false
+    note: >
+      Für die Technik steht der Stoff im zweiten Teil. Dieser Teil beschreibt
+      den Betrieb und nicht den Aufbau.
+  all-staff:
+    needed: false
+    note: >
+      Für alle Beschäftigten bleibt die Pflicht, einen Wechsel zu melden, und
+      die gehört in die allgemeine Unterweisung und nicht in einen eigenen
+      Foliensatz.
+  auditors:
+    needed: true
+    note: >
+      Ein Satz gehört in die Hand der Prüfung: die einzige ehrliche Messung
+      ist der Abgleich zwischen der Quelle und den Zugängen, regelmäßig
+      gerechnet und mit gezählter Differenz. Alles andere ist eine
+      Beschreibung.
