@@ -1,0 +1,44 @@
+id: iso-iec-42001
+number: 42001
+edition_year: 2023
+doc_type: is
+status: published
+family: other
+layer: neighbour
+isms_relation: adjacent
+catalog_confirmation: unconfirmed
+languages:
+  - de
+  - en
+presentation:
+  management:
+    needed: true
+    note: >
+      Ein Satz gehört in die Hand der Leitung: dieses System fragt nach den
+      Auswirkungen auf Menschen, die weder Kunden noch Beschäftigte sind, und
+      das ist die Frage, die ein Managementsystem für Informationssicherheit
+      nicht stellt.
+  practitioners:
+    needed: true
+    note: >
+      Ein Satz gehört in die Hand der Praxis: der Gegenstand verändert sein
+      Verhalten im Betrieb, und deshalb ist der Nachweis der Konformität eine
+      laufende Beobachtung und keine einmalige Feststellung.
+  engineering:
+    needed: true
+    note: >
+      Für die Technik lohnt ein Satz eine Folie: das Verhalten eines solchen
+      Systems ist eine statistische Eigenschaft und keine Spezifikation, und
+      ein Fehler zeigt sich als Häufigkeit statt als Ausnahme.
+  all-staff:
+    needed: false
+    note: >
+      Für alle Beschäftigten folgt aus diesem Thema keine eigene Handlung
+      neben der, die aus der Regelung zum Einsatz solcher Werkzeuge folgt,
+      und die gehört in die allgemeine Unterweisung.
+  auditors:
+    needed: false
+    note: >
+      Wer prüft, begegnet demselben Aufbau wie in ISO/IEC 27001 und sieht auf
+      den Unterschied im Gegenstand. Ein eigener Kursstoff entsteht daraus
+      nicht.

@@ -1,0 +1,44 @@
+id: iec-81001-5-1
+number: 81001
+part: 5-1
+edition_year: 2021
+doc_type: is
+status: published
+family: other
+layer: neighbour
+isms_relation: requirements sector
+catalog_confirmation: confirmed
+languages:
+  - de
+  - en
+presentation:
+  management:
+    needed: true
+    note: >
+      Ein Satz gehört in die Hand der Leitung eines Hauses im Gesundheitswesen:
+      die Sicherheit einer klinischen Software entsteht beim Hersteller, und
+      was das Haus davon hat, hängt daran, was es vor dem Kauf verlangt hat.
+  practitioners:
+    needed: true
+    note: >
+      Ein Satz gehört in die Hand der Praxis: dieses Dokument gibt die Wörter,
+      mit denen man einen Hersteller klinischer Software nach seinem
+      Lebensweg fragt, und die Frage nach den mitgelieferten Fremdbestandteilen
+      ist die erste.
+  engineering:
+    needed: true
+    note: >
+      Für die Technik lohnt ein Satz eine Folie: ein Gerät, das nicht
+      aktualisiert werden darf, ohne die Zulassung zu berühren, braucht eine
+      andere Antwort als ein Arbeitsplatzrechner.
+  all-staff:
+    needed: false
+    note: >
+      Für alle Beschäftigten folgt aus diesem Thema keine eigene Handlung. Sie
+      bedienen das Erzeugnis und bauen es nicht.
+  auditors:
+    needed: false
+    note: >
+      Wer prüft, sieht nach, ob zu klinischer Software eine Auskunft über
+      Fremdbestandteile und ein Weg für Aktualisierungen vorliegt. Das sind
+      Punkte in der Prüfung und kein eigener Kursstoff.

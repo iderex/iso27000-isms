@@ -1,0 +1,39 @@
+id: iec-31010
+number: 31010
+edition_year: 2019
+doc_type: is
+status: published
+family: risk
+layer: neighbour
+isms_relation: risk
+catalog_confirmation: unconfirmed
+languages:
+  - de
+  - en
+presentation:
+  management:
+    needed: false
+    note: >
+      Für die Leitung entsteht hier keine eigene Entscheidung. Was entschieden
+      wird, sind die Kriterien, und das steht im Foliensatz zu ISO 31000.
+  practitioners:
+    needed: true
+    note: >
+      Ein Satz gehört in die Hand der Praxis: die Wahl des Verfahrens ist
+      selbst eine Entscheidung, und der häufigste Fehler ist, das zu nehmen,
+      das jemand kennt, statt das, das zur Frage passt.
+  engineering:
+    needed: false
+    note: >
+      Für die Technik entsteht hier keine eigene Entscheidung. Der Gegenstand
+      ist ein Vorrat an Verfahren und kein System.
+  all-staff:
+    needed: false
+    note: >
+      Für alle Beschäftigten folgt aus diesem Thema keine eigene Handlung.
+  auditors:
+    needed: true
+    note: >
+      Ein Satz gehört in die Hand der Prüfung: eine Matrix aus zwei Schätzungen
+      liefert ein Ergebnis, das genauer aussieht als seine Eingaben, und die
+      Prüfung fragt nach den Eingaben.

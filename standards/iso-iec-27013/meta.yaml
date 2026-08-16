@@ -1,0 +1,42 @@
+id: iso-iec-27013
+number: 27013
+edition_year: 2021
+doc_type: is
+status: published
+family: extended-27000
+layer: neighbour
+isms_relation: adjacent
+catalog_confirmation: unconfirmed
+languages:
+  - de
+  - en
+presentation:
+  management:
+    needed: true
+    note: >
+      Ein Satz gehört in die Hand der Leitung: die Zusammenführung zweier
+      Managementsysteme ist eine Entscheidung über Geltungsbereiche und
+      Zuständigkeiten und keine Übung im Zusammenlegen von Unterlagen.
+  practitioners:
+    needed: true
+    note: >
+      Ein Satz gehört in die Hand der Praxis: zusammengeführt wird ein
+      Verfahren, das zwei Anforderungen trägt, und nicht eine Unterlage mit
+      zwei Überschriften.
+  engineering:
+    needed: false
+    note: >
+      Für die Technik entsteht hier keine eigene Entscheidung. Was
+      zusammengeführt wird, sind Verfahren und keine Systeme.
+  all-staff:
+    needed: false
+    note: >
+      Für alle Beschäftigten folgt aus diesem Thema keine eigene Handlung. Sie
+      merken die Zusammenführung an einem Weg statt zweien und nicht an einer
+      Norm.
+  auditors:
+    needed: false
+    note: >
+      Wer prüft, sieht nach, ob die beiden Geltungsbereiche geschrieben sind
+      und wo sie sich unterscheiden. Das ist ein Punkt in der Prüfung und kein
+      eigener Kursstoff.

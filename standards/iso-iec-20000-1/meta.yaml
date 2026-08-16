@@ -1,0 +1,45 @@
+id: iso-iec-20000-1
+number: 20000
+part: 1
+edition_year: 2018
+doc_type: is
+status: published
+family: other
+layer: neighbour
+isms_relation: requirements
+catalog_confirmation: confirmed
+languages:
+  - de
+  - en
+presentation:
+  management:
+    needed: true
+    note: >
+      Ein Satz gehört in die Hand der Leitung: zwei Managementsysteme
+      nebeneinander zu betreiben kostet nicht doppelt, sondern erzeugt einen
+      zweiten Weg, den niemand benutzt, und die Entscheidung darüber wird
+      einmal getroffen und nicht laufend.
+  practitioners:
+    needed: true
+    note: >
+      Ein Satz gehört in die Hand der Praxis: Änderung, Vorfall, Kapazität,
+      Lieferant und Fortführung kommen in beiden Normen vor, und sie werden
+      einmal eingerichtet oder gar nicht.
+  engineering:
+    needed: false
+    note: >
+      Für die Technik entsteht hier keine eigene Entscheidung. Was an einem
+      System geschieht, folgt aus den Verfahren und nicht aus dieser Norm.
+  all-staff:
+    needed: false
+    note: >
+      Für alle Beschäftigten folgt aus diesem Thema keine eigene Handlung
+      neben der, eine Störung zu melden, und die gehört in die allgemeine
+      Unterweisung.
+  auditors:
+    needed: true
+    note: >
+      Ein Satz gehört in die Hand der Prüfung: wo beide Normen gelten, wird
+      ein Verfahren einmal geprüft und gegen zwei Anforderungen gehalten, und
+      zwei getrennte Prüfungen desselben Verfahrens sind ein Zeichen dafür,
+      dass es zweimal existiert.
