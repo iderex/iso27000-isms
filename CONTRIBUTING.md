@@ -340,6 +340,34 @@ gh api repos/iderex/iso27000-isms/rulesets/20444259 --jq '{enforcement, bypass: 
 Ein Lauf sagt also einem Menschen, was er gefunden hat, und niemandem sonst.
 Der erste Absatz dieses Abschnitts gilt unverändert.
 
+Bis hierher hat dieser Abschnitt nur `.github/workflows/checks.yml` genannt. Ein
+zweiter Ablauf steht daneben: `.github/workflows/site.yml` erzeugt die
+Darstellung und rechnet an der Ausgabe nach. Auch er trägt Schritte, die einen
+Beitrag zurückweisen. Welche das sind, steht in der Datei und nicht hier, weil
+eine Aufzählung an dieser Stelle gegen die Datei auseinanderliefe:
+
+```
+git show origin/main:.github/workflows/site.yml
+```
+
+Neben diesen Schritten liegt kein Beweis, dass sie beißen. Die vier Prüfungen
+oben bringen ihren mit, diese Schritte nicht. Aus einem grünen Lauf von
+`Darstellung / Site` folgt deshalb nicht, dass ein Schritt einen Verstoß
+gefunden hätte, wenn einer dagewesen wäre. Was der Server hergibt, ist
+schwächer: er sagt, welcher Schritt schon einmal rot war. Ein Schritt, der nie
+rot war, ist womöglich nie auf einen Verstoß getroffen, und einer, der nicht
+greift, sieht genauso aus. Wer die Verteilung sehen will, holt sie beim Server,
+statt eine Zahl hier zu lesen, die mit jedem Lauf altert:
+
+```
+gh api --paginate 'repos/iderex/iso27000-isms/actions/runs?per_page=100' \
+  --jq '.workflow_runs[] | select(.name=="Darstellung / Site") | .id' | sort -u \
+| while read -r id; do
+    gh api "repos/iderex/iso27000-isms/actions/runs/$id/jobs" \
+      --jq '.jobs[] | .steps[] | [.name, .conclusion] | @tsv'
+  done | sort | uniq -c
+```
+
 An dieser Stelle stand bis zum 17.08.2026 ein Punkt als noch nicht vorhandene
 Prüfung, nämlich ob jede erzeugte Ansicht zu ihrer Quelle passt. Das ist die
 vierte Prüfung oben. Sein Issue, #62, hing an dem Skript, das die Ansichten
@@ -673,6 +701,33 @@ gh api repos/iderex/iso27000-isms/rulesets/20444259 --jq '{enforcement, bypass: 
 
 So a run tells a person what it found, and nobody else. The first paragraph of
 this section holds unchanged.
+
+Up to here this section has named only `.github/workflows/checks.yml`. A second
+run stands beside it: `.github/workflows/site.yml` renders the site and
+recomputes against the output. It too carries steps that refuse a contribution.
+Which ones they are stands in the file rather than here, because a list in this
+place would drift against the file:
+
+```
+git show origin/main:.github/workflows/site.yml
+```
+
+Beside those steps sits no proof that they bite. The four checks above bring
+theirs; these steps do not. From a green run of `Darstellung / Site` it
+therefore does not follow that a step would have found a violation had one been
+there. What the server gives is weaker: it says which step has ever been red. A
+step that has never been red may have met no violation, and one that does not
+take hold looks exactly the same. Whoever wants the distribution fetches it from
+the server rather than reading a number here that ages with every run:
+
+```
+gh api --paginate 'repos/iderex/iso27000-isms/actions/runs?per_page=100' \
+  --jq '.workflow_runs[] | select(.name=="Darstellung / Site") | .id' | sort -u \
+| while read -r id; do
+    gh api "repos/iderex/iso27000-isms/actions/runs/$id/jobs" \
+      --jq '.jobs[] | .steps[] | [.name, .conclusion] | @tsv'
+  done | sort | uniq -c
+```
 
 Until 2026-08-17 a point stood in this place as a check that did not exist yet,
 namely whether every generated view matches its source. That is the fourth check
