@@ -51,6 +51,8 @@ jobs:
         run: python3 scripts/check-translations-test.py
       - name: Beweis der Katalogansicht / Proof of the catalog view
         run: python3 scripts/generate-catalog-test.py
+      - name: Beweis der Ansichtsprüfung / Proof of the generated-view check
+        run: python3 scripts/check-generated-test.py
 
   checks:
     name: Prüfungen / Checks
@@ -63,3 +65,21 @@ jobs:
         run: python3 scripts/check-csv.py .
       - name: Übersetzungen / Translations
         run: python3 scripts/check-translations.py .
+      # Der Lauf holt standardmäßig einen Stand ohne Geschichte. Die Prüfung
+      # fragt git dann gar nicht erst nach dem Tag, an dem die Katalogdateien
+      # zuletzt geändert wurden: ein solcher Klon gibt keine fehlende Antwort,
+      # sondern eine falsche, nämlich den Tag seines einen Commits. Sie nimmt
+      # das Datum stattdessen aus der Datei und schreibt in ihre Ausgabe, dass
+      # sie es nicht beurteilt hat; jedes andere Byte vergleicht sie trotzdem.
+      # Das ist hier gemessen worden und nicht vermutet: der erste Lauf dieser
+      # Prüfung auf dem Server hat beide Ansichten zurückgewiesen.
+      #
+      # The run fetches a state without history by default. The check then does
+      # not ask git for the day the catalog files last changed at all: such a
+      # clone gives no missing answer but a wrong one, the day of its single
+      # commit. It takes the date from the file instead and writes into its
+      # output that it did not judge it; every other byte it compares all the
+      # same. That was measured here rather than supposed: the first run of this
+      # check on the server refused both views.
+      - name: Erzeugte Ansichten / Generated views
+        run: python3 scripts/check-generated.py .

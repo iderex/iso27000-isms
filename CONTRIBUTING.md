@@ -205,7 +205,7 @@ die Signed-off-by-Zeile fehlt, weil eine Lesung ausgeblieben ist oder weil er
 Normtext enthält. Diese Prüflisten liest ein Mensch. Wer sie für eine Kontrolle
 hält, verlässt sich auf etwas, das es nicht gibt.
 
-Drei Prüfungen gibt es inzwischen. Die erste liest jede Markdown-Datei im Baum
+Vier Prüfungen gibt es inzwischen. Die erste liest jede Markdown-Datei im Baum
 und weist einen Verweis zurück, der absolut ist, der nicht auf `.md` endet oder
 der auf keine vorhandene Datei zeigt:
 
@@ -283,12 +283,48 @@ python scripts/check-translations-test.py
 Was sie nicht beurteilt, ist die Übersetzung selbst. Ob sie gut ist und ob sie
 dasselbe sagt, liest ein Mensch, und das bleibt so.
 
-Seit dem 06.08.2026 laufen diese drei von selbst, auf dem Server, zu jedem Pull
-Request und zu jedem Schub nach `main`. Der Ablauf steht in
-`.github/workflows/checks.yml`. Er führt zwei Aufträge nebeneinander, den einen
-über die Beweise und den anderen über die drei Prüfungen, und warum sie
-nicht hintereinanderstehen, sagt der Kopf der Datei. Ein Hook, der sie vor dem
-Schieben aufruft, liegt hier weiterhin nicht.
+Die vierte rechnet jede erzeugte Ansicht neu und weist sie zurück, wenn das
+Ergebnis von der Datei im Baum abweicht:
+
+```
+python scripts/check-generated.py .
+```
+
+Sie liest dabei die andere Hälfte von Punkt 8 der Prüfliste mit: ob eine Datei
+überhaupt sagt, dass sie erzeugt ist, und ob die Quelle, die sie nennt, im Baum
+liegt. Zurückgewiesen werden sechs Formen: eine Ansicht, die ein Erzeuger
+schreibt und die nicht da ist; eine erzeugte Datei ohne `kind: generated`; eine
+ohne Quellenangabe; eine Quellenangabe, die auf nichts zeigt; eine Datei mit
+`kind: generated`, die kein hier bekannter Erzeuger schreibt; und ein
+Neuberechnen, das andere Bytes ergibt.
+
+Der Beweis liegt auch hier daneben. Zu jeder der sechs Formen nimmt er eine
+Eingabe, die genau daran scheitert, und daneben eine, die sich um eine Änderung
+unterscheidet und durchgeht:
+
+```
+python scripts/check-generated-test.py
+```
+
+Zwei Dinge beurteilt sie nicht, und der Kopf des Skripts sagt beide in denselben
+Worten. Das Datum im Kopf einer Ansicht ist der Tag, an dem die Quelle zuletzt
+geändert wurde, und es kommt aus git. Gefragt wird git nur dort, wo die Antwort
+tragfähig ist: ein Klon ohne Geschichte wird gar nicht erst gefragt, weil er
+nicht etwa keine Antwort gibt, sondern eine falsche, und ein Datum, das falsch
+ist und gültig aussieht, ist schlechter als keins. Wo nicht gefragt wird, nimmt
+die Prüfung das Datum aus der Datei, die sie beurteilt, und schreibt in ihre
+Ausgabe, dass sie es nicht beurteilt hat; jedes andere Byte wird trotzdem
+verglichen. Und sie beurteilt keine Zeilenenden, weil ein Klon mit
+`core.autocrlf` andere trägt als git, und eine Prüfung, die das zurückwiese,
+wäre auf einer Maschine rot und auf der anderen grün für eine Datei, die niemand
+angefasst hat.
+
+Seit dem 06.08.2026 laufen diese Prüfungen von selbst, auf dem Server, zu jedem
+Pull Request und zu jedem Schub nach `main`; die vierte ist am 17.08.2026
+dazugekommen. Der Ablauf steht in `.github/workflows/checks.yml`. Er führt zwei
+Aufträge nebeneinander, den einen über die Beweise und den anderen über die
+Prüfungen, und warum sie nicht hintereinanderstehen, sagt der Kopf der Datei.
+Ein Hook, der sie vor dem Schieben aufruft, liegt hier weiterhin nicht.
 
 Zurückgewiesen wird damit trotzdem nichts. Das Regelwerk auf `main` führt keine
 erforderliche Prüfung, und ein roter Lauf verhindert das Zusammenführen deshalb
@@ -304,14 +340,15 @@ gh api repos/iderex/iso27000-isms/rulesets/20444259 --jq '{enforcement, bypass: 
 Ein Lauf sagt also einem Menschen, was er gefunden hat, und niemandem sonst.
 Der erste Absatz dieses Abschnitts gilt unverändert.
 
-Ein Punkt ließe sich ebenfalls maschinell prüfen, und er steht hier als das, was
-er ist, nämlich als noch nicht vorhandene Prüfung:
+An dieser Stelle stand bis zum 17.08.2026 ein Punkt als noch nicht vorhandene
+Prüfung, nämlich ob jede erzeugte Ansicht zu ihrer Quelle passt. Das ist die
+vierte Prüfung oben. Sein Issue, #62, hing an dem Skript, das die Ansichten
+erzeugt, und das steht seit #73 im Baum. Eine Prüfliste, die eine vorhandene
+Prüfung als fehlend führt, ist genauso falsch wie eine, die eine fehlende als
+vorhanden führt, und deshalb steht der Punkt nicht mehr hier.
 
-- ob jede erzeugte Ansicht zu ihrer Quelle passt.
-
-Er hat ein Issue, #62. Ein Issue ist keine Prüfung: dieser Punkt wird heute von
-nichts zurückgewiesen. Der Rest, die Urheberrechtsgrenze voran, bleibt eine
-Lesung durch einen Menschen und wird auch später keine Prüfung.
+Der Rest, die Urheberrechtsgrenze voran, bleibt eine Lesung durch einen Menschen
+und wird auch später keine Prüfung.
 
 Wie hier miteinander umgegangen wird, steht in
 [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md).
@@ -511,7 +548,7 @@ Signed-off-by line is missing, because a reading did not happen, or because it
 carries text from a standard. These checklists are read by a person. Anyone
 taking them for a control is relying on something that does not exist.
 
-Three checks exist by now. The first reads every Markdown file in the tree and
+Four checks exist by now. The first reads every Markdown file in the tree and
 refuses a link that is absolute, that does not end in `.md`, or that points at
 no existing file:
 
@@ -584,12 +621,45 @@ python scripts/check-translations-test.py
 What it does not judge is the translation itself. Whether it is good and
 whether it says the same thing is read by a person, and that stays so.
 
-Since 2026-08-06 these three run on their own, on the server, on every pull
-request and on every push to `main`. The run stands in
-`.github/workflows/checks.yml`. It carries two jobs beside each other, one over
-the proofs and one over the three checks, and why they do not stand one
-behind the other is said in the head of the file. A hook that calls them before
-a push still does not sit here.
+The fourth recomputes every generated view and refuses it where the result
+differs from the file in the tree:
+
+```
+python scripts/check-generated.py .
+```
+
+It reads the other half of point 8 of the checklist along the way: whether a
+file says it is generated at all, and whether the source it names sits in the
+tree. Six shapes are refused: a view a generator writes and that is not there;
+a generated file without `kind: generated`; one without a source statement; a
+source statement pointing at nothing; a file carrying `kind: generated` that no
+generator known here writes; and a recomputation giving different bytes.
+
+The proof sits beside this one too. For each of the six shapes it carries one
+input that fails on exactly that shape and beside it one that differs by a
+single change and passes:
+
+```
+python scripts/check-generated-test.py
+```
+
+Two things it does not judge, and the head of the script says both in the same
+words. The date in the header of a view is the day its source last changed and
+comes from git. Git is asked only where the answer can be trusted: a clone made
+without history is not asked at all, because it does not fail to answer but
+answers wrongly, and a date that is wrong and looks valid is worse than none.
+Where it is not asked, the check takes the date out of the file it is judging
+and writes into its output that it did not judge it; every other byte is
+compared all the same. And it judges no line endings, because a clone made with
+`core.autocrlf` carries different ones from git, and a check refusing that would
+be red on one machine and green on another for a file nobody touched.
+
+Since 2026-08-06 these checks run on their own, on the server, on every pull
+request and on every push to `main`; the fourth joined them on 2026-08-17. The
+run stands in `.github/workflows/checks.yml`. It carries two jobs beside each
+other, one over the proofs and one over the checks, and why they do not stand
+one behind the other is said in the head of the file. A hook that calls them
+before a push still does not sit here.
 
 Nothing is refused by that all the same. The ruleset on `main` carries no
 required status check, so a red run does not stop a merge:
@@ -604,14 +674,15 @@ gh api repos/iderex/iso27000-isms/rulesets/20444259 --jq '{enforcement, bypass: 
 So a run tells a person what it found, and nobody else. The first paragraph of
 this section holds unchanged.
 
-One point could be checked mechanically as well, and it stands here as what it
-is, namely as a check that does not exist yet:
+Until 2026-08-17 a point stood in this place as a check that did not exist yet,
+namely whether every generated view matches its source. That is the fourth check
+above. Its issue, #62, hung on the script that produces the views, and that
+script has sat in the tree since #73. A checklist listing an existing check as
+missing is exactly as wrong as one listing a missing check as present, which is
+why the point no longer stands here.
 
-- whether every generated view matches its source.
-
-It has an issue, #62. An issue is not a check: that point is refused by nothing
-today. The rest, the copyright boundary above all, stays a reading by a person
-and will not become a check later either.
+The rest, the copyright boundary above all, stays a reading by a person and will
+not become a check later either.
 
 How people treat each other here stands in
 [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md).
