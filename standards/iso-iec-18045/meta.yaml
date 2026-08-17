@@ -1,0 +1,42 @@
+id: iso-iec-18045
+number: 18045
+edition_year: 2026
+doc_type: is
+status: published
+family: evaluation-certification
+layer: neighbour
+isms_relation: requirements certification
+catalog_confirmation: confirmed
+languages:
+  - de
+  - en
+presentation:
+  management:
+    needed: true
+    note: >
+      Ein Satz gehört in die Hand der Leitung: eine höhere Prüftiefe kostet
+      mehr und macht ein Erzeugnis nicht besser, sie sagt nur, gegen welchen
+      Aufwand geprüft wurde.
+  practitioners:
+    needed: true
+    note: >
+      Ein Satz gehört in die Hand der Praxis: ein Urteil gilt für die
+      Behauptung im Vorgabendokument, in der gewählten Tiefe und gegen einen
+      angenommenen Angreifer, und alle drei Einschränkungen fallen im
+      Verkaufsgespräch weg.
+  engineering:
+    needed: false
+    note: >
+      Für die Technik folgt daraus keine eigene Handlung. Der Gegenstand ist
+      das Vorgehen einer Prüfstelle und nicht eine Einstellung im Betrieb.
+  all-staff:
+    needed: false
+    note: >
+      Für alle Beschäftigten folgt aus diesem Thema keine eigene Handlung. Es
+      betrifft die Beschaffung und nicht die tägliche Arbeit.
+  auditors:
+    needed: true
+    note: >
+      Ein Satz gehört in die Hand der Prüfung: eine Evaluierung prüft ein
+      Erzeugnis und nicht die Installation im Haus, und der Unterschied ist
+      der Punkt, an dem eine Bescheinigung im Audit falsch gelesen wird.

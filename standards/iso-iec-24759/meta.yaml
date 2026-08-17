@@ -1,0 +1,43 @@
+id: iso-iec-24759
+number: 24759
+edition_year: 2025
+doc_type: is
+status: published
+family: evaluation-certification
+layer: neighbour
+isms_relation: requirements
+catalog_confirmation: confirmed
+languages:
+  - de
+  - en
+presentation:
+  management:
+    needed: false
+    note: >
+      Für die Leitung entsteht hier keine eigene Entscheidung. Ob ein
+      geprüftes Modul verlangt wird, ist eine Anforderung an eine Beschaffung
+      und steht im Foliensatz zu ISO/IEC 27002 bei den Maßnahmen zur
+      Lieferantenbeziehung.
+  practitioners:
+    needed: true
+    note: >
+      Ein Satz gehört in die Hand der Praxis: eine Bescheinigung gilt für eine
+      benannte Grenze, eine benannte Betriebsart und einen benannten Stand,
+      und ein Modul außerhalb davon ist nicht das geprüfte Modul.
+  engineering:
+    needed: true
+    note: >
+      Für die Technik lohnt ein Satz eine Folie: eine Prüfanforderung ist ein
+      Paar aus dem, was der Hersteller vorlegen muss, und dem, was die
+      Prüfstelle tut, und eine Anforderung ohne dieses Paar ist nicht prüfbar.
+  all-staff:
+    needed: false
+    note: >
+      Für alle Beschäftigten folgt aus diesem Thema keine eigene Handlung. Das
+      Modul steht in einem Gerät und nicht auf einem Schreibtisch.
+  auditors:
+    needed: false
+    note: >
+      Wer prüft, sieht in die Bescheinigung und vergleicht Grenze, Betriebsart
+      und Stand mit dem, was tatsächlich läuft. Das ist ein Punkt in der
+      Prüfung und kein eigener Kursstoff.

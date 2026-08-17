@@ -1,0 +1,40 @@
+id: iso-31000
+number: 31000
+edition_year: 2018
+doc_type: is
+status: published
+family: risk
+layer: neighbour
+isms_relation: risk
+catalog_confirmation: unconfirmed
+languages:
+  - de
+  - en
+presentation:
+  management:
+    needed: true
+    note: >
+      Ein Satz gehört in die Hand der Leitung: dieses Dokument gibt Leitlinien
+      und keine Anforderungen, es lässt sich nicht zertifizieren, und wer das
+      Gegenteil anbietet, verkauft etwas anderes, als er sagt.
+  practitioners:
+    needed: true
+    note: >
+      Ein Satz gehört in die Hand der Praxis: wo mehrere Managementsysteme
+      nebeneinander laufen, kommt von hier die eine Sprache für Risiko, damit
+      hoch in allen dasselbe heißt.
+  engineering:
+    needed: false
+    note: >
+      Für die Technik entsteht hier keine eigene Entscheidung. Der Gegenstand
+      ist die Sprache und der Rahmen und kein System.
+  all-staff:
+    needed: false
+    note: >
+      Für alle Beschäftigten folgt aus diesem Thema keine eigene Handlung.
+  auditors:
+    needed: false
+    note: >
+      Wer prüft, sieht nach, ob das Haus eine Sprache für Risiko führt und ob
+      sie überall dieselbe ist. Das ist ein Punkt in der Prüfung und kein
+      eigener Kursstoff.

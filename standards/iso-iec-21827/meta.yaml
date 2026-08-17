@@ -1,0 +1,42 @@
+id: iso-iec-21827
+number: 21827
+edition_year: 2008
+doc_type: is
+status: published
+family: evaluation-certification
+layer: neighbour
+isms_relation: adjacent
+catalog_confirmation: confirmed
+languages:
+  - de
+  - en
+presentation:
+  management:
+    needed: true
+    note: >
+      Ein Satz gehört in die Hand der Leitung: eine Reifestufe sagt, wie
+      verlässlich etwas wiederholt wird, und nicht, wie gut es ist, und eine
+      hohe Stufe überall anzustreben ist teuer und selten richtig.
+  practitioners:
+    needed: true
+    note: >
+      Ein Satz gehört in die Hand der Praxis: die brauchbare Frage lautet, ob
+      etwas geschieht, weil jemand daran gedacht hat, oder weil es eingerichtet
+      ist, und die Stufen sind eine Sprache dafür.
+  engineering:
+    needed: false
+    note: >
+      Für die Technik entsteht hier keine eigene Entscheidung. Der Gegenstand
+      ist das Vorgehen einer Organisation und keine Einstellung an einem
+      System.
+  all-staff:
+    needed: false
+    note: >
+      Für alle Beschäftigten folgt aus diesem Thema keine eigene Handlung. Es
+      betrifft die Einrichtung der Arbeit und nicht die Arbeit selbst.
+  auditors:
+    needed: false
+    note: >
+      Wer prüft, begegnet Reifestufen in Berichten und liest sie mit der
+      Unterscheidung aus dem Foliensatz für die Leitung. Ein eigener Kursstoff
+      entsteht daraus nicht.

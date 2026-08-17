@@ -1,0 +1,44 @@
+id: iso-iec-19989-3
+number: 19989
+part: 3
+edition_year: 2020
+doc_type: is
+status: published
+family: evaluation-certification
+layer: neighbour
+isms_relation: certification
+catalog_confirmation: confirmed
+languages:
+  - de
+  - en
+presentation:
+  management:
+    needed: false
+    note: >
+      Für die Leitung entsteht hier keine eigene Entscheidung. Ob biometrische
+      Merkmale überhaupt eingesetzt werden, ist die Entscheidung, und sie
+      steht im Foliensatz zu ISO/IEC 27553-1.
+  practitioners:
+    needed: true
+    note: >
+      Ein Satz gehört in die Hand der Praxis: eine Erkennung von
+      Vortäuschungen, die nie anschlägt, ist kein Beleg für Sicherheit, und
+      eine, die schärfer gestellt wird, weist zuerst echte Personen ab.
+  engineering:
+    needed: true
+    note: >
+      Für die Technik lohnt ein Satz eine Folie: ein Ergebnis gilt gegen die
+      Mittel, die bei der Prüfung bekannt waren, und altert deshalb schneller
+      als eine Leistungszahl.
+  all-staff:
+    needed: false
+    note: >
+      Für alle Beschäftigten folgt aus diesem Thema keine eigene Handlung. Was
+      sie merken, ist eine abgewiesene Anmeldung, und dafür gibt es den
+      zweiten Weg.
+  auditors:
+    needed: false
+    note: >
+      Wer prüft, sieht nach, gegen welche Mittel und zu welchem Zeitpunkt
+      geprüft wurde. Das ist ein Punkt in der Prüfung und kein eigener
+      Kursstoff.

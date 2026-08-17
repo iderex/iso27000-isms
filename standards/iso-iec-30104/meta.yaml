@@ -1,0 +1,43 @@
+id: iso-iec-30104
+number: 30104
+edition_year: 2015
+doc_type: ts
+status: published
+family: evaluation-certification
+layer: neighbour
+isms_relation: requirements
+catalog_confirmation: unconfirmed
+languages:
+  - de
+  - en
+presentation:
+  management:
+    needed: false
+    note: >
+      Für die Leitung entsteht hier keine eigene Entscheidung. Was entschieden
+      wird, ist der Ort, an dem ein Gerät steht, und das steht im Foliensatz
+      zu ISO/IEC 27002 bei den Maßnahmen zur körperlichen Sicherheit.
+  practitioners:
+    needed: true
+    note: >
+      Ein Satz gehört in die Hand der Praxis: körperlicher Schutz kauft Zeit
+      und schließt nichts aus, und für die meisten Häuser ist der Ort des
+      Geräts die wirksamere Maßnahme als das, was in ihm steckt.
+  engineering:
+    needed: true
+    note: >
+      Für die Technik lohnt ein Satz eine Folie: Spuren hinterlassen, Zugriff
+      erschweren, Zugriff erkennen und auf Zugriff reagieren sind vier
+      verschiedene Zusagen mit vier verschiedenen Preisen.
+  all-staff:
+    needed: false
+    note: >
+      Für alle Beschäftigten folgt aus diesem Thema keine eigene Handlung
+      neben der Meldung eines beschädigten Siegels, und die gehört in die
+      allgemeine Unterweisung.
+  auditors:
+    needed: false
+    note: >
+      Wer prüft, sieht nach, ob Siegel vorhanden sind, wer sie ansieht und was
+      bei einem Fund geschieht. Das sind Punkte in der Prüfung und kein
+      eigener Kursstoff.

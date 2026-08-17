@@ -1,0 +1,42 @@
+id: iso-iec-20085-1
+number: 20085
+part: 1
+edition_year: 2019
+doc_type: is
+status: published
+family: evaluation-certification
+layer: neighbour
+isms_relation: requirements certification
+catalog_confirmation: confirmed
+languages:
+  - de
+  - en
+presentation:
+  management:
+    needed: false
+    note: >
+      Für die Leitung entsteht hier keine eigene Entscheidung. Der Gegenstand
+      ist ein Messgerät in einem Labor und keine Frage, die im Haus
+      entschieden wird.
+  practitioners:
+    needed: true
+    note: >
+      Ein Satz gehört in die Hand der Praxis: ein Befund ohne Fund sagt nur
+      dann etwas, wenn dabeisteht, womit gemessen wurde, denn sonst ist er
+      eine Aussage über das Messgerät und nicht über das Modul.
+  engineering:
+    needed: false
+    note: >
+      Für die Technik folgt daraus keine eigene Handlung neben der, die schon
+      im Foliensatz zur Modulprüfung steht. Wer kein Labor betreibt, wendet
+      diese Verfahren nicht an.
+  all-staff:
+    needed: false
+    note: >
+      Für alle Beschäftigten folgt aus diesem Thema keine eigene Handlung. Es
+      spielt sich in einem Labor ab.
+  auditors:
+    needed: false
+    note: >
+      Wer prüft, sieht nach, ob ein vorgelegter Befund das Messverfahren
+      benennt. Das ist ein Punkt in der Prüfung und kein eigener Kursstoff.

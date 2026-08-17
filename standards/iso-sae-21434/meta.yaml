@@ -1,0 +1,43 @@
+id: iso-sae-21434
+number: 21434
+edition_year: 2021
+doc_type: is
+status: published
+family: other
+layer: neighbour
+isms_relation: requirements sector
+catalog_confirmation: confirmed
+languages:
+  - de
+  - en
+presentation:
+  management:
+    needed: false
+    note: >
+      Für die Leitung eines Hauses, das keine Fahrzeuge baut, entsteht hier
+      keine eigene Entscheidung. Was zu entscheiden ist, ist die Aufteilung
+      der Verantwortung mit einem Lieferanten, und das steht im Foliensatz zu
+      ISO/IEC 27036-1.
+  practitioners:
+    needed: true
+    note: >
+      Ein Satz gehört in die Hand der Praxis: der übertragbare Gedanke ist die
+      schriftliche Aufteilung der Verantwortung zwischen Hersteller und
+      Zulieferer, und in den meisten Lieferbeziehungen fehlt sie.
+  engineering:
+    needed: true
+    note: >
+      Für die Technik lohnt ein Satz eine Folie: der Gegenstand verlässt das
+      Haus und bleibt jahrzehntelang im Feld, und deshalb ist der
+      Lebensweg der Rahmen und nicht das Projekt.
+  all-staff:
+    needed: false
+    note: >
+      Für alle Beschäftigten folgt aus diesem Thema keine eigene Handlung. Es
+      betrifft die Entwicklung eines Erzeugnisses.
+  auditors:
+    needed: false
+    note: >
+      Wer prüft, sieht nach, ob zu einem langlebigen Erzeugnis eine
+      schriftliche Aufteilung der Verantwortung vorliegt. Das ist ein Punkt in
+      der Prüfung und kein eigener Kursstoff.

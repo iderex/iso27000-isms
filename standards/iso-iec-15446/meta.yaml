@@ -1,0 +1,42 @@
+id: iso-iec-15446
+number: 15446
+edition_year: 2017
+doc_type: tr
+status: published
+family: evaluation-certification
+layer: neighbour
+isms_relation: requirements
+catalog_confirmation: confirmed
+languages:
+  - de
+  - en
+presentation:
+  management:
+    needed: false
+    note: >
+      Für die Leitung entsteht hier keine eigene Entscheidung. Ob ein
+      zertifiziertes Erzeugnis verlangt wird, ist eine Anforderung an eine
+      Beschaffung und steht im Foliensatz zu ISO/IEC 27002.
+  practitioners:
+    needed: true
+    note: >
+      Ein Satz gehört in die Hand der Praxis: die folgenreichste Stelle eines
+      Sicherheitsvorgabendokuments sind die Annahmen über die Umgebung, und
+      wer sie nicht erfüllt, hat eine Bescheinigung, die ihn nicht erreicht.
+  engineering:
+    needed: false
+    note: >
+      Für die Technik folgt daraus keine eigene Handlung neben der, die schon
+      im Foliensatz zur Beschaffung steht. Wer selbst kein Erzeugnis zur
+      Evaluierung anmeldet, schreibt kein solches Dokument.
+  all-staff:
+    needed: false
+    note: >
+      Für alle Beschäftigten folgt aus diesem Thema keine eigene Handlung. Es
+      betrifft die Beschaffung und nicht die tägliche Arbeit.
+  auditors:
+    needed: true
+    note: >
+      Ein Satz gehört in die Hand der Prüfung: bei einem zertifizierten
+      Erzeugnis wird nicht die Bescheinigung gelesen, sondern die Annahmen,
+      unter denen sie gilt, und dann der Betrieb dagegen gehalten.

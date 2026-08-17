@@ -1,0 +1,42 @@
+id: iso-iec-20000-7
+number: 20000
+part: 7
+edition_year: 2019
+doc_type: tr
+status: published
+family: other
+layer: neighbour
+isms_relation: adjacent
+catalog_confirmation: confirmed
+languages:
+  - de
+  - en
+presentation:
+  management:
+    needed: false
+    note: >
+      Für die Leitung entsteht hier keine eigene Entscheidung. Entschieden
+      wird die Zusammenführung selbst, und das steht im Foliensatz zu
+      ISO/IEC 27013.
+  practitioners:
+    needed: true
+    note: >
+      Ein Satz gehört in die Hand der Praxis: eine Gegenüberstellung ist der
+      Anfang eines Gesprächs und kein Ersatz dafür, beide Anforderungen zu
+      lesen, und diese hier ist gegen eine Ausgabe von 27001 geschrieben, die
+      inzwischen ersetzt ist.
+  engineering:
+    needed: false
+    note: >
+      Für die Technik entsteht hier keine eigene Entscheidung. Der Gegenstand
+      ist eine Tabelle zwischen Anforderungen.
+  all-staff:
+    needed: false
+    note: >
+      Für alle Beschäftigten folgt aus diesem Thema keine eigene Handlung.
+  auditors:
+    needed: true
+    note: >
+      Ein Satz gehört in die Hand der Prüfung: wer eine Gegenüberstellung als
+      Beleg vorgelegt bekommt, sieht zuerst nach, gegen welche Ausgaben sie
+      geschrieben ist.
