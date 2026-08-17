@@ -51,6 +51,8 @@ jobs:
         run: python3 scripts/check-translations-test.py
       - name: Beweis der Katalogansicht / Proof of the catalog view
         run: python3 scripts/generate-catalog-test.py
+      - name: Beweis der Ansichtsprüfung / Proof of the generated-view check
+        run: python3 scripts/check-generated-test.py
 
   checks:
     name: Prüfungen / Checks
@@ -63,3 +65,15 @@ jobs:
         run: python3 scripts/check-csv.py .
       - name: Übersetzungen / Translations
         run: python3 scripts/check-translations.py .
+      # Der Lauf holt standardmäßig einen Stand ohne Geschichte. Die Prüfung
+      # fragt git nach dem Tag, an dem die Katalogdateien zuletzt geändert
+      # wurden, und schreibt in ihre Ausgabe, wenn sie keine Antwort bekommt;
+      # jedes andere Byte vergleicht sie trotzdem. Was sie dann nicht beurteilt
+      # hat, steht in ihrer eigenen Ausgabe und nicht nur hier.
+      #
+      # The run fetches a state without history by default. The check asks git
+      # for the day the catalog files last changed and writes into its output
+      # when it gets no answer; every other byte it compares all the same. What
+      # it then did not judge stands in its own output and not only here.
+      - name: Erzeugte Ansichten / Generated views
+        run: python3 scripts/check-generated.py .
