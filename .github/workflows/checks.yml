@@ -66,14 +66,20 @@ jobs:
       - name: Übersetzungen / Translations
         run: python3 scripts/check-translations.py .
       # Der Lauf holt standardmäßig einen Stand ohne Geschichte. Die Prüfung
-      # fragt git nach dem Tag, an dem die Katalogdateien zuletzt geändert
-      # wurden, und schreibt in ihre Ausgabe, wenn sie keine Antwort bekommt;
-      # jedes andere Byte vergleicht sie trotzdem. Was sie dann nicht beurteilt
-      # hat, steht in ihrer eigenen Ausgabe und nicht nur hier.
+      # fragt git dann gar nicht erst nach dem Tag, an dem die Katalogdateien
+      # zuletzt geändert wurden: ein solcher Klon gibt keine fehlende Antwort,
+      # sondern eine falsche, nämlich den Tag seines einen Commits. Sie nimmt
+      # das Datum stattdessen aus der Datei und schreibt in ihre Ausgabe, dass
+      # sie es nicht beurteilt hat; jedes andere Byte vergleicht sie trotzdem.
+      # Das ist hier gemessen worden und nicht vermutet: der erste Lauf dieser
+      # Prüfung auf dem Server hat beide Ansichten zurückgewiesen.
       #
-      # The run fetches a state without history by default. The check asks git
-      # for the day the catalog files last changed and writes into its output
-      # when it gets no answer; every other byte it compares all the same. What
-      # it then did not judge stands in its own output and not only here.
+      # The run fetches a state without history by default. The check then does
+      # not ask git for the day the catalog files last changed at all: such a
+      # clone gives no missing answer but a wrong one, the day of its single
+      # commit. It takes the date from the file instead and writes into its
+      # output that it did not judge it; every other byte it compares all the
+      # same. That was measured here rather than supposed: the first run of this
+      # check on the server refused both views.
       - name: Erzeugte Ansichten / Generated views
         run: python3 scripts/check-generated.py .

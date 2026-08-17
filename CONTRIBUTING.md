@@ -308,9 +308,12 @@ python scripts/check-generated-test.py
 
 Zwei Dinge beurteilt sie nicht, und der Kopf des Skripts sagt beide in denselben
 Worten. Das Datum im Kopf einer Ansicht ist der Tag, an dem die Quelle zuletzt
-geändert wurde, und es kommt aus git; wo git nicht gefragt werden kann, nimmt
+geändert wurde, und es kommt aus git. Gefragt wird git nur dort, wo die Antwort
+tragfähig ist: ein Klon ohne Geschichte wird gar nicht erst gefragt, weil er
+nicht etwa keine Antwort gibt, sondern eine falsche, und ein Datum, das falsch
+ist und gültig aussieht, ist schlechter als keins. Wo nicht gefragt wird, nimmt
 die Prüfung das Datum aus der Datei, die sie beurteilt, und schreibt in ihre
-Ausgabe, dass sie es nicht beurteilt hat. Jedes andere Byte wird trotzdem
+Ausgabe, dass sie es nicht beurteilt hat; jedes andere Byte wird trotzdem
 verglichen. Und sie beurteilt keine Zeilenenden, weil ein Klon mit
 `core.autocrlf` andere trägt als git, und eine Prüfung, die das zurückwiese,
 wäre auf einer Maschine rot und auf der anderen grün für eine Datei, die niemand
@@ -642,12 +645,14 @@ python scripts/check-generated-test.py
 
 Two things it does not judge, and the head of the script says both in the same
 words. The date in the header of a view is the day its source last changed and
-comes from git; where git cannot be asked, the check takes the date out of the
-file it is judging and writes into its output that it did not judge it. Every
-other byte is compared all the same. And it judges no line endings, because a
-clone made with `core.autocrlf` carries different ones from git, and a check
-refusing that would be red on one machine and green on another for a file nobody
-touched.
+comes from git. Git is asked only where the answer can be trusted: a clone made
+without history is not asked at all, because it does not fail to answer but
+answers wrongly, and a date that is wrong and looks valid is worse than none.
+Where it is not asked, the check takes the date out of the file it is judging
+and writes into its output that it did not judge it; every other byte is
+compared all the same. And it judges no line endings, because a clone made with
+`core.autocrlf` carries different ones from git, and a check refusing that would
+be red on one machine and green on another for a file nobody touched.
 
 Since 2026-08-06 these checks run on their own, on the server, on every pull
 request and on every push to `main`; the fourth joined them on 2026-08-17. The

@@ -40,13 +40,13 @@ Exit status is 0 when nothing was refused and 1 when something was.
 
 WHAT IT DOES NOT JUDGE, and the bound is a real one rather than a formality.
 The date in the header of a view is the day its source last changed, which the
-generator reads from git. This check asks git for the same date. Where git can
-be asked, a header carrying a different date is a mismatch like any other. Where
-git cannot be asked, in a checkout without history or without git at all, this
-check takes the date out of the header it is judging and prints one line saying
-the date was not judged. Every other byte is still compared. A run that could
-not judge the date says so on its own output and is not to be read as one that
-judged it.
+generator reads from git. This check asks git for the same date, and only where
+the answer can be trusted: a clone made without history is asked nothing,
+because it does not fail to answer but answers wrongly, and a date that is wrong
+and looks valid is worse than none. Where the date is not asked for, this check
+takes it out of the header it is judging and prints one line saying the date was
+not judged. Every other byte is still compared. A run that could not judge the
+date says so on its own output and is not to be read as one that judged it.
 
 It does not judge line endings either. The comparison reads every line ending as
 a newline, because a clone made with `core.autocrlf` set carries CRLF in the
@@ -64,8 +64,10 @@ Until that line is there, a view the new generator writes is refused as
 check fails in on purpose.
 """
 
+import difflib
 import importlib.util
 import os
+import subprocess
 import sys
 
 HERE = os.path.dirname(os.path.abspath(__file__))
@@ -106,8 +108,36 @@ def catalog_views(root, updated):
     )
 
 
+def shallow(root):
+    """Whether the repository below root was cloned without its history.
+
+    A shallow clone does not merely fail to answer the question below, it
+    answers it wrongly: with no parent to compare against, the one commit it
+    holds looks like the commit that introduced every file, so the date comes
+    back as the day of that commit rather than the day the source last changed.
+    A date that is wrong and looks valid is worse than none, so it is refused
+    here before it is asked for. This was measured rather than supposed: the
+    server's checkout is shallow by default, and the first run of this check
+    there refused both views for a date nobody had touched.
+    """
+    try:
+        result = subprocess.run(
+            ["git", "rev-parse", "--is-shallow-repository"],
+            cwd=root,
+            stdout=subprocess.PIPE,
+            stderr=subprocess.PIPE,
+        )
+    except OSError:
+        return True
+    if result.returncode != 0:
+        return True
+    return result.stdout.decode("utf-8", "replace").strip() != "false"
+
+
 def catalog_date(root):
     """The date the catalog generator would put in the header, or None."""
+    if shallow(root):
+        return None
     try:
         value = generate_catalog.updated_from_git(root)
     except generate_catalog.Refused:
@@ -223,14 +253,18 @@ def run(root):
             found = texts[relative]
             if date is None:
                 found = _with_date(found, fields.get("updated") or "")
-            if read_text(root, relative) != found:
+            standing = read_text(root, relative)
+            if standing != found:
                 refusals.append(
                     (
                         relative,
                         "mismatch",
                         "recomputing from %s gives different bytes, so the file "
-                        "and its source no longer say the same thing"
-                        % (fields.get("source") or "its source"),
+                        "and its source no longer say the same thing; %s"
+                        % (
+                            fields.get("source") or "its source",
+                            first_difference(standing, found),
+                        ),
                     )
                 )
 
@@ -266,6 +300,37 @@ def run(root):
             )
 
     return refusals, judged, date_judged
+
+
+def first_difference(standing, expected, width=70):
+    """The first line where the two texts part, named so a reader can find it.
+
+    A refusal saying only that the bytes differ sends the reader to a diff they
+    have to produce themselves, over a file of several thousand lines. This
+    names the line number and both sides of it, cut to one line each.
+    """
+    left = standing.split("\n")
+    right = expected.split("\n")
+    matcher = difflib.SequenceMatcher(None, left, right, autojunk=False)
+    for tag, i1, i2, j1, j2 in matcher.get_opcodes():
+        if tag == "equal":
+            continue
+        found = left[i1] if i1 < i2 else "(nothing)"
+        wanted = right[j1] if j1 < j2 else "(nothing)"
+        return "line %d carries %s where recomputing gives %s" % (
+            i1 + 1,
+            _short(found, width),
+            _short(wanted, width),
+        )
+    return "the difference is not in the lines, so it is in the trailing newline"
+
+
+def _short(line, width):
+    """One line, quoted and cut, so a refusal stays one line of output."""
+    line = line.rstrip("\r")
+    if len(line) > width:
+        line = line[: width - 3] + "..."
+    return '"%s"' % line
 
 
 def _with_date(text, updated):

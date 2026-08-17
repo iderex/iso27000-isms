@@ -28,19 +28,33 @@ because a value is what a reader would "fix" when they think the view is the
 place to correct a typo. The missing-kind case removes one header line and
 leaves the rest, which is what happens when a file is copied by hand.
 
-The date. The check asks git for the day the source last changed and, where git
-cannot be asked, takes the date out of the header it is judging and says so. A
-temporary directory is not a git repository, so both branches are driven here by
-replacing the entry in GENERATORS with one whose date function answers, and one
-whose date function does not. Two things are asserted: with a date known, a
-header carrying a different date is a mismatch; with no date known, the same
-tree passes and the run reports that the date was not judged. The second is the
-weaker state and the proof says which is which rather than leaving a reader to
-assume the stronger one.
+The date. The check asks git for the day the source last changed and, where the
+answer cannot be trusted, takes the date out of the header it is judging and says
+so. Both branches are driven here by replacing the entry in GENERATORS with one
+whose date function answers and one whose date function does not. Two things are
+asserted: with a date known, a header carrying a different date is a mismatch;
+with no date known, the same tree passes and the run reports that the date was
+not judged. The second is the weaker state and the proof says which is which
+rather than leaving a reader to assume the stronger one.
+
+Beside those, the check's own date function is driven rather than stubbed, over
+a fixture that is not a git repository. That is the state a clone without
+history is in, and it is the state the server's checkout is in. The case exists
+because the first run of this check on the server refused both views: a shallow
+clone does not fail to answer, it answers with the day of its one commit, and a
+date that is wrong and looks valid is worse than none.
+
+What a refusal says. A mismatch names the line and both sides of it, cut to one
+line each, because a refusal saying only that the bytes differ sends the reader
+to a diff over several thousand lines that they have to produce themselves. One
+case asserts the naming and one asserts the cut.
 
 What is not proved here. That the catalog generator produces the right view;
 that is `generate-catalog-test.py`. That a line ending change is caught; it is
-not, by the check's own statement, and there is no case for it.
+not, by the check's own statement, and there is no case for it. That a clone
+WITH history yields the right date: no fixture here is a git repository, so that
+branch is driven with a stub and the trust in git is a claim rather than a
+measurement.
 
 Run it with:
 
@@ -148,7 +162,16 @@ def recomputed(tree, date=DATE):
     return _run(tree, lambda root: date)[2]
 
 
-def _run(tree, dated):
+def reasons(tree, kind, date=DATE):
+    """The reasons given for one kind of refusal over this tree."""
+    return [
+        reason
+        for _, found, reason in _refusals(tree, lambda root: date)[0]
+        if found == kind
+    ]
+
+
+def _refusals(tree, dated):
     original = check_generated.GENERATORS
     check_generated.GENERATORS = {
         "scripts/generate-catalog.py": (check_generated.catalog_views, dated),
@@ -157,6 +180,11 @@ def _run(tree, dated):
         refusals, judged, date_judged = check_generated.run(tree.root)
     finally:
         check_generated.GENERATORS = original
+    return refusals, judged, date_judged
+
+
+def _run(tree, dated):
+    refusals, judged, date_judged = _refusals(tree, dated)
     return sorted(set(kind for _, kind, _ in refusals)), date_judged, judged
 
 
@@ -322,6 +350,58 @@ class TheDate(unittest.TestCase):
             tree.edit(VIEWS[0], "Steht im Kern.", "Steht im Kern")
             found, _ = kinds_without_date(tree)
             self.assertEqual(found, ["mismatch"])
+
+
+class WhereTheDateComesFrom(unittest.TestCase):
+    """The date is asked for only where the answer can be trusted."""
+
+    def test_a_directory_that_is_no_repository_is_treated_as_shallow(self):
+        with Tree() as tree:
+            self.assertTrue(check_generated.shallow(tree.root))
+
+    def test_no_date_is_taken_from_a_tree_without_history(self):
+        with Tree() as tree:
+            self.assertIsNone(check_generated.catalog_date(tree.root))
+
+    def test_the_real_run_over_such_a_tree_passes_and_says_so(self):
+        """The whole check, with its own date function rather than a stub."""
+        with Tree() as tree:
+            refusals, judged, date_judged = check_generated.run(tree.root)
+            self.assertEqual(refusals, [])
+            self.assertEqual(judged, len(VIEWS))
+            self.assertFalse(date_judged)
+
+
+class WhatAMismatchSays(unittest.TestCase):
+    """A refusal names the line, so the reader does not have to make a diff."""
+
+    def test_the_message_names_the_line_and_both_sides(self):
+        with Tree() as tree:
+            tree.edit(
+                VIEWS[1],
+                "Information security controls",
+                "Information security controls, revised",
+            )
+            found = reasons(tree, "mismatch")
+            self.assertEqual(len(found), 1)
+            self.assertIn("line ", found[0])
+            self.assertIn(
+                'where recomputing gives "| Title, English (`title_en`) | '
+                'Information security controls |"',
+                found[0],
+            )
+
+    def test_a_long_line_is_cut_rather_than_wrapped(self):
+        """A refusal stays one line of output, whatever the view carries."""
+        long = "x" * 200
+        found = check_generated.first_difference("a\n%s\n" % long, "a\nb\n")
+        self.assertIn("line 2", found)
+        self.assertIn("...", found)
+        self.assertNotIn("\n", found)
+
+    def test_identical_texts_have_no_first_difference_to_name(self):
+        text = "a\nb\nc\n"
+        self.assertIn("trailing newline", check_generated.first_difference(text, text))
 
 
 class Unjudgeable(unittest.TestCase):
