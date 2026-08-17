@@ -359,8 +359,9 @@ def main(argv):
         print("%s: %s: %s" % (path, kind, reason))
     if not date_judged:
         print(
-            "the date in the header was not judged: git could not be asked for "
-            "the day the source last changed, so it was taken from the file"
+            "the date in the header was not judged: the day the source last "
+            "changed could not be established here, so the date was taken from "
+            "the file being judged and every other byte compared as usual"
         )
     print("%d generated view(s) recomputed, %d refused" % (judged, len(refusals)))
     return 1 if refusals else 0
