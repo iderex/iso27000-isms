@@ -1,5 +1,12 @@
-# Deutsch: Codeanalyse über die sechs Python-Skripte unter scripts/. Der
-# übrige Baum ist Inhalt, kein Code, und die Analyse liest ihn nicht.
+# Deutsch: Codeanalyse über die Python-Skripte unter scripts/. Welche das
+# sind, gibt `git ls-tree -r --name-only HEAD | grep '\.py$'` aus; eine
+# Anzahl steht hier nicht, weil sie mit dem nächsten Skript veraltet.
+#
+# _generator/language-switch.lua zählt hier nicht als Inhalt. Es ist Lua,
+# das _quarto.yml als Filter einbindet, und keine Auswertung dieses
+# Repositoriums liest es: der Auftrag unten nennt python als einzige
+# Sprache. Der übrige Baum ist Inhalt, kein Code, und die Analyse liest
+# ihn nicht.
 #
 # Dieser Ablauf steht hier und nicht in CONTRIBUTING.md, Abschnitt 10, weil
 # er kein Befehl ist, den ein Beitragender örtlich ausführt. Die Analyse
@@ -10,8 +17,14 @@
 # Beitrag zurück. Das Regelwerk auf main führt keine erforderliche Prüfung,
 # und diese Datei ändert das nicht.
 #
-# English: code analysis over the six Python scripts under scripts/. The
-# rest of the tree is content, not code, and the analysis does not read it.
+# English: code analysis over the Python scripts under scripts/. Which ones
+# those are is printed by `git ls-tree -r --name-only HEAD | grep '\.py$'`;
+# no count stands here, because it goes stale with the next script.
+#
+# _generator/language-switch.lua does not count as content here. It is Lua,
+# wired in as a filter by _quarto.yml, and no analysis of this repository
+# reads it: the job below names python as its only language. The rest of
+# the tree is content, not code, and the analysis does not read it.
 #
 # This workflow stands here and not in CONTRIBUTING.md, section 20, because
 # it is not a command a contributor runs locally. The analysis runs as a
