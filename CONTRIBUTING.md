@@ -103,7 +103,23 @@ Diese Punkte gelten für jede Datei im Repository. Sie stehen als Fragen, damit
 man sie an einer fertigen Datei durchgehen kann.
 
 1. Bestehen Pfad und Dateiname nur aus `a-z`, `0-9` und Bindestrich, ohne
-   führenden Unterstrich?
+   führenden Unterstrich? Die Frage gilt für jeden Namen, den dieses
+   Repositorium selbst wählt, und für keinen, den etwas außerhalb davon
+   vorgibt. Vorgegeben ist ein Name, den ein Werkzeug an genau dieser
+   Schreibweise liest, und ebenso einer, den eine Übereinkunft außerhalb
+   dieses Repositoriums festgelegt hat; ein solcher Name, der der Regel
+   angepasst wird, verliert die Wirkung, für die die Datei da ist. Beispiele
+   für vorgegebene Namen, die nichts entscheiden und altern dürfen:
+   - `_quarto.yml` und `_generator/`, die Quarto liest.
+   - `.gitignore`, die git liest.
+   - `.github/` mit `ISSUE_TEMPLATE/` und `PULL_REQUEST_TEMPLATE.md`, die
+     GitHub liest.
+   - `README.md`, `CONTRIBUTING.md`, `CODE_OF_CONDUCT.md`, `SECURITY.md` und
+     `LICENSE`, die GitHub an genau diesen Namen findet.
+   - `NOTICE.md` und `scripts/LICENSE`. Kein Programm liest sie am Namen.
+     Beide liegen unter dem Namen, unter dem ein Hinweis und ein Lizenztext
+     üblicherweise gesucht werden, und die Apache License 2.0 nennt in
+     Abschnitt 4 d eine NOTICE-Datei.
 2. Steht die Sprache am Ende des Dateinamens, also `de.md` im
    Themenverzeichnis oder `name.de.md`? Ein zweiter Sprachbaum ist
    ausgeschlossen.
@@ -478,7 +494,22 @@ These points hold for every file in the repository. They stand as questions so
 they can be walked through against a finished file.
 
 1. Do the path and the file name consist only of `a-z`, `0-9` and the hyphen,
-   with no leading underscore?
+   with no leading underscore? The question holds for every name this
+   repository chooses itself, and for none that something outside it imposes.
+   A name is imposed where a tool reads the file at that exact spelling, and
+   equally where a convention outside this repository has settled it; a name
+   of that kind bent to fit the rule loses the effect the file is there for.
+   Examples of imposed names, which decide nothing and are allowed to age:
+   - `_quarto.yml` and `_generator/`, which Quarto reads.
+   - `.gitignore`, which git reads.
+   - `.github/` with `ISSUE_TEMPLATE/` and `PULL_REQUEST_TEMPLATE.md`, which
+     GitHub reads.
+   - `README.md`, `CONTRIBUTING.md`, `CODE_OF_CONDUCT.md`, `SECURITY.md` and
+     `LICENSE`, which GitHub finds at exactly those names.
+   - `NOTICE.md` and `scripts/LICENSE`. No program reads either of them by
+     name. Both sit at the name a notice and a licence text are usually
+     looked for under, and the Apache License 2.0 names a NOTICE file in
+     section 4 d.
 2. Does the language sit at the end of the file name, so `de.md` in the subject
    directory or `name.de.md`? A second language tree is ruled out.
 3. Does the file carry a YAML header with `title`, `lang`, `id`, `kind`,
