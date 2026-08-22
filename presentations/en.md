@@ -3,8 +3,8 @@ title: Presentations, layout and pattern
 lang: en
 id: presentation-pattern
 kind: pattern
-updated: 2026-08-06
-translated_from: de.md 2026-08-06
+updated: 2026-08-22
+translated_from: de.md 2026-08-22
 ---
 
 # Presentations, layout and pattern
@@ -60,9 +60,9 @@ decide; the pattern shows two and claims no number.
 ## 3. The presentation question in a topic's `meta.yaml`
 
 For every topic the question is answered whether it needs a deck and for whom.
-The answer is language-neutral and therefore stands exactly once, in the
-topic's `meta.yaml`, so beside the chapter's `de.md` and `en.md`, and not in
-the two language versions.
+The answer is `needed`. It is language-neutral and therefore stands exactly
+once, in the topic's `meta.yaml`, so beside the chapter's `de.md` and `en.md`,
+and not in the two language versions.
 
 It stands there rather than in a directory under `presentations/`, because it
 is a statement about the topic. A directory that would only exist on a yes
@@ -100,6 +100,14 @@ from a forgotten one.
 `needed` carries `true` or `false` and nothing else. `note` carries one
 sentence and is required on `false` too; a no without a reason is not an
 answer.
+
+The reason for that placement does not hold for `note`. A sentence stands in a
+language, and the notes in this tree stand in German. The missing English note
+is the case section 15 of [CONTRIBUTING.md](../CONTRIBUTING.md) answers: one
+language is enough for a contribution, and the missing one becomes an issue of
+its own. Where it should stand is open and sits on #178. Until then `note`
+lives in the `meta.yaml` because `needed` does, and not because a sentence is
+language-neutral.
 
 Where two audiences get a `true`, each of the two notes says how its deck
 differs from the other. A talk for the management leads to a decision, one for
@@ -179,9 +187,11 @@ carrying text from a standard expressly as a reason for refusal.
 ## 7. What this file is not
 
 No check enforces it. Nothing in this repository refuses a deck without a
-closing slide, nothing notices a missing answer in a `meta.yaml`, and nothing
-finds a slide carrying text from a standard. What is checked mechanically
-stands in [CONTRIBUTING.md](../CONTRIBUTING.md), section 20.
+closing slide, nothing notices a missing answer in a `meta.yaml`, nothing
+reports the missing English note, and nothing finds a slide carrying text from
+a standard. The translation check reads a file only where its name carries a
+language, and `meta.yaml` carries none. What is checked mechanically stands in
+[CONTRIBUTING.md](../CONTRIBUTING.md), section 20.
 
 It is not a build either. The commands in section 5 stand as Quarto publishes
 them; none of them has run in this tree, because the Quarto runtime is not

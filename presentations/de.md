@@ -3,7 +3,7 @@ title: Präsentationen, Aufbau und Muster
 lang: de
 id: presentation-pattern
 kind: pattern
-updated: 2026-08-06
+updated: 2026-08-22
 translated_from: original
 ---
 
@@ -62,9 +62,9 @@ das Muster zeigt zwei und behauptet keine Zahl.
 ## 3. Die Präsentationsfrage in der `meta.yaml` eines Themas
 
 Zu jedem Thema wird beantwortet, ob es einen Foliensatz braucht und für wen.
-Die Antwort ist sprachneutral und steht deshalb genau einmal, in der
-`meta.yaml` des Themas, also neben `de.md` und `en.md` des Kapitels, und nicht
-in den beiden Sprachfassungen.
+Die Antwort ist `needed`. Sie ist sprachneutral und steht deshalb genau einmal,
+in der `meta.yaml` des Themas, also neben `de.md` und `en.md` des Kapitels, und
+nicht in den beiden Sprachfassungen.
 
 Sie steht dort und nicht in einem Verzeichnis unter `presentations/`, weil sie
 eine Aussage über das Thema ist. Ein Verzeichnis, das es nur bei einem Ja gäbe,
@@ -102,6 +102,14 @@ vergessenen nicht zu unterscheiden.
 
 `needed` trägt `true` oder `false` und nichts sonst. `note` trägt einen Satz und
 ist auch bei `false` verlangt; ein Nein ohne Grund ist keine Antwort.
+
+Der Grund für diese Ablage gilt für `note` nicht. Ein Satz steht in einer
+Sprache, und die Notizen in diesem Baum stehen auf Deutsch. Die fehlende
+englische Notiz ist der Fall, den Abschnitt 5 von
+[CONTRIBUTING.md](../CONTRIBUTING.md) beantwortet: eine Sprache reicht für
+einen Beitrag, und die fehlende wird ein eigenes Issue. Wo sie stehen soll, ist
+offen und steht auf #178. Bis dahin liegt `note` in der `meta.yaml`, weil
+`needed` dort liegt, und nicht, weil ein Satz sprachneutral wäre.
 
 Wo zwei Zielgruppen ein `true` bekommen, sagt jede der beiden `note`, worin
 sich ihr Satz vom anderen unterscheidet. Ein Vortrag für die Geschäftsführung
@@ -184,7 +192,9 @@ Folie mit Normtext ausdrücklich als Grund für eine Ablehnung.
 
 Keine Prüfung erzwingt sie. Es gibt in diesem Repository nichts, das einen
 Foliensatz ohne Schlussfolie zurückweist, nichts, das eine fehlende Antwort in
-einer `meta.yaml` bemerkt, und nichts, das eine Folie mit Normtext findet. Was
+einer `meta.yaml` bemerkt, nichts, das die fehlende englische Notiz meldet, und
+nichts, das eine Folie mit Normtext findet. Die Übersetzungsprüfung liest eine
+Datei nur, wenn deren Name eine Sprache trägt, und `meta.yaml` trägt keine. Was
 maschinell geprüft wird, steht in [CONTRIBUTING.md](../CONTRIBUTING.md),
 Abschnitt 10.
 
