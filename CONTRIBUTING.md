@@ -84,11 +84,16 @@ damit eine veraltete Übersetzung erkennbar bleibt.
 Eine Sprache reicht für einen Beitrag. Die fehlende Sprache wird ein eigenes
 Issue und ist kein Grund, den Beitrag abzulehnen.
 
-Wenige Dateien sind zweisprachig in einer Datei, Deutsch zuerst, weil die
-Plattform genau diese Namen liest: `README.md`, diese Datei,
-`CODE_OF_CONDUCT.md`, `LICENSE` und alles unter `.github/`. Überall sonst
-stehen die Sprachen in getrennten Dateien, entweder als `de.md` und `en.md` in
-einem Themenverzeichnis oder als `name.de.md` und `name.en.md`.
+Wenige Dateien sind zweisprachig in einer Datei, Deutsch zuerst. Es sind die,
+deren Name vorgegeben ist und deren Text dieses Repositorium selbst schreibt:
+ein vorgegebener Name lässt sich kein zweites Mal für eine zweite Sprache
+vergeben, also stehen beide Sprachen in der einen Datei. Welche Namen
+vorgegeben sind und warum, steht bei Regel 1 in Abschnitt 6. `LICENSE` und
+`scripts/LICENSE` gehören nicht dazu, obwohl ihr Name vorgegeben ist: sie
+tragen einen fremden Lizenztext unverändert, und was dazu auf Deutsch zu sagen
+ist, steht in `license-notice.de.md`. Überall sonst stehen die Sprachen in
+getrennten Dateien, entweder als `de.md` und `en.md` in einem
+Themenverzeichnis oder als `name.de.md` und `name.en.md`.
 
 Diese Dateien tragen keinen YAML-Kopf. Die Plattform liest sie am Namen, ein
 Kopf erschiene beim Anzeigen als Text, und die README zeigt seit ihrem ersten
@@ -475,11 +480,15 @@ stale translation stays detectable.
 One language is enough for a contribution. The missing language becomes its own
 issue and is not a reason to refuse the contribution.
 
-A few files are bilingual in one file, German first, because the platform reads
-exactly those names: `README.md`, this file, `CODE_OF_CONDUCT.md`, `LICENSE`
-and everything under `.github/`. Everywhere else the languages sit in separate
-files, either as `de.md` and `en.md` in a subject directory or as `name.de.md`
-and `name.en.md`.
+A few files are bilingual in one file, German first. They are the ones whose
+name is imposed and whose text this repository writes itself: an imposed name
+cannot be given a second time for a second language, so both languages sit in
+the one file. Which names are imposed, and why, stands at rule 1 in
+section 16. `LICENSE` and `scripts/LICENSE` are not among them although their
+names are imposed, because they carry a foreign licence text unaltered, and
+what there is to say about it in German sits in `license-notice.de.md`.
+Everywhere else the languages sit in separate files, either as `de.md` and
+`en.md` in a subject directory or as `name.de.md` and `name.en.md`.
 
 Those files carry no YAML header. The platform reads them by name, a header
 would appear as text when displayed, and the README has shown since its first
