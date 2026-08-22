@@ -91,14 +91,23 @@ vergeben, also stehen beide Sprachen in der einen Datei. Welche Namen
 vorgegeben sind und warum, steht bei Regel 1 in Abschnitt 6. `LICENSE` und
 `scripts/LICENSE` gehören nicht dazu, obwohl ihr Name vorgegeben ist: sie
 tragen einen fremden Lizenztext unverändert, und was dazu auf Deutsch zu sagen
-ist, steht in `license-notice.de.md`. Überall sonst stehen die Sprachen in
-getrennten Dateien, entweder als `de.md` und `en.md` in einem
-Themenverzeichnis oder als `name.de.md` und `name.en.md`.
+ist, steht in `license-notice.de.md`. Zweisprachig in einer Datei ist
+außerdem eine Tabelle, deren Felder als deutsches und englisches Paar
+auftreten: sie trägt eine Zeile je Gegenstand, deutscher und englischer Text
+sind zwei Felder dieser Zeile, und eine zweite Datei würde die Spalten, die
+die Zeile bezeichnen, und jedes sprachunabhängige Feld mit ihnen wiederholen
+und zwei Fassungen auseinanderlaufen lassen. Regel 10 hält die Feldnamen
+englisch, deshalb heißt das Paar `_de` und `_en`. Steht die Sprache dagegen am
+Dateinamen, wie bei einem ausgefüllten Beispiel neben einer Vorlage, wird nach
+Datei getrennt. Überall sonst stehen die Sprachen in getrennten Dateien,
+entweder als `de.md` und `en.md` in einem Themenverzeichnis oder als
+`name.de.md` und `name.en.md`.
 
-Diese Dateien tragen keinen YAML-Kopf. Die Plattform liest sie am Namen, ein
-Kopf erschiene beim Anzeigen als Text, und die README zeigt seit ihrem ersten
-Commit, dass es ohne geht. Die Ausnahme ist damit benannt und gilt nicht
-stillschweigend.
+Diese Dateien tragen keinen YAML-Kopf. Die mit vorgegebenem Namen liest die
+Plattform am Namen, ein Kopf erschiene beim Anzeigen als Text, und die README
+zeigt seit ihrem ersten Commit, dass es ohne geht; eine Tabelle trägt nach
+Regel 10 genau eine Kopfzeile und hat keinen Platz für einen Block darüber.
+Die Ausnahme ist damit benannt und gilt nicht stillschweigend.
 
 Issue- und Pull-Request-Texte sind ebenfalls zweisprachig, Deutsch zuerst.
 
@@ -487,13 +496,21 @@ the one file. Which names are imposed, and why, stands at rule 1 in
 section 16. `LICENSE` and `scripts/LICENSE` are not among them although their
 names are imposed, because they carry a foreign licence text unaltered, and
 what there is to say about it in German sits in `license-notice.de.md`.
+A table whose fields come as a German and an English pair is bilingual in one
+file as well: it holds one row per subject, its German and its English text are
+two fields of that row, and a second file would repeat the columns that
+identify the row and every language-independent field with them, and leave two
+copies free to drift apart. Rule 10 keeps the field names English, which is why
+the pair reads `_de` and `_en`. Where the language sits in the file name
+instead, as with a filled example beside a template, the split is by file.
 Everywhere else the languages sit in separate files, either as `de.md` and
 `en.md` in a subject directory or as `name.de.md` and `name.en.md`.
 
-Those files carry no YAML header. The platform reads them by name, a header
-would appear as text when displayed, and the README has shown since its first
-commit that it works without one. The exception is named by that, and does not
-hold silently.
+Those files carry no YAML header. The ones with an imposed name are read by the
+platform by name, a header would appear as text when displayed, and the README
+has shown since its first commit that it works without one; a table carries
+exactly one header row under rule 10 and has no place for a block above it. The
+exception is named by that, and does not hold silently.
 
 Issue and pull request text is bilingual too, German first.
 
